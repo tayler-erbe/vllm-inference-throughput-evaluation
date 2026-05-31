@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" font-family="DM Sans, Inter, system-ui, sans-serif">
+  <rect width="920" height="560" fill="#ffffff"/>
+  <text x="460.0" y="32" font-size="20" font-weight="700" text-anchor="middle" fill="#222222">API p99 Latency vs Concurrency</text>
+  <text x="460.0" y="56" font-size="13" font-weight="400" text-anchor="middle" fill="#666">Per-request 99th percentile latency (seconds). Mistral's queue explodes; Qwen stays well-behaved.</text>
+  <line x1="90" y1="480" x2="90" y2="80" stroke="#444444" stroke-width="1.5"/>
+  <line x1="90" y1="480" x2="680" y2="480" stroke="#444444" stroke-width="1.5"/>
+  <text x="385.0" y="530" font-size="13" font-weight="500" text-anchor="middle" fill="#222222">Concurrency</text>
+  <text x="40" y="280.0" font-size="13" font-weight="500" text-anchor="middle" fill="#222222" transform="rotate(-90 40 280.0)">p99 latency (seconds)</text>
+  <line x1="90.0" y1="480" x2="90.0" y2="485" stroke="#444444" stroke-width="1"/>
+  <text x="90.0" y="502" font-size="11" text-anchor="middle" fill="#444444">1</text>
+  <line x1="166.95652173913044" y1="480" x2="166.95652173913044" y2="485" stroke="#444444" stroke-width="1"/>
+  <text x="166.95652173913044" y="502" font-size="11" text-anchor="middle" fill="#444444">4</text>
+  <line x1="269.5652173913044" y1="480" x2="269.5652173913044" y2="485" stroke="#444444" stroke-width="1"/>
+  <text x="269.5652173913044" y="502" font-size="11" text-anchor="middle" fill="#444444">8</text>
+  <line x1="372.17391304347825" y1="480" x2="372.17391304347825" y2="485" stroke="#444444" stroke-width="1"/>
+  <text x="372.17391304347825" y="502" font-size="11" text-anchor="middle" fill="#444444">12</text>
+  <line x1="474.7826086956522" y1="480" x2="474.7826086956522" y2="485" stroke="#444444" stroke-width="1"/>
+  <text x="474.7826086956522" y="502" font-size="11" text-anchor="middle" fill="#444444">16</text>
+  <line x1="680.0" y1="480" x2="680.0" y2="485" stroke="#444444" stroke-width="1"/>
+  <text x="680.0" y="502" font-size="11" text-anchor="middle" fill="#444444">24</text>
+  <line x1="85" y1="480.0" x2="90" y2="480.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="484.0" font-size="11" text-anchor="end" fill="#444444">0s</text>
+  <line x1="90" y1="480.0" x2="680" y2="480.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="413.33333333333337" x2="90" y2="413.33333333333337" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="417.33333333333337" font-size="11" text-anchor="end" fill="#444444">14s</text>
+  <line x1="90" y1="413.33333333333337" x2="680" y2="413.33333333333337" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="346.6666666666667" x2="90" y2="346.6666666666667" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="350.6666666666667" font-size="11" text-anchor="end" fill="#444444">27s</text>
+  <line x1="90" y1="346.6666666666667" x2="680" y2="346.6666666666667" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="280.0" x2="90" y2="280.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="284.0" font-size="11" text-anchor="end" fill="#444444">41s</text>
+  <line x1="90" y1="280.0" x2="680" y2="280.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="213.33333333333337" x2="90" y2="213.33333333333337" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="217.33333333333337" font-size="11" text-anchor="end" fill="#444444">54s</text>
+  <line x1="90" y1="213.33333333333337" x2="680" y2="213.33333333333337" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="146.66666666666663" x2="90" y2="146.66666666666663" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="150.66666666666663" font-size="11" text-anchor="end" fill="#444444">68s</text>
+  <line x1="90" y1="146.66666666666663" x2="680" y2="146.66666666666663" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="80.0" x2="90" y2="80.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="84.0" font-size="11" text-anchor="end" fill="#444444">82s</text>
+  <line x1="90" y1="80.0" x2="680" y2="80.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <polyline points="90.0,405.6 167.0,363.3 269.6,268.9 372.2,261.8 474.8,222.5 680.0,116.8" fill="none" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="90.0" cy="405.64324645040506" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="98.0" y="409.64324645040506" font-size="10" fill="#e67e22">15.2s</text>
+  <circle cx="166.95652173913044" cy="363.31232824334813" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="174.95652173913044" y="367.31232824334813" font-size="10" fill="#e67e22">23.8s</text>
+  <circle cx="269.5652173913044" cy="268.9191468281293" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="277.5652173913044" y="272.9191468281293" font-size="10" fill="#e67e22">43.1s</text>
+  <circle cx="372.17391304347825" cy="261.83727920936803" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="380.17391304347825" y="265.83727920936803" font-size="10" fill="#e67e22">44.6s</text>
+  <circle cx="474.7826086956522" cy="222.52048429841466" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="482.7826086956522" y="226.52048429841466" font-size="10" fill="#e67e22">52.6s</text>
+  <circle cx="680.0" cy="116.81266989486033" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="688.0" y="120.81266989486033" font-size="10" fill="#e67e22">74.2s</text>
+  <line x1="688" y1="88" x2="710" y2="88" stroke="#e67e22" stroke-width="3"/>
+  <text x="716" y="92" font-size="12" font-weight="600" fill="#e67e22">mistral</text>
+  <polyline points="90.0,433.5 167.0,431.3 269.6,425.2 372.2,417.1 474.8,408.4 680.0,387.8" fill="none" stroke="#3498db" stroke-width="2.5"/>
+  <circle cx="90.0" cy="433.519887913004" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="98.0" y="437.519887913004" font-size="10" fill="#3498db">9.5s</text>
+  <circle cx="166.95652173913044" cy="431.27716864036984" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="174.95652173913044" y="435.27716864036984" font-size="10" fill="#3498db">9.9s</text>
+  <circle cx="269.5652173913044" cy="425.2319465893304" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="277.5652173913044" y="429.2319465893304" font-size="10" fill="#3498db">11.2s</text>
+  <circle cx="372.17391304347825" cy="417.0949889139236" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="380.17391304347825" y="421.0949889139236" font-size="10" fill="#3498db">12.8s</text>
+  <circle cx="474.7826086956522" cy="408.4104094656138" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="482.7826086956522" y="412.4104094656138" font-size="10" fill="#3498db">14.6s</text>
+  <circle cx="680.0" cy="387.7638444354262" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="688.0" y="391.7638444354262" font-size="10" fill="#3498db">18.8s</text>
+  <line x1="688" y1="110" x2="710" y2="110" stroke="#3498db" stroke-width="3"/>
+  <text x="716" y="114" font-size="12" font-weight="600" fill="#3498db">qwen</text>
+  <polyline points="90.0,411.8 167.0,398.6 269.6,376.3 372.2,352.5 474.8,332.5 680.0,288.3" fill="none" stroke="#2ecc71" stroke-width="2.5"/>
+  <circle cx="90.0" cy="411.7948915702769" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="98.0" y="415.7948915702769" font-size="10" fill="#2ecc71">13.9s</text>
+  <circle cx="166.95652173913044" cy="398.5964723282678" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="174.95652173913044" y="402.5964723282678" font-size="10" fill="#2ecc71">16.6s</text>
+  <circle cx="269.5652173913044" cy="376.32777162621426" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="277.5652173913044" y="380.32777162621426" font-size="10" fill="#2ecc71">21.2s</text>
+  <circle cx="372.17391304347825" cy="352.5350338172767" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="380.17391304347825" y="356.5350338172767" font-size="10" fill="#2ecc71">26.0s</text>
+  <circle cx="474.7826086956522" cy="332.50415562088654" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="482.7826086956522" y="336.50415562088654" font-size="10" fill="#2ecc71">30.1s</text>
+  <circle cx="680.0" cy="288.29646985948114" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="688.0" y="292.29646985948114" font-size="10" fill="#2ecc71">39.1s</text>
+  <line x1="688" y1="132" x2="710" y2="132" stroke="#2ecc71" stroke-width="3"/>
+  <text x="716" y="136" font-size="12" font-weight="600" fill="#2ecc71">llama31</text>
+</svg>

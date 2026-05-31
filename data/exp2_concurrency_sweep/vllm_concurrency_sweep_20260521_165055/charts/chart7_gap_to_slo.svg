@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" font-family="DM Sans, Inter, system-ui, sans-serif">
+  <rect width="920" height="500" fill="#ffffff"/>
+  <text x="460.0" y="32" font-size="20" font-weight="700" text-anchor="middle" fill="#222222">Gap to Production SLO (single L4)</text>
+  <text x="460.0" y="56" font-size="13" font-weight="400" text-anchor="middle" fill="#666">Multiplier of throughput shortfall. Smaller = closer to passing. All three models fail on a single L4.</text>
+  <line x1="110" y1="390" x2="110" y2="100" stroke="#444444" stroke-width="1.5"/>
+  <line x1="110" y1="390" x2="820" y2="390" stroke="#444444" stroke-width="1.5"/>
+  <text x="465.0" y="440" font-size="13" font-weight="500" text-anchor="middle" fill="#222222"></text>
+  <text x="60" y="245.0" font-size="13" font-weight="500" text-anchor="middle" fill="#222222" transform="rotate(-90 60 245.0)">Gap multiplier (× short of SLO)</text>
+  <line x1="105" y1="390.0" x2="110" y2="390.0" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="394.0" font-size="11" text-anchor="end" fill="#444444">0×</text>
+  <line x1="110" y1="390.0" x2="820" y2="390.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="105" y1="353.23943661971833" x2="110" y2="353.23943661971833" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="357.23943661971833" font-size="11" text-anchor="end" fill="#444444">1×</text>
+  <line x1="110" y1="353.23943661971833" x2="820" y2="353.23943661971833" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="105" y1="316.4788732394366" x2="110" y2="316.4788732394366" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="320.4788732394366" font-size="11" text-anchor="end" fill="#444444">2×</text>
+  <line x1="110" y1="316.4788732394366" x2="820" y2="316.4788732394366" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="105" y1="279.71830985915494" x2="110" y2="279.71830985915494" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="283.71830985915494" font-size="11" text-anchor="end" fill="#444444">3×</text>
+  <line x1="110" y1="279.71830985915494" x2="820" y2="279.71830985915494" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="105" y1="242.95774647887325" x2="110" y2="242.95774647887325" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="246.95774647887325" font-size="11" text-anchor="end" fill="#444444">4×</text>
+  <line x1="110" y1="242.95774647887325" x2="820" y2="242.95774647887325" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="105" y1="206.19718309859158" x2="110" y2="206.19718309859158" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="210.19718309859158" font-size="11" text-anchor="end" fill="#444444">5×</text>
+  <line x1="110" y1="206.19718309859158" x2="820" y2="206.19718309859158" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="105" y1="169.43661971830986" x2="110" y2="169.43661971830986" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="173.43661971830986" font-size="11" text-anchor="end" fill="#444444">6×</text>
+  <line x1="110" y1="169.43661971830986" x2="820" y2="169.43661971830986" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="105" y1="132.67605633802822" x2="110" y2="132.67605633802822" stroke="#444444" stroke-width="1"/>
+  <text x="100" y="136.67605633802822" font-size="11" text-anchor="end" fill="#444444">7×</text>
+  <line x1="110" y1="132.67605633802822" x2="820" y2="132.67605633802822" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="110" y1="353.23943661971833" x2="820" y2="353.23943661971833" stroke="#27ae60" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="740" y="347.23943661971833" font-size="11" font-weight="600" fill="#27ae60">SLO PASS line (1×)</text>
+  <rect x="140.5" y="273.9628681177977" width="82.83333333333333" height="116.03713188220229" fill="#2ecc71" opacity="0.85" rx="3"/>
+  <text x="181.91666666666666" y="267.9628681177977" font-size="13" font-weight="700" text-anchor="middle" fill="#2ecc71">3.16×</text>
+  <text x="181.91666666666666" y="406" font-size="10" text-anchor="middle" fill="#444444">steady</text>
+  <rect x="233.33333333333331" y="148.64276568501924" width="82.83333333333333" height="241.35723431498076" fill="#2ecc71" opacity="0.55" rx="3"/>
+  <text x="274.75" y="142.64276568501924" font-size="13" font-weight="700" text-anchor="middle" fill="#2ecc71">6.57×</text>
+  <text x="274.75" y="406" font-size="10" text-anchor="middle" fill="#444444">peak</text>
+  <text x="228.33333333333331" y="430" font-size="12" font-weight="600" text-anchor="middle" fill="#222222">Llama 3.1</text>
+  <text x="228.33333333333331" y="446" font-size="12" font-weight="600" text-anchor="middle" fill="#222222">(quality champion)</text>
+  <text x="228.33333333333331" y="468" font-size="10" text-anchor="middle" fill="#666">0.88 c/s · 91.2% ok @ c=24</text>
+  <rect x="377.1666666666667" y="289.45321647398515" width="82.83333333333333" height="100.54678352601485" fill="#3498db" opacity="0.85" rx="3"/>
+  <text x="418.58333333333337" y="283.45321647398515" font-size="13" font-weight="700" text-anchor="middle" fill="#3498db">2.74×</text>
+  <text x="418.58333333333337" y="406" font-size="10" text-anchor="middle" fill="#444444">steady</text>
+  <rect x="470.0" y="180.8626902658891" width="82.83333333333333" height="209.1373097341109" fill="#3498db" opacity="0.55" rx="3"/>
+  <text x="511.4166666666667" y="174.8626902658891" font-size="13" font-weight="700" text-anchor="middle" fill="#3498db">5.69×</text>
+  <text x="511.4166666666667" y="406" font-size="10" text-anchor="middle" fill="#444444">peak</text>
+  <text x="465.0" y="430" font-size="12" font-weight="600" text-anchor="middle" fill="#222222">Qwen 2.5</text>
+  <text x="465.0" y="446" font-size="12" font-weight="600" text-anchor="middle" fill="#222222">(speed champion)</text>
+  <text x="465.0" y="468" font-size="10" text-anchor="middle" fill="#666">2.06 c/s · 62.6% ok @ c=24</text>
+  <rect x="613.8333333333333" y="268.76254180602007" width="82.83333333333333" height="121.23745819397993" fill="#e67e22" opacity="0.85" rx="3"/>
+  <text x="655.2499999999999" y="262.76254180602007" font-size="13" font-weight="700" text-anchor="middle" fill="#e67e22">3.30×</text>
+  <text x="655.2499999999999" y="406" font-size="10" text-anchor="middle" fill="#444444">steady</text>
+  <rect x="706.6666666666666" y="137.82608695652172" width="82.83333333333333" height="252.17391304347828" fill="#e67e22" opacity="0.55" rx="3"/>
+  <text x="748.0833333333333" y="131.82608695652172" font-size="13" font-weight="700" text-anchor="middle" fill="#e67e22">6.86×</text>
+  <text x="748.0833333333333" y="406" font-size="10" text-anchor="middle" fill="#444444">peak</text>
+  <text x="701.6666666666666" y="430" font-size="12" font-weight="600" text-anchor="middle" fill="#222222">Mistral 7B</text>
+  <text x="701.6666666666666" y="446" font-size="12" font-weight="600" text-anchor="middle" fill="#222222">(incumbent)</text>
+  <text x="701.6666666666666" y="468" font-size="10" text-anchor="middle" fill="#666">0.50 c/s · 72.0% ok @ c=24</text>
+  <text x="460.0" y="485" font-size="11" text-anchor="middle" fill="#888">Steady = 1.16 bills/sec national average. Peak = 2.41 bills/sec during 20 active weeks.</text>
+</svg>

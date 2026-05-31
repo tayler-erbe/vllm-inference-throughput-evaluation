@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" font-family="DM Sans, Inter, system-ui, sans-serif">
+  <rect width="920" height="540" fill="#ffffff"/>
+  <text x="460.0" y="32" font-size="20" font-weight="700" text-anchor="middle" fill="#222222">Speedup vs Concurrency</text>
+  <text x="460.0" y="56" font-size="13" font-weight="400" text-anchor="middle" fill="#666">Throughput relative to single-stream baseline. Qwen scales nearly linearly to conc=24.</text>
+  <line x1="90" y1="460" x2="90" y2="80" stroke="#444444" stroke-width="1.5"/>
+  <line x1="90" y1="460" x2="680" y2="460" stroke="#444444" stroke-width="1.5"/>
+  <text x="385.0" y="510" font-size="13" font-weight="500" text-anchor="middle" fill="#222222">Concurrency</text>
+  <text x="40" y="270.0" font-size="13" font-weight="500" text-anchor="middle" fill="#222222" transform="rotate(-90 40 270.0)">Speedup (× over conc=1)</text>
+  <line x1="90.0" y1="460" x2="90.0" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="90.0" y="482" font-size="11" text-anchor="middle" fill="#444444">1</text>
+  <line x1="166.95652173913044" y1="460" x2="166.95652173913044" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="166.95652173913044" y="482" font-size="11" text-anchor="middle" fill="#444444">4</text>
+  <line x1="269.5652173913044" y1="460" x2="269.5652173913044" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="269.5652173913044" y="482" font-size="11" text-anchor="middle" fill="#444444">8</text>
+  <line x1="372.17391304347825" y1="460" x2="372.17391304347825" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="372.17391304347825" y="482" font-size="11" text-anchor="middle" fill="#444444">12</text>
+  <line x1="474.7826086956522" y1="460" x2="474.7826086956522" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="474.7826086956522" y="482" font-size="11" text-anchor="middle" fill="#444444">16</text>
+  <line x1="680.0" y1="460" x2="680.0" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="680.0" y="482" font-size="11" text-anchor="middle" fill="#444444">24</text>
+  <line x1="85" y1="460.0" x2="90" y2="460.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="464.0" font-size="11" text-anchor="end" fill="#444444">1×</text>
+  <line x1="90" y1="460.0" x2="680" y2="460.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="428.1495029821074" x2="90" y2="428.1495029821074" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="432.1495029821074" font-size="11" text-anchor="end" fill="#444444">2×</text>
+  <line x1="90" y1="428.1495029821074" x2="680" y2="428.1495029821074" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="396.29900596421476" x2="90" y2="396.29900596421476" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="400.29900596421476" font-size="11" text-anchor="end" fill="#444444">3×</text>
+  <line x1="90" y1="396.29900596421476" x2="680" y2="396.29900596421476" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="364.44850894632214" x2="90" y2="364.44850894632214" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="368.44850894632214" font-size="11" text-anchor="end" fill="#444444">4×</text>
+  <line x1="90" y1="364.44850894632214" x2="680" y2="364.44850894632214" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="332.5980119284295" x2="90" y2="332.5980119284295" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="336.5980119284295" font-size="11" text-anchor="end" fill="#444444">5×</text>
+  <line x1="90" y1="332.5980119284295" x2="680" y2="332.5980119284295" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="300.7475149105369" x2="90" y2="300.7475149105369" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="304.7475149105369" font-size="11" text-anchor="end" fill="#444444">6×</text>
+  <line x1="90" y1="300.7475149105369" x2="680" y2="300.7475149105369" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="268.89701789264427" x2="90" y2="268.89701789264427" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="272.89701789264427" font-size="11" text-anchor="end" fill="#444444">7×</text>
+  <line x1="90" y1="268.89701789264427" x2="680" y2="268.89701789264427" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="237.04652087475162" x2="90" y2="237.04652087475162" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="241.04652087475162" font-size="11" text-anchor="end" fill="#444444">8×</text>
+  <line x1="90" y1="237.04652087475162" x2="680" y2="237.04652087475162" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="205.19602385685897" x2="90" y2="205.19602385685897" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="209.19602385685897" font-size="11" text-anchor="end" fill="#444444">9×</text>
+  <line x1="90" y1="205.19602385685897" x2="680" y2="205.19602385685897" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="173.34552683896635" x2="90" y2="173.34552683896635" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="177.34552683896635" font-size="11" text-anchor="end" fill="#444444">10×</text>
+  <line x1="90" y1="173.34552683896635" x2="680" y2="173.34552683896635" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="141.49502982107373" x2="90" y2="141.49502982107373" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="145.49502982107373" font-size="11" text-anchor="end" fill="#444444">11×</text>
+  <line x1="90" y1="141.49502982107373" x2="680" y2="141.49502982107373" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="109.64453280318111" x2="90" y2="109.64453280318111" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="113.64453280318111" font-size="11" text-anchor="end" fill="#444444">12×</text>
+  <line x1="90" y1="109.64453280318111" x2="680" y2="109.64453280318111" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <polyline points="90.0,460.0 167.0,364.4 269.6,237.0 372.2,109.6 474.8,80.0 680.0,80.0" fill="none" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="630" y="110" font-size="11" fill="#aaa">ideal linear</text>
+  <polyline points="90.0,460.0 167.0,406.4 269.6,374.9 372.2,358.9 474.8,345.8 680.0,334.7" fill="none" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="90.0" cy="460.0" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="90.0" y="448.0" font-size="10" text-anchor="middle" fill="#e67e22">1.00×</text>
+  <circle cx="166.95652173913044" cy="406.3902525441411" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="166.95652173913044" y="394.3902525441411" font-size="10" text-anchor="middle" fill="#e67e22">2.68×</text>
+  <circle cx="269.5652173913044" cy="374.8551069818712" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="269.5652173913044" y="362.8551069818712" font-size="10" text-anchor="middle" fill="#e67e22">3.67×</text>
+  <circle cx="372.17391304347825" cy="358.8772998969878" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="372.17391304347825" y="346.8772998969878" font-size="10" text-anchor="middle" fill="#e67e22">4.17×</text>
+  <circle cx="474.7826086956522" cy="345.8427730645829" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="474.7826086956522" y="333.8427730645829" font-size="10" text-anchor="middle" fill="#e67e22">4.58×</text>
+  <circle cx="680.0" cy="334.70035496591413" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <text x="680.0" y="322.70035496591413" font-size="10" text-anchor="middle" fill="#e67e22">4.93×</text>
+  <line x1="688" y1="88" x2="710" y2="88" stroke="#e67e22" stroke-width="3"/>
+  <text x="716" y="92" font-size="12" font-weight="600" fill="#e67e22">mistral</text>
+  <polyline points="90.0,460.0 167.0,377.5 269.6,292.5 372.2,228.5 474.8,178.4 680.0,117.4" fill="none" stroke="#3498db" stroke-width="2.5"/>
+  <circle cx="90.0" cy="460.0" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="90.0" y="448.0" font-size="10" text-anchor="middle" fill="#3498db">1.00×</text>
+  <circle cx="166.95652173913044" cy="377.5029821073559" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="166.95652173913044" y="365.5029821073559" font-size="10" text-anchor="middle" fill="#3498db">3.59×</text>
+  <circle cx="269.5652173913044" cy="292.5280318091451" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="269.5652173913044" y="280.5280318091451" font-size="10" text-anchor="middle" fill="#3498db">6.26×</text>
+  <circle cx="372.17391304347825" cy="228.52485089463227" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="372.17391304347825" y="216.52485089463227" font-size="10" text-anchor="middle" fill="#3498db">8.27×</text>
+  <circle cx="474.7826086956522" cy="178.361829025845" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="474.7826086956522" y="166.361829025845" font-size="10" text-anchor="middle" fill="#3498db">9.84×</text>
+  <circle cx="680.0" cy="117.44095427435389" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <text x="680.0" y="105.44095427435389" font-size="10" text-anchor="middle" fill="#3498db">11.76×</text>
+  <line x1="688" y1="110" x2="710" y2="110" stroke="#3498db" stroke-width="3"/>
+  <text x="716" y="114" font-size="12" font-weight="600" fill="#3498db">qwen</text>
+  <polyline points="90.0,460.0 167.0,387.9 269.6,325.7 372.2,286.2 474.8,256.3 680.0,221.5" fill="none" stroke="#2ecc71" stroke-width="2.5"/>
+  <circle cx="90.0" cy="460.0" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="90.0" y="448.0" font-size="10" text-anchor="middle" fill="#2ecc71">1.00×</text>
+  <circle cx="166.95652173913044" cy="387.9011257215549" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="166.95652173913044" y="375.9011257215549" font-size="10" text-anchor="middle" fill="#2ecc71">3.26×</text>
+  <circle cx="269.5652173913044" cy="325.7363292911342" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="269.5652173913044" y="313.7363292911342" font-size="10" text-anchor="middle" fill="#2ecc71">5.22×</text>
+  <circle cx="372.17391304347825" cy="286.2048442464186" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="372.17391304347825" y="274.2048442464186" font-size="10" text-anchor="middle" fill="#2ecc71">6.46×</text>
+  <circle cx="474.7826086956522" cy="256.3001975286544" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="474.7826086956522" y="244.3001975286544" font-size="10" text-anchor="middle" fill="#2ecc71">7.40×</text>
+  <circle cx="680.0" cy="221.47971847372352" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <text x="680.0" y="209.47971847372352" font-size="10" text-anchor="middle" fill="#2ecc71">8.49×</text>
+  <line x1="688" y1="132" x2="710" y2="132" stroke="#2ecc71" stroke-width="3"/>
+  <text x="716" y="136" font-size="12" font-weight="600" fill="#2ecc71">llama31</text>
+</svg>

@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "timestamp": "2026-05-21T04:24:54",
+  "config": {
+    "source_session": 999995,
+    "n_bills": 50,
+    "profiles": [
+      "qwen_900"
+    ],
+    "concurrency": 4,
+    "repeats": 1
+  },
+  "results": [
+    {
+      "profile": "qwen_900",
+      "concurrency": 4,
+      "chunker": {
+        "status": "SUCCESS",
+        "bills_chunked": 50,
+        "chunks_written": 276,
+        "metrics": {
+          "wall_seconds": 2.201,
+          "active_seconds": 2.184,
+          "phases": {
+            "read_manifest_and_state": 0.066,
+            "read_bill_json": 1.157,
+            "tokenize_and_chunk": 0.854,
+            "write_silver": 0.108
+          },
+          "counts": {
+            "bills_chunked": 50,
+            "chunks_written": 276,
+            "tokens_processed": 201353
+          },
+          "throughput": {
+            "bills_chunked_per_second": 22.898,
+            "chunks_written_per_second": 126.399,
+            "tokens_processed_per_second": 92212.756
+          },
+          "latency": {}
+        },
+        "slos": {
+          "passed": true,
+          "n_total": 2,
+          "n_passed": 2,
+          "n_failed": 0,
+          "results": [
+            {
+              "name": "throughput_min.tokens_processed_per_second",
+              "kind": "throughput_min",
+              "target": 7500.0,
+              "actual": 92212.756,
+              "passed": true,
+              "message": "actual 92212.756 >= target 7500"
+            },
+            {
+              "name": "throughput_min.bills_chunked_per_second",
+              "kind": "throughput_min",
+              "target": 5.0,
+              "actual": 22.898,
+              "passed": true,
+              "message": "actual 22.898 >= target 5"
+            }
+          ]
+        }
+      },
+      "extractor": {
+        "status": "SUCCESS",
+        "model": "qwen25-7b-awq",
+        "backend": "vllm",
+        "chunks_extracted": 276,
+        "chunks_failed": 0,
+        "metrics": {
+          "wall_seconds": 508.896,
+          "active_seconds": 509.503,
+          "phases": {
+            "read_chunks_and_state": 0.098,
+            "warmup": 0.305,
+            "write_silver": 0.688,
+            "llm_inference": 508.412
+          },
+          "counts": {
+            "concurrency": 4,
+            "chunks_extracted": 276,
+            "parse_ok": 173,
+            "parse_partial": 103
+          },
+          "throughput": {
+            "concurrency_per_second": 0.008,
+            "chunks_extracted_per_second": 0.542,
+            "parse_ok_per_second": 0.34,
+            "parse_partial_per_second": 0.202
+          },
+          "latency": {
+            "api_time": {
+              "n": 276,
+              "mean": 7.3236,
+              "p50": 7.2476,
+              "p95": 9.9405,
+              "p99": 11.1757,
+              "min": 3.1647,
+              "max": 26.1983
+            }
+          }
+        },
+        "slos": {
+          "passed": false,
+          "n_total": 5,
+          "n_passed": 4,
+          "n_failed": 1,
+          "results": [
+            {
+              "name": "throughput_min.chunks_extracted_per_second",
+              "kind": "throughput_min",
+              "target": 0.1,
+              "actual": 0.542,
+              "passed": true,
+              "message": "actual 0.542 >= target 0.1"
+            },
+            {
+              "name": "latency_max.api_time.p50",
+              "kind": "latency_max",
+              "target": 15.0,
+              "actual": 7.2476,
+              "passed": true,
+              "message": "actual 7.2476s <= target 15.0s"
+            },
+            {
+              "name": "latency_max.api_time.p99",
+              "kind": "latency_max",
+              "target": 35.0,
+              "actual": 11.1757,
+              "passed": true,
+              "message": "actual 11.1757s <= target 35.0s"
+            },
+            {
+              "name": "counts_max.chunks_failed",
+              "kind": "counts_max",
+              "target": 0.0,
+              "actual": 0.0,
+              "passed": true,
+              "message": "actual 0 <= target 0"
+            },
+            {
+              "name": "ratio_max.parse_partial_per_chunks_extracted",
+              "kind": "ratio_max",
+              "target": 0.3,
+              "actual": 0.373188,
+              "passed": false,
+              "message": "parse_partial/chunks_extracted = 103.0/276.0 = 0.3732 > target 0.3"
+            }
+          ]
+        }
+      },
+      "wall_seconds": 511.11038184165955,
+      "repeat_idx": 0
+    }
+  ],
+  "parse_quality": {
+    "qwen_900": {
+      "n": 276,
+      "ok_pct": 62.68,
+      "partial_pct": 37.32,
+      "empty_pct": 0.0,
+      "mean_missing_fields": 0.97
+    }
+  }
+}
