@@ -1,0 +1,61 @@
+experiment,profile,model,chunk_size,concurrency,parse_ok_pct,chunks_per_sec,p50_latency_s,p99_latency_s,quality_overall,quality_accuracy,quality_specificity,quality_completeness,notes
+Exp1,llama31_500,Llama 3.1 8B AWQ,500,4,89.51,,,,,,,, 
+Exp1,llama31_700,Llama 3.1 8B AWQ,700,4,87.91,,,,,,,, 
+Exp1,llama31_900,Llama 3.1 8B AWQ,900,4,89.39,,,,,,,, 
+Exp1,llama31_1200,Llama 3.1 8B AWQ,1200,4,92.50,0.338,,,1.70,1.80,1.50,1.80,quality-best; Exp3 reviewed
+Exp1,llama31_2000,Llama 3.1 8B AWQ,2000,4,88.44,,,,,,,, 
+Exp1,llama31_3000,Llama 3.1 8B AWQ,3000,4,85.00,,,,,,,, 
+Exp1,qwen_500,Qwen 2.5 7B AWQ,500,4,62.53,0.706,,,1.58,1.90,1.50,1.35,Exp3 reviewed (not quality-best)
+Exp1,qwen_700,Qwen 2.5 7B AWQ,700,4,60.53,,,,,,,, 
+Exp1,qwen_900,Qwen 2.5 7B AWQ,900,4,62.68,,,,,,,, 
+Exp1,qwen_1200,Qwen 2.5 7B AWQ,1200,4,57.05,,,,,,,, 
+Exp1,qwen_2000,Qwen 2.5 7B AWQ,2000,4,63.27,,,1.93,2.00,1.90,1.90,Exp3.5 quality-best
+Exp1,qwen_3000,Qwen 2.5 7B AWQ,3000,4,67.67,0.421,,,1.57,1.75,1.70,1.25,parse-OK peak; quality loser
+Exp1,mistral_500,Mistral 7B v0.3 AWQ,500,4,56.75,,,,,,,, 
+Exp1,mistral_700,Mistral 7B v0.3 AWQ,700,4,55.85,,,,,,,, 
+Exp1,mistral_900,Mistral 7B v0.3 AWQ,900,4,60.14,,,,,,,, 
+Exp1,mistral_1200,Mistral 7B v0.3 AWQ,1200,4,65.01,,,,,,,, 
+Exp1,mistral_2000,Mistral 7B v0.3 AWQ,2000,4,63.04,,,1.97,2.00,1.95,1.95,Exp3.5 quality-best
+Exp1,mistral_3000,Mistral 7B v0.3 AWQ,3000,4,72.00,0.212,,,1.53,1.50,1.55,1.55,parse-OK peak; Exp3 reviewed
+Exp1b,qwen_4000,Qwen 2.5 7B AWQ,4000,4,62.80,,,1.23,1.25,1.75,0.70,tail-chunk artifact at 4000
+Exp1b,qwen_5000,Qwen 2.5 7B AWQ,5000,4,58.70,,,,,,,, 
+Exp1b,mistral_4000,Mistral 7B v0.3 AWQ,4000,4,59.80,,,,,,,,tail-chunk artifact
+Exp1b,mistral_5000,Mistral 7B v0.3 AWQ,5000,4,72.00,,,1.88,1.90,1.95,1.80,ties mistral_3000 on parse-OK
+Exp2,llama31_1200,Llama 3.1 8B AWQ,1200,1,91.00,0.094,,14.1,,,,, 
+Exp2,llama31_1200,Llama 3.1 8B AWQ,1200,4,92.00,0.338,,21.3,,,,, 
+Exp2,llama31_1200,Llama 3.1 8B AWQ,1200,8,91.50,0.598,,28.7,,,,, 
+Exp2,llama31_1200,Llama 3.1 8B AWQ,1200,12,91.00,0.741,,33.4,,,,, 
+Exp2,llama31_1200,Llama 3.1 8B AWQ,1200,16,91.50,0.824,,36.8,,,,, 
+Exp2,llama31_1200,Llama 3.1 8B AWQ,1200,24,92.50,0.880,,39.2,,,,,production operating point
+Exp2,qwen_500,Qwen 2.5 7B AWQ,500,1,62.00,0.175,,9.5,,,,, 
+Exp2,qwen_500,Qwen 2.5 7B AWQ,500,4,62.60,0.706,,9.8,,,,, 
+Exp2,qwen_500,Qwen 2.5 7B AWQ,500,8,63.00,1.312,,11.2,,,,, 
+Exp2,qwen_500,Qwen 2.5 7B AWQ,500,12,62.00,1.634,,14.1,,,,, 
+Exp2,qwen_500,Qwen 2.5 7B AWQ,500,16,63.00,1.852,,16.9,,,,, 
+Exp2,qwen_500,Qwen 2.5 7B AWQ,500,24,62.60,2.060,,18.8,,,,, 
+Exp2,mistral_3000,Mistral 7B v0.3 AWQ,3000,1,72.00,0.058,,15.2,,,,, 
+Exp2,mistral_3000,Mistral 7B v0.3 AWQ,3000,4,72.00,0.212,,22.4,,,,, 
+Exp2,mistral_3000,Mistral 7B v0.3 AWQ,3000,8,72.00,0.367,,38.9,,,,,p99 cliff begins
+Exp2,mistral_3000,Mistral 7B v0.3 AWQ,3000,12,72.00,0.471,,52.3,,,,, 
+Exp2,mistral_3000,Mistral 7B v0.3 AWQ,3000,16,71.00,0.517,,63.7,,,,, 
+Exp2,mistral_3000,Mistral 7B v0.3 AWQ,3000,24,72.00,0.535,,74.1,,,,,ELIMINATED - p99 explosion
+Exp2b,qwen_3000,Qwen 2.5 7B AWQ,3000,1,68.0,0.145,6.68,10.33,,,,, 
+Exp2b,qwen_3000,Qwen 2.5 7B AWQ,3000,4,67.7,0.421,9.06,14.81,,,,, 
+Exp2b,qwen_3000,Qwen 2.5 7B AWQ,3000,8,67.7,0.630,11.80,21.30,,,,, 
+Exp2b,qwen_3000,Qwen 2.5 7B AWQ,3000,12,68.0,0.794,14.07,27.72,,,,, 
+Exp2b,qwen_3000,Qwen 2.5 7B AWQ,3000,16,67.7,0.947,15.63,29.99,,,,, 
+Exp2b,qwen_3000,Qwen 2.5 7B AWQ,3000,24,71.3,1.157,19.04,31.06,,,,,68% quality ceiling confirmed
+Exp3,llama31_1200,Llama 3.1 8B AWQ,1200,4,92.50,,,,,1.70,1.80,1.50,1.80,60/60 confirmed pass2
+Exp3,qwen_500,Qwen 2.5 7B AWQ,500,4,62.50,,,,,1.58,1.90,1.50,1.35,60/60 confirmed pass2
+Exp3,mistral_3000,Mistral 7B v0.3 AWQ,3000,4,72.00,,,,,1.53,1.50,1.55,1.55,60/60 confirmed pass2
+Exp3.5,llama31_900,Llama 3.1 8B AWQ,900,4,89.40,,,,1.92,1.95,1.95,1.85,quality peak within-model
+Exp3.5,llama31_2000,Llama 3.1 8B AWQ,2000,4,88.40,,,,1.63,1.50,1.90,1.50,off-section drift
+Exp3.5,qwen_2000,Qwen 2.5 7B AWQ,2000,4,63.30,,,,1.93,2.00,1.90,1.90,quality peak
+Exp3.5,qwen_3000,Qwen 2.5 7B AWQ,3000,4,67.70,,,,1.57,1.75,1.70,1.25,parse-OK peak; quality loser; None-emission
+Exp3.5,qwen_3000_p4,Qwen 2.5 7B AWQ,3000,4,67.70,,,,1.83,1.95,1.90,1.65,Pair4 chunk set
+Exp3.5,qwen_4000,Qwen 2.5 7B AWQ,4000,4,62.80,,,,1.23,1.25,1.75,0.70,meaning-inversion at CH16
+Exp3.5,mistral_2000,Mistral 7B v0.3 AWQ,2000,4,63.00,,,,1.97,2.00,1.95,1.95,quality peak
+Exp3.5,mistral_3000_p3,Mistral 7B v0.3 AWQ,3000,4,72.00,,,,1.82,1.80,1.95,1.70,parse-OK peak; mild reversal
+Exp3.5,mistral_3000_p1,Mistral 7B v0.3 AWQ,3000,4,72.00,,,,1.90,1.90,2.00,1.80,synopsis-only chunks
+Exp3.5,mistral_5000,Mistral 7B v0.3 AWQ,5000,4,72.00,,,,1.88,1.90,1.95,1.80,ties mistral_3000 (synopsis)
+Exp4,qwen14b_5000,Qwen 2.5 14B AWQ,5000,4,45.0,0.156,24.93,33.38,TBD,TBD,TBD,TBD,54% parse_partial; mean 1.2 missing fields; output budget pressure at 5000 tokens
