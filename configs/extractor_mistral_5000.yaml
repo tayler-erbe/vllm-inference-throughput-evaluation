@@ -1,0 +1,44 @@
+# Extractor profile: mistral_5000
+# Auto-generated for mistral-extended chunk-size hunch test (May 29, 2026)
+# Tests hypothesis: Mistral's parse-OK trajectory continues climbing past chunk_size=3000.
+# At chunk_size=5000, most bills in the eval sample (4500-5000 tokens) become 1 chunk —
+# the model sees near-full-bill context. This is the right tail of the hypothesis test.
+
+profile: mistral_5000
+
+sessions:
+  - 2176
+
+chunk_limit: null
+backend: vllm
+prompt_path: prompts/feature_extraction_v1.txt
+prompt_version: v1
+
+flush_every_n_chunks: 25
+
+vllm:
+  base_url: http://localhost:8000/v1
+  model_name: mistral-7b-awq
+  timeout_seconds: 300
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 1024
+  system_prompt: null
+
+ollama:
+  path: /usr/local/bin/ollama
+  model_name: mistral:latest
+  timeout_seconds: 300
+
+slos:
+  throughput_min:
+    chunks_extracted_per_second: 0.05
+  latency_max:
+    api_time.p50: 50.0
+    api_time.p99: 120.0
+  counts_max:
+    chunks_failed: 0
+  ratio_max:
+    - numerator: parse_partial
+      denominator: chunks_extracted
+      max: 0.50

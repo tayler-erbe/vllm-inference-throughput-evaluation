@@ -1,0 +1,32 @@
+profile: qwen14b_5000
+sessions:
+  - 999995
+chunk_limit: null
+backend: vllm
+prompt_path: prompts/feature_extraction_v1.txt
+prompt_version: v1
+flush_every_n_chunks: 25
+vllm:
+  base_url: http://localhost:8000/v1
+  model_name: qwen25-14b-awq
+  timeout_seconds: 300
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 1024
+  system_prompt: null
+ollama:
+  path: /usr/local/bin/ollama
+  model_name: qwen2.5:14b
+  timeout_seconds: 300
+slos:
+  throughput_min:
+    chunks_extracted_per_second: 0.05
+  latency_max:
+    api_time.p50: 60.0
+    api_time.p99: 120.0
+  counts_max:
+    chunks_failed: 0
+  ratio_max:
+    - numerator: parse_partial
+      denominator: chunks_extracted
+      max: 0.30

@@ -1,0 +1,4380 @@
+===============================================================================================
+  QUALITATIVE REVIEW COMPANION — SCORING DOCUMENT
+===============================================================================================
+
+  Profiles compared: llama31_1200, qwen_500, mistral_3000
+  Chunks included:   20 (highest model-disagreement first)
+  Session:           999996
+
+  HOW TO USE THIS DOCUMENT:
+  - For each chunk, read the source text, then read each model's answers.
+  - Score each model on the 3 rubric criteria (Accuracy, Specificity,
+    Completeness), each 0-2, in the score slots provided.
+  - Score blind to parse_status. A PARTIAL with great answers beats an
+    OK with shallow ones.
+  - Only the 6 substantive fields are shown here for scoring focus.
+  - Transfer your scores into the rubric's scoring sheet when done.
+
+  RUBRIC QUICK REFERENCE:
+  Accuracy:     0=wrong  1=partially right  2=accurate
+  Specificity:  0=generic  1=somewhat specific  2=names actual mechanism
+  Completeness: 0=surface phrase  1=partial point  2=substantive point captured
+
+===============================================================================================
+
+###############################################################################################
+# CHUNK 1/20   |   HB3560   chunk 0   |   ? tokens   |   disagreement=15.00
+# chunk_id: 1962504::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  New Act
+  
+  Creates the Public Banking Option Act. Establishes the Illinois Bank
+  Account Board under the Department of Financial and Professional
+  Regulation for the purpose of protecting consumers who lack access to
+  traditional banking services from predatory, discriminatory, and costly
+  alternatives. Sets forth provisions concerning the actions required by the
+  Board to create the Illinois Bank Account Program, including establishing
+  a process by which an individual may open an Illinois Bank Account, which
+  shall be designed to maximize Program participation; the mechanisms by
+  which an account holder may deposit funds into an Illinois Bank Account for
+  no fee; a process through which an account holder may elect to have a
+  portion, up to the entirety, of the account holder's paycheck or earnings
+  due for labor or services performed directly deposited by electronic fund
+  transfer into the account holder's Illinois Bank Account; a process
+  through which employers and hiring entities shall be required to remit
+  through a payroll direct deposit arrangement each worker's elected payroll
+  contribution to the worker's Illinois Bank Account in accordance with the
+  worker's election; and mechanisms by which an account holder can withdraw
+  funds from an Illinois Bank Account using an Illinois Bank Account debit
+  card for no fee; a process, available to all account holders for no fee,
+  through which an account holder may arrange for payment to a registered
+  payee using a preauthorized electronic fund transfer from an Illinois Bank
+  Account; a process and terms and conditions for becoming a registered
+  payee; voluntary automatic disbursement rules to assist an account holder
+  in managing automated payments to registered payees based on the
+  availability of funds in the account holder's account; and other specified
+  actions. Establishes duties concerning the Program for employers with more
+  than 25 employees, hiring entities with more than 25 independent
+  contractors performing the same or similar labor or service, and landlords
+  or a landlord's agent. Grants the Department rulemaking authority to
+  implement the provisions of the Act. Effective immediately.
+  
+  AN ACT concerning regulation.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  Short title.
+  This Act may be cited as the
+  Public
+  Banking Option Act.
+  
+  Section 2.
+  Findings.
+  The General Assembly finds that:
+  
+  (1) Due to high unemployment rates, homelessness
+  rising, and an unprecedented wave o
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        The primary goal of this bill is to establish a public banking option to provide
+        affordable financial services to vulnerable residents, promoting financial
+        stability and economic health in the state.
+    [qwen_500]
+        To provide affordable and accessible banking services to consumers lacking
+        access to traditional banking services.
+    [mistral_3000]
+        To provide Illinois residents, particularly the unbanked and underbanked, with a
+        zero-fee, zero-penalty, zero-minimum-balance requirement public option for basic
+        financial services.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Financial Regulation, Consumer Protection, Economic Development, Social Welfare,
+        Racial Equity.
+    [qwen_500]
+        Financial Regulation, Consumer Protection
+    [mistral_3000]
+        Financial Regulation, Economic Empowerment, Consumer Protection
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Unbanked and underbanked households, low-income individuals, people of color,
+        and vulnerable residents.
+    [qwen_500]
+        Consumers without access to traditional banking services, including those facing
+        financial instability due to unemployment, homelessness, and evictions.
+    [mistral_3000]
+        Unbanked and underbanked Illinois residents, employers, hiring entities,
+        landlords.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        Access to affordable financial services, financial stability, economic health,
+        and opportunities for low-income individuals and people of color.
+    [qwen_500]
+        Access to affordable banking services, financial stability for consumers.
+    [mistral_3000]
+        Access to affordable financial services, financial stability, financial
+        empowerment.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        Predatory banking practices, costly financial services, poverty, and
+        homelessness.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        Predatory banking practices, expensive overdraft fees, reliance on alternative
+        financial services.
+
+
+  ### intent
+    [llama31_1200]
+        The purpose of this bill is to provide affordable banking services to vulnerable
+        residents and promote financial stability and economic health in the state.
+    [qwen_500]
+        To create a public banking option to provide affordable and accessible banking
+        services to consumers without access to traditional banking services.
+    [mistral_3000]
+        To provide Illinois residents with a stable, affordable financial platform for
+        all Illinois residents, especially the unbanked and underbanked who currently
+        rely on expensive alternatives to banking services.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to address the disproportionate impact of
+        limited access to affordable financial services on low-income communities and
+        communities of color.
+    [qwen_500]
+        To address financial instability and provide consumer protection by offering
+        affordable banking services.
+    [mistral_3000]
+        To address the financial instability of the State's most vulnerable residents,
+        particularly during the COVID-19 pandemic, by providing access to basic
+        financial services and protecting them from predatory, discriminatory, and
+        costly alternatives.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could significantly impact the University of Illinois Urbana-Champaign
+        (UIUC) by providing affordable banking services to students and staff,
+        potentially reducing financial stress and promoting financial stability.
+    [qwen_500]
+        Slightly Impactful - The bill aims to provide financial services to those who
+        are currently underserved, potentially improving financial stability and
+        reducing reliance on predatory financial products.
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by providing a
+        new, affordable financial service option for its students and staff who may be
+        unbanked or underbanked.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        Progressive, Liberal.
+    [qwen_500]
+        Progressive
+    [mistral_3000]
+        Progressive, consumer protection.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill grants the Department of Financial and Professional Regulation
+        rulemaking authority to implement the provisions of the Act.
+    [qwen_500]
+        Creates a new regulatory body and implements specific operational procedures.
+    [mistral_3000]
+        Act creation, rulemaking authority.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill establishes the Illinois Bank Account Board, sets forth provisions for
+        the Illinois Bank Account Program, including account opening, deposit, and
+        withdrawal processes, and requires employers and hiring entities to remit
+        payroll contributions to workers' accounts.
+    [qwen_500]
+        Establishes the Illinois Bank Account Board, outlines no-fee deposit and
+        withdrawal processes, direct payroll deposit requirements, and electronic fund
+        transfer mechanisms.
+    [mistral_3000]
+        Establishment of the Illinois Bank Account Board, creation of the Illinois Bank
+        Account Program, processes for account opening, deposits, payroll contributions,
+        withdrawals, and payments to registered payees, duties for employers, hiring
+        entities, and landlords, rulemaking authority for the Department of Financial
+        and Professional Regulation.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 2/20   |   HB3560   chunk 1   |   ? tokens   |   disagreement=14.70
+# chunk_id: 1962504::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   in Illinois is stark. The most recent
+  5-year estimate from 2017 through 2021 shows 2.4% of white
+  households were unbanked, whereas 20.4% of black
+  households were unbanked. Hispanic households face similar
+  disparities, with 10.9% of Hispanic households unbanked.
+  Despite improvements as Illinosians recover from the
+  pandemic, the racial gap remains pronounced, with black
+  households having a significantly higher unbanked rate
+  than their white counterparts. In Chicago, where the
+  disparities are amplified, the number of unbanked white
+  households held evenly with the rate across the State at
+  2.5% while black households maintained a persistently high
+  23.7% unbanked rate.
+  
+  (6) Providing Illinois residents with a zero-fee,
+  zero-penalty, zero-minimum-balance requirement public
+  option for basic financial services would empower
+  Illinoisans by providing a stable, affordable financial
+  platform for all Illinois residents, especially the
+  unbanked and underbanked who currently rely on expensive
+  AFS transactions. The Illinois Bank Account Program would
+  mitigate the demand for exploitative alternatives to
+  banking services with respect to which upselling and
+  cross-selling into expensive accounts and products is the
+  norm. A market analysis of the proposed Illinois Bank
+  Account Program and any modifications that may be
+  necessary for its successful and cost-effective
+  implementation will enhance the State's ability to serve
+  the financial services needs of unbanked and underbanked
+  Illinois residents.
+  
+  Section 5.
+  Definitions.
+  As used in this Act:
+  
+  "Board" means the Illinois Bank Account Board created
+  under this Act.
+  
+  "Department" means the Department of Financial and
+  Professional Regulation.
+  
+  "Electronic fund transfer" means a transfer of funds,
+  other than a transaction originated by check, draft, or
+  similar paper instrument, that is initiated through an
+  electronic device for the purpose of ordering, instructing, or
+  authorizing a financial institution to debit or credit an
+  account.
+  
+  "Financial institution" means any bank subject to the
+  Illinois Banking Act, including a branch of an out-of-state
+  bank as defined in Section 2 of the Illinois Banking Act, any
+  savings bank subject to the Savings Bank Act, and any
+  federally chartered commercial bank, savings bank, or savings
+  and loan association organized and operated in this State
+  under the laws of the United States.
+  
+  "Illinois Bank Account" means a bank account opened
+  through a process established by the Illinois Bank Account
+  Board.
+  
+  "
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=PARTIAL    missing=1
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        The primary goal of this bill is to provide Illinois residents with a zero-fee,
+        zero-penalty, zero-minimum-balance requirement public option for basic financial
+        services.
+    [qwen_500]
+        To improve the financial stability of vulnerable residents in Illinois by
+        increasing access to basic financial services and reducing reliance on expensive
+        alternative financial services.
+    [mistral_3000]
+        To create a transparent and accountable automated payment system, incentivizing
+        electronic fund transfers and providing consumer protection.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Financial Services, Consumer Protection, Banking Regulation, Racial Justice,
+        Economic Development, Public Policy.
+    [qwen_500]
+        Social Services, Financial Services, Economic Policy
+    [mistral_3000]
+        Financial Services, Consumer Protection
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Unbanked and underbanked Illinois residents, particularly those in historically
+        unbanked and underbanked communities, including black and Hispanic households.
+    [qwen_500]
+        Vulnerable residents, unbanked and underbanked households, low-income
+        individuals, and people of color.
+    [mistral_3000]
+        Individuals, employers, hiring entities, landlords, financial institutions.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill aims to increase access to affordable banking services, reduce the
+        demand for exploitative financial alternatives, and promote financial
+        empowerment for unbanked and underbanked Illinois residents.
+    [qwen_500]
+        Financial stability, access to basic financial services, reduction in reliance
+        on expensive alternative financial services.
+    [mistral_3000]
+        Transparency, accountability, consumer protection, electronic fund transfers.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill aims to decrease the number of unbanked and underbanked households in
+        Illinois, particularly among black and Hispanic households.
+    [qwen_500]
+        Predatory banking practices, reliance on alternative financial services.
+    [mistral_3000]
+        Late payment fees and penalties for registered payees.
+
+
+  ### intent
+    [llama31_1200]
+        The bill aims to provide Illinois residents with a public option for basic
+        financial services, addressing the racial disparities in banking access and
+        promoting financial empowerment.
+    [qwen_500]
+        To address the financial challenges faced by vulnerable residents in Illinois,
+        particularly those who are unbanked or underbanked.
+    [mistral_3000]
+        To create a transparent and accountable automated payment system.
+
+
+  ### motivation
+    [llama31_1200]
+        The bill is motivated by the desire to address the racial disparities in banking
+        access and promote financial empowerment, particularly in historically unbanked
+        and underbanked communities.
+    [qwen_500]
+        To improve the economic health of the state by reducing the financial burden on
+        vulnerable residents and addressing predatory banking practices.
+    [mistral_3000]
+        To incentivize electronic fund transfers, provide consumer protection, and
+        streamline remittance of payments and disbursements.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could have a moderately impactful effect on the University of Illinois
+        Urbana-Champaign (UIUC) by providing students and staff with access to
+        affordable banking services, potentially reducing financial stress and promoting
+        financial literacy.
+    [qwen_500]
+        None (the text is a set of findings rather than a bill with specific impacts)
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by providing
+        a new option for electronic fund transfers and automatic disbursement rules for
+        students and staff.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        The bill aligns with progressive and liberal ideologies that prioritize consumer
+        protection, financial empowerment, and racial justice.
+    [qwen_500]
+        Progressive
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill establishes a new public program and board to oversee it, with a focus
+        on consumer protection and financial empowerment.
+    [qwen_500]
+        None (the text is a set of findings rather than a legislative strategy)
+    [mistral_3000]
+        Amendment, funding clause (through the contract with a financial services
+        network administrator).
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill establishes the Illinois Bank Account Board, creates the Illinois Bank
+        Account Program, and provides for a public option for basic financial services
+        with zero fees, penalties, or minimum balance requirements.
+    [qwen_500]
+        None (the text provides findings but does not outline specific provisions)
+    [mistral_3000]
+        Establishment of a registered payee process, incentivization of pre-authorized
+        electronic fund transfers, voluntary automatic disbursement rules, duties of
+        employers, hiring entities, and landlords, contracting of a financial services
+        network administrator.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 3/20   |   HB1579   chunk 1   |   ? tokens   |   disagreement=14.60
+# chunk_id: 1933923::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   each of the 4 bids was not awarded to the bidder.
+  The agency shall submit that certified copy to the bidder
+  within the same calendar quarter in which the fourth bid was
+  rejected. This subsection does not apply if information
+  pertaining to a failed bid was previously disclosed to a
+  bidder by electronic means. If any agency chooses to provide
+  information by electronic means, the agency shall have a
+  written policy outlining how the agency will reasonably ensure
+  the bidder receives the information. For the purposes of this
+  subsection, "electronic means" means an email communication
+  from the applicable agency to the bidder or a public posting on
+  the applicable agency's procurement bulletin.
+  
+  (h) Multi-step sealed bidding. When it is considered
+  impracticable to initially prepare a purchase description to
+  support an award based on price, an invitation for bids may be
+  issued requesting the submission of unpriced offers to be
+  followed by an invitation for bids limited to those bidders
+  whose offers have been qualified under the criteria set forth
+  in the first solicitation.
+  
+  (i) Alternative procedures. Notwithstanding any other
+  provision of this Act to the contrary, the Director of the
+  Illinois Power Agency may create alternative bidding
+  procedures to be used in procuring professional services under
+  Section 1-56, subsections (a) and (c) of Section 1-75 and
+  subsection (d) of Section 1-78 of the Illinois Power Agency
+  Act and Section 16-111.5(c) of the Public Utilities Act and to
+  procure renewable energy resources under Section 1-56 of the
+  Illinois Power Agency Act. These alternative procedures shall
+  be set forth together with the other criteria contained in the
+  invitation for bids, and shall appear in the appropriate
+  volume of the Illinois Procurement Bulletin.
+  
+  (j) Reverse auction. Notwithstanding any other provision
+  of this Section and in accordance with rules adopted by the
+  chief procurement officer, that chief procurement officer may
+  procure supplies or services through a competitive electronic
+  auction bidding process after the chief procurement officer
+  determines that the use of such a process will be in the best
+  interest of the State. The chief procurement officer shall
+  publish that determination in his or her next volume of the
+  Illinois Procurement Bulletin.
+  
+  An invitation for bids shall be issued and shall include
+  (i) a procurement description, (ii) all contractual terms,
+  whenever practical, and (iii) conditions applicable to the
+  procurement, including a notic
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=PARTIAL    missing=1
+    qwen_500             status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To improve the efficiency and transparency of the state's procurement process by
+        allowing for electronic auction bidding and reverse auctions.
+    [qwen_500]
+        To standardize and regulate the bid acceptance, evaluation, and award processes
+        in state procurement.
+    [mistral_3000]
+        To improve transparency in the bidding process and provide economic incentives
+        for small and medium-sized manufacturers.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Procurement Policy, Government Contracting, Public Administration, Electronic
+        Governance.
+    [qwen_500]
+        Procurement, Contracting
+    [mistral_3000]
+        Government Procurement, Economic Development
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        - State agencies - Bidders and contractors - Taxpayers
+    [qwen_500]
+        State agencies, contractors, and the public.
+    [mistral_3000]
+        Small and medium-sized manufacturers, state agencies.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        - Efficiency of procurement processes - Transparency of procurement procedures -
+        Opportunities for bidders to reduce their prices during auctions
+    [qwen_500]
+        Transparency in bid evaluation and award processes.
+    [mistral_3000]
+        Transparency, economic incentives for small and medium-sized manufacturers.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        [empty]
+    [qwen_500]
+        None.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [llama31_1200]
+        The purpose of this bill is to improve the efficiency and transparency of the
+        state's procurement process.
+    [qwen_500]
+        To ensure fair and transparent state procurement processes.
+    [mistral_3000]
+        To improve transparency in the bidding process and provide economic incentives
+        for small and medium-sized manufacturers.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to improve the efficiency and transparency of
+        the state's procurement process, likely driven by concerns about the current
+        procurement procedures.
+    [qwen_500]
+        To improve efficiency and fairness in state procurement.
+    [mistral_3000]
+        To promote economic development and transparency in the state's procurement
+        process.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially allowing for more efficient and transparent procurement processes
+        for the university's procurements.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could increase the chances for small and medium-sized manufacturers to
+        win state contracts, potentially leading to increased business growth and job
+        creation.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with the principles of transparency, efficiency, and
+        accountability in government procurement.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        Supports economic development and transparency.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill introduces alternative procurement procedures to be used in specific
+        circumstances, allowing for more efficient and transparent procurement
+        processes.
+    [qwen_500]
+        Rules and regulations.
+    [mistral_3000]
+        Amendment, creation of new sections.
+
+
+  ### key_provisions
+    [llama31_1200]
+        - Electronic auction bidding for certain procurements - Reverse auctions for
+        supplies or services - Public notice of invitations for bids - Disclosure of bid
+        prices during auctions - Opportunity for bidders to reduce their prices during
+        auctions - Public inspection of bid records and winning bids
+    [qwen_500]
+        Defines criteria for bid evaluation, specifies requirements for awarding
+        contracts, and outlines procedures for bid correction and withdrawal.
+    [mistral_3000]
+        Detailed reasons for not awarding contracts to bidders who have failed four
+        consecutive times, alternative bidding procedures, reverse auctions,
+        manufacturing bid credit program.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 4/20   |   HB4122   chunk 1   |   ? tokens   |   disagreement=14.60
+# chunk_id: 2044203::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   to be used for the transmission
+  of electricity at the time of its application or of the
+  Commission's order may file an application on or before
+  December 31, 2023 with the Commission pursuant to this Section
+  or Section 8-406.1 for, and the Commission may grant, a
+  certificate of public convenience and necessity to construct,
+  operate, and maintain a qualifying direct current project. The
+  qualifying direct current applicant may also include in the
+  application requests for authority under Section 8-503. The
+  Commission shall grant the application for a certificate of
+  public convenience and necessity and requests for authority
+  under Section 8-503 if it finds that the qualifying direct
+  current applicant and the proposed qualifying direct current
+  project satisfy the requirements of this subsection and
+  otherwise satisfy the criteria of this Section or Section
+  8-406.1 and the criteria of Section 8-503, as applicable to
+  the application and to the extent such criteria are not
+  superseded by the provisions of this subsection. The
+  Commission's order on the application for the certificate of
+  public convenience and necessity shall also include the
+  Commission's findings and determinations on the request or
+  requests for authority pursuant to Section 8-503. Prior to
+  filing its application under either this Section or Section
+  8-406.1, the qualifying direct current applicant shall conduct
+  3 public meetings in accordance with subsection (h) of this
+  Section. If the qualifying direct current applicant
+  demonstrates in its application that the proposed qualifying
+  direct current project is designed to deliver electricity to a
+  point or points on the electric transmission grid in either or
+  both the PJM Interconnection, LLC or the Midcontinent
+  Independent System Operator, Inc., or their respective
+  successor organizations, the proposed qualifying direct
+  current project shall be deemed to be, and the Commission
+  shall find it to be, for public use. If the qualifying direct
+  current applicant further demonstrates in its application that
+  the proposed transmission project has a capacity of 1,000
+  megawatts or larger and a voltage level of 345 kilovolts or
+  greater, the proposed transmission project shall be deemed to
+  satisfy, and the Commission shall find that it satisfies, the
+  criteria stated in item (1) of subsection (b) of this Section
+  or in paragraph (1) of subsection (f) of Section 8-406.1, as
+  applicable to the application, without the taking of
+  additional evidence on these criteria. Prior 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=PARTIAL    missing=3
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To regulate the construction and operation of direct current projects and
+        nuclear power reactors in Illinois, with a focus on public safety and
+        environmental concerns.
+    [qwen_500]
+        To ensure public utilities construct new facilities only when necessary and
+        cost-effective, and to regulate direct current transmission projects.
+    [mistral_3000]
+        To facilitate new nuclear facility construction and modify the process for
+        obtaining a certificate of public convenience and necessity for power plant
+        construction.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Energy Policy, Environmental Policy, Public Safety, Nuclear Regulation,
+        Infrastructure Development, Economic Development.
+    [qwen_500]
+        Public Utilities, Energy Regulation
+    [mistral_3000]
+        Energy Policy, Infrastructure Policy
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Citizens of Illinois, the Illinois Emergency Management Agency and Office of
+        Homeland Security, the Illinois Environmental Protection Agency, the Illinois
+        Department of Natural Resources, and the U.S. Nuclear Regulatory Commission.
+    [qwen_500]
+        Public utility companies, consumers, and potentially direct current transmission
+        projects.
+    [mistral_3000]
+        Public utilities, nuclear facility construction projects, state agencies.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill allows for the construction and operation of direct current projects,
+        and permits the construction of new nuclear power reactors with a nameplate
+        capacity of 300 megawatts or less.
+    [qwen_500]
+        Oversight and regulation of public utility construction; support for qualifying
+        direct current projects.
+    [mistral_3000]
+        New nuclear facility construction, power plant construction.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill imposes restrictions on the construction of new nuclear power reactors
+        with a nameplate capacity of more than 300 megawatts.
+    [qwen_500]
+        Permitted construction without a certificate of public convenience and
+        necessity.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to regulate the construction and operation of direct
+        current projects and nuclear power reactors in Illinois, with a focus on public
+        safety and environmental concerns.
+    [qwen_500]
+        To ensure that public utility construction is necessary and cost-effective.
+    [mistral_3000]
+        To facilitate new nuclear facility construction and modify the process for
+        obtaining a certificate of public convenience and necessity for power plant
+        construction.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill appears to be a concern for public safety and
+        environmental protection, particularly with regards to the disposal of
+        high-level nuclear waste.
+    [qwen_500]
+        To promote efficient and equitable utility service and to regulate direct
+        current transmission.
+    [mistral_3000]
+        To encourage new nuclear facility construction and improve the process for power
+        plant construction.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC), as it may affect the university's research and
+        development activities related to energy and nuclear power.
+    [qwen_500]
+        Moderately Impactful - The bill could significantly affect the ability of public
+        utilities to construct new facilities and could impact the development of direct
+        current transmission projects.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially affecting the university's energy infrastructure and nuclear
+        research facilities, if any.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill appears to align with environmental and public safety concerns, which
+        may be associated with liberal or progressive ideologies.
+    [qwen_500]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill requires the Illinois Emergency Management Agency and Office of
+        Homeland Security to consult with other agencies before approving the
+        construction of new nuclear power reactors, which suggests a collaborative
+        approach to regulation.
+    [qwen_500]
+        Amending existing regulations to impose new requirements.
+    [mistral_3000]
+        Amendment, procedural changes.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill allows for the construction and operation of direct current projects,
+        while also imposing restrictions on the construction of new nuclear power
+        reactors with a nameplate capacity of more than 300 megawatts. It also requires
+        the Illinois Emergency Management Agency and Office of Homeland Security to
+        consult with other agencies before approving the construction of new nuclear
+        power reactors.
+    [qwen_500]
+        Revisions to the criteria for obtaining a certificate of public convenience and
+        necessity; introduction of requirements for demonstrating necessity and
+        least-cost justification for new construction; definition of "qualifying direct
+        current applicant" and "qualifying direct current project".
+    [mistral_3000]
+        Changes to the process for obtaining a certificate of public convenience and
+        necessity, requirements for pre-filing public meetings, and a section added to
+        facilitate new nuclear facility construction.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 5/20   |   HB0385   chunk 1   |   ? tokens   |   disagreement=14.50
+# chunk_id: 1906250::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   or messages if the creation or impersonation
+  creates any of the effects enumerated in the definition of
+  bullying in this Section. "Cyber-bullying" also includes the
+  distribution by electronic means of a communication to more
+  than one person or the posting of material on an electronic
+  medium that may be accessed by one or more persons if the
+  distribution or posting creates any of the effects enumerated
+  in the definition of bullying in this Section.
+  Beginning with
+  the 2026-2027 school year, "cyber-bullying" also includes the
+  posting or distribution of an unauthorized digital replica by
+  electronic means if the posting or distribution creates any of
+  the effects enumerated in the definition of "bullying" in this
+  Section.
+  
+  "Digital replica" has the meaning given to that term in
+  the Digital Voice and Likeness Protection Act.
+  
+  "Policy on bullying" means a bullying prevention policy
+  that meets the following criteria:
+  
+  (1) Includes the bullying definition provided in this
+  Section.
+  
+  (2) Includes a statement that bullying is contrary to
+  State law and the policy of the school district, charter
+  school, or non-public, non-sectarian elementary or
+  secondary school and is consistent with subsection (a-5)
+  of this Section.
+  
+  (3) Includes procedures for promptly reporting
+  bullying, including, but not limited to, identifying and
+  providing the school e-mail address (if applicable) and
+  school telephone number for the staff person or persons
+  responsible for receiving such reports and a procedure for
+  anonymous reporting; however, this shall not be construed
+  to permit formal disciplinary action solely on the basis
+  of an anonymous report.
+  
+  (4) Consistent with federal and State laws and rules
+  governing student privacy rights, includes procedures for
+  informing parents or guardians of all students involved in
+  the alleged incident of bullying within 24 hours after the
+  school's administration is made aware of the students'
+  involvement in the incident and discussing, as
+  appropriate, the availability of social work services,
+  counseling, school psychological services, other
+  interventions, and restorative measures. The school shall
+  make diligent efforts to notify a parent or legal
+  guardian, utilizing all contact information the school has
+  available or that can be reasonably obtained by the school
+  within the 24-hour period.
+  
+  (5) Contains procedures for promptly investigating and
+  addressing reports of bullying, including the following:
+  
+  (A) Making all reasonable efforts to complete the
+  investig
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=PARTIAL    missing=4
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To require schools to develop and implement comprehensive bullying prevention
+        policies that meet specific criteria.
+    [qwen_500]
+        To provide a clear definition of bullying, including cyber-bullying, and
+        establish guidelines for addressing it in educational settings.
+    [mistral_3000]
+        To establish and enforce a statewide policy on bullying in schools.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Education Policy, Student Safety, Bullying Prevention, School Governance.
+    [qwen_500]
+        Education Policy, Cybersecurity
+    [mistral_3000]
+        Education Policy, Student Welfare.
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Students, parents, guardians, school personnel, and school districts.
+    [qwen_500]
+        Students, school administrators, teachers
+    [mistral_3000]
+        School districts, charter schools, non-public, non-sectarian elementary or
+        secondary schools, students, parents, and legal guardians.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        - School policies against bullying. - Reporting and investigating procedures for
+        bullying incidents. - Consequences and remedial actions for bullying and
+        retaliation.
+    [qwen_500]
+        Support for defining and addressing severe bullying, protections for free
+        expression and religious exercise.
+    [mistral_3000]
+        Anti-bullying programming, policy reviews, technical support, data collection,
+        and reporting.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        None.
+    [qwen_500]
+        [empty]
+    [mistral_3000]
+        Non-compliance penalties (public notice on the State Board of Education's
+        website).
+
+
+  ### intent
+    [llama31_1200]
+        The purpose of this bill is to strengthen school policies against bullying and
+        ensure a safer and more supportive environment for students.
+    [qwen_500]
+        To provide a clear legal framework for addressing bullying, including
+        cyber-bullying, in educational settings.
+    [mistral_3000]
+        To establish a statewide policy on bullying and provide support for its
+        implementation.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to address the growing concern of bullying in
+        schools and provide a comprehensive framework for preventing and addressing
+        bullying incidents.
+    [qwen_500]
+        To enhance school safety and protect students from severe forms of bullying,
+        including cyber-bullying.
+    [mistral_3000]
+        To address bullying incidents in schools and improve student welfare.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could lead to a safer and more supportive school environment for
+        students at the University of Illinois Urbana-Champaign (UIUC).
+    [qwen_500]
+        Moderately Impactful - The bill could significantly affect how schools handle
+        bullying incidents, especially those occurring off-campus.
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        its schools to comply with the new bullying prevention policy and data reporting
+        requirements.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with the principles of student safety and well-being, which is
+        a bipartisan issue.
+    [qwen_500]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        This bill requires schools to develop and implement comprehensive bullying
+        prevention policies, which will be reviewed and re-evaluated periodically.
+    [qwen_500]
+        Amends existing education laws to include definitions and guidelines for
+        addressing bullying.
+    [mistral_3000]
+        Amendment, funding clause (Illinois Bullying and Cyberbullying Prevention Fund).
+
+
+  ### key_provisions
+    [llama31_1200]
+        - Defines "cyber-bullying" and includes it in the definition of bullying. -
+        Requires schools to develop and implement comprehensive bullying prevention
+        policies that meet specific criteria. - Establishes procedures for reporting,
+        investigating, and addressing bullying incidents. - Includes consequences and
+        remedial actions for bullying and retaliation.
+    [qwen_500]
+        Defines "bullying" and "cyber-bullying," specifies conditions under which
+        bullying is severe, and protects free expression and religious exercise.
+    [mistral_3000]
+        Creation and implementation of a bullying prevention policy, investigation
+        process, provision of services information, and school personnel availability.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 6/20   |   HB2366   chunk 0   |   ? tokens   |   disagreement=14.50
+# chunk_id: 1949374::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  415 ILCS 5/4
+  
+  from Ch. 111 1/2, par. 1004
+  
+  Amends the Environmental Protection Act. Provides that the Agency
+  shall (rather than may) adopt rules requiring the electronic submission of
+  any information required to be submitted to the Agency pursuant to any
+  State or federal law or regulation or any court or Board order. Requires
+  the rules adopted under this provision to take effect no later than January
+  1, 2030.
+  
+  AN ACT concerning safety.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Environmental Protection Act is amended by
+  changing Section 4 as follows:
+  
+  (415 ILCS 5/4)
+  
+  (from Ch. 111 1/2, par. 1004)
+  
+  Sec. 4.
+  Environmental Protection Agency; establishment;
+  duties.
+  
+  (a) There is established in the Executive Branch of the
+  State Government an agency to be known as the Environmental
+  Protection Agency. This Agency shall be under the supervision
+  and direction of a Director who shall be appointed by the
+  Governor with the advice and consent of the Senate. The term of
+  office of the Director shall expire on the third Monday of
+  January in odd numbered years, provided that he or she shall
+  hold office until a successor is appointed and has qualified.
+  For terms beginning after January 18, 2019 (the effective date
+  of Public Act 100-1179) and before January 16, 2023, the
+  Director's annual salary shall be an amount equal to 15% more
+  than the Director's annual salary as of December 31, 2018. The
+  calculation of the 2018 salary base for this adjustment shall
+  not include any cost of living adjustments, as authorized by
+  Senate Joint Resolution 192 of the 86th General Assembly, for
+  the period beginning July 1, 2009 to June 30, 2019. Beginning
+  July 1, 2019 and each July 1 thereafter, the Director shall
+  receive an increase in salary based on a cost of living
+  adjustment as authorized by Senate Joint Resolution 192 of the
+  86th General Assembly. Notwithstanding any other provision of
+  law, for terms beginning on or after January 16, 2023, the
+  Director shall receive an annual salary of $180,000 or as set
+  by the Governor, whichever is higher. On July 1, 2023, and on
+  each July 1 thereafter, the Director shall receive an increase
+  in salary based on a cost of living adjustment as authorized by
+  Senate Joint Resolution 192 of the 86th General Assembly. The
+  Director, in accord with the Personnel Code, shall employ and
+  direct such personnel, and shall provide for such laboratory
+  and other facilities, as may be necessary to carry out 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=PARTIAL    missing=1
+    mistral_3000         status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        The primary goal of this bill is to strengthen the Environmental Protection
+        Agency's authority to collect and disseminate information and to improve
+        environmental protection in Illinois.
+    [qwen_500]
+        To mandate the electronic submission of required information to the
+        Environmental Protection Agency by a specific date.
+    [mistral_3000]
+        The bill aims to modernize the submission of information to the Environmental
+        Protection Agency and adjust the Director's salary structure.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Environmental Policy, Public Health Policy, Government Administration Policy,
+        State Government Policy.
+    [qwen_500]
+        Environmental Policy, Government Operations
+    [mistral_3000]
+        Environmental Policy, Government Administration
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        The bill impacts the Environmental Protection Agency, the Director of the
+        Agency, and the public of Illinois.
+    [qwen_500]
+        The Environmental Protection Agency, stakeholders submitting information to the
+        Agency.
+    [mistral_3000]
+        Environmental Protection Agency, entities required to submit information to the
+        Environmental Protection Agency
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill aims to increase the efficiency and effectiveness of the Environmental
+        Protection Agency's operations.
+    [qwen_500]
+        Electronic submission of information; increased salary for the Director.
+    [mistral_3000]
+        Electronic submission of information, Director's salary
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        None.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to strengthen the Environmental Protection Agency's
+        authority and improve environmental protection in Illinois.
+    [qwen_500]
+        To improve the efficiency of information submission to the Environmental
+        Protection Agency.
+    [mistral_3000]
+        To modernize the submission of information to the Environmental Protection
+        Agency and adjust the Director's salary structure.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to address concerns about the efficiency and
+        effectiveness of the Environmental Protection Agency's operations.
+    [qwen_500]
+        To modernize the submission process and streamline operations.
+    [mistral_3000]
+        To improve the efficiency of information submission and address potential salary
+        discrepancies.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by requiring the Agency to adopt rules for electronic submission of
+        information, which may affect the University's compliance and reporting
+        requirements.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if they are
+        required to submit information to the Environmental Protection Agency.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with environmentalist and public health principles.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends the Environmental Protection Act through a statutory change.
+    [qwen_500]
+        Amends existing law.
+    [mistral_3000]
+        Amendment to existing law
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill requires the Agency to adopt rules for electronic submission of
+        information, mandates the rules to take effect by January 1, 2030, and amends
+        the Environmental Protection Act to strengthen the Agency's authority.
+    [qwen_500]
+        Requires the electronic submission of information to the Agency; sets a deadline
+        for rule implementation.
+    [mistral_3000]
+        Electronic submission of information to the Environmental Protection Agency,
+        changes to the Director's salary structure
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 7/20   |   HB2518   chunk 0   |   ? tokens   |   disagreement=14.50
+# chunk_id: 1952663::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  5 ILCS 140/7.5
+  815 ILCS 505/4
+  
+  from Ch. 121 1/2, par. 264
+  815 ILCS 505/4.1 new
+  
+  Amends the Freedom of Information Act and the Consumer Fraud and
+  Deceptive Business Practices Act. Exempts from disclosure under the
+  Freedom of Information Act information and documentary materials obtained
+  by the Office of the Attorney General or a State's Attorney under certain
+  provisions of the Consumer Fraud and Deceptive Business Practices Act.
+  Adds a power of the Attorney General with respect to the Consumer Fraud and
+  Deceptive Business Practices Act to require written answers under oath to
+  written interrogatories. Provides that certain materials are not available
+  for examination, except by authorized employees of the Attorney General
+  and authorized law enforcement, without the consent of the persons who
+  produced the materials. Provides that the Attorney General may, in the
+  Attorney General's discretion, use information and documentary materials
+  obtained in the course of an investigation under the Consumer Fraud and
+  Deceptive Business Practices Act for law enforcement purposes, including,
+  but not limited to, interviewing or questioning potential witnesses and
+  consultants, in a complaint or other pleading, and in court proceedings.
+  
+  AN ACT concerning government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Freedom of Information Act is amended by
+  changing Section 7.5 as follows:
+  
+  (5 ILCS 140/7.5)
+  
+  Sec. 7.5.
+  Statutory exemptions.
+  To the extent provided for
+  by the statutes referenced below, the following shall be
+  exempt from inspection and copying:
+  
+  (a) All information determined to be confidential
+  under Section 4002 of the Technology Advancement and
+  Development Act.
+  
+  (b) Library circulation and order records identifying
+  library users with specific materials under the Library
+  Records Confidentiality Act.
+  
+  (c) Applications, related documents, and medical
+  records received by the Experimental Organ Transplantation
+  Procedures Board and any and all documents or other
+  records prepared by the Experimental Organ Transplantation
+  Procedures Board or its staff relating to applications it
+  has received.
+  
+  (d) Information and records held by the Department of
+  Public Health and its authorized representatives relating
+  to known or suspected cases of sexually transmitted
+  infection or any information the disclosure of which is
+  restricted under the Illinois Sexually Transmitted
+  Infection Control Act.
+  
+  (e) Information the disclosure o
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=PARTIAL    missing=2
+    mistral_3000         status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To exempt specific information and materials from disclosure under the Freedom
+        of Information Act and the Consumer Fraud and Deceptive Business Practices Act.
+    [qwen_500]
+        To protect certain information from public disclosure and enhance the Attorney
+        General's investigative powers.
+    [mistral_3000]
+        To exempt certain information obtained by the Office of the Attorney General or
+        a State's Attorney from disclosure under the Freedom of Information Act.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Government Transparency, Consumer Protection, Law Enforcement, Public Health,
+        Education, Transportation, Public Utilities, and State Officials and Employees
+        Ethics.
+    [qwen_500]
+        Freedom of Information, Consumer Protection, Law Enforcement
+    [mistral_3000]
+        Government, Law Enforcement, Privacy
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        The bill impacts various stakeholders, including citizens, law enforcement
+        agencies, state agencies, and individuals who have applied for or received
+        Firearm Owner's Identification Cards or concealed carry licenses.
+    [qwen_500]
+        The Office of the Attorney General, State's Attorneys, and law enforcement
+        agencies.
+    [mistral_3000]
+        The Office of the Attorney General, State's Attorneys, and potentially
+        individuals or entities under investigation by the Attorney General or a State's
+        Attorney.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill increases the power of the Attorney General to require written answers
+        under oath to written interrogatories and allows for the use of information and
+        documentary materials obtained in the course of an investigation for law
+        enforcement purposes.
+    [qwen_500]
+        Protection of certain information, investigative powers of the Attorney General.
+    [mistral_3000]
+        [empty]
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill decreases transparency by exempting various types of information and
+        materials from disclosure under the Freedom of Information Act.
+    [qwen_500]
+        Public access to certain information.
+    [mistral_3000]
+        Information disclosure under the Freedom of Information Act.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to balance the need for transparency with the need to
+        protect sensitive information and materials.
+    [qwen_500]
+        To protect sensitive information and enhance the Attorney General's
+        investigative capabilities.
+    [mistral_3000]
+        To exempt certain information obtained by the Office of the Attorney General or
+        a State's Attorney from disclosure under the Freedom of Information Act.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to strengthen law enforcement and protect
+        sensitive information, likely driven by concerns about public safety and the
+        potential for abuse of power.
+    [qwen_500]
+        To improve the efficiency and effectiveness of law enforcement and consumer
+        protection.
+    [mistral_3000]
+        To protect the confidentiality of information obtained during investigations
+        under the Consumer Fraud and Deceptive Business Practices Act.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially exempting certain information and materials from disclosure under
+        the Freedom of Information Act.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it is
+        involved in an investigation under the Consumer Fraud and Deceptive Business
+        Practices Act and information related to that investigation is sought by the
+        Office of the Attorney General or a State's Attorney.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with conservative or law-and-order ideologies that prioritize
+        public safety and law enforcement.
+    [qwen_500]
+        [empty]
+    [mistral_3000]
+        Not applicable
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends existing laws through a comprehensive revision of the Freedom of
+        Information Act and the Consumer Fraud and Deceptive Business Practices Act.
+    [qwen_500]
+        Amends existing laws to add new provisions.
+    [mistral_3000]
+        Amendment to existing laws.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill amends the Freedom of Information Act to exempt various types of
+        information and materials from disclosure, including confidential information,
+        library records, medical records, and security information. It also adds a power
+        of the Attorney General to require written answers under oath to written
+        interrogatories.
+    [qwen_500]
+        Exempts information from the Freedom of Information Act, grants the Attorney
+        General power to require written answers under oath, restricts access to certain
+        materials.
+    [mistral_3000]
+        Exemption of certain information obtained by the Office of the Attorney General
+        or a State's Attorney from disclosure under the Freedom of Information Act,
+        power for the Attorney General to require written answers under oath to written
+        interrogatories.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 8/20   |   HB3599   chunk 1   |   ? tokens   |   disagreement=14.50
+# chunk_id: 1962076::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   provider must
+  maintain this certification in its records. The provider shall
+  produce such documentation upon demand by the Department or
+  its representative. Failure to produce documentation of such
+  training shall result in recovery of any payments made by the
+  Department for services rendered by a non-certified driver or
+  employee attendant. Medi-car and service car providers must
+  maintain legible documentation in their records of the driver
+  and, as applicable, employee attendant that actually
+  transported the patient. Providers must recertify all drivers
+  and employee attendants every 3 years. If they meet the
+  established training components set forth by the Department,
+  providers of non-emergency medi-car and service car
+  transportation that are either directly or through an
+  affiliated company licensed by the Department of Public Health
+  shall be approved by the Department to have in-house safety
+  programs for training their own staff.
+  
+  Notwithstanding the requirements above, any public
+  transportation provider of medi-car and service car
+  transportation that receives federal funding under 49 U.S.C.
+  5307 and 5311 need not certify its drivers and employee
+  attendants under this Section, since safety training is
+  already federally mandated.
+  
+  (f) With respect to any policy or program administered by
+  the Department or its agent regarding approval of
+  non-emergency medical transportation by ground ambulance
+  service providers, including, but not limited to, the
+  Non-Emergency Transportation Services Prior Approval Program
+  (NETSPAP), the Department shall establish by rule a process by
+  which ground ambulance service providers of non-emergency
+  medical transportation may appeal any decision by the
+  Department or its agent for which no denial was received prior
+  to the time of transport that either (i) denies a request for
+  approval for payment of non-emergency transportation by means
+  of ground ambulance service or (ii) grants a request for
+  approval of non-emergency transportation by means of ground
+  ambulance service at a level of service that entitles the
+  ground ambulance service provider to a lower level of
+  compensation from the Department than the ground ambulance
+  service provider would have received as compensation for the
+  level of service requested. The rule shall be filed by
+  December 15, 2012 and shall provide that, for any decision
+  rendered by the Department or its agent on or after the date
+  the rule takes effect, the ground ambulance service provider
+  shall have 60 days fro
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=PARTIAL    missing=1
+    qwen_500             status=PARTIAL    missing=3
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To ensure the safety and quality of non-emergency medical transportation
+        services in Illinois.
+    [qwen_500]
+        To update and clarify the criteria for reimbursement of ambulance services under
+        Medicare and define various types of ambulance services and providers.
+    [mistral_3000]
+        To adjust reimbursement rates for ambulance services and implement data
+        collection and recovery mechanisms.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Health Policy, Transportation Policy, Public Health, Medicaid, Administrative
+        Procedure.
+    [qwen_500]
+        Health Policy, Social Services
+    [mistral_3000]
+        Health Policy, specifically Medical Services Reimbursement and Emergency Medical
+        Services.
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        - Patients covered by medical assistance programs - Non-emergency medical
+        transportation providers - Ground ambulance service providers
+    [qwen_500]
+        Ambulance service providers, Medicare recipients, Illinois Department of Public
+        Health
+    [mistral_3000]
+        Providers and vendors of ambulance services, including ground ambulance service
+        providers, air ambulance service providers, discharging physicians, discharging
+        facilities, and ground ambulance service provider associations.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        - Safety and quality of non-emergency medical transportation services -
+        Reimbursement for non-emergency ground ambulance claims - Approval of ground
+        ambulance services for specific purposes
+    [qwen_500]
+        Reimbursement for ambulance services under Medicare, definitions for various
+        types of ambulance services and providers
+    [mistral_3000]
+        The bill aims to increase the base rate of reimbursement for ground and air
+        ambulance services, and to collect cost data for all ground ambulance
+        transportation providers reimbursed under the Illinois Title XIX State Plan.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        [empty]
+    [qwen_500]
+        [empty]
+    [mistral_3000]
+        The bill reduces the rate of reimbursement for services or other payments in
+        accordance with Section 5-5e.
+
+
+  ### intent
+    [llama31_1200]
+        The purpose of this bill is to ensure the safety and quality of non-emergency
+        medical transportation services in Illinois.
+    [qwen_500]
+        To ensure accurate and fair reimbursement for ambulance services under Medicare
+        and clarify definitions for various types of ambulance services and providers.
+    [mistral_3000]
+        To adjust reimbursement rates for ambulance services and implement data
+        collection and recovery mechanisms.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to protect the health and well-being of
+        patients covered by medical assistance programs.
+    [qwen_500]
+        To improve the accuracy and fairness of Medicare reimbursements for ambulance
+        services and to ensure clear definitions for various types of ambulance services
+        and providers.
+    [mistral_3000]
+        The motivation appears to be the need to ensure adequate reimbursement rates for
+        ambulance services and to collect data on compliance with certain certification
+        requirements.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill may impact the University of Illinois Urbana-Champaign (UIUC) by
+        requiring non-emergency medical transportation providers to maintain
+        certification and documentation of their drivers and employee attendants.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the reimbursement rates for ambulance services provided to university community
+        members.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with the principles of ensuring public health and safety, and
+        promoting quality medical care.
+    [qwen_500]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill establishes a process for ground ambulance service providers to appeal
+        decisions regarding approval of non-emergency medical transportation.
+    [qwen_500]
+        Amends existing law
+    [mistral_3000]
+        The bill uses amendments to existing laws and statutes to implement the changes.
+
+
+  ### key_provisions
+    [llama31_1200]
+        - Certification requirements for non-emergency medical transportation providers
+        - Documentation requirements for drivers and employee attendants - Appeal
+        process for ground ambulance service providers - Reimbursement for non-emergency
+        ground ambulance claims denied due to lack of medical certification.
+    [qwen_500]
+        Amends reimbursement criteria for ambulance services under Medicare and defines
+        various types of ambulance services and providers.
+    [mistral_3000]
+        The bill introduces changes to reimbursement rates for ground and air ambulance
+        services, requires data collection from Medicaid managed care organizations and
+        transportation brokers, and allows for the recovery of overpayments in certain
+        situations.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 9/20   |   SB3683   chunk 0   |   ? tokens   |   disagreement=14.50
+# chunk_id: 2109411::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  720 ILCS 5/24-1
+  
+  from Ch. 38, par. 24-1
+  
+  Amends the Criminal Code of 2012. Exempts from the provisions of the
+  unlawful possession of weapons statute, the carrying or possession of
+  certain weapons by qualified retired law enforcement officers, as defined
+  in the federal Law Enforcement Officers Safety Act of 2004, as recognized
+  under Illinois law, in specified locations.
+  
+  AN ACT concerning criminal law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Criminal Code of 2012 is amended by
+  changing Section 24-1 as follows:
+  
+  (720 ILCS 5/24-1)
+  
+  (from Ch. 38, par. 24-1)
+  
+  Sec. 24-1.
+  Unlawful possession of weapons.
+  
+  (a) A person commits the offense of unlawful possession of
+  weapons when he knowingly:
+  
+  (1) Sells, manufactures, purchases, possesses or
+  carries any bludgeon, black-jack, slung-shot, sand-club,
+  sand-bag, metal knuckles or other knuckle weapon
+  regardless of its composition, throwing star, or any
+  knife, commonly referred to as a switchblade knife, which
+  has a blade that opens automatically by hand pressure
+  applied to a button, spring or other device in the handle
+  of the knife, or a ballistic knife, which is a device that
+  propels a knifelike blade as a projectile by means of a
+  coil spring, elastic material or compressed gas; or
+  
+  (2) Carries or possesses with intent to use the same
+  unlawfully against another, a dagger, dirk, billy,
+  dangerous knife, razor, stiletto, broken bottle or other
+  piece of glass, stun gun or taser or any other dangerous or
+  deadly weapon or instrument of like character; or
+  
+  (2.5) Carries or possesses with intent to use the same
+  unlawfully against another, any firearm in a church,
+  synagogue, mosque, or other building, structure, or place
+  used for religious worship; or
+  
+  (3) Carries on or about his person or in any vehicle, a
+  tear gas gun projector or bomb or any object containing
+  noxious liquid gas or substance, other than an object
+  containing a non-lethal noxious liquid gas or substance
+  designed solely for personal defense carried by a person
+  18 years of age or older; or
+  
+  (4) Carries or possesses in any vehicle or concealed
+  on or about his person except when on his land or in his
+  own abode, legal dwelling, or fixed place of business, or
+  on the land or in the legal dwelling of another person as
+  an invitee with that person's permission, any pistol,
+  revolver, stun gun or taser or other firearm, except that
+  this subsection (a)(4) does not apply to or affect
+  transportation of weapons 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=PARTIAL    missing=1
+    mistral_3000         status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To exempt qualified retired law enforcement officers from the unlawful
+        possession of weapons statute in specified locations.
+    [qwen_500]
+        To provide retired law enforcement officers with an exemption from the unlawful
+        possession of weapons statute for specified weapons in certain locations.
+    [mistral_3000]
+        The bill aims to provide exemptions for qualified retired law enforcement
+        officers from certain unlawful possession of weapons statutes.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Criminal Law, Law Enforcement, Public Safety, Firearms Regulation, Law
+        Enforcement Officers Safety Act.
+    [qwen_500]
+        Criminal Law, Law Enforcement
+    [mistral_3000]
+        Criminal law, law enforcement, firearms regulation
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Qualified retired law enforcement officers, law enforcement agencies.
+    [qwen_500]
+        Qualified retired law enforcement officers.
+    [mistral_3000]
+        Qualified retired law enforcement officers
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        Exemptions for qualified retired law enforcement officers from the unlawful
+        possession of weapons statute.
+    [qwen_500]
+        Exemptions for retired law enforcement officers.
+    [mistral_3000]
+        Exemptions for qualified retired law enforcement officers from certain unlawful
+        possession of weapons statutes
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        None.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### intent
+    [llama31_1200]
+        The purpose of this bill is to provide exemptions for qualified retired law
+        enforcement officers from the unlawful possession of weapons statute.
+    [qwen_500]
+        To provide retired law enforcement officers with legal protection to carry
+        certain weapons in designated locations.
+    [mistral_3000]
+        To provide exemptions for qualified retired law enforcement officers from
+        certain unlawful possession of weapons statutes.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to support law enforcement and public safety
+        by providing exemptions for qualified retired law enforcement officers.
+    [qwen_500]
+        To enhance the safety and security of retired law enforcement officers.
+    [mistral_3000]
+        To allow qualified retired law enforcement officers to carry or possess certain
+        weapons in specified locations without fear of legal repercussions.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially allowing qualified retired law enforcement officers to carry certain
+        weapons on campus, if applicable.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by allowing
+        qualified retired law enforcement officers to carry or possess certain weapons
+        in specified locations on campus.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with conservative or libertarian ideologies that support law
+        enforcement and public safety.
+    [qwen_500]
+        Law and Order
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        This bill amends the existing Criminal Code of 2012.
+    [qwen_500]
+        Amends an existing statute.
+    [mistral_3000]
+        Amendment to existing law
+
+
+  ### key_provisions
+    [llama31_1200]
+        Exempts qualified retired law enforcement officers from the unlawful possession
+        of weapons statute in specified locations, including carrying or possessing
+        certain weapons.
+    [qwen_500]
+        Exempts retired law enforcement officers from the unlawful possession of weapons
+        statute for specific weapons in designated locations.
+    [mistral_3000]
+        The bill amends Section 24-1 of the Criminal Code of 2012 to exempt qualified
+        retired law enforcement officers from the unlawful possession of weapons statute
+        in specified locations.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 10/20   |   HB1178   chunk 0   |   ? tokens   |   disagreement=14.50
+# chunk_id: 1906244::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  20 ILCS 505/17a-9
+  
+  from Ch. 23, par. 5017a-9
+  705 ILCS 405/5-410
+  
+  Amends the Juvenile Court Act of 1987. Provides that a minor found to
+  be guilty may be committed to the Department of Juvenile Justice if the
+  minor is at least 14 (rather than 13) years and under 20 years of age,
+  provided that the commitment to the Department of Juvenile Justice shall
+  be made only if the minor was found guilty of a felony offense or first
+  degree murder. Provides that when a minor of the age of at least 14 (rather
+  than 13) years is adjudged delinquent for the offense of first degree
+  murder, the court shall declare the minor a ward of the court and order the
+  minor committed to the Department of Juvenile Justice until the minor's
+  21st birthday, without the possibility of aftercare release, furlough, or
+  nonemergency authorized absence for a period of 5 years from the date the
+  minor was committed to the Department of Juvenile Justice. Amends the
+  Juvenile Court Act of 1987. Provides that on or after July 1, 2026 and
+  before July 1, 2027, any minor 12 years of age or older arrested pursuant
+  to the Act if there is probable cause to believe that the minor is a
+  delinquent minor and that secure custody is a matter of immediate and
+  urgent necessity, in light of a serious threat to the physical safety of a
+  person or persons in the community or in order to secure the presence of
+  the minor at the next hearing, as evidenced by a demonstrable record of
+  willful failure to appear at a scheduled court hearing within the past 12
+  months, may be kept or detained in an authorized detention facility.
+  Provides that on or after July 1, 2027, minors age 12 years of age and
+  under 13 years of age and charged with first degree murder, aggravated
+  criminal sexual assault, aggravated battery in which a firearm was used in
+  the offense, or aggravated vehicular hijacking, may be kept or detained in
+  an authorized detention facility. Provides that no minor under 13 (rather
+  than under 12) years of age shall be detained in a county jail or a
+  municipal lockup for more than 6 hours. Provides that instead of
+  detention, minors under the age of 13 who are in conflict with the law may
+  be held accountable through a petition under the Minors Requiring
+  Authoritative Intervention Article of the Act, or may be held accountable
+  through a community mediation program.
+  
+  AN ACT concerning courts.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Children and Family Services A
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To modify the age requirements for minors to be committed to the Department of
+        Juvenile Justice and to change the detention procedures for minors.
+    [qwen_500]
+        To modify the criteria for committing and detaining minors in the Department of
+        Juvenile Justice.
+    [mistral_3000]
+        The primary goal of this bill is to modify the juvenile justice system in
+        Illinois by changing the age requirements for commitment to the Department of
+        Juvenile Justice and detention periods for certain minors.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Juvenile Justice, Crime and Punishment, Children and Family Services, Public
+        Safety.
+    [qwen_500]
+        Juvenile Justice, Criminal Law
+    [mistral_3000]
+        Criminal Justice, Juvenile Justice
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        - Minors who are at risk of being committed to the Department of Juvenile
+        Justice. - The Department of Juvenile Justice. - The Illinois Juvenile Justice
+        Commission.
+    [qwen_500]
+        Department of Juvenile Justice, law enforcement, courts.
+    [mistral_3000]
+        - Minors aged 14-20 who are found guilty of a felony offense or first-degree
+        murder. - Minors aged 12-13 who are charged with specific serious offenses. -
+        Local youth service providers and community mediation programs.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        - The age requirements for minors to be committed to the Department of Juvenile
+        Justice. - The use of detention facilities for minors. - The role of the
+        Illinois Juvenile Justice Commission.
+    [qwen_500]
+        Commitment age for most offenses, detention of minors under 13 for specific
+        offenses.
+    [mistral_3000]
+        - Increases the minimum age for commitment to the Department of Juvenile
+        Justice. - Extends the detention period for certain minors.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        - The use of community mediation programs for minors. - The number of minors who
+        are detained in county jails or municipal lockups.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        - None
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to modify the age requirements for minors to be
+        committed to the Department of Juvenile Justice and to change the detention
+        procedures for minors.
+    [qwen_500]
+        To ensure that minors are treated appropriately within the juvenile justice
+        system and to provide for the safety of the community.
+    [mistral_3000]
+        To modify the juvenile justice system in Illinois by changing the age
+        requirements for commitment to the Department of Juvenile Justice and detention
+        periods for certain minors.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to improve the juvenile justice system in
+        Illinois and to prioritize the rehabilitation and well-being of minors.
+    [qwen_500]
+        To improve the juvenile justice system and ensure the safety of the community by
+        better aligning the treatment of minors with their age and the severity of the
+        offense.
+    [mistral_3000]
+        - To address the needs of minors who are found guilty of serious offenses and to
+        provide a more appropriate response to these individuals.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially increasing the number of minors who are detained in detention
+        facilities, which could lead to increased costs and resources for the
+        university.
+    [qwen_500]
+        Slightly Impactful - The changes will affect the treatment and detention of
+        minors in the juvenile justice system.
+    [mistral_3000]
+        - The bill could impact the University of Illinois Urbana-Champaign by
+        potentially increasing the number of juvenile offenders in the justice system,
+        which could lead to an increased need for resources and support services for
+        these individuals.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with the principles of rehabilitation and restorative justice,
+        which prioritize the well-being and rehabilitation of minors over punishment.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        - Difficult to determine without additional context
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends the Juvenile Court Act of 1987 and creates a new commission to
+        oversee the state's juvenile justice system.
+    [qwen_500]
+        Amends existing statutes.
+    [mistral_3000]
+        Amendment
+
+
+  ### key_provisions
+    [llama31_1200]
+        - Amends the Juvenile Court Act of 1987 to change the age requirements for
+        minors to be committed to the Department of Juvenile Justice. - Modifies the
+        detention procedures for minors, including the use of detention facilities and
+        community mediation programs. - Creates the Illinois Juvenile Justice Commission
+        to oversee the state's juvenile justice system.
+    [qwen_500]
+        Raises the minimum age for commitment to the Department of Juvenile Justice from
+        13 to 14 years for most offenses, except first-degree murder; allows detention
+        of minors under 13 for specific offenses; limits detention in county jails for
+        minors under 13.
+    [mistral_3000]
+        - Raises the minimum age for commitment to the Department of Juvenile Justice
+        from 13 to 14 years. - Extends the detention period for minors aged 14-20 who
+        are found guilty of a felony offense or first-degree murder. - Allows for the
+        detention of minors aged 12-13 who are charged with specific serious offenses. -
+        Establishes a process for minors under 13 years of age who are in conflict with
+        the law, allowing for accountability through a petition or community mediation
+        program.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 11/20   |   HB4122   chunk 0   |   ? tokens   |   disagreement=14.50
+# chunk_id: 2044203::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  220 ILCS 5/8-406
+  
+  from Ch. 111 2/3, par. 8-406
+  420 ILCS 10/2
+  
+  from Ch. 111 1/2, par. 4352
+  420 ILCS 10/8 new
+  
+  Provides that the amendatory Act may be referred to as the Fast-Track
+  Nuclear Now Act. Amends the Public Utilities Act. Removes prohibitions on
+  the construction of a new nuclear power reactor with a nameplate capacity
+  of more than 300 megawatts of electricity that is located within the State.
+  Amends the Illinois Nuclear Facility Safety Act. Provides that it is
+  declared to be the policy of the State to facilitate new nuclear facility
+  construction. Makes a conforming change. Provides that the Illinois
+  Emergency Management Agency and Office of Homeland Security shall work
+  with any proposed project, the federal Nuclear Regulatory Commission, and
+  any relevant State agency to reduce regulatory barriers to new nuclear
+  facility construction.
+  
+  AN ACT concerning regulation.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  This Act may be referred to as the Fast-Track
+  Nuclear Now Act.
+  
+  Section 5.
+  The Public Utilities Act is amended by changing
+  Section 8-406 as follows:
+  
+  (220 ILCS 5/8-406)
+  
+  (from Ch. 111 2/3, par. 8-406)
+  
+  Sec. 8-406.
+  Certificate of public convenience and
+  necessity.
+  
+  (a) No public utility not owning any city or village
+  franchise nor engaged in performing any public service or in
+  furnishing any product or commodity within this State as of
+  July 1, 1921 and not possessing a certificate of public
+  convenience and necessity from the Illinois Commerce
+  Commission, the State Public Utilities Commission, or the
+  Public Utilities Commission, at the time Public Act 84-617
+  goes into effect (January 1, 1986), shall transact any
+  business in this State until it shall have obtained a
+  certificate from the Commission that public convenience and
+  necessity require the transaction of such business. A
+  certificate of public convenience and necessity requiring the
+  transaction of public utility business in any area of this
+  State shall include authorization to the public utility
+  receiving the certificate of public convenience and necessity
+  to construct such plant, equipment, property, or facility as
+  is provided for under the terms and conditions of its tariff
+  and as is necessary to provide utility service and carry out
+  the transaction of public utility business by the public
+  utility in the designated area.
+  
+  (b) No public utility shall begin the construction of any
+  new plant, equipment, property, or facility which is no
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To promote the construction of new nuclear power reactors in Illinois by
+        reducing regulatory hurdles and expediting the permitting process.
+    [qwen_500]
+        To remove restrictions on constructing new nuclear power reactors and facilitate
+        new nuclear facility construction.
+    [mistral_3000]
+        To facilitate the construction of new nuclear power reactors in Illinois.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Energy Policy, Nuclear Energy, Regulation, Public Utilities, Environmental
+        Policy, Economic Development.
+    [qwen_500]
+        Energy Policy, Nuclear Policy
+    [mistral_3000]
+        Energy Policy, Regulatory Policy
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        - Nuclear power companies - Energy industry stakeholders - Illinois residents
+        who may benefit from increased energy production and economic development
+    [qwen_500]
+        Nuclear power companies, state agencies involved in nuclear facility safety and
+        construction, and potentially the public through increased access to nuclear
+        power.
+    [mistral_3000]
+        Nuclear power plant developers, utility companies, state agencies involved in
+        nuclear facility construction.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        - Nuclear power production - Energy production capacity - Economic development
+        in Illinois
+    [qwen_500]
+        Nuclear power construction, regulatory barriers.
+    [mistral_3000]
+        Nuclear power reactor construction, nuclear facility construction.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        - Regulatory barriers to new nuclear facility construction - Time required for
+        permitting and approval processes
+    [qwen_500]
+        None.
+    [mistral_3000]
+        Regulatory barriers to new nuclear facility construction.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to promote the construction of new nuclear power
+        reactors in Illinois by removing regulatory barriers and streamlining the
+        permitting process.
+    [qwen_500]
+        To remove restrictions on constructing new nuclear power reactors and facilitate
+        new nuclear facility construction.
+    [mistral_3000]
+        To facilitate the construction of new nuclear power reactors in Illinois.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is likely to address concerns about energy
+        production and economic development in Illinois, particularly in the context of
+        the state's existing nuclear power plants.
+    [qwen_500]
+        Economic and energy security motivations, driven by the desire to increase
+        nuclear power capacity.
+    [mistral_3000]
+        To promote the construction of new nuclear power reactors in Illinois, possibly
+        to address energy demand or to support the nuclear industry.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could have a moderately impactful effect on the University of Illinois
+        Urbana-Champaign (UIUC) by potentially increasing the availability of nuclear
+        energy and reducing the university's reliance on other energy sources.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could potentially lead to the construction of new nuclear power
+        reactors at the University of Illinois Urbana-Champaign if the university or a
+        nearby area is chosen for the construction.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill likely aligns with conservative or business-friendly ideologies that
+        prioritize economic development and energy production.
+    [qwen_500]
+        Conservative, pro-industry
+    [mistral_3000]
+        Not clear.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends the Public Utilities Act and the Illinois Nuclear Facility
+        Safety Act to facilitate new nuclear facility construction.
+    [qwen_500]
+        Amends existing legislation.
+    [mistral_3000]
+        Amendment to existing laws.
+
+
+  ### key_provisions
+    [llama31_1200]
+        - Removes prohibitions on the construction of new nuclear power reactors with a
+        nameplate capacity of more than 300 megawatts of electricity. - Declares it the
+        policy of the State to facilitate new nuclear facility construction. - Requires
+        the Illinois Emergency Management Agency and Office of Homeland Security to work
+        with proposed projects, the federal Nuclear Regulatory Commission, and relevant
+        State agencies to reduce regulatory barriers to new nuclear facility
+        construction.
+    [qwen_500]
+        Removes prohibitions on constructing new nuclear power reactors with a capacity
+        of over 300 megawatts, and requires state agencies to work with proposed
+        projects to reduce regulatory barriers.
+    [mistral_3000]
+        Removes prohibitions on new nuclear power reactor construction, declares policy
+        to facilitate new nuclear facility construction, requires state agencies to work
+        with proposed projects to reduce regulatory barriers.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 12/20   |   HB4340   chunk 0   |   ? tokens   |   disagreement=14.50
+# chunk_id: 2068406::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  705 ILCS 505/8.2 new
+  705 ILCS 505/9
+  
+  from Ch. 37, par. 439.9
+  705 ILCS 505/10
+  
+  from Ch. 37, par. 439.10
+  705 ILCS 505/11
+  
+  from Ch. 37, par. 439.11
+  705 ILCS 505/16
+  
+  from Ch. 37, par. 439.16
+  705 ILCS 505/19
+  
+  from Ch. 37, par. 439.19
+  705 ILCS 505/21
+  
+  from Ch. 37, par. 439.21
+  705 ILCS 505/24
+  
+  from Ch. 37, par. 439.24
+  
+  Amends the Court of Claims Act. Creates an administrative process for
+  uncontested claims for vendors arising from contracts with the State.
+  Requires a State agency to confirm or reject an uncontested claim that is
+  from a lapsed appropriation and valued at less than $2,500 within 30 days
+  after being notified in writing by the Attorney General. Provides that if
+  the State agency does not confirm or reject the claim within that 30-day
+  period, then the State agency forfeits the right to reject or contest the
+  claim. Requires the Comptroller, subject to appropriation, then issue
+  payment to the vendor within 30 days of the court entering such an award.
+  Provides that if the court determines that it is unable to process such an
+  uncontested claim because the bill or invoice contains a defect, the court
+  must notify the vendor in writing of the defect no later than 30 days after
+  the bill or invoice was first submitted. Provides that if one or more items
+  on a bill or invoice are disapproved, but not the entire bill or invoice,
+  then the portion that is not disapproved must be transmitted to the
+  Comptroller for payment. Changes the filing fees required under the Act as
+  follows: a fee of $15 for a petition seeking more than $500 but less than
+  $10,000; and $35 for a petition seeking more than $10,000 or more. Requires
+  that the court must allow claimants to submit documentation to amend and
+  cure defects. Makes other changes. Authorizes the Court of Claims to adopt
+  rules to implement the Act.
+  
+  AN ACT concerning civil law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Court of Claims Act is amended by changing
+  Sections 9, 10, 11, 16, 19, 21, and 24 and by adding Section
+  8.2 as follows:
+  
+  (705 ILCS 505/8.2 new)
+  
+  Sec. 8.2.
+  Uncontested contractual claims.
+  
+  (a) A State agency must confirm or reject an uncontested
+  claim arising under subsection (b) of Section 8 of this Act
+  that is from a lapsed appropriation and valued at less than
+  $2,500 within 30 days after being notified in writing of the
+  claim by the Attorney General. If the State agency does not
+  confirm or reject the claim within that 30-day period, then
+  the 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        The primary goal of this bill is to establish a streamlined process for
+        uncontested claims from vendors, reducing the time and cost associated with
+        processing these claims.
+    [qwen_500]
+        To streamline the process for uncontested claims from vendors by creating an
+        administrative process and setting timelines for State agencies.
+    [mistral_3000]
+        To streamline the process for uncontested claims from vendors arising from
+        contracts with the State, reducing delays and potential disputes.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Civil law, Government Contracting, Administrative Procedure, State Finance.
+    [qwen_500]
+        Court Procedures, State Finance
+    [mistral_3000]
+        Government Operations, Administrative Procedures
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Vendors, State agencies, and the Comptroller.
+    [qwen_500]
+        Vendors, State agencies, Comptroller
+    [mistral_3000]
+        Vendors with uncontested claims arising from contracts with the State.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill aims to increase the efficiency and speed of the claims process, reduce
+        the time and cost associated with processing claims, and provide vendors with
+        more opportunities to submit documentation to amend and cure defects.
+    [qwen_500]
+        Streamlining of the process for uncontested claims, faster resolution of claims.
+    [mistral_3000]
+        Efficiency in processing uncontested claims.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill does not aim to decrease any specific aspect.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        Delays in processing uncontested claims.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to establish a streamlined process for uncontested
+        claims from vendors, reducing the time and cost associated with processing these
+        claims.
+    [qwen_500]
+        To improve the efficiency of the process for uncontested claims from vendors.
+    [mistral_3000]
+        To streamline the process for uncontested claims from vendors arising from
+        contracts with the State.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill appears to be the desire to improve the
+        efficiency and transparency of the claims process, and to provide vendors with
+        more opportunities to submit documentation to amend and cure defects.
+    [qwen_500]
+        To reduce delays and improve the administrative process for claims.
+    [mistral_3000]
+        To reduce delays and potential disputes in the processing of uncontested claims
+        from vendors.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by potentially reducing the time and cost associated with processing
+        claims from vendors.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        Moderately Impactful. The bill could potentially improve the efficiency of claim
+        processing for vendors at UIUC, but the specific impact would depend on the
+        frequency and value of uncontested claims related to UIUC.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill appears to align with the principles of efficiency, transparency, and
+        accountability in government contracting.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        Neutral.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends the Court of Claims Act through a comprehensive revision of the
+        existing law.
+    [qwen_500]
+        Amends existing law to create new procedures and set timelines.
+    [mistral_3000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill creates an administrative process for uncontested claims, requires
+        State agencies to confirm or reject claims within 30 days, and allows vendors to
+        submit documentation to amend and cure defects. It also changes the filing fees
+        required under the Act and authorizes the Court of Claims to adopt rules to
+        implement the Act.
+    [qwen_500]
+        Creates an administrative process for uncontested claims, sets timelines for
+        State agencies to confirm or reject claims, changes filing fees.
+    [mistral_3000]
+        Creation of an administrative process for uncontested claims, 30-day timeframe
+        for State agency response, forfeiture of right to contest claims if not
+        responded within 30 days, Comptroller payment within 30 days of court award,
+        changes to filing fees, allowing claimants to amend and cure defects.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 13/20   |   HB5112   chunk 1   |   ? tokens   |   disagreement=14.50
+# chunk_id: 2108607::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   a bag provided by the store;
+  
+  (9) a bag that is provided by a dine-in or take-out
+  restaurant to contain food or drink purchased by the
+  restaurant's consumer;
+  
+  (10) a bag containing a plastic liner that is
+  permanently affixed, or designed and intended to be
+  permanently affixed, to the inside of the particular bag;
+  
+  (11) a newspaper bag, door-hanger bag, laundry
+  cleaning bag, garment bag; or
+  
+  (12) a bag that is used for online or digital orders
+  where an employee of the retail mercantile establishment
+  packages the goods for curbside pick-up or delivery.
+  
+  "Primarily engaged in the sale of ready-to-eat food for
+  immediate consumption" means having sales of ready-to-eat food
+  for immediate consumption comprising at least 51% of the total
+  sales, excluding the sale of liquor.
+  
+  "Recycled paper bag" means a paper bag that is 100%
+  recyclable and contains at least 40% post-consumer recycled
+  material.
+  
+  "Restaurant" means any business that is primarily engaged
+  in the sale of ready-to-eat food for immediate consumption.
+  
+  "Retail mercantile establishment" means a business that
+  makes sales at retail and generates occupation or use tax
+  revenue. "Retail mercantile establishment" does not include a
+  restaurant.
+  
+  "Reusable bag" means a bag with threaded stitched handles
+  that is designed and manufactured for multiple uses; that can
+  carry 22 pounds for a distance of 175 feet; and that is made of
+  cloth, fiber, or other fabric or recycled material that is
+  machine washable and can be cleaned and disinfected regularly.
+  
+  Section 10.
+  Carryout Bag Fee Fund.
+  
+  (a) The Carryout Bag Fee Fund is created as a special fund
+  in the State treasury. Moneys in the Fund shall be used as
+  provided in this Act.
+  
+  (b) Notwithstanding any other provision of law, the
+  Carryout Bag Fee Fund is not subject to sweeps, administrative
+  charges or chargebacks, or any other fiscal or budgetary
+  maneuver that would in any way transfer any funds from the
+  Carryout Bag Fee Fund into any other fund of the State.
+  
+  Section 15.
+  Payment of carryout bag fee required.
+  
+  (a) Beginning January 1, 2027, a carryout bag fee of $0.10
+  is imposed on each carryout bag used by a consumer at a retail
+  mercantile establishment located in Illinois, which shall be
+  paid by the consumer. Beginning January 1, 2028, the carryout
+  bag fee shall be increased to $0.15 per carryout bag;
+  beginning January 1, 2029, the carryout bag fee shall be
+  increased to $0.20 per carryout bag; and beginning January 1,
+  2030, the carryout bag fee shall be increased to 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To reduce plastic bag usage and promote the use of reusable bags by imposing a
+        carryout bag fee on consumers and retailers.
+    [qwen_500]
+        To establish a fund for carryout bag fees and to limit home rule powers related
+        to plastic bags.
+    [mistral_3000]
+        Reduce carryout bag use, increase recycling and composting, and fund waste
+        management and related programs.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Environmental Policy, Waste Management, Consumer Protection, Taxation.
+    [qwen_500]
+        Environmental Policy, Fiscal Policy
+    [mistral_3000]
+        Environmental Policy, Waste Management, Consumer Protection
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Consumers, Retailers, Local Governments.
+    [qwen_500]
+        Retail establishments, consumers, state environmental agencies.
+    [mistral_3000]
+        Retail mercantile establishments, counties, municipal joint action agencies, and
+        municipalities with a population greater than 1,000,000.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The use of reusable bags, the sale of recyclable paper bags, and the revenue
+        generated from the carryout bag fee.
+    [qwen_500]
+        Funding for environmental initiatives, support for state environmental agencies.
+    [mistral_3000]
+        Recycling and composting, waste management programs, education programs.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The use of plastic bags, the amount of waste generated by single-use bags.
+    [qwen_500]
+        Home rule powers for local governments.
+    [mistral_3000]
+        Carryout bag use.
+
+
+  ### intent
+    [llama31_1200]
+        The purpose of this bill is to reduce plastic bag usage and promote the use of
+        reusable bags.
+    [qwen_500]
+        To reduce the use of plastic bags and fund environmental initiatives through
+        fees.
+    [mistral_3000]
+        To reduce carryout bag use, increase recycling and composting, and fund waste
+        management and related programs.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to address the environmental and public
+        health impacts of plastic waste and promote sustainable practices.
+    [qwen_500]
+        To address environmental concerns and fund state programs through retail fees.
+    [mistral_3000]
+        Reducing plastic waste, promoting sustainability, and improving waste management
+        infrastructure.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        reducing the amount of plastic waste generated on campus, as students and
+        faculty may be more likely to use reusable bags and recyclable paper bags.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        retail establishments on campus and potentially influencing waste management
+        practices.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with environmental and conservation ideologies, as it aims to
+        reduce plastic waste and promote sustainable practices.
+    [qwen_500]
+        Likely aligns with environmental and fiscal conservative principles.
+    [mistral_3000]
+        Environmentalism, sustainability.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill requires retailers to impose a carryout bag fee on consumers, with the
+        ultimate incidence and liability for payment borne by the consumer.
+    [qwen_500]
+        Amends existing laws and creates new funds.
+    [mistral_3000]
+        Amendment, funding clause, committee referral.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill establishes a carryout bag fee of $0.10 per bag in 2027, increasing to
+        $0.25 per bag in 2030, and requires retailers to retain a portion of the fees
+        collected and remit the remainder to the state and local governments.
+    [qwen_500]
+        Creates the Carryout Bag Fee Fund, amends the State Finance Act, defines terms
+        for carryout bags, limits home rule powers.
+    [mistral_3000]
+        Carryout bag fee, use of revenue, annual increase in fee, exemptions, education
+        material and signage, enforcement, audits, and home rule limitations.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 14/20   |   SB3683   chunk 1   |   ? tokens   |   disagreement=14.50
+# chunk_id: 2109411::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   or other deadly weapon in any place which is
+  licensed to sell intoxicating beverages, or at any public
+  gathering held pursuant to a license issued by any
+  governmental body or any public gathering at which an
+  admission is charged, excluding a place where a showing,
+  demonstration or lecture involving the exhibition of
+  unloaded firearms is conducted.
+  
+  This subsection (a)(8) does not apply to any auction
+  or raffle of a firearm held pursuant to a license or permit
+  issued by a governmental body, nor does it apply to
+  persons engaged in firearm safety training courses; or
+  
+  (9) Carries or possesses in a vehicle or on or about
+  his or her person any pistol, revolver, stun gun or taser
+  or firearm or ballistic knife, when he or she is hooded,
+  robed or masked in such manner as to conceal his or her
+  identity; or
+  
+  (10) Carries or possesses on or about his or her
+  person, upon any public street, alley, or other public
+  lands within the corporate limits of a city, village, or
+  incorporated town, except when an invitee thereon or
+  therein, for the purpose of the display of such weapon or
+  the lawful commerce in weapons, or except when on his land
+  or in his or her own abode, legal dwelling, or fixed place
+  of business, or on the land or in the legal dwelling of
+  another person as an invitee with that person's
+  permission, any pistol, revolver, stun gun, or taser or
+  other firearm, except that this subsection (a)(10) does
+  not apply to or affect transportation of weapons that meet
+  one of the following conditions:
+  
+  (i) are broken down in a non-functioning state; or
+  
+  (ii) are not immediately accessible; or
+  
+  (iii) are unloaded and enclosed in a case, firearm
+  carrying box, shipping box, or other container by a
+  person who has been issued a currently valid Firearm
+  Owner's Identification Card; or
+  
+  (iv) are carried or possessed in accordance with
+  the Firearm Concealed Carry Act by a person who has
+  been issued a currently valid license under the
+  Firearm Concealed Carry Act.
+  
+  A "stun gun or taser", as used in this paragraph (a)
+  means (i) any device which is powered by electrical
+  charging units, such as, batteries, and which fires one or
+  several barbs attached to a length of wire and which, upon
+  hitting a human, can send out a current capable of
+  disrupting the person's nervous system in such a manner as
+  to render him incapable of normal functioning or (ii) any
+  device which is powered by electrical charging units, such
+  as batteries, and which, upon contact with a human or
+  clothing worn by a human,
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To regulate and restrict the possession and carrying of certain types of
+        firearms in public places in Illinois.
+    [qwen_500]
+        To regulate the carrying of firearms and explosive devices to enhance public
+        safety.
+    [mistral_3000]
+        To increase the penalties for crimes committed in or near specific locations.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Firearms Policy, Public Safety, Law Enforcement, Crime Prevention, Gun Control.
+    [qwen_500]
+        Gun Policy: Firearm Regulation, Public Safety
+    [mistral_3000]
+        Criminal Justice, Public Safety
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Citizens of Illinois, law enforcement agencies, and public safety organizations.
+    [qwen_500]
+        General public, law enforcement.
+    [mistral_3000]
+        The bill affects citizens, students, schools, public transportation agencies,
+        public parks, courthouses, public housing agencies, and residents of public
+        housing.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill increases penalties for violations, including Class A misdemeanors and
+        Class 3 and 4 felonies.
+    [qwen_500]
+        Public safety.
+    [mistral_3000]
+        Increased penalties for certain crimes.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill decreases the availability of certain types of firearms in public
+        places.
+    [qwen_500]
+        Carrying of certain firearms and explosive devices.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to regulate and restrict the possession and carrying
+        of certain types of firearms in public places in Illinois.
+    [qwen_500]
+        To regulate the carrying of firearms and explosive devices to enhance public
+        safety.
+    [mistral_3000]
+        To increase penalties for crimes committed in or near specific locations.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to improve public safety and prevent
+        gun-related crimes.
+    [qwen_500]
+        To reduce the risk of public harm from the unauthorized carrying of certain
+        firearms and explosive devices.
+    [mistral_3000]
+        To deter crime and protect certain locations, such as schools and public parks.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially restricting the possession and carrying of firearms on campus, which
+        could affect students and faculty who may be licensed to carry firearms.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by increasing
+        penalties for crimes committed on campus or in its vicinity.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        The bill aligns with liberal and progressive ideologies that support stricter
+        gun control laws.
+    [qwen_500]
+        Conservative.
+    [mistral_3000]
+        Not clear.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends existing laws and imposes penalties for violations, indicating a
+        legislative strategy of enforcement and regulation.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        The bill amends existing law.
+
+
+  ### key_provisions
+    [llama31_1200]
+        Prohibits the possession and carrying of certain types of firearms in public
+        places, including places licensed to sell intoxicating beverages, public
+        gatherings, and vehicles; imposes penalties for violations, including Class A
+        misdemeanors and Class 3 and 4 felonies.
+    [qwen_500]
+        Prohibits carrying tear gas guns, bombs, and certain firearms in public spaces,
+        with exceptions for lawful possession.
+    [mistral_3000]
+        Increased penalties for crimes committed in or near schools, public parks,
+        courthouses, public transportation facilities, and residential properties owned,
+        operated, or managed by a public housing agency.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 15/20   |   SB3889   chunk 0   |   ? tokens   |   disagreement=14.50
+# chunk_id: 2110829::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  65 ILCS 5/11-117-13.5 new
+  220 ILCS 5/9-210.5
+  
+  Amends the Illinois Municipal Code. Provides that, before the sale of
+  a water system or sewer system owned by a municipality to a private entity,
+  a referendum shall be submitted to the electors of the municipality.
+  Provides that a majority vote authorizing the sale of the water system or
+  sewer system shall be required from the electors of the municipality
+  before the sale or purchase can occur. Amends the Public Utilities Act. In
+  provisions concerning valuation of water and sewer utilities, provides
+  that "water or sewer utility" means any of the following: (1) a public
+  utility that regularly provides water or sewer service to 6,000 or fewer
+  customer connections; (2) a water district, including, but not limited to,
+  a public water district, water service district, or surface water
+  protection district, or a sewer district of any kind established as a
+  special district under the laws of the State that regularly provides water
+  or sewer service to 6,000 or fewer customer connections; (3) a waterworks
+  system or sewerage system established under the Township Code that
+  regularly provides water or sewer service to 6,000 or fewer customer
+  connections; (4) a water system or sewer system owned by a municipality
+  that regularly provides water or sewer service to 6,000 or fewer customer
+  connections; or (5) any other entity that is not a public utility that
+  regularly provides water or sewer service to 6,000 or fewer customer
+  connections. Provides that the provisions are repealed on June 1, 2026
+  (rather than June 1, 2028). Effective immediately.
+  
+  AN ACT concerning regulation.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Municipal Code is amended by
+  adding Section 11-117-13.5 as follows:
+  
+  (65 ILCS 5/11-117-13.5 new)
+  
+  Sec. 11-117-13.5.
+  Referendum to approve sale of municipal
+  water or sewer system.
+  Except as provided in Section
+  11-117-14, before the sale of a water system or sewer system
+  owned by a municipality to a private entity, a referendum
+  shall be submitted to the electors of the municipality. A
+  majority vote authorizing the sale of the water system or
+  sewer system shall be required from the electors of the
+  municipality before the sale or purchase can occur. This
+  Section applies to a water system or sewer system owned by a
+  municipality that provides service to more than 1,000 customer
+  connections.
+  
+  Section 10.
+  The Public Utilities Act is amended by
+  changing
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        The primary goal of this bill is to require a majority vote from the electors of
+        a municipality before the sale of a water system or sewer system can occur.
+    [qwen_500]
+        To ensure that the sale of municipal water or sewer systems to private entities
+        requires approval from the local electorate.
+    [mistral_3000]
+        The primary goal of this bill is to give the electors of a municipality the
+        power to approve or reject the sale of their water or sewer system to a private
+        entity.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Municipal Regulation, Public Utilities, Water and Sewer Services, Local
+        Government, Regulation of Private Entities.
+    [qwen_500]
+        Municipal Governance, Public Utilities
+    [mistral_3000]
+        Government Operations, Public Utilities
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        The bill impacts municipalities, private entities, and residents who rely on
+        municipal water or sewer services.
+    [qwen_500]
+        Municipal residents, local government entities
+    [mistral_3000]
+        The electors of municipalities with water or sewer systems, and private entities
+        that may purchase these systems.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill aims to increase transparency and public involvement in the sale of
+        municipal water or sewer systems.
+    [qwen_500]
+        Public participation in decision-making; local control over municipal assets.
+    [mistral_3000]
+        The bill aims to increase the power of the electors of municipalities in the
+        sale of their water or sewer systems.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill does not explicitly aim to decrease any aspects, but it may restrict
+        the ability of municipalities to sell their water or sewer systems without a
+        referendum.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        The bill does not aim to reduce, restrict, or eliminate anything.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to ensure that the sale of municipal water or sewer
+        systems is subject to public approval.
+    [qwen_500]
+        To ensure that the sale of municipal water or sewer systems to private entities
+        requires local approval.
+    [mistral_3000]
+        The intent of the bill is to give the electors of municipalities the power to
+        approve or reject the sale of their water or sewer systems to private entities.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to protect the interests of municipalities
+        and their residents by requiring a referendum for the sale of water or sewer
+        systems.
+    [qwen_500]
+        To protect local control over essential public services.
+    [mistral_3000]
+        The motivation for this bill may be to ensure that the sale of municipal water
+        or sewer systems is done with the approval of the local community.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) if it
+        owns or operates a water or sewer system that serves more than 1,000 customer
+        connections, as it would require a referendum for any sale of the system.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it owns a
+        water or sewer system and decides to sell it to a private entity.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with the principles of local control and public involvement in
+        government decisions.
+    [qwen_500]
+        Progressive, Democratic
+    [mistral_3000]
+        The bill does not align with any specific ideological principles or groups.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends existing laws through a straightforward legislative process,
+        without any apparent procedural or political strategy.
+    [qwen_500]
+        Amends existing laws to include new provisions.
+    [mistral_3000]
+        The bill uses the strategy of amending existing laws to introduce new
+        requirements for the sale of municipal water or sewer systems.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill introduces a referendum requirement for the sale of municipal water or
+        sewer systems to private entities and redefines the term "water or sewer
+        utility" to include public utilities, water districts, and other entities that
+        provide water or sewer service to 6,000 or fewer customer connections.
+    [qwen_500]
+        Requires a referendum for the sale of municipal water or sewer systems to
+        private entities; updates the definition of "water or sewer utility."
+    [mistral_3000]
+        The bill introduces a referendum requirement for the sale of municipal water or
+        sewer systems to private entities, and changes the definition of a "water or
+        sewer utility" in the Public Utilities Act.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 16/20   |   HB0918   chunk 0   |   ? tokens   |   disagreement=14.40
+# chunk_id: 1906606::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  AMENDMENT TO HOUSE BILL 918
+  
+  AMENDMENT NO. ______. Amend House Bill 918 by replacing
+  everything after the enacting clause with the following:
+  
+  "Section 5.
+  The Illinois Health Facilities Planning Act is
+  amended by changing Section 3 as follows:
+  
+  (20 ILCS 3960/3)
+  
+  (from Ch. 111 1/2, par. 1153)
+  
+  (Section scheduled to be repealed on December 31, 2029)
+  
+  Sec. 3.
+  Definitions.
+  As used in this Act:
+  
+  "Health care facilities" means and includes the following
+  facilities, organizations, and related persons:
+  
+  (1) An ambulatory surgical treatment center required
+  to be licensed pursuant to the Ambulatory Surgical
+  Treatment Center Act.
+  
+  (2) An institution, place, building, or agency
+  required to be licensed pursuant to the Hospital Licensing
+  Act.
+  
+  (3) Skilled and intermediate long term care facilities
+  licensed under the Nursing Home Care Act.
+  
+  (A) If a demonstration project under the Nursing
+  Home Care Act applies for a certificate of need to
+  convert to a nursing facility, it shall meet the
+  licensure and certificate of need requirements in
+  effect as of the date of application.
+  
+  (B) Except as provided in item (A) of this
+  subsection, this Act does not apply to facilities
+  granted waivers under Section 3-102.2 of the Nursing
+  Home Care Act.
+  
+  (3.5) Skilled and intermediate care facilities
+  licensed under the ID/DD Community Care Act or the MC/DD
+  Act. No permit or exemption is required for a facility
+  licensed under the ID/DD Community Care Act or the MC/DD
+  Act prior to the reduction of the number of beds at a
+  facility. If there is a total reduction of beds at a
+  facility licensed under the ID/DD Community Care Act or
+  the MC/DD Act, this is a discontinuation or closure of the
+  facility. If a facility licensed under the ID/DD Community
+  Care Act or the MC/DD Act reduces the number of beds or
+  discontinues the facility, that facility must notify the
+  Board as provided in Section 14.1 of this Act.
+  
+  (3.7) Facilities licensed under the Specialized Mental
+  Health Rehabilitation Act of 2013.
+  
+  (4) Hospitals, nursing homes, ambulatory surgical
+  treatment centers, or kidney disease treatment centers
+  maintained by the State or any department or agency
+  thereof.
+  
+  (5) Kidney disease treatment centers, including a
+  free-standing hemodialysis unit required to meet the
+  requirements of 42 CFR 494 in order to be certified for
+  participation in Medicare and Medicaid under Titles XVIII
+  and XIX of the federal Social Security Act.
+  
+  (A) This Act does not apply to a dialysis facility
+  that provides only dialysis train
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To revise the definition of "health care facilities" under the Illinois Health
+        Facilities Planning Act to better align with the state's healthcare needs.
+    [qwen_500]
+        To clarify and update the definitions of health care facilities under the
+        Illinois Health Facilities Planning Act.
+    [mistral_3000]
+        The bill aims to revise the regulations for health care facilities in Illinois.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Health Policy, Healthcare Regulation, State Government, Public Health.
+    [qwen_500]
+        Health Policy, Licensing
+    [mistral_3000]
+        Health Policy, Regulatory Affairs
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Healthcare providers, patients, and the state of Illinois.
+    [qwen_500]
+        State agencies responsible for licensing and regulating health care facilities,
+        facilities licensed under the specified acts.
+    [mistral_3000]
+        Health care facilities, state agencies, and licensing boards in Illinois.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill increases the scope of healthcare facilities subject to regulation
+        under the Illinois Health Facilities Planning Act.
+    [qwen_500]
+        Licensing requirements for specific types of health care facilities.
+    [mistral_3000]
+        The bill aims to increase the capital expenditure minimum.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill decreases the scope of healthcare facilities exempt from regulation
+        under the Illinois Health Facilities Planning Act.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        The bill does not aim to reduce, restrict, or eliminate anything.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to revise the definition of "health care facilities"
+        to better align with the state's healthcare needs.
+    [qwen_500]
+        To ensure consistent and clear definitions of health care facilities under the
+        Illinois Health Facilities Planning Act.
+    [mistral_3000]
+        To revise the regulations for health care facilities in Illinois.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill appears to be to improve healthcare regulation
+        and public health in the state of Illinois.
+    [qwen_500]
+        To improve regulatory clarity and ensure compliance with existing laws.
+    [mistral_3000]
+        The motivation for this bill is not explicitly stated, but it may be to update
+        the health care facilities planning process in Illinois.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC) as it may affect the regulation of healthcare facilities
+        in the state, potentially impacting UIUC's healthcare programs or partnerships.
+    [qwen_500]
+        Slightly Impactful
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by affecting
+        the health care facilities on campus that may fall under the revised
+        definitions.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill appears to align with the principles of healthcare regulation and
+        public health.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends an existing law, the Illinois Health Facilities Planning Act, by
+        replacing the existing definition of "health care facilities" with a revised
+        definition.
+    [qwen_500]
+        Amending an existing law.
+    [mistral_3000]
+        Amendment to an existing bill.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill revises the definition of "health care facilities" to include
+        ambulatory surgical treatment centers, hospitals, nursing homes, and other
+        healthcare organizations, while excluding certain entities and facility
+        transactions.
+    [qwen_500]
+        Updates the definition of "health care facilities" to include ambulatory
+        surgical treatment centers, hospitals, nursing homes, and facilities licensed
+        under specific acts. Clarifies conditions for licensing and closure.
+    [mistral_3000]
+        The bill changes the definition of health care facilities, modifies the
+        certificate of need requirements for certain facilities, and updates the capital
+        expenditure minimum.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 17/20   |   HB1929   chunk 0   |   ? tokens   |   disagreement=14.40
+# chunk_id: 1946857::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  775 ILCS 5/1-103
+  
+  from Ch. 68, par. 1-103
+  775 ILCS 5/7-101
+  
+  from Ch. 68, par. 7-101
+  775 ILCS 5/7-114 new
+  
+  Amends the Illinois Human Rights Act. Provides that a formerly
+  convicted person may petition the Department of Human Rights for a grant of
+  protected class status. Provides that the Department may grant protected
+  class status to a formerly convicted person who meets the following
+  conditions: the person has complied with each term and condition of the
+  person's parole, mandatory supervised release, probation, or conditional
+  discharge; the person has obtained a high school diploma or received a high
+  school equivalency certificate; the person is employed or actively seeking
+  employment or is enrolled in or has successfully completed a vocational
+  training or college educational program; the person has not been convicted
+  of a felony or misdemeanor within the last 5 years; and the person has
+  completed all sanctions imposed upon the person through due process of
+  law. Provides that the Department shall adopt rules concerning what
+  constitutes an intellectual or developmental disability that prevents the
+  formerly convicted person from meeting some of the conditions and who is
+  qualified to diagnose such a person. Provides that the Department shall
+  adopt rules to carry out the provisions. Provides that protected class
+  status previously granted to a formerly convicted person shall be revoked
+  by the Department after notice and a hearing, if the formerly convicted
+  person is subsequently convicted of a felony or misdemeanor. Provides that
+  the revocation process shall be initiated by a petition that sets forth the
+  date of the subsequent offense, description of the offense, date of
+  conviction for the subsequent offense, and sentence imposed on the
+  conviction. Provides that a copy of the petition and notice of the hearing
+  date shall be served on the formerly convicted person.
+  
+  AN ACT concerning human rights.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Human Rights Act is amended by
+  changing Sections 1-103 and 7-101 and by adding Section 7-114
+  as follows:
+  
+  (775 ILCS 5/1-103)
+  
+  (from Ch. 68, par. 1-103)
+  
+  Sec. 1-103.
+  General definitions.
+   When used in this Act,
+  unless the context requires otherwise, the term:
+  
+  (A) Age. "Age" means the chronological age of a person who
+  is at least 40 years old, except with regard to any practice
+  described in Section 2-102, insofar as that practice concerns
+  training or appre
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        The primary goal of this bill is to provide formerly convicted individuals with
+        the opportunity to petition for protected class status, thereby granting them
+        certain protections and benefits.
+    [qwen_500]
+        To provide formerly convicted individuals with a pathway to obtain protected
+        class status under the Illinois Human Rights Act.
+    [mistral_3000]
+        To provide a path for formerly convicted individuals to gain protected class
+        status under the Illinois Human Rights Act.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Civil Rights, Human Rights, Employment, Education, Rehabilitation, Social
+        Welfare, Public Policy.
+    [qwen_500]
+        Criminal Justice, Human Rights
+    [mistral_3000]
+        Civil Rights, Criminal Justice
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Formerly convicted individuals, the Department of Human Rights, and the general
+        public.
+    [qwen_500]
+        Formerly convicted individuals, Department of Human Rights
+    [mistral_3000]
+        - Formerly convicted individuals. - Employers and educational institutions.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill aims to increase opportunities for formerly convicted individuals to
+        obtain protected class status, which would grant them certain protections and
+        benefits.
+    [qwen_500]
+        Opportunities for formerly convicted individuals to gain protected class status;
+        potential for increased protections against discrimination.
+    [mistral_3000]
+        - Opportunities for formerly convicted individuals. - Protections for formerly
+        convicted individuals under the Illinois Human Rights Act.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        None.
+    [qwen_500]
+        [empty]
+    [mistral_3000]
+        - Discrimination against formerly convicted individuals.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to provide formerly convicted individuals with the
+        opportunity to petition for protected class status, thereby granting them
+        certain protections and benefits.
+    [qwen_500]
+        To provide formerly convicted individuals with a fair chance to reintegrate into
+        society and access protections under the Illinois Human Rights Act.
+    [mistral_3000]
+        To provide a path for formerly convicted individuals to gain protected class
+        status and reduce discrimination against them.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to promote rehabilitation and social welfare,
+        and to provide formerly convicted individuals with opportunities for employment
+        and education.
+    [qwen_500]
+        To address systemic barriers faced by formerly convicted individuals and promote
+        social justice.
+    [mistral_3000]
+        To give formerly convicted individuals a fair chance at employment and
+        education, and to reduce recidivism rates.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially increasing opportunities for formerly convicted individuals to
+        obtain protected class status, which could lead to increased diversity and
+        inclusion on campus.
+    [qwen_500]
+        Slightly Impactful - The bill could provide formerly convicted individuals with
+        additional protections and opportunities, potentially impacting the University
+        of Illinois Urbana-Champaign in terms of diversity and inclusion initiatives.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by expanding
+        opportunities for formerly convicted individuals to seek employment or education
+        there.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with liberal or progressive ideological principles, which
+        prioritize social welfare and rehabilitation.
+    [qwen_500]
+        Progressive
+    [mistral_3000]
+        - Supports rehabilitation and second chances for formerly convicted individuals.
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends the Illinois Human Rights Act, which suggests that the
+        legislative strategy is to modify existing law rather than introduce new
+        legislation.
+    [qwen_500]
+        Amends existing law to include new provisions.
+    [mistral_3000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill introduces the concept of protected class status for formerly convicted
+        individuals, which would grant them certain protections and benefits. The
+        Department of Human Rights would be responsible for granting or revoking
+        protected class status, and would adopt rules to carry out the provisions.
+    [qwen_500]
+        Allows formerly convicted individuals to petition for protected class status;
+        sets conditions for eligibility; provides for revocation of protected class
+        status.
+    [mistral_3000]
+        - Allows formerly convicted individuals to petition for protected class status.
+        - Sets conditions for granting protected class status. - Allows for revocation
+        of protected class status if the individual is subsequently convicted.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 18/20   |   HB3174   chunk 0   |   ? tokens   |   disagreement=14.40
+# chunk_id: 1959992::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  50 ILCS 705/9.2
+  55 ILCS 5/3-9005
+  
+  from Ch. 34, par. 3-9005
+  
+  Amends the Counties Code. Requires a State's Attorney to notify the
+  Illinois Law Enforcement Training Standards Board of any officer found to
+  be uncredible for the presentation of sworn testimony. Amends the Illinois
+  Police Training Act. Requires the Board to record whether or not an officer
+  has been reported by a State's Attorney as being uncredible for the
+  presentation of testimony. Effective immediately.
+  
+  AN ACT concerning local government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Police Training Act is amended by
+  changing Section 9.2 as follows:
+  
+  (50 ILCS 705/9.2)
+  
+  Sec. 9.2.
+  Officer professional conduct database;
+  transparency.
+  
+  (a) All law enforcement agencies and the Illinois State
+  Police shall notify the Board of any final determination of a
+  willful violation of department, agency, or the Illinois State
+  Police policy, official misconduct, or violation of law within
+  10 days when:
+  
+  (1) the determination leads to a suspension of at
+  least 10 days;
+  
+  (2) any infraction that would trigger an official or
+  formal investigation under a law enforcement agency or the
+  Illinois State Police policy;
+  
+  (3) there is an allegation of misconduct or regarding
+  truthfulness as to a material fact, bias, or integrity; or
+  
+  (4) the officer resigns or retires during the course
+  of an investigation and the officer has been served notice
+  that the officer is under investigation.
+  
+  Agencies and the Illinois State Police may report to the
+  Board any conduct they deem appropriate to disseminate to
+  another law enforcement agency regarding a law enforcement
+  officer.
+  
+  The agency or the Illinois State Police shall report to
+  the Board within 10 days of a final determination and final
+  exhaustion of any administrative appeal, or the law
+  enforcement officer's resignation or retirement, and shall
+  provide information regarding the nature of the violation.
+  This notification shall not necessarily trigger certification
+  review.
+  
+  A law enforcement agency and the Illinois State Police
+  shall be immune from liability for a disclosure made as
+  described in this subsection, unless the disclosure would
+  constitute intentional misrepresentation or gross negligence.
+  
+  (b) Within 14 days after receiving notification from a law
+  enforcement agency or the Illinois State Police, the Board
+  must notify the law enforcement officer of the report and the
+  officer's right to provide a statem
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        The primary goal of this bill is to improve transparency and accountability in
+        law enforcement by creating a database to track officer professional conduct and
+        requiring law enforcement agencies to report officer misconduct.
+    [qwen_500]
+        To enhance transparency and accountability in law enforcement by requiring
+        notifications and records of uncredible officers and by establishing a
+        transparency requirement for officer conduct.
+    [mistral_3000]
+        The primary goal of this bill is to increase transparency and accountability in
+        law enforcement by creating a database of law enforcement officer misconduct and
+        requiring the Illinois Law Enforcement Training Standards Board to record when
+        an officer has been reported as uncredible for the presentation of testimony.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Law Enforcement, Public Safety, Government Transparency, Accountability, Police
+        Reform.
+    [qwen_500]
+        Law Enforcement, Criminal Justice
+    [mistral_3000]
+        Local Government, Law Enforcement, Transparency and Accountability
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Law enforcement officers, law enforcement agencies, the public, and the Illinois
+        Law Enforcement Training Standards Board.
+    [qwen_500]
+        Law enforcement agencies, Illinois Law Enforcement Training Standards Board,
+        citizens seeking transparency and accountability in law enforcement.
+    [mistral_3000]
+        Law enforcement agencies, Illinois Law Enforcement Training Standards Board,
+        State's Attorneys, and the public.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        The bill aims to increase transparency and accountability in law enforcement by
+        creating a database to track officer professional conduct and requiring law
+        enforcement agencies to report officer misconduct.
+    [qwen_500]
+        Transparency and accountability in law enforcement.
+    [mistral_3000]
+        - Transparency - Accountability - Reporting of misconduct
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        The bill does not aim to decrease any specific aspect.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        - None
+
+
+  ### intent
+    [llama31_1200]
+        The purpose of this bill is to improve transparency and accountability in law
+        enforcement by creating a database to track officer professional conduct and
+        requiring law enforcement agencies to report officer misconduct.
+    [qwen_500]
+        To enhance transparency and accountability in law enforcement by requiring
+        notifications and records of uncredible officers and by establishing a
+        transparency requirement for officer conduct.
+    [mistral_3000]
+        To increase transparency and accountability in law enforcement by creating a
+        database of law enforcement officer misconduct and requiring the Illinois Law
+        Enforcement Training Standards Board to record when an officer has been reported
+        as uncredible for the presentation of testimony.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to address concerns about police misconduct
+        and improve public trust in law enforcement.
+    [qwen_500]
+        To improve public trust in law enforcement by ensuring more transparency and
+        accountability.
+    [mistral_3000]
+        To address concerns about law enforcement misconduct and increase accountability
+        in the profession.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        increasing transparency and accountability in law enforcement agencies that
+        interact with the university, such as the University of Illinois Police
+        Department.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially affecting the hiring practices of law enforcement agencies that have
+        a presence on campus.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with progressive and liberal ideologies that prioritize
+        transparency, accountability, and police reform.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        - None
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends existing laws and requires law enforcement agencies to report
+        officer misconduct, which is a procedural strategy to increase transparency and
+        accountability.
+    [qwen_500]
+        Amending existing laws to introduce new reporting requirements.
+    [mistral_3000]
+        Amendment to existing laws
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill requires law enforcement agencies to report officer misconduct to the
+        Illinois Law Enforcement Training Standards Board, creates a database to track
+        officer professional conduct, and requires the Board to notify law enforcement
+        officers of reports and provide a statement regarding the reported violation.
+    [qwen_500]
+        Requires State's Attorneys to notify the Illinois Law Enforcement Training
+        Standards Board of uncredible officers and to record such reports. Establishes
+        an officer professional conduct database transparency requirement for law
+        enforcement agencies and the Illinois State Police.
+    [mistral_3000]
+        - Requires a State's Attorney to notify the Illinois Law Enforcement Training
+        Standards Board of any officer found to be uncredible for the presentation of
+        sworn testimony. - Requires the Board to record whether or not an officer has
+        been reported by a State's Attorney as being uncredible for the presentation of
+        testimony. - Changes the Illinois Police Training Act to require law enforcement
+        agencies and the Illinois State Police to report certain violations to the
+        Board.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 19/20   |   HB4003   chunk 0   |   ? tokens   |   disagreement=14.40
+# chunk_id: 1987456::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  720 ILCS 5/31A-0.1
+  720 ILCS 5/31A-1.1
+  
+  from Ch. 38, par. 31A-1.1
+  720 ILCS 5/31A-1.2
+  
+  from Ch. 38, par. 31A-1.2
+  720 ILCS 5/31A-1.3 new
+  720 ILCS 5/31A-1.4 new
+  
+  Amends the Criminal Code of 2012 concerning the Interference With
+  Penal Institution Article of the Code. Provides that in addition to any
+  other penalty provided by law, an additional one year of imprisonment
+  shall be added to the sentence of a person who commits bringing contraband
+  into a penal institution or unauthorized bringing or delivery of
+  contraband into a penal institution by an employee by using an unmanned
+  aerial vehicle. Provides that a person who knowingly and intentionally
+  operates an unmanned aerial vehicle below the navigable airspace overlying
+  a State penal institution is guilty of a Class A misdemeanor. Provides that
+  this provision does not apply to an employee who operates the unmanned
+  aerial vehicle within the scope of his or her employment, or a person who
+  receives prior permission from the penal institution to operate the
+  unmanned aerial vehicle. Provides that a person who knowingly and
+  intentionally captures images or data of a State penal institution through
+  the operation of an unmanned aerial vehicle is guilty of a Class 4 felony.
+  Provides that this provision does not apply to an employee who captures
+  images or data of a State penal institution through the operation of an
+  unmanned aerial vehicle within the scope of his or her employment, or a
+  person who receives prior permission from the penal institution to capture
+  images or data of a State penal institution through the operation of an
+  unmanned aerial vehicle. Defines "State penal institution" and "unmanned
+  aerial vehicle".
+  
+  AN ACT concerning criminal law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Criminal Code of 2012 is amended by
+  changing Sections 31A-0.1, 31A-1.1, and 31A-1.2 and by adding
+  Sections 31A-1.3 and 31A-1.4 as follows:
+  
+  (720 ILCS 5/31A-0.1)
+  
+  Sec. 31A-0.1.
+  Definitions.
+  For the purposes of this
+  Article:
+  
+  "Deliver" or "delivery" means the actual, constructive or
+  attempted transfer of possession of an item of contraband,
+  with or without consideration, whether or not there is an
+  agency relationship.
+  
+  "Employee" means any elected or appointed officer, trustee
+  or employee of a penal institution or of the governing
+  authority of the penal institution, or any person who performs
+  services for the penal institution pursuant to contract with
+  the penal institut
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=PARTIAL    missing=1
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To increase penalties for individuals who bring contraband into a penal
+        institution or operate a UAV over a State penal institution, and to define key
+        terms related to these offenses.
+    [qwen_500]
+        To enhance security and prevent unauthorized access to penal institutions by
+        increasing penalties for specific offenses related to UAVs.
+    [mistral_3000]
+        The primary goal of this bill is to enhance security measures in penal
+        institutions by prohibiting the use of drones for illegal activities such as
+        smuggling contraband and unauthorized data or image capture.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Criminal Law, Penal Institutions, Unmanned Aerial Vehicles, Contraband, Public
+        Safety.
+    [qwen_500]
+        Criminal Law, Penal Institutions, Unmanned Aerial Vehicles
+    [mistral_3000]
+        Criminal Law, Penal Institutions, Aviation
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        - The State of Illinois - Penal institutions - Law enforcement agencies - The
+        public
+    [qwen_500]
+        State penal institutions, law enforcement agencies responsible for security.
+    [mistral_3000]
+        - State penal institutions - Law enforcement agencies
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        - Penalties for bringing contraband into a penal institution. - Awareness and
+        regulation of UAVs over State penal institutions.
+    [qwen_500]
+        Penalties for bringing contraband into penal institutions using UAVs, operating
+        UAVs without permission, and capturing images or data of penal institutions
+        through UAVs.
+    [mistral_3000]
+        - Security measures in penal institutions - Penalties for drone-related crimes
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        [empty]
+    [qwen_500]
+        None.
+    [mistral_3000]
+        - Unauthorized drone use near penal institutions - Unauthorized data or image
+        capture of penal institutions
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to increase penalties for individuals who bring
+        contraband into a penal institution or operate a UAV over a State penal
+        institution, and to define key terms related to these offenses.
+    [qwen_500]
+        To enhance security and prevent unauthorized access to penal institutions by
+        increasing penalties for specific offenses related to UAVs.
+    [mistral_3000]
+        To enhance security measures in penal institutions by prohibiting the use of
+        drones for illegal activities.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill appears to be a desire to increase public safety
+        and prevent the introduction of contraband into penal institutions.
+    [qwen_500]
+        To address security concerns and prevent contraband from entering penal
+        institutions.
+    [mistral_3000]
+        To prevent the smuggling of contraband and unauthorized data or image capture in
+        penal institutions using drones.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        increasing penalties for individuals who bring contraband into the university's
+        correctional facilities or operate a UAV over the campus.
+    [qwen_500]
+        Slightly Impactful - The bill would increase penalties for specific offenses
+        related to UAVs and penal institutions, potentially enhancing security measures.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it has a
+        penal institution or if it operates drones in proximity to penal institutions.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill appears to align with conservative or law-and-order ideologies,
+        prioritizing public safety and punishment for those who break the law.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        - Law and Order
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        This bill amends the existing Criminal Code of 2012, indicating a strategy of
+        building upon existing legislation rather than introducing new laws.
+    [qwen_500]
+        Amends existing criminal code.
+    [mistral_3000]
+        Amendment to existing law
+
+
+  ### key_provisions
+    [llama31_1200]
+        - Increases penalties for bringing contraband into a penal institution. -
+        Introduces new offenses related to operating a UAV over a State penal
+        institution. - Defines key terms such as "State penal institution" and "unmanned
+        aerial vehicle".
+    [qwen_500]
+        Adds penalties for bringing contraband into penal institutions using UAVs,
+        criminalizes operating UAVs below navigable airspace over penal institutions
+        without permission, and prohibits capturing images or data of penal institutions
+        through UAVs without permission.
+    [mistral_3000]
+        - Adding one year to the sentence of a person who uses a drone to bring
+        contraband into a penal institution. - Making it a Class A misdemeanor to
+        operate a drone below the navigable airspace overlying a State penal
+        institution. - Making it a Class 4 felony to knowingly and intentionally capture
+        images or data of a State penal institution through the operation of a drone.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 20/20   |   HB4003   chunk 1   |   ? tokens   |   disagreement=14.40
+# chunk_id: 1987456::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   the person's nervous system in
+  such a manner as to render him or her incapable of
+  normal functioning, commonly referred to as a stun gun
+  or taser.
+  
+  (vii) "Firearm ammunition" means any self-contained
+  cartridge or shotgun shell, by whatever name known, which
+  is designed to be used or adaptable to use in a firearm,
+  including but not limited to:
+  
+  (A) any ammunition exclusively designed for use
+  with a device used exclusively for signaling or safety
+  and required or recommended by the United States Coast
+  Guard or the Interstate Commerce Commission; or
+  
+  (B) any ammunition designed exclusively for use
+  with a stud or rivet driver or other similar
+  industrial ammunition.
+  
+  (viii) "Explosive" means, but is not limited to, bomb,
+  bombshell, grenade, bottle or other container containing
+  an explosive substance of over one-quarter ounce for like
+  purposes such as black powder bombs and Molotov cocktails
+  or artillery projectiles.
+  
+  (ix) "Tool to defeat security mechanisms" means, but
+  is not limited to, handcuff or security restraint key,
+  tool designed to pick locks, popper, or any device or
+  instrument used to or capable of unlocking or preventing
+  from locking any handcuff or security restraints, doors to
+  cells, rooms, gates or other areas of the penal
+  institution.
+  
+  (x) "Cutting tool" means, but is not limited to,
+  hacksaw blade, wirecutter, or device, instrument or file
+  capable of cutting through metal.
+  
+  (xi) "Electronic contraband" for the purposes of
+  Section 31A-1.1 of this Article means, but is not limited
+  to, any electronic, video recording device, computer, or
+  cellular communications equipment, including, but not
+  limited to, cellular telephones, cellular telephone
+  batteries, videotape recorders, pagers, computers, and
+  computer peripheral equipment brought into or possessed in
+  a penal institution without the written authorization of
+  the Chief Administrative Officer. "Electronic contraband"
+  for the purposes of Section 31A-1.2 of this Article,
+  means, but is not limited to, any electronic, video
+  recording device, computer, or cellular communications
+  equipment, including, but not limited to, cellular
+  telephones, cellular telephone batteries, videotape
+  recorders, pagers, computers, and computer peripheral
+  equipment.
+  
+  "Penal institution" means any penitentiary, State farm,
+  reformatory, prison, jail, house of correction, police
+  detention area, half-way house or other institution or place
+  for the incarceration or custody of persons under sentence for
+  offenses awaiting trial or sen
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_1200         status=OK         missing=0
+    qwen_500             status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_1200]
+        To strengthen security measures in penal institutions by prohibiting the
+        possession and introduction of contraband items and increasing penalties for
+        those who violate this law.
+    [qwen_500]
+        To clarify and expand definitions of contraband and related terms for penal
+        institutions.
+    [mistral_3000]
+        To regulate and penalize the unauthorized possession, delivery, and operation of
+        UAVs and contraband items in penal institutions.
+
+
+  ### policy_domain
+    [llama31_1200]
+        Public Safety, Crime and Punishment, Corrections, Law Enforcement, Penal Code.
+    [qwen_500]
+        Criminal Justice, Penal Institutions
+    [mistral_3000]
+        Criminal Justice, Corrections, Technology
+
+
+  ### intended_beneficiaries
+    [llama31_1200]
+        Inmates, corrections officers, and the general public.
+    [qwen_500]
+        Penal institution employees and penal institutions.
+    [mistral_3000]
+        Employees of penal institutions, inmates, and the general public.
+
+
+  ### increasing_aspects
+    [llama31_1200]
+        Security measures in penal institutions, penalties for introducing or possessing
+        contraband items.
+    [qwen_500]
+        Clarity and specificity in definitions of contraband.
+    [mistral_3000]
+        Penalties for violations.
+
+
+  ### decreasing_aspects
+    [llama31_1200]
+        Possession and introduction of contraband items in penal institutions.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        Unauthorized possession, delivery, and operation of UAVs and contraband items in
+        penal institutions.
+
+
+  ### intent
+    [llama31_1200]
+        The intent of this bill is to strengthen security measures in penal institutions
+        by prohibiting the possession and introduction of contraband items.
+    [qwen_500]
+        To provide clearer definitions for terms related to contraband in penal
+        institutions.
+    [mistral_3000]
+        To regulate and penalize the unauthorized possession, delivery, and operation of
+        UAVs and contraband items in penal institutions.
+
+
+  ### motivation
+    [llama31_1200]
+        The motivation behind this bill is to increase public safety and prevent the
+        introduction of contraband items in penal institutions.
+    [qwen_500]
+        To improve the legal framework for penal institutions.
+    [mistral_3000]
+        To prevent the use of UAVs and contraband items in penal institutions for
+        illegal activities.
+
+
+  ### potential_impact
+    [llama31_1200]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially increasing security measures and penalties for introducing or
+        possessing contraband items on campus, if applicable.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it
+        operates a penal institution and uses UAVs, as it would need to comply with the
+        regulations outlined in the bill.
+
+
+  ### ideological_alignment
+    [llama31_1200]
+        This bill aligns with conservative and law-and-order ideologies.
+    [qwen_500]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [llama31_1200]
+        The bill amends existing law (720 ILCS 5/31A-1.1) to strengthen security
+        measures in penal institutions.
+    [qwen_500]
+        Amending existing laws.
+    [mistral_3000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [llama31_1200]
+        The bill defines various types of contraband, including firearms, explosives,
+        and electronic devices, and increases penalties for introducing or possessing
+        these items in penal institutions.
+    [qwen_500]
+        Adds definitions for "deliver," "employee," and "item of contraband," including
+        specific categories of contraband.
+    [mistral_3000]
+        Prohibition of unauthorized possession, delivery, and operation of UAVs and
+        contraband items in penal institutions, setting penalties for violations.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_1200          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_500              A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+===============================================================================================
+  AGGREGATE — fill in after scoring all chunks
+===============================================================================================
+
+  llama31_1200
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  qwen_500
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  mistral_3000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  ONE-LINE VERDICT FOR THIS CHUNK SIZE:
+  ______________________________________________________________________

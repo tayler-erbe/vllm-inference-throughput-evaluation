@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" font-family="DM Sans, Inter, system-ui, sans-serif">
+  <rect width="920" height="540" fill="#ffffff"/>
+  <text x="460.0" y="32" font-size="20" font-weight="700" text-anchor="middle" fill="#222222">Parse Quality (ok %) vs Concurrency</text>
+  <text x="460.0" y="56" font-size="13" font-weight="400" text-anchor="middle" fill="#666">Quality is invariant under concurrency — the production-defining finding.</text>
+  <line x1="90" y1="460" x2="90" y2="80" stroke="#444444" stroke-width="1.5"/>
+  <line x1="90" y1="460" x2="680" y2="460" stroke="#444444" stroke-width="1.5"/>
+  <text x="385.0" y="510" font-size="13" font-weight="500" text-anchor="middle" fill="#222222">Concurrency</text>
+  <text x="40" y="270.0" font-size="13" font-weight="500" text-anchor="middle" fill="#222222" transform="rotate(-90 40 270.0)">ok % (parse success)</text>
+  <line x1="90.0" y1="460" x2="90.0" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="90.0" y="482" font-size="11" text-anchor="middle" fill="#444444">1</text>
+  <line x1="166.95652173913044" y1="460" x2="166.95652173913044" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="166.95652173913044" y="482" font-size="11" text-anchor="middle" fill="#444444">4</text>
+  <line x1="269.5652173913044" y1="460" x2="269.5652173913044" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="269.5652173913044" y="482" font-size="11" text-anchor="middle" fill="#444444">8</text>
+  <line x1="372.17391304347825" y1="460" x2="372.17391304347825" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="372.17391304347825" y="482" font-size="11" text-anchor="middle" fill="#444444">12</text>
+  <line x1="474.7826086956522" y1="460" x2="474.7826086956522" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="474.7826086956522" y="482" font-size="11" text-anchor="middle" fill="#444444">16</text>
+  <line x1="680.0" y1="460" x2="680.0" y2="465" stroke="#444444" stroke-width="1"/>
+  <text x="680.0" y="482" font-size="11" text-anchor="middle" fill="#444444">24</text>
+  <line x1="85" y1="460.0" x2="90" y2="460.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="464.0" font-size="11" text-anchor="end" fill="#444444">50%</text>
+  <line x1="90" y1="460.0" x2="680" y2="460.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="384.0" x2="90" y2="384.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="388.0" font-size="11" text-anchor="end" fill="#444444">60%</text>
+  <line x1="90" y1="384.0" x2="680" y2="384.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="308.0" x2="90" y2="308.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="312.0" font-size="11" text-anchor="end" fill="#444444">70%</text>
+  <line x1="90" y1="308.0" x2="680" y2="308.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="232.0" x2="90" y2="232.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="236.0" font-size="11" text-anchor="end" fill="#444444">80%</text>
+  <line x1="90" y1="232.0" x2="680" y2="232.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="156.0" x2="90" y2="156.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="160.0" font-size="11" text-anchor="end" fill="#444444">90%</text>
+  <line x1="90" y1="156.0" x2="680" y2="156.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="80.0" x2="90" y2="80.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="84.0" font-size="11" text-anchor="end" fill="#444444">100%</text>
+  <line x1="90" y1="80.0" x2="680" y2="80.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <polyline points="90.0,292.8 167.0,292.8 269.6,277.6 372.2,292.8 474.8,292.8 680.0,292.8" fill="none" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="90.0" cy="292.8" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <circle cx="166.95652173913044" cy="292.8" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <circle cx="269.5652173913044" cy="277.6" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <circle cx="372.17391304347825" cy="292.8" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <circle cx="474.7826086956522" cy="292.8" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <circle cx="680.0" cy="292.8" r="5" fill="#e67e22" stroke="white" stroke-width="1.5"/>
+  <line x1="688" y1="88" x2="710" y2="88" stroke="#e67e22" stroke-width="3"/>
+  <text x="716" y="92" font-size="12" font-weight="600" fill="#e67e22">mistral</text>
+  <polyline points="90.0,359.9 167.0,364.8 269.6,364.2 372.2,366.4 474.8,366.4 680.0,364.3" fill="none" stroke="#3498db" stroke-width="2.5"/>
+  <circle cx="90.0" cy="359.908" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <circle cx="166.95652173913044" cy="364.772" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <circle cx="269.5652173913044" cy="364.24" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <circle cx="372.17391304347825" cy="366.44399999999996" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <circle cx="474.7826086956522" cy="366.4186666666667" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <circle cx="680.0" cy="364.2653333333333" r="5" fill="#3498db" stroke="white" stroke-width="1.5"/>
+  <line x1="688" y1="110" x2="710" y2="110" stroke="#3498db" stroke-width="3"/>
+  <text x="716" y="114" font-size="12" font-weight="600" fill="#3498db">qwen</text>
+  <polyline points="90.0,144.6 167.0,148.4 269.6,147.1 372.2,137.0 474.8,138.3 680.0,147.1" fill="none" stroke="#2ecc71" stroke-width="2.5"/>
+  <circle cx="90.0" cy="144.60000000000002" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <circle cx="166.95652173913044" cy="148.40000000000003" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <circle cx="269.5652173913044" cy="147.1333333333332" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <circle cx="372.17391304347825" cy="137.0" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <circle cx="474.7826086956522" cy="138.26666666666682" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <circle cx="680.0" cy="147.1333333333332" r="5" fill="#2ecc71" stroke="white" stroke-width="1.5"/>
+  <line x1="688" y1="132" x2="710" y2="132" stroke="#2ecc71" stroke-width="3"/>
+  <text x="716" y="136" font-size="12" font-weight="600" fill="#2ecc71">llama31</text>
+</svg>

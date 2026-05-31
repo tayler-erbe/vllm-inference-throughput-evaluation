@@ -1,0 +1,3575 @@
+===============================================================================================
+  QUALITATIVE REVIEW COMPANION — SCORING DOCUMENT
+===============================================================================================
+
+  Profiles compared: qwen_2000, qwen_3000
+  Chunks included:   20 (highest model-disagreement first)
+  Session:           999996
+
+  HOW TO USE THIS DOCUMENT:
+  - For each chunk, read the source text, then read each model's answers.
+  - Score each model on the 3 rubric criteria (Accuracy, Specificity,
+    Completeness), each 0-2, in the score slots provided.
+  - Score blind to parse_status. A PARTIAL with great answers beats an
+    OK with shallow ones.
+  - Only the 6 substantive fields are shown here for scoring focus.
+  - Transfer your scores into the rubric's scoring sheet when done.
+
+  RUBRIC QUICK REFERENCE:
+  Accuracy:     0=wrong  1=partially right  2=accurate
+  Specificity:  0=generic  1=somewhat specific  2=names actual mechanism
+  Completeness: 0=surface phrase  1=partial point  2=substantive point captured
+
+===============================================================================================
+
+###############################################################################################
+# CHUNK 1/20   |   HB4122   chunk 1   |   ? tokens   |   disagreement=15.00
+# chunk_id: 2044203::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   Section 8-406 or any other
+  provision of this Act.
+  
+  (c)
+  (Blank).
+  
+  As used in this subsection (c):
+  
+  "Decommissioning" has the meaning given to that term in
+  subsection (a) of Section 8-508.1.
+  
+  "Nuclear power reactor" has the meaning given to that term
+  in Section 8 of the Nuclear Safety Law of 2004.
+  
+  After the effective date of this amendatory Act of the
+  103rd General Assembly, no construction shall commence on any
+  new nuclear power reactor with a nameplate capacity of more
+  than 300 megawatts of electricity to be located within this
+  State, and no certificate of public convenience and necessity
+  or other authorization shall be issued therefor by the
+  Commission, until the Illinois Emergency Management Agency and
+  Office of Homeland Security, in consultation with the Illinois
+  Environmental Protection Agency and the Illinois Department of
+  Natural Resources, finds that the United States Government,
+  through its authorized agency, has identified and approved a
+  demonstrable technology or means for the disposal of high
+  level nuclear waste, or until such construction has been
+  specifically approved by a statute enacted by the General
+  Assembly. Beginning January 1, 2026, construction may commence
+  on a new nuclear power reactor with a nameplate capacity of 300
+  megawatts of electricity or less within this State if the
+  entity constructing the new nuclear power reactor has obtained
+  all permits, licenses, permissions, or approvals governing the
+  construction, operation, and funding of decommissioning of
+  such nuclear power reactors required by: (1) this Act; (2) any
+  rules adopted by the Illinois Emergency Management Agency and
+  Office of Homeland Security under the authority of this Act;
+  (3) any applicable federal statutes, including, but not
+  limited to, the Atomic Energy Act of 1954, the Energy
+  Reorganization Act of 1974, the Low-Level Radioactive Waste
+  Policy Amendments Act of 1985, and the Energy Policy Act of
+  1992; (4) any regulations promulgated or enforced by the U.S.
+  Nuclear Regulatory Commission, including, but not limited to,
+  those codified at Title X, Parts 20, 30, 40, 50, 70, and 72 of
+  the Code of Federal Regulations, as from time to time amended;
+  and (5) any other federal or State statute, rule, or
+  regulation governing the permitting, licensing, operation, or
+  decommissioning of such nuclear power reactors. None of the
+  rules developed by the Illinois Emergency Management Agency
+  and Office of Homeland Security or any other State agency,
+  board, or commission pursuant to t
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To regulate the construction of new nuclear power reactors and ensure public
+        safety and environmental protection.
+    [qwen_3000]
+        To establish clearer guidelines for obtaining certificates of public convenience
+        and necessity for electric service line construction and to promote safety
+        policies for nuclear facilities.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Energy Policy, Nuclear Safety
+    [qwen_3000]
+        Electric Policy, Nuclear Policy
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Citizens, Environment, Public Utility Customers
+    [qwen_3000]
+        Public utilities, nuclear facility operators, and the general public.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Public safety, environmental protection.
+    [qwen_3000]
+        Support for public utilities in obtaining certificates and promoting new nuclear
+        facility construction.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        Construction of new nuclear power reactors over 300 megawatts.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To regulate the construction of new nuclear power reactors and ensure public
+        safety and environmental protection.
+    [qwen_3000]
+        To provide clearer guidelines for obtaining certificates of public convenience
+        and necessity for electric service line construction and to promote safety
+        policies for nuclear facilities.
+
+
+  ### motivation
+    [qwen_2000]
+        To address concerns about nuclear waste disposal and the safety of constructing
+        large nuclear power reactors.
+    [qwen_3000]
+        To streamline the process for public utilities and ensure safety in nuclear
+        facilities.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill could affect the construction plans of utilities
+        and the regulatory process for nuclear power.
+    [qwen_3000]
+        None.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Environmentalist, Democratic
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending existing laws and regulations.
+    [qwen_3000]
+        Amending existing laws and adding new sections to existing acts.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Prohibits construction of new nuclear power reactors over 300 megawatts,
+        requires technology for nuclear waste disposal, and outlines procedures for
+        obtaining certificates of public convenience and necessity.
+    [qwen_3000]
+        The bill outlines procedures for obtaining certificates of public convenience
+        and necessity, including public meetings and training requirements. It also
+        amends the Illinois Nuclear Facility Safety Act to facilitate new nuclear
+        facility construction.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 2/20   |   HB0918   chunk 1   |   ? tokens   |   disagreement=14.85
+# chunk_id: 1906606::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  of equipment or service for diagnostic or therapeutic purposes
+  or for facility administration or operation, or any capital
+  expenditure made by or on behalf of a health care facility
+  which exceeds the capital expenditure minimum
+  . Any health care
+  provider that obtains a certificate of need from the State
+  Board for a project that involves a hospital, ambulatory
+  surgical treatment center, birth center, end-stage renal
+  disease facility, or long-term care facility shall be
+  considered a health care system if it owns or operates 2 or
+  more of those licensed facilities and any capital expenditure
+  at or above the capital expenditure threshold is by or on
+  behalf of that health care system and requires a determination
+  of reviewability by the State Board. However,
+  
+  ; however,
+   any
+  capital expenditure made by or on behalf of a health care
+  facility for (i) the construction or modification of a
+  facility licensed under the Assisted Living and Shared Housing
+  Act or (ii) a conversion project undertaken in accordance with
+  Section 30 of the Older Adult Services Act shall be excluded
+  from any obligations under this Act.
+  
+  "Establish" means the construction of a health care
+  facility or the replacement of an existing facility on another
+  site or the initiation of a category of service.
+  
+  "Major medical equipment" means medical equipment which is
+  used for the provision of medical and other health services
+  and which costs in excess of the capital expenditure minimum,
+  except that such term does not include medical equipment
+  acquired by or on behalf of a clinical laboratory to provide
+  clinical laboratory services if the clinical laboratory is
+  independent of a physician's office and a hospital and it has
+  been determined under Title XVIII of the Social Security Act
+  to meet the requirements of paragraphs (10) and (11) of
+  Section 1861(s) of such Act. In determining whether medical
+  equipment has a value in excess of the capital expenditure
+  minimum, the value of studies, surveys, designs, plans,
+  working drawings, specifications, and other activities
+  essential to the acquisition of such equipment shall be
+  included.
+  
+  "Capital expenditure" means an expenditure: (A) made by or
+  on behalf of a health care facility (as such a facility is
+  defined in this Act); and (B) which under generally accepted
+  accounting principles is not properly chargeable as an expense
+  of operation and maintenance, or is made to obtain by lease or
+  comparable arrangement any facility or part thereof or any
+  equipment for a faci
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=1
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To ensure that major capital expenditures by health care facilities are reviewed
+        for need and appropriateness.
+    [qwen_3000]
+        None.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Health Policy, Public Health
+    [qwen_3000]
+        Health Policy.
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Health care facilities, State Board, patients, and the public.
+    [qwen_3000]
+        None.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        The bill aims to increase oversight and ensure that capital expenditures are
+        justified.
+    [qwen_3000]
+        None.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        It aims to reduce unnecessary or excessive capital expenditures.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To ensure that major capital expenditures by health care facilities are reviewed
+        for need and appropriateness.
+    [qwen_3000]
+        None.
+
+
+  ### motivation
+    [qwen_2000]
+        To promote fiscal responsibility and ensure that health care resources are used
+        efficiently.
+    [qwen_3000]
+        None.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill could affect the planning and budgeting processes
+        of health care facilities.
+    [qwen_3000]
+        None.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Likely aligns with conservative or moderate viewpoints emphasizing fiscal
+        responsibility and oversight.
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending existing laws to establish a new review process.
+    [qwen_3000]
+        None.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Defines "capital expenditure," "certificate of need," and other related terms;
+        sets thresholds for review; excludes certain types of projects from review.
+    [qwen_3000]
+        None.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 3/20   |   HB2518   chunk 1   |   ? tokens   |   disagreement=14.85
+# chunk_id: 1952663::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   from disclosure under
+  Section 4.2 of the Crime Victims Compensation Act.
+  
+  (nn) Information that is exempt from disclosure under
+  Section 70 of the Higher Education Student Assistance Act.
+  
+  (oo) Communications, notes, records, and reports
+  arising out of a peer support counseling session
+  prohibited from disclosure under the First Responders
+  Suicide Prevention Act.
+  
+  (pp) Names and all identifying information relating to
+  an employee of an emergency services provider or law
+  enforcement agency under the First Responders Suicide
+  Prevention Act.
+  
+  (qq) Information and records held by the Department of
+  Public Health and its authorized representatives collected
+  under the Reproductive Health Act.
+  
+  (rr) Information that is exempt from disclosure under
+  the Cannabis Regulation and Tax Act.
+  
+  (ss) Data reported by an employer to the Department of
+  Human Rights pursuant to Section 2-108 of the Illinois
+  Human Rights Act.
+  
+  (tt) Recordings made under the Children's Advocacy
+  Center Act, except to the extent authorized under that
+  Act.
+  
+  (uu) Information that is exempt from disclosure under
+  Section 50 of the Sexual Assault Evidence Submission Act.
+  
+  (vv) Information that is exempt from disclosure under
+  subsections (f) and (j) of Section 5-36 of the Illinois
+  Public Aid Code.
+  
+  (ww) Information that is exempt from disclosure under
+  Section 16.8 of the State Treasurer Act.
+  
+  (xx) Information that is exempt from disclosure or
+  information that shall not be made public under the
+  Illinois Insurance Code.
+  
+  (yy) Information prohibited from being disclosed under
+  the Illinois Educational Labor Relations Act.
+  
+  (zz) Information prohibited from being disclosed under
+  the Illinois Public Labor Relations Act.
+  
+  (aaa) Information prohibited from being disclosed
+  under Section 1-167 of the Illinois Pension Code.
+  
+  (bbb) Information that is prohibited from disclosure
+  by the Illinois Police Training Act and the Illinois State
+  Police Act.
+  
+  (ccc) Records exempt from disclosure under Section
+  2605-304 of the Illinois State Police Law of the Civil
+  Administrative Code of Illinois.
+  
+  (ddd) Information prohibited from being disclosed
+  under Section 35 of the Address Confidentiality for
+  Victims of Domestic Violence, Sexual Assault, Human
+  Trafficking, or Stalking Act.
+  
+  (eee) Information prohibited from being disclosed
+  under subsection (b) of Section 75 of the Domestic
+  Violence Fatality Review Act.
+  
+  (fff) Images from cameras under the Expressway Camera
+  Act. This subsection (fff) is inoperative on and after
+  July 1, 2025.
+  
+  
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=1
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To protect confidential information obtained during investigations by the
+        Attorney General and State's Attorney from being disclosed under the Freedom of
+        Information Act.
+    [qwen_3000]
+        To protect sensitive information obtained during investigations by the Attorney
+        General and State's Attorneys from public disclosure.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Law Enforcement, Consumer Protection, Freedom of Information
+    [qwen_3000]
+        Criminal Justice, Consumer Protection
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Consumers, law enforcement officials, and the Attorney General and State's
+        Attorneys.
+    [qwen_3000]
+        The Attorney General and State's Attorneys conducting investigations.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Protection of confidential information during investigations.
+    [qwen_3000]
+        Protection of sensitive information from public disclosure.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        Disclosure of certain information under the Freedom of Information Act.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To ensure that confidential information obtained during investigations by the
+        Attorney General and State's Attorneys is protected from disclosure under the
+        Freedom of Information Act.
+    [qwen_3000]
+        To provide legal protection for sensitive information obtained during
+        investigations to ensure effective law enforcement.
+
+
+  ### motivation
+    [qwen_2000]
+        To enhance the effectiveness of law enforcement and consumer protection
+        investigations by protecting sensitive information.
+    [qwen_3000]
+        To enhance the ability of law enforcement to conduct investigations without fear
+        of public disclosure of sensitive information.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill may affect the transparency of certain
+        investigations conducted by law enforcement and consumer protection agencies.
+    [qwen_3000]
+        None.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        [empty]
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending an existing law to add a new section.
+    [qwen_3000]
+        Amending an existing law to add new provisions.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Adds a new section (4.1) to the Consumer Fraud and Deceptive Business Practices
+        Act, exempting certain confidential information from disclosure under the
+        Freedom of Information Act.
+    [qwen_3000]
+        Adds Section 4.1 to the Consumer Fraud and Deceptive Business Practices Act,
+        exempting certain information and documentary materials from disclosure under
+        the Freedom of Information Act.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 4/20   |   SB0706   chunk 1   |   ? tokens   |   disagreement=14.85
+# chunk_id: 1941220::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   by the Department
+  to a person that has fulfilled all requirements prerequisite
+  to any type of licensure under this Act.
+  
+  "Licensee" means any person licensed under this Act.
+  
+  "Multi-state licensing system" means a web-based platform
+  that allows an applicant to submit the application or license
+  renewal application to the Department online.
+  
+  "Person" means an individual, entity, sole proprietorship,
+  corporation, limited liability company, partnership, and joint
+  venture, foreign or domestic, except that when the context
+  otherwise requires, the term may refer to more than one
+  individual or other described entity.
+  
+  "Real estate" means an identified parcel or tract of land,
+  including any improvements.
+  
+  "Real estate related financial transaction" means any
+  transaction involving:
+  
+  (1) the sale, lease, purchase, investment in, or
+  exchange of real property, including interests in property
+  or the financing thereof;
+  
+  (2) the refinancing of real property or interests in
+  real property; and
+  
+  (3) the use of real property or interest in property
+  as security for a loan or investment, including mortgage
+  backed securities.
+  
+  "Real property" means the interests, benefits, and rights
+  inherent in the ownership of real estate.
+  
+  "Secretary" means the Secretary of Financial and
+  Professional Regulation or the Secretary's designee.
+  
+  "State certified general real estate appraiser" means an
+  appraiser who holds a license of this classification under
+  this Act and such classification applies to the appraisal of
+  all types of real property without restrictions as to the
+  scope of practice.
+  
+  "State certified residential real estate appraiser" means
+  an appraiser who holds a license of this classification under
+  this Act and such classification applies to the appraisal of
+  one to 4 units of residential real property without regard to
+  transaction value or complexity, but with restrictions as to
+  the scope of practice in a federally related transaction in
+  accordance with Title XI, the provisions of USPAP, criteria
+  established by the AQB, and further defined by rule.
+  
+  "Supervising appraiser" means either (i) an appraiser who
+  holds a valid license under this Act as either a State
+  certified general real estate appraiser or a State certified
+  residential real estate appraiser, who co-signs an appraisal
+  report for an associate real estate trainee appraiser or (ii)
+  a State certified general real estate appraiser who holds a
+  valid license under this Act who co-signs an appraisal report
+  for a State certified
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To regulate the practice of real estate appraisers and ensure the integrity of
+        real estate valuation services.
+    [qwen_3000]
+        To ensure that only licensed individuals can perform real estate appraisals and
+        to prevent unauthorized use of related titles.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Real Estate Regulation, Professional Licensing
+    [qwen_3000]
+        Real Estate Regulation, Licensing
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Licensed real estate appraisers, consumers of real estate appraisal services,
+        state agencies responsible for licensing and regulation.
+    [qwen_3000]
+        Licensed real estate appraisers, state agencies responsible for licensing and
+        enforcement.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Licensing requirements for real estate appraisers; penalties for unlicensed
+        practice.
+    [qwen_3000]
+        Licensing standards for real estate appraisers.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        Unauthorized real estate appraisals and use of related titles.
+
+
+  ### intent
+    [qwen_2000]
+        To ensure the professional integrity and legal compliance of real estate
+        appraisers.
+    [qwen_3000]
+        To ensure that only licensed individuals can perform real estate appraisals and
+        to prevent unauthorized use of related titles.
+
+
+  ### motivation
+    [qwen_2000]
+        To protect consumers and maintain the accuracy and reliability of real estate
+        valuations.
+    [qwen_3000]
+        To protect consumers and maintain professional standards in real estate
+        appraisals.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill would affect the real estate appraisal industry
+        and potentially impact the cost and availability of appraisal services.
+    [qwen_3000]
+        Not applicable to UIUC.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amends existing laws to establish new licensing requirements and penalties for
+        violations.
+    [qwen_3000]
+        Amends existing licensing laws to enforce real estate appraisal standards.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Defines various types of real estate appraisers and their licensing
+        requirements; prohibits unlicensed individuals from practicing as appraisers;
+        restricts the use of titles related to appraiser licensing.
+    [qwen_3000]
+        Prohibits unlicensed individuals from engaging in appraisal activities and using
+        related titles; specifies exemptions for certain entities and individuals.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 5/20   |   HB5073   chunk 1   |   ? tokens   |   disagreement=14.70
+# chunk_id: 2107885::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  .
+  
+  (d)
+  Twenty percent of the
+  
+  The
+   lesser of (i) the purchase
+  price or (ii) the fair market value determined under
+  subsection (c) of this Section shall constitute the rate base
+  associated with the water or sewer utility as acquired by and
+  incorporated into the rate base of the district designated by
+  the acquiring large public utility under this Section, subject
+  to any adjustments that the Commission deems necessary to
+  ensure such rate base reflects prudent and useful investments
+  in the provision of public utility service.
+  The difference
+  between the rate base and the purchase price or fair market
+  value shall be borne by the shareholders of the acquiring
+  large public utility.
+   The reasonable transaction and closing
+  costs incurred by the large public utility shall be treated
+  consistent with the applicable accounting standards under this
+  Act. The total amount of all of the appraisers' fees to be
+  included in the transaction and closing costs shall not exceed
+  the greater of $15,000 or 5% of the appraised value of the
+  water or sewer utility being acquired. This rate base
+  treatment shall not be deemed to violate this Act, including,
+  but not limited to, any Sections in Articles VIII and IX of
+  this Act that might be affected by this Section
+  , provided that
+  only 20% of the transaction and closing costs are included in
+  the rate base
+  . Any acquisition of a water or sewer utility that
+  affects the cumulative base rates of the large public
+  utility's existing ratepayers in the tariff group into which
+  the water or sewer utility is to be combined by less than (1)
+  2.5% at the time of the acquisition for any single acquisition
+  completed under this Section or (2) 5% for all acquisitions
+  completed under this Section before the Commission's final
+  order in the next rate case shall not be deemed to violate
+  Section 7-204 or any other provision of this Act.
+  
+  In the Commission's order that approves the large public
+  utility's acquisition of the water or sewer utility, the
+  Commission shall issue its decision establishing (1) the
+  ratemaking rate base of the water or sewer utility; (2) the
+  district or tariff group with which the water or sewer utility
+  shall be combined for ratemaking purposes, if such combination
+  has been proposed by the large public utility; and (3) the
+  rates to be charged to customers in the water or sewer utility.
+  
+  (e) If the water or sewer utility being acquired is owned
+  by the State or any political subdivision thereof, then the
+  water or sewer utility must inform the
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To establish a framework for large public utilities to acquire water or sewer
+        utilities while ensuring fair rates and customer protections.
+    [qwen_3000]
+        To establish a framework for rate setting and cost recovery for large public
+        utilities acquiring water or sewer utilities.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Utility Regulation, Public Services
+    [qwen_3000]
+        Utility Regulation, Public Utilities, Water and Sewer Services
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Customers of acquired water or sewer utilities, shareholders of acquiring large
+        public utilities, and the public utility commission.
+    [qwen_3000]
+        Large public utilities, water and sewer utilities, customers of acquired
+        utilities.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Customer rates may be increased, but only by a limited amount, and
+        post-acquisition improvements are allowed.
+    [qwen_3000]
+        Rates and costs of service for acquired utilities, potential surcharges.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None explicitly stated, but customer rates may be reduced under certain
+        conditions.
+    [qwen_3000]
+        None explicitly stated.
+
+
+  ### intent
+    [qwen_2000]
+        To provide a structured process for large public utilities to acquire water or
+        sewer utilities while ensuring fair rates and customer protections.
+    [qwen_3000]
+        To provide a clear and consistent framework for rate setting and cost recovery
+        for large public utilities acquiring water or sewer utilities.
+
+
+  ### motivation
+    [qwen_2000]
+        To streamline the acquisition process and ensure that public utilities operate
+        efficiently and fairly.
+    [qwen_3000]
+        To ensure fair and transparent rate setting and cost recovery for utilities and
+        their customers.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill could affect the operational and financial
+        structure of the University of Illinois Urbana-Champaign's water and sewer
+        services.
+    [qwen_3000]
+        Moderately Impactful - The bill would significantly affect the rate setting and
+        cost recovery processes for large public utilities acquiring water or sewer
+        utilities.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Likely aligns with moderate to conservative principles, focusing on fair market
+        practices and public utility regulation.
+    [qwen_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Utilizes a combination of rate setting, cost allocation, and public referendum
+        to ensure fair acquisitions.
+    [qwen_3000]
+        Amends existing utility regulations to include specific provisions for
+        acquisitions.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Defines the rate base for acquired utilities, sets limits on transaction and
+        closing costs, and mandates customer rate adjustments based on usage and income.
+    [qwen_3000]
+        Establishes rate setting procedures, allows for surcharges, and provides for
+        cost recovery mechanisms.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 6/20   |   SB1841   chunk 0   |   ? tokens   |   disagreement=14.70
+# chunk_id: 1959509::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  415 ILCS 5/31
+  
+  from Ch. 111 1/2, par. 1031
+  
+  Amends the Environmental Protection Act. Provides an exception for
+  alleged violations which remain the subject of disagreement between the
+  Agency and the person complained against following waiver pursuant to
+  certain provisions or fulfillment of the requirements of certain
+  provisions if the person so complained against has made a reasonable
+  effort to remedy the violation, as determined by the Agency. Provides that
+  any violation from January 1, 2023, until January 1, 2024, brought by the
+  Office of the Attorney General shall be reviewed within 30 days of the
+  effective date of the amendatory Act for compliance with the changes made
+  by the amendatory Act if the violation occurred in a municipality with a
+  population larger than 900, but smaller than 1,100. Effective immediately.
+  
+  AN ACT concerning safety.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Environmental Protection Act is amended by
+  changing Section 31 as follows:
+  
+  (415 ILCS 5/31)
+  
+  (from Ch. 111 1/2, par. 1031)
+  
+  Sec. 31.
+  Notice; complaint; hearing.
+  
+  (a)(1) Within 180 days after becoming aware of an alleged
+  violation of this Act, any rule adopted under this Act, a
+  permit granted by the Agency, or a condition of such a permit,
+  the Agency shall issue and serve, by certified mail, upon the
+  person complained against a written notice informing that
+  person that the Agency has evidence of the alleged violation.
+  At a minimum, the written notice shall contain:
+  
+  (A) a notification to the person complained against of
+  the requirement to submit a written response addressing
+  the violations alleged and the option to meet with
+  appropriate agency personnel to resolve any alleged
+  violations that could lead to the filing of a formal
+  complaint;
+  
+  (B) a detailed explanation by the Agency of the
+  violations alleged;
+  
+  (C) an explanation by the Agency of the actions that
+  the Agency believes may resolve the alleged violations,
+  including an estimate of a reasonable time period for the
+  person complained against to complete the suggested
+  resolution; and
+  
+  (D) an explanation of any alleged violation that the
+  Agency believes cannot be resolved without the involvement
+  of the Office of the Illinois Attorney General or the
+  State's Attorney of the county in which the alleged
+  violation occurred and the basis for the Agency's belief.
+  
+  (2) A written response to the violations alleged shall be
+  submitted to the Agency, by certified mail, w
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To provide a more flexible and efficient process for addressing alleged
+        violations of environmental protection laws.
+    [qwen_3000]
+        To provide a clearer process for resolving environmental protection violations
+        while allowing for exceptions in certain cases.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Environmental Policy, Regulatory Policy
+    [qwen_3000]
+        Environmental Policy, Administrative Procedure
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Businesses and individuals who may be subject to environmental protection laws.
+    [qwen_3000]
+        Environmental protection agencies, businesses subject to environmental
+        regulations
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Flexibility and efficiency in addressing environmental violations.
+    [qwen_3000]
+        Clarity and predictability in the process for resolving environmental protection
+        violations.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        [empty]
+
+
+  ### intent
+    [qwen_2000]
+        To provide a more flexible and efficient process for addressing alleged
+        violations of environmental protection laws.
+    [qwen_3000]
+        To provide a clearer process for resolving environmental protection violations
+        while allowing for exceptions in certain cases.
+
+
+  ### motivation
+    [qwen_2000]
+        To reduce regulatory burden and improve compliance with environmental protection
+        laws.
+    [qwen_3000]
+        To improve the efficiency and fairness of the process for addressing
+        environmental violations.
+
+
+  ### potential_impact
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        Slightly Impactful
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending an existing law to provide new mechanisms for addressing violations.
+    [qwen_3000]
+        Amends existing law to provide clearer procedures for resolving disputes.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Provides exceptions for alleged violations, streamlines the complaint process,
+        and introduces the Compliance Commitment Agreement.
+    [qwen_3000]
+        Provides an exception for alleged violations that remain in dispute after
+        certain procedures are followed. Sets specific timelines and requirements for
+        responses and meetings.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 7/20   |   SB1981   chunk 1   |   ? tokens   |   disagreement=14.70
+# chunk_id: 1960936::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  i) whose
+  household is liable for the payment of property taxes accrued
+  with respect to an eligible residence or who has paid rent
+  constituting property taxes accrued with respect to an
+  eligible residence and (ii) is domiciled in this State at the
+  time the individual files a claim under this Act is entitled to
+  a grant under this Act.
+  
+  (b) For 2025 claim year applications submitted during
+  calendar year 2026, an applicant is not eligible for a grant
+  under this Act unless the applicant has an annual household
+  income for the taxable year for which the claim is made of less
+  than the maximum income limitation for that taxable year.
+  
+  (c) Except as otherwise provided, the maximum amount of
+  the grant which a claimant is entitled is the amount by which
+  the property taxes accrued which were paid or payable during
+  the last preceding taxable year or rent constituting property
+  taxes accrued upon the claimant's residence for the last
+  preceding taxable year exceeds 5% of the claimant's household
+  income for that year, but in no event may the grant exceed
+  $5,000 for any taxable year.
+  
+  (d) If the applicant's household income in one or more
+  months during a year includes cash assistance in excess of $55
+  per month from the Department of Healthcare and Family
+  Services or the Department of Human Services that was
+  determined under rules of the applicable Department on a
+  measure of need that included an allowance for actual rent or
+  property taxes paid by the recipient of that assistance, then
+  the amount of grant to which that household is entitled shall
+  be the product of: (1) the maximum amount computed as
+  specified in subsection (c); and (2) the ratio of the number of
+  months in which household income did not include such cash
+  assistance over $55 to the number 12. If household income did
+  not include such cash assistance over $55 for any months
+  during the year, the amount of the grant to which the household
+  is entitled shall be the maximum amount computed as specified
+  in subsection (c). For purposes of this subsection, "cash
+  assistance" does not include any amount received under the
+  federal Supplemental Security Income (SSI) program.
+  
+  (e) If title to the residence is held jointly by the
+  claimant with a person who is not a member of the claimant's
+  household, then the amount of property taxes accrued used in
+  computing the amount of grant to which he or she is entitled
+  shall be the same percentage of property taxes accrued as is
+  the percentage of ownership held by the claimant in the
+  re
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To provide property tax relief to eligible residents in Illinois.
+    [qwen_3000]
+        To provide property tax relief grants to eligible residents while preventing
+        fraud and ensuring proper administration.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Property Tax Relief, State Fiscal Policy
+    [qwen_3000]
+        Property Tax Relief, Public Assistance, Fraud Prevention
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Eligible residents in Illinois, including those who are domiciled in the state
+        and have paid property taxes or rent.
+    [qwen_3000]
+        Eligible residents, landlords, state agencies
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Property tax relief for eligible residents.
+    [qwen_3000]
+        Property tax relief for eligible residents, public awareness of benefits.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        Fraudulent claims, unnecessary fees.
+
+
+  ### intent
+    [qwen_2000]
+        To provide financial assistance to residents who are burdened by property taxes
+        or rent.
+    [qwen_3000]
+        To provide property tax relief while ensuring the process is fair and
+        fraud-free.
+
+
+  ### motivation
+    [qwen_2000]
+        To alleviate the financial burden on low-income residents and improve their
+        quality of life.
+    [qwen_3000]
+        To support eligible residents and prevent misuse of public funds.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill provides a mechanism for property tax relief but
+        does not specify the scale of the impact on the state budget.
+    [qwen_3000]
+        Moderately Impactful - Establishes new procedures for property tax relief
+        grants, which could significantly affect eligible residents and state agencies.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Progressive (aiming to support low-income residents).
+    [qwen_3000]
+        Progressive (providing public assistance, preventing fraud)
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Administrative procedures through the Department of Revenue.
+    [qwen_3000]
+        Amends existing property tax relief laws, includes funding clauses for public
+        awareness campaigns.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Defines eligibility for the grant, sets the maximum grant amount, and outlines
+        the calculation method for the grant based on property taxes or rent.
+    [qwen_3000]
+        Limits household claims to one per year, prohibits fees for assistance, requires
+        proof of eligibility, allows for fair rental value determination, denies
+        fraudulent claims, and provides confidentiality protections.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 8/20   |   HB1891   chunk 1   |   ? tokens   |   disagreement=14.55
+# chunk_id: 1945656::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   their lives.
+  Civics course content shall focus on government
+  institutions, the discussion of current and controversial
+  issues, service learning, and simulations of the
+  democratic process. School districts may utilize private
+  funding available for the purposes of offering civics
+  education. One semester, or part of one semester, may
+  include a financial literacy course.
+  
+  (6) One year chosen from (A) music, (B) art, (C)
+  foreign language, which shall be deemed to include
+  American Sign Language, (D) vocational education, or (E)
+  forensic speech (speech and debate). A forensic speech
+  course used to satisfy the course requirement under
+  subdivision (1) may not be used to satisfy the course
+  requirement under this subdivision (6).
+  
+  (e-10) Beginning with the 2028-2029 school year, as a
+  prerequisite to receiving a high school diploma, each pupil
+  entering the 9th grade must, in addition to other course
+  requirements, successfully complete 2 years of foreign
+  language courses, which may include American Sign Language. A
+  pupil may choose a third year of foreign language to satisfy
+  the requirement under subdivision (6) of subsection (e-5).
+  
+  (e-15) Beginning with the 2027-2028 school year, as a
+  prerequisite to receiving a high school diploma, each pupil
+  entering the 9th grade must successfully complete one year of
+  high school computer science, which may be taken in any of
+  grades 7 through 12 and shall count toward the fulfillment of
+  either (i) one year of the foreign language requirement under
+  subsection (e-10), (ii) the third year of mathematics
+  requirement under subdivision (3) of subsection (e-5), or
+  (iii) the requirement under subdivision (6) of subsection
+  (e-5). A computer science course counted toward the
+  fulfillment of a requirement under item (i), (ii), or (iii) of
+  this subsection (e-15) may also be used to fulfill the
+  computer literacy requirement under subdivision (3.5) of
+  subsection (e-5).
+  
+  (1) The State Board of Education shall create
+  guidelines for school districts regarding which computer
+  science courses can fulfill a requirement under item (i)
+  or (ii) of this subsection (e-15) that maximizes
+  flexibility for students.
+  
+  (2) If a student uses a computer science course to
+  fulfill the foreign language requirement under item (i) of
+  this subsection (e-15), then the school board must
+  designate that computer science course as equivalent to a
+  high school foreign language course and must denote on the
+  student's transcript that the computer science course
+  qualifies as a fo
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=2
+    qwen_3000            status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To enhance educational standards and prepare students for higher education and
+        the workforce by requiring additional course requirements.
+    [qwen_3000]
+        To improve transparency and data collection on computer science education in K-8
+        schools.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Education, School Curriculum, High School Diplomas
+    [qwen_3000]
+        Education, Computer Science Education
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Students, Schools, State Board of Education
+    [qwen_3000]
+        Students, Parents, Educators, State Board of Education
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Foreign language and computer science course requirements, reporting on computer
+        science course offerings and student demographics.
+    [qwen_3000]
+        Transparency and data on computer science education.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        [empty]
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To improve educational standards and prepare students for higher education and
+        the workforce by requiring additional course requirements.
+    [qwen_3000]
+        To enhance the visibility and quality of computer science education in K-8
+        schools.
+
+
+  ### motivation
+    [qwen_2000]
+        Political, economic, and social motivation to ensure students are well-prepared
+        for future challenges.
+    [qwen_3000]
+        To improve educational outcomes and ensure equitable access to computer science
+        education.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Moderately Impactful - The bill will significantly change the requirements for
+        high school diplomas and will require additional reporting, which could
+        influence educational practices and policies.
+    [qwen_3000]
+        Slightly Impactful - The bill requires new data collection and reporting but
+        does not fundamentally change existing policies.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Democratic (likely focused on improving educational standards and preparing
+        students for the future)
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending the Illinois School Code
+    [qwen_3000]
+        Data collection and reporting mandate.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Requires 2 years of foreign language courses, 1 year of high school computer
+        science, and reporting on computer science course offerings and student
+        demographics.
+    [qwen_3000]
+        Requires reporting of computer science content and student demographics in
+        grades K-8; mandates disaggregation and public disclosure of data.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 9/20   |   HB4340   chunk 0   |   ? tokens   |   disagreement=14.55
+# chunk_id: 2068406::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  705 ILCS 505/8.2 new
+  705 ILCS 505/9
+  
+  from Ch. 37, par. 439.9
+  705 ILCS 505/10
+  
+  from Ch. 37, par. 439.10
+  705 ILCS 505/11
+  
+  from Ch. 37, par. 439.11
+  705 ILCS 505/16
+  
+  from Ch. 37, par. 439.16
+  705 ILCS 505/19
+  
+  from Ch. 37, par. 439.19
+  705 ILCS 505/21
+  
+  from Ch. 37, par. 439.21
+  705 ILCS 505/24
+  
+  from Ch. 37, par. 439.24
+  
+  Amends the Court of Claims Act. Creates an administrative process for
+  uncontested claims for vendors arising from contracts with the State.
+  Requires a State agency to confirm or reject an uncontested claim that is
+  from a lapsed appropriation and valued at less than $2,500 within 30 days
+  after being notified in writing by the Attorney General. Provides that if
+  the State agency does not confirm or reject the claim within that 30-day
+  period, then the State agency forfeits the right to reject or contest the
+  claim. Requires the Comptroller, subject to appropriation, then issue
+  payment to the vendor within 30 days of the court entering such an award.
+  Provides that if the court determines that it is unable to process such an
+  uncontested claim because the bill or invoice contains a defect, the court
+  must notify the vendor in writing of the defect no later than 30 days after
+  the bill or invoice was first submitted. Provides that if one or more items
+  on a bill or invoice are disapproved, but not the entire bill or invoice,
+  then the portion that is not disapproved must be transmitted to the
+  Comptroller for payment. Changes the filing fees required under the Act as
+  follows: a fee of $15 for a petition seeking more than $500 but less than
+  $10,000; and $35 for a petition seeking more than $10,000 or more. Requires
+  that the court must allow claimants to submit documentation to amend and
+  cure defects. Makes other changes. Authorizes the Court of Claims to adopt
+  rules to implement the Act.
+  
+  AN ACT concerning civil law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Court of Claims Act is amended by changing
+  Sections 9, 10, 11, 16, 19, 21, and 24 and by adding Section
+  8.2 as follows:
+  
+  (705 ILCS 505/8.2 new)
+  
+  Sec. 8.2.
+  Uncontested contractual claims.
+  
+  (a) A State agency must confirm or reject an uncontested
+  claim arising under subsection (b) of Section 8 of this Act
+  that is from a lapsed appropriation and valued at less than
+  $2,500 within 30 days after being notified in writing of the
+  claim by the Attorney General. If the State agency does not
+  confirm or reject the claim within that 30-day period, then
+  the 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=PARTIAL    missing=3
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To streamline the process for uncontested claims from lapsed appropriations and
+        ensure timely payments.
+    [qwen_3000]
+        To streamline the process for uncontested claims from lapsed appropriations and
+        improve efficiency in the Court of Claims.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Court Procedures, State Finance
+    [qwen_3000]
+        Civil Law, Administrative Procedures
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Vendors and State agencies involved in claims processing.
+    [qwen_3000]
+        Vendors, State agencies, the Court of Claims
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Timeliness of claim processing, payment to vendors.
+    [qwen_3000]
+        Efficiency in processing uncontested claims, reduced administrative burden on
+        the Court of Claims.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        [empty]
+
+
+  ### intent
+    [qwen_2000]
+        To improve the efficiency of claim processing for uncontested claims from lapsed
+        appropriations.
+    [qwen_3000]
+        To improve the process for handling uncontested claims from lapsed
+        appropriations.
+
+
+  ### motivation
+    [qwen_2000]
+        To streamline administrative processes and ensure timely payments to vendors.
+    [qwen_3000]
+        To streamline administrative processes and reduce costs.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - Modifies existing procedures for claim processing.
+    [qwen_3000]
+        Slightly Impactful
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amends existing law to create new provisions.
+    [qwen_3000]
+        Amends existing law to create new procedures.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Creates an administrative process for uncontested claims, sets 30-day timelines
+        for State agencies to confirm or reject claims, changes filing fees.
+    [qwen_3000]
+        Creates an administrative process for uncontested claims, changes filing fees,
+        and provides rules for the Court of Claims.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 10/20   |   HB1551   chunk 1   |   ? tokens   |   disagreement=14.10
+# chunk_id: 1931510::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   officer, correctional
+  institution employee, or emergency management worker:
+  
+  (i) performing his or her official duties;
+  
+  (ii) battered to prevent performance of his or her
+  official duties; or
+  
+  (iii) battered in retaliation for performing his
+  or her official duties.
+  
+  (3) Discharges a firearm, other than a machine gun or
+  a firearm equipped with a silencer, and causes any injury
+  to a person he or she knows to be emergency medical
+  services personnel:
+  
+  (i) performing his or her official duties;
+  
+  (ii) battered to prevent performance of his or her
+  official duties; or
+  
+  (iii) battered in retaliation for performing his
+  or her official duties.
+  
+  (4) Discharges a firearm and causes any injury to a
+  person he or she knows to be a teacher, a student in a
+  school, or a school employee, and the teacher, student, or
+  employee is upon school grounds or grounds adjacent to a
+  school or in any part of a building used for school
+  purposes.
+  
+  (5) Discharges a machine gun or a firearm equipped
+  with a silencer, and causes any injury to another person.
+  
+  (6) Discharges a machine gun or a firearm equipped
+  with a silencer, and causes any injury to a person he or
+  she knows to be a peace officer, community policing
+  volunteer, person summoned by a police officer, fireman,
+  private security officer, correctional institution
+  employee or emergency management worker:
+  
+  (i) performing his or her official duties;
+  
+  (ii) battered to prevent performance of his or her
+  official duties; or
+  
+  (iii) battered in retaliation for performing his
+  or her official duties.
+  
+  (7) Discharges a machine gun or a firearm equipped
+  with a silencer, and causes any injury to a person he or
+  she knows to be emergency medical services personnel:
+  
+  (i) performing his or her official duties;
+  
+  (ii) battered to prevent performance of his or her
+  official duties; or
+  
+  (iii) battered in retaliation for performing his
+  or her official duties.
+  
+  (8) Discharges a machine gun or a firearm equipped
+  with a silencer, and causes any injury to a person he or
+  she knows to be a teacher, or a student in a school, or a
+  school employee, and the teacher, student, or employee is
+  upon school grounds or grounds adjacent to a school or in
+  any part of a building used for school purposes.
+  
+  (f) Offense based on use of a weapon or device. A person
+  commits aggravated battery when, in committing a battery, he
+  or she does any of the following:
+  
+  (1) Uses a deadly weapon other than by discharge of a
+  firearm, or uses an air rifle as defined in Section
+  24.8-0.1 of this 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=PARTIAL    missing=6
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To enhance penalties for aggravated battery involving the use of firearms or
+        other weapons, particularly against certain protected groups.
+    [qwen_3000]
+        To increase the severity of penalties for aggravated battery offenses.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Criminal Justice, Gun Control, Public Safety
+    [qwen_3000]
+        Criminal Justice, Law Enforcement
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Peace officers, emergency medical services personnel, teachers, students, and
+        school employees.
+    [qwen_3000]
+        [empty]
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Penalties for aggravated battery involving the use of firearms or other weapons.
+    [qwen_3000]
+        Severity of penalties for aggravated battery offenses.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        [empty]
+
+
+  ### intent
+    [qwen_2000]
+        To protect specific groups and increase penalties for aggravated battery
+        involving the use of firearms or other weapons.
+    [qwen_3000]
+        To enhance the punishment for aggravated battery offenses.
+
+
+  ### motivation
+    [qwen_2000]
+        To enhance public safety and protect certain groups from violent attacks.
+    [qwen_3000]
+        To deter violent crimes and protect victims.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill aims to protect specific groups and increase
+        penalties for certain offenses.
+    [qwen_3000]
+        [empty]
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amends existing law to increase penalties.
+    [qwen_3000]
+        [empty]
+
+
+  ### key_provisions
+    [qwen_2000]
+        Defines aggravated battery with increased penalties for using firearms or other
+        weapons, particularly against peace officers, emergency medical services
+        personnel, teachers, students, and school employees.
+    [qwen_3000]
+        The bill increases the classification of aggravated battery from a Class 3
+        felony to a Class 1 felony under certain conditions, and sets minimum and
+        maximum sentences for Class X felonies.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 11/20   |   HB3307   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1960645::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  (e) Non-Liability for Allocations. A receiver shall in no
+  event be liable to any person for the allocation of, or failure
+  to allocate, receipts to possible expenditures within the same
+  priority category.
+  
+  (f) Notice to occupants.
+  
+  (1) Following an order appointing a receiver pursuant
+  to Section 15-1704, but no later than 21 days after the
+  entry of such order, the appointed receiver shall make a
+  good faith effort to ascertain the identities and
+  addresses of all occupants of dwelling units of the
+  mortgaged real estate.
+  
+  (2) Following an order appointing a receiver pursuant
+  to Section 15-1704, but no later than 21 days after the
+  entry of such order, the appointed receiver shall notify
+  all known occupants of dwelling units of the mortgaged
+  real estate that the receiver has been appointed receiver
+  of the mortgaged real estate. Such notice shall be in
+  writing and shall:
+  
+  (i) identify the occupant being served by the name
+  known to the receiver;
+  
+  (ii) inform the occupant that the mortgaged real
+  estate at which the dwelling unit is located is the
+  subject of a foreclosure action and that control of
+  the mortgaged real estate has changed;
+  
+  (iii) provide the name, address, and telephone
+  number of the individual or entity whom occupants may
+  contact with concerns about the mortgaged real estate
+  or to request repairs of that property;
+  
+  (iv) include the following language, or language
+  that is substantially similar: "This is NOT a notice
+  to vacate the premises. You may wish to contact a
+  lawyer or your local legal aid or housing counseling
+  agency to discuss any rights that you may have.";
+  
+  (v) include the name of the case, the case number,
+  and the court where the foreclosure action is pending;
+  and
+  
+  (vi) provide instructions on the method of payment
+  of future rent, if applicable.
+  
+  (3) The written notice required by item (2) of this
+  subsection (f) shall be served by delivering a copy
+  thereof to the known occupant, or by leaving the same with
+  some person of the age of 13 years or upwards, who is
+  residing on or in possession of the premises; or by
+  sending a copy of the notice to the known occupant by
+  first-class mail, addressed to the occupant by the name
+  known to the receiver.
+  
+  (4) In the event that a receiver ascertains the
+  identity and address of an occupant of a dwelling unit of
+  the mortgaged real estate more than 21 days after
+  appointment pursuant to Section 15-1704, the receiver
+  shall provide the notice required by item (2) of this
+  subsection (f) within 7 days of ascertain
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To standardize and protect the rights of occupants during the receivership
+        process in foreclosure actions.
+    [qwen_3000]
+        To protect tenants' rights and ensure safe, habitable, and accessible living
+        conditions during the receivership process.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Real Estate Law, Foreclosure, Tenant Rights
+    [qwen_3000]
+        Real Estate Law, Tenant Protection, Consumer Protection
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Tenants of residential real estate, receivers, and the courts.
+    [qwen_3000]
+        Tenants of residential real estate in receivership, receivers, courts
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Tenant rights, transparency in communication between tenants, receivers, and
+        courts.
+    [qwen_3000]
+        Tenant rights, safety, habitability, accessibility.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To ensure that tenants of residential real estate in receivership continue to
+        have safe, habitable, and accessible homes throughout the receivership process.
+    [qwen_3000]
+        To protect tenants' rights and ensure safe, habitable, and accessible living
+        conditions during the receivership process.
+
+
+  ### motivation
+    [qwen_2000]
+        To protect tenant rights and ensure effective receivership processes.
+    [qwen_3000]
+        To address concerns about tenant rights and living conditions during
+        receiverships, driven by social and economic motivations.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill aims to protect tenants and standardize
+        procedures, which could affect the operations of receivers and the courts.
+    [qwen_3000]
+        Moderately Impactful - The bill aims to protect tenants and improve their living
+        conditions during receiverships, which could have a significant impact on the
+        University of Illinois Urbana-Champaign's student population.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        Progressive
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amends existing laws to provide clearer procedures.
+    [qwen_3000]
+        Amends existing law to introduce new requirements and protections.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Establishes notice requirements for occupants, limits receiver liability for
+        allocations, and regulates rent increases.
+    [qwen_3000]
+        - Requires receivers to provide detailed notice to occupants. - Limits rent
+        increases to pre-receivership levels unless approved by court. - Establishes a
+        Residential Real Estate Ombudsperson Program to facilitate communication and
+        advocate for tenants.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 12/20   |   HB4003   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1987456::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  to operate safely and efficiently in the national airspace
+  system.
+  
+  (Source: P.A. 101-652, eff. 1-1-23
+  .)
+  
+  (720 ILCS 5/31A-1.1)
+  
+  (from Ch. 38, par. 31A-1.1)
+  
+  Sec. 31A-1.1.
+  Bringing Contraband into a Penal
+  Institution; Possessing Contraband in a Penal Institution.
+  
+  (a) A person commits bringing contraband into a penal
+  institution when he or she knowingly and without authority of
+  any person designated or authorized to grant this authority
+  (1) brings an item of contraband into a penal institution or
+  (2) causes another to bring an item of contraband into a penal
+  institution or (3) places an item of contraband in such
+  proximity to a penal institution as to give an inmate access to
+  the contraband.
+  
+  (b) A person commits possessing contraband in a penal
+  institution when he or she knowingly possesses contraband in a
+  penal institution, regardless of the intent with which he or
+  she possesses it.
+  
+  (c) (Blank).
+  
+  (d) Sentence.
+  
+  (1) Bringing into or possessing alcoholic liquor in a
+  penal institution is a Class 4 felony.
+  
+  (2) Bringing into or possessing cannabis in a penal
+  institution is a Class 3 felony.
+  
+  (3) Bringing into or possessing any amount of a
+  controlled substance classified in Schedules III, IV or V
+  of Article II of the Illinois Controlled Substances Act in
+  a penal institution is a Class 2 felony.
+  
+  (4) Bringing into or possessing any amount of a
+  controlled substance classified in Schedules I or II of
+  Article II of the Illinois Controlled Substances Act in a
+  penal institution is a Class 1 felony.
+  
+  (5) Bringing into or possessing a hypodermic syringe
+  in a penal institution is a Class 1 felony.
+  
+  (6) Bringing into or possessing a weapon, tool to
+  defeat security mechanisms, cutting tool, or electronic
+  contraband in a penal institution is a Class 1 felony.
+  
+  (7) Bringing into or possessing a firearm, firearm
+  ammunition, or explosive in a penal institution is a Class
+  X felony.
+  
+  (8) If a person commits bringing contraband into a
+  penal institution by use of an unmanned aerial vehicle, in
+  addition to any other penalty provided in this subsection
+  (d), one year of imprisonment shall be added to the
+  sentence imposed by the court.
+  
+  (e) It shall be an affirmative defense to subsection (b),
+  that the possession was specifically authorized by rule,
+  regulation, or directive of the governing authority of the
+  penal institution or order issued under it.
+  
+  (f) It shall be an affirmative defense to subsection
+  (a)(1) and subsection (b) that the person bringing into or
+  possessing contraba
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To enhance the penalties for bringing and possessing contraband in penal
+        institutions to improve safety and security.
+    [qwen_3000]
+        To strengthen penalties for unauthorized possession and delivery of contraband
+        in penal institutions and to regulate the use of UAVs over penal institutions.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Criminal Justice, Penal Institutions
+    [qwen_3000]
+        Criminal Justice, Penal Institutions, Unmanned Aerial Vehicles
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        State penal institutions and their staff, inmates.
+    [qwen_3000]
+        Employees of penal institutions, penal institutions, state agencies responsible
+        for corrections.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Penalties for bringing and possessing contraband in penal institutions.
+    [qwen_3000]
+        Penalties for bringing contraband into penal institutions, restrictions on UAV
+        use over penal institutions.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None explicitly stated.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To enhance the penalties for bringing and possessing contraband in penal
+        institutions to improve safety and security.
+    [qwen_3000]
+        To strengthen penalties for bringing contraband into penal institutions and to
+        regulate the use of UAVs over penal institutions.
+
+
+  ### motivation
+    [qwen_2000]
+        To address security concerns and improve the operational efficiency of penal
+        institutions.
+    [qwen_3000]
+        To enhance security and prevent illegal activities within penal institutions.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Moderately Impactful - The bill will significantly increase penalties for
+        contraband in penal institutions, which could affect the operations and security
+        of penal institutions.
+    [qwen_3000]
+        None.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Conservative
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending existing laws to increase penalties.
+    [qwen_3000]
+        Amends existing laws to increase penalties.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Increased penalties for bringing and possessing various types of contraband in
+        penal institutions, including specific penalties for different types of
+        contraband and additional penalties for using unmanned aerial vehicles.
+    [qwen_3000]
+        Increases penalties for bringing contraband into penal institutions, specifies
+        different felony classifications based on the type of contraband, regulates the
+        use of UAVs over penal institutions.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 13/20   |   HB4820   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 2104628::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  2 as
+  follows:
+  
+  (775 ILCS 5/1-103)
+  
+  (from Ch. 68, par. 1-103)
+  
+  Sec. 1-103.
+  General definitions.
+   When used in this Act,
+  unless the context requires otherwise, the term:
+  
+  (A) Age. "Age" means the chronological age of a person who
+  is at least 40 years old, except with regard to any practice
+  described in Section 2-102, insofar as that practice concerns
+  training or apprenticeship programs. In the case of training
+  or apprenticeship programs, for the purposes of Section 2-102,
+  "age" means the chronological age of a person who is 18 but not
+  yet 40 years old.
+  
+  (B) Aggrieved party. "Aggrieved party" means a person who
+  is alleged or proved to have been injured by a civil rights
+  violation or believes he or she will be injured by a civil
+  rights violation under Article 3 that is about to occur.
+  
+  (B-5) Arrest record. "Arrest record" means:
+  
+  (1) an arrest not leading to a conviction;
+  
+  (2) a juvenile record; or
+  
+  (3) criminal history record information ordered
+  expunged, sealed, or impounded under Section 5.2 of the
+  Criminal Identification Act.
+  
+  (C) Charge. "Charge" means an allegation filed with the
+  Department by an aggrieved party or initiated by the
+  Department under its authority.
+  
+  (D) Civil rights violation. "Civil rights violation"
+  includes and shall be limited to only those specific acts set
+  forth in Sections 2-102, 2-103, 2-105, 3-102, 3-102.1, 3-103,
+  3-102.10, 3-104.1, 3-105, 3-105.1, 4-102, 4-103, 5-102,
+  5A-102, 6-101, 6-101.5, and 6-102 of this Act.
+  
+  (E) Commission. "Commission" means the Human Rights
+  Commission created by this Act.
+  
+  (F) Complaint. "Complaint" means the formal pleading filed
+  by the Department with the Commission following an
+  investigation and finding of substantial evidence of a civil
+  rights violation.
+  
+  (G) Complainant. "Complainant" means a person including
+  the Department who files a charge of civil rights violation
+  with the Department or the Commission.
+  
+  (G-5) Conviction record. "Conviction record" means
+  information indicating that a person has been convicted of a
+  felony, misdemeanor or other criminal offense, placed on
+  probation, fined, imprisoned, or paroled pursuant to any law
+  enforcement or military authority.
+  
+  (H) Department. "Department" means the Department of Human
+  Rights created by this Act.
+  
+  (I) Disability.
+  
+  (1) "Disability" means a determinable physical or mental
+  characteristic of a person, including, but not limited to, a
+  determinable physical characteristic which necessitates the
+  person's use of a guide, hearing or support dog, the h
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To ensure clarity and consistency in the definitions used within the Illinois
+        Human Rights Act.
+    [qwen_3000]
+        To ensure equal treatment and protection for individuals based on specific
+        personal characteristics and to prevent unlawful discrimination.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Human Rights, Civil Rights, Disability Rights
+    [qwen_3000]
+        Law, Civil Rights, Criminal Justice, Housing Policy
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Individuals alleging civil rights violations, aggrieved parties, complainants,
+        and persons with disabilities.
+    [qwen_3000]
+        Veterans, individuals with criminal, credit, or eviction history, and those
+        protected by civil rights laws.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Clarity and specificity in legal definitions.
+    [qwen_3000]
+        Protection against discrimination for veterans and individuals with certain
+        types of history.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To provide a clear and comprehensive set of definitions for terms used in the
+        Illinois Human Rights Act.
+    [qwen_3000]
+        To ensure that veterans and individuals with certain types of history are not
+        discriminated against in housing and other civil rights contexts.
+
+
+  ### motivation
+    [qwen_2000]
+        To ensure that the Illinois Human Rights Act is applied consistently and fairly.
+    [qwen_3000]
+        To address and prevent discrimination against veterans and other protected
+        groups in Illinois.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful
+    [qwen_3000]
+        Moderately Impactful - The bill could significantly affect the housing market
+        and the treatment of veterans in Illinois.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        Progressive
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending existing law to provide clearer definitions.
+    [qwen_3000]
+        Amending existing definitions and adding new provisions to existing laws.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Defines terms such as "age," "arrest record," "civil rights violation," and
+        "disability."
+    [qwen_3000]
+        Defines various terms and includes a provision prohibiting discrimination based
+        on criminal, credit, or eviction history for veterans.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 14/20   |   HB0360   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1906684::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   or combination public utility
+  may seek Commission approval of one additional proposed pilot
+  thermal energy network project each year for 2 years after the
+  effective date of this amendatory Act of the 104th General
+  Assembly. Designs for the projects should coordinate and
+  maximize the value of existing State energy efficiency and
+  weatherization programs and take advantage of federal funding
+  opportunities to the extent practicable. No later than 18
+  months after the effective date of this amendatory Act of the
+  104th General Assembly, the Commission shall enter an order
+  approving, approving with modification, or rejecting each
+  proposed pilot thermal energy network project and shall direct
+  the public utility to implement the pilot thermal energy
+  network projects as approved or approved as modified. In
+  considering whether to approve or approve as modified each
+  pilot thermal energy network project, the Commission shall
+  consider whether the pilot thermal energy network project is
+  in the public interest, whether the pilot thermal energy
+  network project will develop information useful for the
+  Commission in adopting rules governing thermal energy
+  networks, whether the pilot thermal energy network project
+  furthers climate justice and emissions reduction, whether the
+  pilot thermal energy network project advances financial and
+  technical approaches to equitable and affordable building
+  electrification, and whether the pilot thermal energy network
+  project creates benefits to customers and society at large,
+  including, but not limited to, public health benefits in areas
+  with disproportionate environmental or public health burdens,
+  job retention and creation, reliability, and increased
+  affordability of renewable thermal energy options. After the
+  filing of a petition, a utility may request the Commission to
+  grant additional time for pilot development approval, which
+  shall be approved for at least 6 months upon request or up to
+  12 months upon a showing that additional time would benefit
+  pilot development. An electric public utility may also propose
+  a pilot thermal energy network project in accordance with this
+  subsection (a).
+  
+  (b) If a utility proposes 3 pilot thermal energy network
+  projects, at least one project shall be proposed in
+  economically disadvantaged communities as defined in Section
+  5-35 of the Energy Transition Act and at least one shall
+  include an industrial heat application that may additionally
+  include residential and commercial applications. Priority
+  shall be gi
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=1
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To promote the development and implementation of pilot thermal energy network
+        projects to enhance energy efficiency and reduce greenhouse gas emissions.
+    [qwen_3000]
+        To promote the development and regulation of pilot thermal energy network
+        projects.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Energy Policy, Environmental Policy, Public Utility Regulation
+    [qwen_3000]
+        Energy Policy, Environmental Policy
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Public utilities, customers, state agencies, environmental organizations.
+    [qwen_3000]
+        Gas public utilities, electric public utilities, combination public utilities,
+        labor organizations, contractors, and consumers.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Energy efficiency, renewable thermal energy options, public health benefits, job
+        creation.
+    [qwen_3000]
+        Development and use of thermal energy networks, job creation, consumer
+        protection.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        Natural gas distribution infrastructure, greenhouse gas emissions.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To promote the development and implementation of pilot thermal energy network
+        projects to enhance energy efficiency and reduce greenhouse gas emissions.
+    [qwen_3000]
+        To promote the development and regulation of pilot thermal energy network
+        projects to enhance energy efficiency and job creation.
+
+
+  ### motivation
+    [qwen_2000]
+        To address climate change and improve energy efficiency through public utility
+        innovation.
+    [qwen_3000]
+        Economic and environmental benefits through the development of thermal energy
+        networks.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Moderately Impactful - The bill could significantly affect UIUC's energy
+        infrastructure and operations.
+    [qwen_3000]
+        Slightly Impactful - The bill will affect utilities and consumers in the state
+        of Illinois.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Progressive, environmentalist.
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Public engagement, reporting requirements, regulatory framework.
+    [qwen_3000]
+        Public reporting, regulatory requirements, and funding limitations.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Allows utilities to propose up to three pilot projects, requires public
+        engagement, mandates reporting, sets rules for future regulation.
+    [qwen_3000]
+        Public reporting requirements, labor peace agreements, responsible bidding, and
+        rules for the Commission to adopt.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 15/20   |   HB2366   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1949374::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   amended by
+  the Resource Conservation and Recovery Act of 1976, (P.L.
+  94-580) approved October 21, 1976, as amended; as noise
+  control agency for the state for all purposes of the Noise
+  Control Act of 1972, Public Law 92-574, approved October 27,
+  1972, as amended; and as implementing agency for the State for
+  all purposes of the Comprehensive Environmental Response,
+  Compensation, and Liability Act of 1980 (P.L. 96-510), as
+  amended; and otherwise as pollution control agency for the
+  State pursuant to federal laws integrated with the foregoing
+  laws, for financing purposes or otherwise. The Agency is
+  hereby authorized to take all action necessary or appropriate
+  to secure to the State the benefits of such federal Acts,
+  provided that the Agency shall transmit to the United States
+  without change any standards adopted by the Pollution Control
+  Board pursuant to Section 5(c) of this Act. This subsection
+  (l) of Section 4 shall not be construed to bar or prohibit the
+  Environmental Protection Trust Fund Commission from accepting,
+  receiving, and administering on behalf of the State any
+  grants, gifts, loans or other funds for which the Commission
+  is eligible pursuant to the Environmental Protection Trust
+  Fund Act. The Agency is hereby designated as the State agency
+  for all purposes of administering the requirements of Section
+  313 of the federal Emergency Planning and Community
+  Right-to-Know Act of 1986.
+  
+  Any municipality, sanitary district, or other political
+  subdivision, or any Agency of the State or interstate Agency,
+  which makes application for loans or grants under such federal
+  Acts shall notify the Agency of such application; the Agency
+  may participate in proceedings under such federal Acts.
+  
+  (m) The Agency shall have authority, consistent with
+  Section 5(c) and other provisions of this Act, and for
+  purposes of Section 303(e) of the Federal Water Pollution
+  Control Act, as now or hereafter amended, to engage in
+  planning processes and activities and to develop plans in
+  cooperation with units of local government, state agencies and
+  officers, and other appropriate persons in connection with the
+  jurisdiction or duties of each such unit, agency, officer or
+  person. Public hearings shall be held on the planning process,
+  at which any person shall be permitted to appear and be heard,
+  pursuant to procedural regulations promulgated by the Agency.
+  
+  (n) In accordance with the powers conferred upon the
+  Agency by Sections 10(g), 13(b), 19, 22(d) and 25 of this Act,
+  the Agency shall ha
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=1
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To authorize the state agency to enforce and implement standards and regulations
+        as per federal environmental and pollution control acts.
+    [qwen_3000]
+        To enhance the Agency's ability to manage and respond to hazardous substance
+        releases and improve infrastructure through grants to local governments.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Environmental Policy, Pollution Control, Federal Integration
+    [qwen_3000]
+        Environmental Policy, Public Health, Infrastructure Development
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        State agencies, local governments, laboratories, public water supply owners, and
+        potentially residents affected by pollution.
+    [qwen_3000]
+        Potentially liable parties, local governments, residents of the State of
+        Illinois, State employees, and the general public.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Standards and regulations for pollution control; authority to enforce and
+        implement plans.
+    [qwen_3000]
+        Authority to notify potentially liable parties, delegate inspection and
+        enforcement functions, adopt rules for preventive and corrective actions,
+        provide grants for infrastructure, and require electronic submission of
+        information.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None explicitly stated.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To ensure compliance with federal environmental and pollution control acts by
+        authorizing the state agency to enforce and implement relevant standards and
+        regulations.
+    [qwen_3000]
+        To improve the Agency's response to hazardous substance releases and enhance
+        infrastructure through grants to local governments.
+
+
+  ### motivation
+    [qwen_2000]
+        To enhance the state's ability to manage and control pollution in accordance
+        with federal standards.
+    [qwen_3000]
+        To address environmental hazards and improve public infrastructure in the state.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Moderately Impactful - The bill will significantly affect the regulatory
+        framework for pollution control in the state.
+    [qwen_3000]
+        Moderately Impactful - The bill could significantly affect the University of
+        Illinois Urbana-Champaign's compliance with environmental regulations and
+        potentially impact its infrastructure projects.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        [empty]
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending and integrating existing federal laws.
+    [qwen_3000]
+        Amending existing laws and statutes to grant authority and establish new
+        requirements.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Authorizes the agency to enforce and implement standards for air, water, and
+        noise pollution; establishes authority to issue certificates of competency;
+        mandates analysis of public water supplies; allows for delegation of inspection
+        and enforcement functions.
+    [qwen_3000]
+        Grant authority to notify potentially liable parties, delegate inspection and
+        enforcement functions, adopt rules for preventive and corrective actions,
+        provide grants for wastewater and public water supply facilities, and require
+        electronic submission of information.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 16/20   |   HB3174   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1959992::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   report. The Board shall submit an annual report
+  to the Governor, Attorney General, President and Minority
+  Leader of the Senate, and the Speaker and Minority Leader of
+  the House of Representatives on or before March 1, 2023, and
+  every year thereafter indicating:
+  
+  (1) the number of complaints received in the preceding
+  calendar year, including but not limited to the race,
+  gender, and type of discretionary decertification
+  complaints received;
+  
+  (2) the number of investigations initiated in the
+  preceding calendar year since the date of the last report;
+  
+  (3) the number of investigations concluded in the
+  preceding calendar year;
+  
+  (4) the number of investigations pending as of the
+  last date of the preceding calendar year;
+  
+  (5) the number of hearings held in the preceding
+  calendar year; and
+  
+  (6) the number of officers decertified in the
+  preceding calendar year.
+  
+  The annual report shall be publicly available on the
+  website of the Board.
+  
+  (g) Nothing in this Section shall exempt a law enforcement
+  agency from which the Board has obtained data, documents,
+  materials, or other information or that has disclosed data,
+  documents, materials, or other information to the Board from
+  disclosing public records in accordance with the Freedom of
+  Information Act.
+  
+  (h) Notwithstanding any provision of law to the contrary,
+  the changes made to this Section by this amendatory Act of the
+  102nd General Assembly and Public Act 101-652 take effect July
+  1, 2022.
+  (Source: P.A. 101-652, eff. 1-1-22; 102-694, eff. 1-7-22.)
+  
+  Section 10.
+  The Counties Code is amended by changing
+  Section 3-9005 as follows:
+  
+  (55 ILCS 5/3-9005)
+  
+  (from Ch. 34, par. 3-9005)
+  
+  Sec. 3-9005.
+  Powers and duties of State's Attorney.
+  
+  (a) The duty of each State's Attorney shall be:
+  
+  (1) To commence and prosecute all actions, suits,
+  indictments and prosecutions, civil and criminal, in the
+  circuit court for the county, in which the people of the
+  State or county may be concerned.
+  
+  (2) To prosecute all forfeited bonds and
+  recognizances, and all actions and proceedings for the
+  recovery of debts, revenues, moneys, fines, penalties and
+  forfeitures accruing to the State or the county, or to any
+  school district or road district in the county; also, to
+  prosecute all suits in the county against railroad or
+  transportation companies, which may be prosecuted in the
+  name of the People of the State of Illinois.
+  
+  (3) To commence and prosecute all actions and
+  proceedings brought by any county officer in the county
+  officer's official capacity.
+  
+  
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=1
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To enhance transparency and accountability of law enforcement agencies and
+        State's Attorneys.
+    [qwen_3000]
+        To clarify and expand the duties and responsibilities of the State's Attorney.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Law Enforcement, Criminal Justice
+    [qwen_3000]
+        Criminal Justice, Law Enforcement
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Law enforcement agencies, State's Attorneys, public.
+    [qwen_3000]
+        State's Attorneys, educational authorities, witnesses, and the public.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Transparency, accountability.
+    [qwen_3000]
+        The bill aims to increase the State's Attorney's responsibilities and the number
+        of special investigators.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To improve transparency and accountability in law enforcement and criminal
+        justice processes.
+    [qwen_3000]
+        To clarify and expand the duties and responsibilities of the State's Attorney.
+
+
+  ### motivation
+    [qwen_2000]
+        To address public concerns about law enforcement practices and ensure that
+        State's Attorneys are fulfilling their duties properly.
+    [qwen_3000]
+        To improve the efficiency and effectiveness of law enforcement and criminal
+        justice processes.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill requires new reporting and notification duties for
+        State's Attorneys, which could affect how law enforcement agencies operate and
+        are perceived.
+    [qwen_3000]
+        None.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Democratic (likely focused on transparency and accountability).
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending existing laws and adding new reporting requirements.
+    [qwen_3000]
+        Amending existing laws and adding new provisions.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Annual reporting requirements, new notification duties for State's Attorneys,
+        special investigator provisions.
+    [qwen_3000]
+        The bill mandates the State's Attorney to notify witnesses and educational
+        authorities of convictions, appoint special investigators, and enter into
+        agreements with the Department of Revenue.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 17/20   |   HB4261   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 2065353::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  oneys appropriated for grants
+  under this Section are not sufficient, then the State
+  Librarian shall reduce the per capita amount of the grants so
+  that the qualifying public libraries receive the same amount
+  per capita, but in no event shall the grant be less than
+  equivalent to the difference between the amount of the tax
+  revenue obtained from the current levy and an annual income of
+  $4.25 per capita. If a library receiving an equalization grant
+  reduces its tax levy below the amount levied at the time the
+  original application is approved, it shall be ineligible to
+  receive further equalization grants.
+  
+  If a library is subject to the Property Tax Extension
+  Limitation Law in the Property Tax Code and its tax levy for
+  library purposes has been lowered to a rate of less than .13%,
+  the library will qualify for this grant if the library levied a
+  tax for library purposes that met the requirements for this
+  grant in the previous year and if the tax levied for library
+  purposes in the current year produces tax revenue for the
+  library that is an increase over the previous year's extension
+  of 5% or the percentage increase in the Consumer Price Index,
+  whichever is less, and the tax revenue produced by this levy is
+  less than $17.50 per capita in property tax revenue from
+  property taxes for the Fiscal Year 2025 and thereafter. In
+  this case, the State Librarian is authorized to make an
+  equalization grant equivalent to the difference between the
+  amount of tax revenue obtained from the current levy and an
+  annual income of $17.50 per capita for grants made in Fiscal
+  Year 2025 and thereafter. If moneys appropriated for grants
+  under this Section are not sufficient, then the State
+  Librarian shall reduce the per capita amount of the grants so
+  that the qualifying public libraries receive the same amount
+  per capita, but in no event shall the grant be less than
+  equivalent to the difference between the amount of the tax
+  revenue obtained from the current levy and an annual income of
+  $4.25 per capita. If a library receiving an equalization grant
+  reduces its tax levy below the amount levied at the time the
+  original application is approved, it shall be ineligible to
+  receive further equalization grants.
+  
+  (c) Annual Library System grants shall be made, upon
+  application, to each library system approved by the State
+  Librarian on the following basis:
+  
+  (1) For library systems, the sum of
+  $1.75
+  
+  $1.46
+   per
+  capita of the population of the area served plus the sum of
+  $60.90
+  
+  $50.75
+   per square mile
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=1
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To ensure public and school libraries receive adequate funding and to establish
+        clear criteria for grant eligibility.
+    [qwen_3000]
+        To provide consistent and adequate funding for public and school libraries.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Education, Library Services
+    [qwen_3000]
+        Education Policy, Library Services
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Public libraries, school districts, and their patrons.
+    [qwen_3000]
+        Public libraries, school districts, librarians, students.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Funding for public and school libraries; eligibility for grants.
+    [qwen_3000]
+        Funding for public and school libraries.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None explicitly stated.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To ensure public and school libraries receive adequate funding and to establish
+        clear criteria for grant eligibility.
+    [qwen_3000]
+        To ensure public and school libraries receive adequate funding to support their
+        services.
+
+
+  ### motivation
+    [qwen_2000]
+        To improve access to library services and resources for the public and school
+        students.
+    [qwen_3000]
+        To improve access to library resources and services for the public and students.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful
+    [qwen_3000]
+        Slightly Impactful - Provides funding for libraries but does not significantly
+        alter existing library services.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        [empty]
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Amending existing laws to adjust funding and eligibility criteria.
+    [qwen_3000]
+        Voluntary application for grants.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Adjusts funding amounts, eligibility criteria, and grant application processes
+        for public and school libraries.
+    [qwen_3000]
+        Adjusts grant amounts for public and school libraries based on population and
+        student numbers; allows for alternative funding sources.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 18/20   |   SB2370   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1962869::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  , as defined in
+  subsection (a), in this State must sell, transfer, or
+  otherwise divest itself of the agricultural land within 180
+  days of the effective date of this Act.
+  
+  (c) A foreign principal that directly or indirectly owns
+  or acquires agricultural land or any interest in such land in
+  this State must register with the Department of Agriculture
+  within 60 days of the enactment of this Act or the date of
+  acquisition, whichever is latest. The Department must
+  establish a form for such registration, which, at minimum,
+  must include all of the following:
+  
+  (1) The name of the owner of the agricultural land or
+  the owner of the interest in such land;
+  
+  (2) The address of the agricultural land, the property
+  appraiser's parcel identification number, and the
+  property's legal description; and
+  
+  (3) The number of acres of the agricultural land.
+  
+  (d) Notwithstanding subsection (a), a foreign principal
+  from a foreign adversary country may acquire agricultural land
+  on or after the passage of this Act, by devise or descent,
+  through the enforcement of security interests, or through the
+  collection of debts, provided that the foreign principal
+  sells, transfers, or otherwise divests itself of the
+  agricultural land within 180 days of acquiring the
+  agricultural land.
+  
+  (e) Any current deeds, contracts, rental agreements, or
+  other legal agreements in conflict with this Act shall be
+  deemed invalid from the date of adoption unless otherwise
+  provided.
+  
+  (f) The Department of Agriculture shall adopt rules to
+  implement this Section.
+  
+  (g) The responsibility for determining whether an entity
+  is subject to this Section rests solely with the foreign
+  entity, the Attorney General of Illinois, any qualifying
+  whistleblower, and no other individual or entity. An
+  individual or entity who is not a foreign entity shall not be
+  required to determine or inquire whether another person or
+  entity is or may be subject to this Section, and shall bear no
+  civil or criminal liability under this Section.
+  
+  (h) If a foreign principal from a foreign adversary
+  country does not divest the public or private lands as
+  required by this Section, the Attorney General shall commence
+  an action in the circuit court within the jurisdiction of the
+  public or private land.
+  
+  (i) If the public or private land is held in violation of
+  this Section, the circuit court shall order that the public or
+  private land be sold through judicial foreclosure.
+  
+  (j) If a whistleblower referral results in a divestiture
+  of land or other assets held 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=1
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To prevent foreign entities, especially those from adversarial countries, from
+        owning or controlling agricultural land and property near military installations
+        in Illinois.
+    [qwen_3000]
+        To ensure compliance with laws regarding land divestiture and critical
+        infrastructure, and to provide incentives for whistleblowers.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Agriculture, Military Policy, State Regulations
+    [qwen_3000]
+        Land Use, Critical Infrastructure Protection, Whistleblower Protection
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Citizens, State of Illinois, Military Installations, Whistleblowers
+    [qwen_3000]
+        Whistleblowers, state agencies responsible for critical infrastructure,
+        citizens.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Security and control over agricultural land and property near military
+        installations.
+    [qwen_3000]
+        Whistleblower rewards, compliance with laws regarding critical infrastructure
+        and software.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        Ownership and control by foreign entities.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To prevent foreign entities from owning or controlling agricultural land and
+        property near military installations in Illinois.
+    [qwen_3000]
+        To ensure compliance with laws regarding land divestiture and critical
+        infrastructure, and to provide incentives for whistleblowers.
+
+
+  ### motivation
+    [qwen_2000]
+        To enhance national security and control over critical infrastructure.
+    [qwen_3000]
+        To protect critical infrastructure from foreign adversaries and ensure
+        transparency in land divestiture.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Slightly Impactful - The bill aims to enhance security and control over
+        agricultural land and property near military installations, which could have
+        some impact on the University of Illinois Urbana-Champaign's operations and land
+        use.
+    [qwen_3000]
+        Slightly Impactful - The bill aims to enhance transparency and compliance in
+        land divestiture and critical infrastructure protection.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        Nationalist, Security-focused
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Utilizes judicial foreclosure and whistleblower rewards to enforce compliance.
+    [qwen_3000]
+        Utilizes judicial foreclosure, whistleblower rewards, and restrictions on
+        foreign entities.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Requires divestiture of agricultural land and property near military
+        installations within 180 days, establishes whistleblower rewards, and enforces
+        divestiture through judicial foreclosure.
+    [qwen_3000]
+        Divestiture of land held in violation of the law, whistleblower rewards,
+        restrictions on foreign access to critical infrastructure, and requirements for
+        software used in state infrastructure.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 19/20   |   HB5028   chunk 1   |   ? tokens   |   disagreement=13.70
+# chunk_id: 2107630::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   who are
+  subject to this subsection shall (i) have the same rights,
+  remedies, privileges, immunities, powers, and duties; (ii) be
+  subject to the same conditions, restrictions, limitations,
+  penalties, exclusions, exemptions, and definitions of terms;
+  and (iii) employ the same modes of procedure as are prescribed
+  in Sections 2 (except that the reference to State in the
+  definition of supplier maintaining a place of business in this
+  State shall mean the county), 2a, 2b, 2c, 2d, 3 through 3-50
+  (in respect to all provisions therein other than the State
+  rate of tax), 4 (except that the reference to the State shall
+  be to the county), 5, 7, 8 (except that the jurisdiction to
+  which the tax shall be a debt to the extent indicated in that
+  Section 8 shall be the county), 9 (except as to the disposition
+  of taxes and penalties collected), 10, 11, 12 (except the
+  reference therein to Section 2b of the Retailers' Occupation
+  Tax Act), 13 (except that any reference to the State shall mean
+  the county), Sections 15, 16, 17, 18, 19 and 20 of the Service
+  Occupation Tax Act and the Uniform Penalty and Interest Act,
+  as fully as if those provisions were set forth herein.
+  
+  Persons subject to any tax imposed under this subsection
+  may reimburse themselves for their serviceman's tax liability
+  by separately stating the tax as an additional charge, which
+  charge may be stated in combination, in a single amount, with
+  State tax that servicemen are authorized to collect under the
+  Service Use Tax Act, in accordance with the bracket schedules
+  as the Department of Revenue may prescribe.
+  
+  If the Department of Revenue determines that a refund
+  should be made under this subsection to a claimant instead of
+  issuing a credit memorandum, then the Department of Revenue
+  shall notify the State Comptroller, who shall cause the
+  warrant to be drawn for the amount specified, and to the person
+  named, in the notification from the Department of Revenue. The
+  refund shall be paid by the State Treasurer out of the Special
+  Forest Preserve District Retailers' and Service Occupation Tax
+  Fund.
+  
+  (c) The tax imposed under this Section applies to leases
+  of tangible personal property in effect, entered into, or
+  renewed on or after the effective date of the ordinance
+  imposing the tax under this Section in the same manner as the
+  tax under this Section applies to other sales and consistent
+  with the tax on leases under the Retailers' Occupation Tax Act
+  and the Service Occupation Tax Act.
+  
+  (d) By resolution, the board may order 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=OK         missing=0
+    qwen_3000            status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To impose a special sales tax for forest preserve district expenditures and
+        ensure proper distribution of collected funds.
+    [qwen_3000]
+        To provide funding for forest preserve district expenditures through a sales tax
+        increase.
+
+
+  ### policy_domain
+    [qwen_2000]
+        Taxation, Local Government Finance
+    [qwen_3000]
+        Taxation, Environmental Policy
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        Forest preserve districts, taxpayers, state government.
+    [qwen_3000]
+        Forest preserve districts, taxpayers, and the environment.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Sales tax revenue for forest preserve districts.
+    [qwen_3000]
+        Sales tax rate.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To impose a special sales tax for forest preserve district expenditures and
+        ensure proper distribution of collected funds.
+    [qwen_3000]
+        To provide funding for forest preserve district expenditures through a sales tax
+        increase.
+
+
+  ### motivation
+    [qwen_2000]
+        To fund forest preserve district expenditures through a dedicated sales tax.
+    [qwen_3000]
+        To address funding needs for forest preserve districts.
+
+
+  ### potential_impact
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        Slightly Impactful
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        None.
+    [qwen_3000]
+        Likely aligns with conservative or fiscally responsible ideologies.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Uses voter propositions and certification processes to ensure compliance with
+        state laws.
+    [qwen_3000]
+        Utilizes a ballot proposition for voter approval.
+
+
+  ### key_provisions
+    [qwen_2000]
+        Amends existing tax laws to impose a special sales tax for forest preserve
+        district expenditures; outlines the process for submitting propositions to
+        voters; specifies the distribution of collected taxes.
+    [qwen_3000]
+        Introduces a sales tax increase for forest preserve district expenditures, with
+        specific provisions for ballot language, revenue distribution, and
+        administrative processes.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 20/20   |   SB2367   chunk 1   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1962956::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  ) This report shall recommend alternative sourcing, if
+  available; highlight the difficulty in identifying potential
+  alternative sourcing, if relevant; and specify the level of
+  risk to the State associated with such a disruption in
+  sourcing for each procurement that is threatened in the event
+  of a Pacific conflict.
+  
+  The Auditor General shall conduct an audit of all funds
+  managed by the State government and any political subdivision
+  of the State and produce and publish a report, which shall be
+  submitted to General Assembly and the Governor and made easily
+  accessible to the public, within 180 days after the effective
+  date of this Act.
+  
+  (d) This audit report shall identify all investments:
+  
+  (1) at risk of substantially losing value or being
+  frozen, seized, or appropriated by foreign adversaries in
+  the event of a Pacific conflict;
+  
+  (2) all investments in any arms industry of a foreign
+  adversary;
+  
+  (3) all investments in State-owned enterprises of a
+  foreign adversary;
+  
+  (4) all investments in companies domiciled within a
+  foreign adversary or owned by a company domiciled within a
+  foreign adversary.
+  
+   The audit report shall recommend strategies for the
+  immediate and complete divestment of these assets identified
+  in subsection (b).
+  
+  Section 30.
+  Creation of the Select Committee on Pacific
+  Conflict.
+  
+  (a) The Select Committee on Pacific Conflict is created.
+  
+  (b) Appointments to the Select Committee shall be
+  finalized within 60 days after the effective date of this Act.
+  
+  (c) The first meeting of the Select Committee shall be
+  within 90 days after the effective date of this Act.
+  
+  (c) The Select Committee shall meet no less than once
+  every 3 months, with additional regular meetings at the call
+  of the majority of the Select Committee and emergency meetings
+  at the call of the Chair of the Select Committee or the
+  Governor.
+  
+  (d) A report on the impact of a Pacific conflict on the
+  State, insofar as it has been completed, shall be submitted to
+  the General Assembly, the Governor, and be made easily
+  accessible to the public no later than 30 days before the
+  annual address made to the General Assembly by the Governor,
+  and an updated report made available pursuant to the same on an
+  annual basis.
+  
+  The first report shall incorporate the findings of the
+  audit of State supply chains, State vendor supply chains, and
+  State investment holdings established in Section 25, along
+  with the report on adversarial threats to state assets and
+  critical infrastructure established in Section 35 and due 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    qwen_2000            status=PARTIAL    missing=2
+    qwen_3000            status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [qwen_2000]
+        To ensure the state's financial and supply chain resilience in the event of a
+        Pacific conflict.
+    [qwen_3000]
+        To enhance the State's preparedness and response to potential adversarial
+        threats in a Pacific conflict scenario.
+
+
+  ### policy_domain
+    [qwen_2000]
+        State Finance, Supply Chain Management, National Security
+    [qwen_3000]
+        Security Policy, Defense Policy
+
+
+  ### intended_beneficiaries
+    [qwen_2000]
+        State agencies, public safety, and security stakeholders.
+    [qwen_3000]
+        State agencies, critical infrastructure owners and operators, public health and
+        safety entities.
+
+
+  ### increasing_aspects
+    [qwen_2000]
+        Resilience and preparedness for a Pacific conflict.
+    [qwen_3000]
+        Preparedness, risk assessment, mitigation strategies.
+
+
+  ### decreasing_aspects
+    [qwen_2000]
+        Risk of losing value or being frozen, seized, or appropriated by foreign
+        adversaries.
+    [qwen_3000]
+        None.
+
+
+  ### intent
+    [qwen_2000]
+        To enhance the state's resilience and preparedness for a Pacific conflict.
+    [qwen_3000]
+        To establish a framework for identifying and mitigating risks to State assets
+        and critical infrastructure in the event of a Pacific conflict.
+
+
+  ### motivation
+    [qwen_2000]
+        To protect state assets and critical infrastructure from potential disruptions.
+    [qwen_3000]
+        To improve the State's preparedness and response capabilities to potential
+        adversarial threats.
+
+
+  ### potential_impact
+    [qwen_2000]
+        Moderately Impactful - The bill will require significant changes in state
+        investment and supply chain practices.
+    [qwen_3000]
+        Moderately Impactful - The bill will require significant resources and
+        cooperation from various State entities, potentially enhancing the State's
+        preparedness.
+
+
+  ### ideological_alignment
+    [qwen_2000]
+        [empty]
+    [qwen_3000]
+        None.
+
+
+  ### legislative_strategy
+    [qwen_2000]
+        Creation of a new committee and audit process.
+    [qwen_3000]
+        Amending existing laws to create new committees and provisions.
+
+
+  ### key_provisions
+    [qwen_2000]
+        The bill mandates an audit of state funds and investments, and creates a Select
+        Committee to assess risks and develop strategies.
+    [qwen_3000]
+        Creation of a Select Committee, advisory board, and Director; annual report on
+        threats, risk assessments, and mitigation strategies; authority to subpoena and
+        conduct investigations.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    qwen_2000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    qwen_3000             A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+===============================================================================================
+  AGGREGATE — fill in after scoring all chunks
+===============================================================================================
+
+  qwen_2000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  qwen_3000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  ONE-LINE VERDICT FOR THIS CHUNK SIZE:
+  ______________________________________________________________________

@@ -1,0 +1,853 @@
+
+
+================================================================================
+=== QUALITATIVE REVIEW: MISTRAL_500 ===
+================================================================================
+Total chunks: 467
+Composite: 62.09
+Parse OK: 56.75%
+Throughput: 0.440 chunks/sec
+
+Per-field success rate (% non-empty):
+  llama_summary                  100.00%
+  legislative_goal               100.00%
+  policy_domain                  100.00%
+  key_provisions                 100.00%
+  intended_beneficiaries          99.79%
+  legislative_strategy           100.00%
+  increasing_aspects              89.72%
+  decreasing_aspects              81.80%
+  category_subcategory           100.00%
+  ideological_alignment           71.09%
+  potential_impact               100.00%
+  impact_rating                  100.00%
+  intent                         100.00%
+  motivation                     100.00%
+  original_law                    83.30%
+
+
+--- 10 RANDOM CHUNKS FOR QUALITATIVE REVIEW ---
+
+
+>>> SAMPLE 1 (chunk_id=2108607::0000) <<<
+Bill: HB5112
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill creates the Carryout Bag Reduction Act, imposing a gradually increasing fee on carryout bags at retail establishments and banning plastic bags for delivery.
+  legislative_goal: To reduce the use of plastic carryout bags and encourage reusable bags.
+  policy_domain: Environmental Policy, Waste Management
+  key_provisions: Carryout bag fee, increasing fee annually, remittance to Department of Revenue, county or municipal distribution of fees, ban on plastic bags for delivery, reporting requirements, use of revenue, exem...
+  intended_beneficiaries: Retail mercantile establishments, county and municipal governments, consumers.
+  legislative_strategy: Amendment to existing laws.
+  increasing_aspects: Carryout bag fee, use of revenue for environmental purposes.
+  decreasing_aspects: Use of plastic bags for delivery.
+  category_subcategory: Waste Management Policy: Plastic Bag Regulation
+  ideological_alignment: Environmentalism.
+  potential_impact: The bill could impact UIUC by affecting retail establishments within the area and potentially the distribution of fees to local governments.
+  impact_rating: Moderately Impactful
+  intent: To reduce the use of plastic carryout bags and promote reusable bags.
+  motivation: Reducing waste, promoting environmental sustainability.
+  original_law: None.
+
+This bill amends the State Finance Act to create the Carryout Bag Fee Fund.
+
+>>> SAMPLE 2 (chunk_id=1931542::0001) <<<
+Bill: HB1550
+Parse status: PARTIAL
+Missing count: 1
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill expands the definition of aggravated battery in Illinois, increasing penalties for causing great bodily harm or permanent disability to specific groups of individuals, including peace office...
+  legislative_goal: To increase penalties for causing great bodily harm or permanent disability to specific protected groups and certain vulnerable individuals.
+  policy_domain: Criminal Justice, Child Welfare, Disability Rights
+  key_provisions: Expands the definition of aggravated battery to include causing great bodily harm to peace officers, firefighters, certain state employees, and Department of Children and Family Services employees; in...
+  intended_beneficiaries: Peace officers, firefighters, certain state employees, Department of Children and Family Services employees, children under 13 years, and individuals with severe or profound intellectual disabilities.
+  legislative_strategy: Amendment to existing law (720 ILCS 5/12-3.2)
+  increasing_aspects: Penalties for causing great bodily harm or permanent disability to specific protected groups and certain vulnerable individuals.
+  decreasing_aspects: None
+  category_subcategory: Criminal Justice: Enhanced Penalties for Violence Against Protected Groups, Child Welfare: Protection of Vulnerable Children, Disability Rights: Protection of Individuals with Intellectual Disabilitie...
+  ideological_alignment: Supports increased protection and penalties for certain groups and vulnerable individuals.
+  potential_impact: This bill could impact University of Illinois Urbana-Champaign (UIUC) by increasing penalties for causing great bodily harm or permanent disability to certain protected groups, including peace officer...
+  impact_rating: Moderately Impactful
+  intent: To increase penalties for causing great bodily harm or permanent disability to specific protected groups and certain vulnerable individuals.
+  motivation: To provide increased protection and penalties for peace officers, firefighters, certain state employees, Department of Children and Family Services employees, children under 13 years, and individuals ...
+  original_law: 720 ILCS 5/12-3.2 (Illinois Compiled Statutes, Aggravated Battery)
+
+>>> SAMPLE 3 (chunk_id=1906250::0003) <<<
+Bill: HB0385
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill outlines procedures for schools to handle reports of bullying, including anonymous reporting, prompt investigation, and appropriate interventions. It also addresses the rights of parents or ...
+  legislative_goal: To establish clear procedures for schools to address bullying incidents and protect the rights of students involved.
+  policy_domain: Education Policy, Student Rights, School Safety
+  key_provisions: Anonymous reporting, 24-hour parental notification, prompt investigation, involvement of appropriate school personnel, interventions to address bullying, and a statement prohibiting retaliation.
+  intended_beneficiaries: Students, parents, and guardians, school staff, and school administrators.
+  legislative_strategy: Amendment to existing laws governing student rights and school safety.
+  increasing_aspects: Support for student safety, school social work services, restorative measures, social-emotional skill building, counseling, school psychological services, and community-based services.
+  decreasing_aspects: None.
+  category_subcategory: Education Policy: Student Rights, School Safety
+  ideological_alignment: None.
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign by requiring them to establish similar procedures for handling reports of bullying and protecting the rights of students involved.
+  impact_rating: Moderately Impactful
+  intent: To establish clear procedures for schools to address bullying incidents and protect the rights of students involved.
+  motivation: To ensure a safe and supportive learning environment for students by addressing bullying incidents promptly and effectively.
+  original_law: None specified.
+
+>>> SAMPLE 4 (chunk_id=1941140::0005) <<<
+Bill: SB1187
+Parse status: PARTIAL
+Missing count: 2
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill outlines pension benefits for the children of police officers who die while their children are under the age of 18, and for the surviving spouses of police officers who die and leave childre...
+  legislative_goal: To provide financial support to the children of deceased police officers and to provide additional compensation to the surviving spouses of police officers who die while in the line of duty.
+  policy_domain: Public Safety, Social Welfare
+  key_provisions: The bill introduces a monthly pension for the guardian of a deceased police officer's child until the child reaches 18. It also allows for the surviving spouse to receive additional compensation annui...
+  intended_beneficiaries: Children of deceased police officers, guardians of these children, and surviving spouses of police officers.
+  legislative_strategy: The bill is introduced as an amendment to an existing law.
+  increasing_aspects: Financial support for children of deceased police officers, additional compensation for surviving spouses of police officers.
+  decreasing_aspects: None
+  category_subcategory: Public Safety: Police Benefits
+  ideological_alignment: None
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign if a university employee is a police officer and dies while their children are under the age of 18, or if a university employee is a ...
+  impact_rating: Moderately Impactful
+  intent: To provide financial support to the families of police officers who die while in the line of duty.
+  motivation: To ensure the financial well-being of the families of police officers who die while in the line of duty.
+  original_law: This bill amends an existing law related to police benefits. The specific law is not cited in the provided text.
+
+>>> SAMPLE 5 (chunk_id=1957092::0002) <<<
+Bill: HB2815
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill defines a "civil no contact order" and establishes defenses, penalties, and other provisions related to its violation.
+  legislative_goal: To establish penalties for violating a civil no contact order and provide defenses for such violations.
+  policy_domain: Criminal Justice, Domestic Violence
+  key_provisions: Defines a civil no contact order, establishes an affirmative defense for failure to provide notice, allows for concurrent prosecution for other crimes, maintains court authority to enforce orders, hol...
+  intended_beneficiaries: Individuals subject to civil no contact orders.
+  legislative_strategy: Amendment to existing law.
+  increasing_aspects: Penalties for violating a civil no contact order.
+  decreasing_aspects: None.
+  category_subcategory: Criminal Justice: Domestic Violence
+  ideological_alignment: None.
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign by increasing penalties for violating civil no contact orders that may be issued in relation to incidents occurring on campus.
+  impact_rating: Moderately Impactful
+  intent: To establish penalties and defenses for violating a civil no contact order.
+  motivation: To provide increased protection for individuals subject to civil no contact orders and to hold violators accountable for their actions.
+  original_law: None specified.
+
+>>> SAMPLE 6 (chunk_id=1952007::0005) <<<
+Bill: HB2480
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill modifies the arbitration process for police and firefighter departments in Illinois, restricting the topics that can be addressed in arbitration decisions, such as residency requirements, eq...
+  legislative_goal: To limit the topics that can be addressed in arbitration decisions for police and firefighter departments in Illinois.
+  policy_domain: Labor Relations, Public Safety
+  key_provisions: Restrictions on arbitration decisions for police and firefighter departments in Illinois.
+  intended_beneficiaries: Police and firefighter departments in Illinois.
+  legislative_strategy: Amendment to existing law.
+  increasing_aspects: None.
+  decreasing_aspects: Restrictions on arbitration decisions for police and firefighter departments in Illinois.
+  category_subcategory: Labor Relations: Public Sector Collective Bargaining, Public Safety: Law Enforcement, Firefighting
+  ideological_alignment: None.
+  potential_impact: This bill could impact the negotiation process between police and firefighter departments and their unions in Illinois.
+  impact_rating: Moderately Impactful
+  intent: To limit the scope of arbitration decisions for police and firefighter departments in Illinois.
+  motivation: Unknown.
+  original_law: None specified, but it appears to amend existing arbitration laws for police and firefighter departments in Illinois.
+
+>>> SAMPLE 7 (chunk_id=1949374::0003) <<<
+Bill: HB2366
+Parse status: PARTIAL
+Missing count: 1
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill grants the Illinois Environmental Protection Agency (IEPA) authority to make recommendations for regulations under Title VII of the Act, represent the state in environmental protection matte...
+  legislative_goal: The bill aims to empower the Illinois Environmental Protection Agency to take a more active role in environmental protection and funding.
+  policy_domain: Environmental Policy, Government Operations
+  key_provisions: The IEPA is given the authority to make recommendations for regulations, represent the state in environmental protection matters, accept and administer funds, and is designated as the water pollution,...
+  intended_beneficiaries: The Illinois Environmental Protection Agency, state of Illinois, and entities involved in environmental protection activities.
+  legislative_strategy: The bill is introduced as an act to amend the Illinois Environmental Protection Act.
+  increasing_aspects: Funding for environmental protection activities, the role of the IEPA in environmental protection.
+  decreasing_aspects: None
+  category_subcategory: Environmental Policy: Air Pollution, Water Pollution, Solid Waste Management
+  ideological_alignment: Environmentalism
+  potential_impact: This bill could significantly impact the University of Illinois Urbana-Champaign by potentially increasing the university's role in environmental protection activities and providing more funding oppor...
+  impact_rating: Moderately Impactful
+  intent: To empower the Illinois Environmental Protection Agency to take a more active role in environmental protection and funding.
+  motivation: The motivation behind this bill is likely a desire to improve the state's environmental protection efforts and provide more funding for such activities.
+  original_law: Illinois Environmental Protection Act
+
+This bill does not amend or reference any specific existing laws or statutes.
+
+>>> SAMPLE 8 (chunk_id=1931510::0006) <<<
+Bill: HB1551
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill revises the penalties for aggravated battery in various circumstances, including when the victim is an inmate, a member of a religious congregation, or when the battery involves torture or t...
+  legislative_goal: To revise the penalties for aggravated battery in specific circumstances.
+  policy_domain: Criminal Justice, Public Safety
+  key_provisions: Revised penalties for aggravated battery in various circumstances, including when the victim is an inmate, a member of a religious congregation, or when the battery involves torture or the use of a da...
+  intended_beneficiaries: Inmates, members of religious congregations, and others who may be victims of aggravated battery.
+  legislative_strategy: Amendment to existing laws.
+  increasing_aspects: Penalties for aggravated battery in certain circumstances.
+  decreasing_aspects: None.
+  category_subcategory: Criminal Justice: Violent Crimes
+  ideological_alignment: None.
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign by potentially affecting students or staff who may be victims of aggravated battery on or off campus.
+  impact_rating: Moderately Impactful
+  intent: To revise the penalties for aggravated battery in specific circumstances.
+  motivation: To provide harsher penalties for aggravated battery in certain circumstances, such as when the victim is a member of a religious congregation or when the battery involves torture or the use of a dange...
+  original_law: Unified Code of Corrections, Section 5-8-1.
+
+>>> SAMPLE 9 (chunk_id=1941140::0003) <<<
+Bill: SB1187
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill outlines the calculation of survivor annuities for the families of deceased police officers, including Tier 2 surviving spouses and guardians of minor children.
+  legislative_goal: To establish the amount and eligibility of survivor annuities for the families of deceased police officers.
+  policy_domain: Public Safety, Labor, Family Services
+  key_provisions: The bill outlines the calculation of survivor annuities for Tier 2 surviving spouses and guardians of minor children, and specifies that these benefits are in lieu of other benefits under certain cond...
+  intended_beneficiaries: Tier 2 surviving spouses, guardians of minor children of deceased police officers.
+  legislative_strategy: Amendment to existing law.
+  increasing_aspects: Survivor annuities for Tier 2 surviving spouses and guardians of minor children.
+  decreasing_aspects: None.
+  category_subcategory: Public Safety: Police Benefits, Labor: Pension Benefits
+  ideological_alignment: None.
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign if a university employee is a police officer and dies, leaving a surviving spouse or minor children.
+  impact_rating: Moderately Impactful
+  intent: To establish the amount and eligibility of survivor annuities for the families of deceased police officers.
+  motivation: To provide financial support to the families of deceased police officers.
+  original_law: This bill appears to amend existing law related to police benefits and pensions. The specific law is not cited in the provided text.
+
+>>> SAMPLE 10 (chunk_id=1917950::0005) <<<
+Bill: HB1350
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill outlines the reimbursement of county salaries for extraordinary expenditures related to services performed in connection with state correctional institutions. It also specifies salary amount...
+  legislative_goal: To provide financial reimbursement to counties for extraordinary salary expenditures related to state correctional institutions and to establish salary amounts for assistant state's attorneys in count...
+  policy_domain: Government Finance, Education
+  key_provisions: County reimbursement for extraordinary salary expenditures related to state correctional institutions, salary amounts for assistant state's attorneys in counties with state universities.
+  intended_beneficiaries: Counties with state correctional institutions, assistant state's attorneys in counties with state universities.
+  legislative_strategy: Amendment, funding clause (appropriation).
+  increasing_aspects: Salary amounts for assistant state's attorneys in counties with state universities.
+  decreasing_aspects: None.
+  category_subcategory: Government Finance: Budget Allocation, Education: Higher Education Funding.
+  ideological_alignment: None.
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign by potentially increasing the salary amounts for assistant state's attorneys in counties where the university is located.
+  impact_rating: Moderately Impactful
+  intent: To provide financial reimbursement to counties for extraordinary salary expenditures related to state correctional institutions and to establish salary amounts for assistant state's attorneys in count...
+  motivation: To address the financial burden on counties due to extraordinary salary expenditures related to state correctional institutions and to provide a consistent salary structure for assistant state's attor...
+  original_law: None specified.
+
+
+================================================================================
+=== QUALITATIVE REVIEW: QWEN_500 ===
+================================================================================
+Total chunks: 467
+Composite: 77.52
+Parse OK: 62.53%
+Throughput: 0.628 chunks/sec
+
+Per-field success rate (% non-empty):
+  llama_summary                  100.00%
+  legislative_goal                97.86%
+  policy_domain                   97.64%
+  key_provisions                  96.57%
+  intended_beneficiaries          96.79%
+  legislative_strategy            84.15%
+  increasing_aspects              92.08%
+  decreasing_aspects              80.51%
+  category_subcategory            97.64%
+  ideological_alignment           77.94%
+  potential_impact                86.30%
+  impact_rating                   88.22%
+  intent                          97.86%
+  motivation                      97.00%
+  original_law                    79.01%
+
+
+--- 10 RANDOM CHUNKS FOR QUALITATIVE REVIEW ---
+
+
+>>> SAMPLE 1 (chunk_id=1934980::0000) <<<
+Bill: SB0242
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill amends the Department of Natural Resources Law to allow officers from adjoining states to enforce certain Illinois conservation laws and dispose of flora and fauna brought into Illinois in vi...
+  legislative_goal: To enhance cross-state enforcement of conservation laws.
+  policy_domain: Conservation, Wildlife Protection
+  key_provisions: Granting authority to adjoining state officers to enforce Illinois conservation laws and dispose of contraband flora and fauna.
+  intended_beneficiaries: Illinois conservation agencies, adjoining state conservation agencies.
+  legislative_strategy: Amending existing law.
+  increasing_aspects: Cross-state enforcement capabilities for conservation laws.
+  decreasing_aspects: None.
+  category_subcategory: Conservation Policy: Wildlife Protection
+  ideological_alignment: Conservationist
+  potential_impact: Moderately Impactful - Enhances cross-state enforcement and could improve wildlife protection efforts.
+  impact_rating: Moderately Impactful
+  intent: To improve enforcement of wildlife protection laws by allowing officers from adjoining states to act within Illinois.
+  motivation: To strengthen wildlife protection efforts through enhanced cross-state cooperation.
+  original_law: Department of Natural Resources Law, Illinois Endangered Species Protection Act, Fish and Aquatic Life Code, Wildlife Code, Wildlife Habitat Management Areas Act, Criminal Code of 2012, Illinois Non-G...
+
+>>> SAMPLE 2 (chunk_id=1941140::0005) <<<
+Bill: SB1187
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill provides for monthly pensions for children under 18 upon the death of a policeman, and increases the Tier 2 surviving spouse's annuity after age 60.
+  legislative_goal: To provide financial support to children of deceased policemen and to increase the annuity for surviving spouses.
+  policy_domain: Police Policy, Social Welfare
+  key_provisions: Establishes monthly pensions for children under 18, increases annuity for surviving spouses after age 60.
+  intended_beneficiaries: Children under 18, surviving spouses of deceased policemen.
+  legislative_strategy: Amends existing provisions to provide additional benefits.
+  increasing_aspects: Monthly pensions for children, increased annuity for surviving spouses.
+  decreasing_aspects: None.
+  category_subcategory: Police Policy: Surviving Spouse Benefits
+  ideological_alignment: Progressive
+  potential_impact: Moderately Impactful - The bill provides significant financial support to families of deceased policemen and increases benefits for surviving spouses.
+  impact_rating: Moderately Impactful
+  intent: To provide financial support to families of deceased policemen and to increase benefits for surviving spouses.
+  motivation: To support families and ensure financial stability for those affected by the loss of a policeman.
+  original_law: None.
+
+>>> SAMPLE 3 (chunk_id=2110829::0007) <<<
+Bill: SB3889
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill allows large public utilities to file for lower rates for newly acquired water or sewer utilities, provided these rates do not significantly affect existing rate payers. It also specifies how...
+  legislative_goal: To provide flexibility for large public utilities in setting rates for newly acquired water or sewer utilities.
+  policy_domain: Utility Regulation, Public Services
+  key_provisions: Allows lower rates for newly acquired utilities, specifies accounting for post-acquisition improvements.
+  intended_beneficiaries: Large public utilities, rate payers in the district.
+  legislative_strategy: Amending existing rate-setting procedures.
+  increasing_aspects: Flexibility in setting rates for newly acquired utilities.
+  decreasing_aspects: None.
+  category_subcategory: Utility Policy: Rate Setting
+  ideological_alignment: None.
+  potential_impact: Slightly Impactful
+  impact_rating: Slightly Impactful
+  intent: To provide a mechanism for large public utilities to adjust rates for newly acquired water or sewer utilities.
+  motivation: To streamline the rate-setting process for large public utilities.
+  original_law: None.
+
+>>> SAMPLE 4 (chunk_id=2103486::0007) <<<
+Bill: HB4773
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill addresses cost recovery demands, liability retroactivity, and establishes an Illinois Climate Change Superfund Program. It also outlines an appeals process for responsible parties and sets cr...
+  legislative_goal: To establish a framework for cost recovery demands, liability retroactivity, and an Illinois Climate Change Superfund Program.
+  policy_domain: Environmental Policy, Climate Change, Fiscal Policy
+  key_provisions: Establishes rules for cost recovery demands, liability retroactivity, and an Illinois Climate Change Superfund Program.
+  intended_beneficiaries: State agencies, responsible parties, public entities, and the general public.
+  legislative_strategy: Authorizes state agencies to implement and enforce the provisions.
+  increasing_aspects: Funding for climate change mitigation projects.
+  decreasing_aspects: None.
+  category_subcategory: Environmental Policy: Climate Change
+  ideological_alignment: Environmentalist
+  potential_impact: Slightly Impactful
+  impact_rating: Slightly Impactful
+  intent: To create a mechanism for cost recovery and establish a program to address climate change.
+  motivation: To address the financial and environmental impacts of climate change.
+  original_law: None.
+
+>>> SAMPLE 5 (chunk_id=1906244::0007) <<<
+Bill: HB1178
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill addresses the confinement of minors in adult detention facilities, particularly those facing delinquency petitions, and sets specific conditions for their separation from adult prisoners.
+  legislative_goal: To ensure the separation of minors from adult prisoners in certain detention scenarios.
+  policy_domain: Criminal Justice, Juvenile Justice
+  key_provisions: The bill mandates that minors 12 years of age or older be kept separate from adult prisoners in county jails, with specific time limits and compliance standards.
+  intended_beneficiaries: Minors facing delinquency petitions and county jails.
+  legislative_strategy: Amending existing detention standards.
+  increasing_aspects: Separation of minors from adult prisoners.
+  decreasing_aspects: None explicitly stated.
+  category_subcategory: Criminal Justice: Juvenile Detention
+  ideological_alignment: None.
+  potential_impact: Slightly Impactful
+  impact_rating: Slightly Impactful
+  intent: To ensure the safe and separate confinement of minors in adult detention facilities.
+  motivation: To protect minors and ensure fair treatment in the justice system.
+  original_law: None explicitly referenced.
+
+>>> SAMPLE 6 (chunk_id=2107666::0003) <<<
+Bill: HB5000
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill amends the Illinois Antitrust Act, changing the definition of "Acquisition" and "Contracting affiliation" and setting procedures for notifying the Attorney General and holding public hearings...
+  legislative_goal: To clarify and update the definitions of "Acquisition" and "Contracting affiliation" in the Illinois Antitrust Act and establish procedures for public notification and hearings.
+  policy_domain: Antitrust Law, Health Policy
+  key_provisions: Amends definitions of "Acquisition" and "Contracting affiliation"; requires applicants to notify the Attorney General and hold public hearings for certain changes.
+  intended_beneficiaries: Public, health carriers, third-party administrators, entities involved in acquisitions.
+  legislative_strategy: Amending existing law through a new section.
+  increasing_aspects: Clarity and specificity in definitions; public notification and hearings.
+  decreasing_aspects: None.
+  category_subcategory: Antitrust Law: Health Policy
+  ideological_alignment: None.
+  potential_impact: None.
+  impact_rating: Not Impactful
+  intent: To provide clearer definitions and procedures for notifying and holding hearings regarding acquisitions and contracting affiliations.
+  motivation: To ensure transparency and public input in health-related business practices.
+  original_law: Illinois Antitrust Act, specifically Section 7.2a.
+
+Note: The bill does not directly impact the University of Illinois Urbana-Champaign (UIUC) as described in the provided text.
+
+>>> SAMPLE 7 (chunk_id=1962076::0001) <<<
+Bill: HB3599
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill amends the reimbursement process for ambulance services under Medicare and establishes new definitions for various types of ambulance services and providers.
+  legislative_goal: To standardize and clarify the reimbursement process for ambulance services under Medicare.
+  policy_domain: Health Policy, Social Services
+  key_provisions: Amends the reimbursement process for ambulance services under Medicare and defines various types of ambulance services and providers.
+  intended_beneficiaries: Ambulance service providers, Medicare recipients, state agencies responsible for reimbursement.
+  legislative_strategy: Amends existing statutes and regulations.
+  increasing_aspects: Reimbursement for ambulance services under Medicare.
+  decreasing_aspects: None.
+  category_subcategory: Health Policy: Medicare
+  ideological_alignment: None.
+  potential_impact: None.
+  impact_rating: Not Impactful
+  intent: To ensure fair and accurate reimbursement for ambulance services under Medicare.
+  motivation: To improve the clarity and efficiency of the reimbursement process for ambulance services.
+  original_law: Title XVIII of the Social Security Act (Medicare).
+
+>>> SAMPLE 8 (chunk_id=1906250::0007) <<<
+Bill: HB0385
+Parse status: PARTIAL
+Missing count: 4
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill requires the State Board of Education to publish non-compliance notices, mandates evidence-based bullying prevention programs, and requires schools to submit non-identifiable data on bullying...
+  legislative_goal: To improve bullying prevention and data collection in schools.
+  policy_domain: Education, School Safety
+  key_provisions: Requires schools to publish non-compliance notices, mandates evidence-based bullying prevention programs, and requires schools to submit non-identifiable data on bullying incidents.
+  intended_beneficiaries: Students, Parents, School Districts, Charter Schools, Non-public, Non-sectarian Elementary and Secondary Schools
+  legislative_strategy: None
+  increasing_aspects: Bullying prevention programs, data collection on bullying incidents.
+  decreasing_aspects: None
+  category_subcategory: Education Policy: School Safety
+  ideological_alignment: None
+  potential_impact: Moderately Impactful - The bill will require schools to implement new programs and data collection processes, which could significantly affect the educational environment and resources.
+  impact_rating: Moderately Impactful
+  intent: To enhance the prevention of bullying and improve data collection in schools.
+  motivation: To address the issue of bullying and provide parents and schools with better information to address and prevent it.
+  original_law: None
+
+>>> SAMPLE 9 (chunk_id=1906250::0006) <<<
+Bill: HB0385
+Parse status: PARTIAL
+Missing count: 2
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill requires schools to create, maintain, and implement a policy on bullying, which must be filed with the State Board of Education. The policy must include specific criteria and be reviewed ever...
+  legislative_goal: To establish and enforce a standardized policy on bullying in schools.
+  policy_domain: Education, School Policy
+  key_provisions: Schools must create a bullying policy based on a State Board template, investigate bullying reports, provide victim services, and review policies every two years.
+  intended_beneficiaries: Students, Parents, School Personnel
+  legislative_strategy: Monitoring and technical support from the State Board of Education.
+  increasing_aspects: Awareness and response to bullying incidents.
+  decreasing_aspects: None explicitly stated.
+  category_subcategory: Education Policy: School Safety
+  ideological_alignment: None
+  potential_impact: Moderately Impactful - The bill aims to improve school safety and address bullying, which could have a significant impact on students and schools.
+  impact_rating: Moderately Impactful
+  intent: To ensure schools have effective policies to address bullying and provide support to victims.
+  motivation: To reduce bullying incidents and improve school environments.
+  original_law: None
+
+>>> SAMPLE 10 (chunk_id=1917950::0000) <<<
+Bill: HB1350
+Parse status: PARTIAL
+Missing count: 1
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: The bill amends the Counties Code to equalize salaries for State's Attorneys in counties with fewer than 10,000 inhabitants with those in counties with 10,000 to 20,000 inhabitants, starting December ...
+  legislative_goal: To ensure State's Attorneys in smaller counties receive the same salary as those in medium-sized counties.
+  policy_domain: Local Government, Salaries
+  key_provisions: Adjusts salary levels for State's Attorneys in counties with fewer than 10,000 inhabitants.
+  intended_beneficiaries: State's Attorneys in counties with fewer than 10,000 inhabitants.
+  legislative_strategy: Immediate effective date with a future adjustment.
+  increasing_aspects: Salaries for State's Attorneys in small counties.
+  decreasing_aspects: None.
+  category_subcategory: Local Government: Salaries
+  ideological_alignment: None.
+  potential_impact: Slightly Impactful
+  impact_rating: None
+  intent: To equalize salaries for State's Attorneys in smaller counties with those in medium-sized counties.
+  motivation: To address salary disparities among State's Attorneys in different-sized counties.
+  original_law: None.
+
+
+================================================================================
+=== QUALITATIVE REVIEW: LLAMA31_500 ===
+================================================================================
+Total chunks: 467
+Composite: 80.26
+Parse OK: 89.51%
+Throughput: 0.417 chunks/sec
+
+Per-field success rate (% non-empty):
+  llama_summary                  100.00%
+  legislative_goal                98.72%
+  policy_domain                   99.57%
+  key_provisions                  98.93%
+  intended_beneficiaries          98.72%
+  legislative_strategy            98.29%
+  increasing_aspects              98.29%
+  decreasing_aspects              91.65%
+  category_subcategory            99.79%
+  ideological_alignment           98.07%
+  potential_impact               100.00%
+  impact_rating                  100.00%
+  intent                         100.00%
+  motivation                     100.00%
+  original_law                    95.29%
+
+
+--- 10 RANDOM CHUNKS FOR QUALITATIVE REVIEW ---
+
+
+>>> SAMPLE 1 (chunk_id=1949374::0000) <<<
+Bill: HB2366
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill amends the Environmental Protection Act to require the electronic submission of information to the Environmental Protection Agency and updates the Director's salary.
+  legislative_goal: The primary goal of this bill is to update the Environmental Protection Act to require electronic submission of information and to adjust the Director's salary.
+  policy_domain: Environmental Policy, Government Regulation, Public Administration.
+  key_provisions: The bill requires the electronic submission of information to the Environmental Protection Agency and updates the Director's salary structure.
+  intended_beneficiaries: The Environmental Protection Agency, the Director, and the public.
+  legislative_strategy: The bill amends an existing law, the Environmental Protection Act.
+  increasing_aspects: The Director's salary, the efficiency of information submission.
+  decreasing_aspects: None.
+  category_subcategory: Environmental Policy: Government Regulation.
+  ideological_alignment: This bill aligns with the principles of good governance and environmental protection.
+  potential_impact: This bill may have a moderate impact on the University of Illinois Urbana-Champaign (UIUC) as it may require the university to adapt to the new electronic submission requirements.
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to update the Environmental Protection Act to improve efficiency and transparency.
+  motivation: The motivation behind this bill is to improve the efficiency and effectiveness of the Environmental Protection Agency.
+  original_law: The Environmental Protection Act (415 ILCS 5).
+
+>>> SAMPLE 2 (chunk_id=1949374::0008) <<<
+Bill: HB2366
+Parse status: PARTIAL
+Missing count: 1
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill amends existing laws to allow for the release of individuals from further responsibility for preventive or corrective action, requires a certain percentage of labor hours for state construct...
+  legislative_goal: The primary goal of this bill is to amend existing laws to promote local workforce participation and increase transparency in information submission.
+  policy_domain: Labor Policy, Workforce Development, Government Transparency, State Construction Projects.
+  key_provisions: - Allows for the release of individuals from further responsibility for preventive or corrective action.
+- Requires at least 50% of labor hours for state construction projects to be performed by actua...
+  intended_beneficiaries: - Actual residents of Illinois
+- State construction project workers
+- The Department of Labor
+  legislative_strategy: This bill amends existing laws through the addition of new subsections and rules.
+  increasing_aspects: - Local workforce participation
+- Transparency in information submission
+- Electronic submission of information
+  decreasing_aspects: None
+  category_subcategory: Labor Policy: Workforce Development.
+  ideological_alignment: This bill aligns with the principles of promoting local workforce participation and government transparency, which may be associated with liberal or progressive ideologies.
+  potential_impact: This bill could moderately impact the University of Illinois Urbana-Champaign (UIUC) by potentially increasing the number of construction projects that require local workforce participation.
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to amend existing laws to promote local workforce participation and increase transparency in information submission.
+  motivation: The motivation behind this bill is to promote local economic development and increase transparency in government operations.
+  original_law: This bill amends existing laws, specifically P.A. 102-1071, 102-1115, and 103-616.
+
+>>> SAMPLE 3 (chunk_id=2065353::0005) <<<
+Bill: HB4261
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill establishes the basis for annual Library System grants to be made to each library system approved by the State Librarian, with funding determined by population and area served.
+  legislative_goal: The primary goal of this bill is to establish a funding formula for Library System grants to be made to each library system approved by the State Librarian.
+  policy_domain: Education Policy, Public Finance Policy, Library Policy.
+  key_provisions: The bill establishes a funding formula for Library System grants, with funding determined by population and area served, and provides for the apportionment of funding for multitype and public library ...
+  intended_beneficiaries: Library systems, corporate authorities, and the Illinois State Library.
+  legislative_strategy: The bill establishes a new funding formula for Library System grants, which will be distributed on a proportional per capita and per square mile basis.
+  increasing_aspects: Funding for Library System grants, per capita funding, and area funding.
+  decreasing_aspects: None.
+  category_subcategory: Education Policy: Library Policy.
+  ideological_alignment: None.
+  potential_impact: This bill could moderately impact the University of Illinois Urbana-Champaign (UIUC) as it may affect the funding and services provided by the library system.
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to establish a fair and equitable funding formula for Library System grants.
+  motivation: The motivation behind this bill is to ensure that library systems have sufficient funding to provide services to their communities.
+  original_law: None.
+
+>>> SAMPLE 4 (chunk_id=2107630::0000) <<<
+Bill: HB5028
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill amends the Downstate Forest Preserve District Act to allow the Kendall County Forest Preserve District to impose a tax on retailers and service providers in the county.
+  legislative_goal: The primary goal of this bill is to provide revenue to the Kendall County Forest Preserve District through a tax on retailers and service providers.
+  policy_domain: Local government, taxation, forest preserve management, public finance.
+  key_provisions: The bill allows the Kendall County Forest Preserve District to impose a tax on retailers and service providers, excludes certain types of sales (aviation fuel and tangible personal property taxed at 1...
+  intended_beneficiaries: The bill impacts retailers and service providers in Kendall County, as well as the Kendall County Forest Preserve District.
+  legislative_strategy: The bill amends existing laws through the addition of new sections to the Downstate Forest Preserve District Act and the State Finance Act.
+  increasing_aspects: The bill aims to increase revenue for the Kendall County Forest Preserve District through a tax on retailers and service providers.
+  decreasing_aspects: None.
+  category_subcategory: Local Government Policy: Taxation and Revenue.
+  ideological_alignment: This bill likely aligns with the principles of local control and public finance management.
+  potential_impact: This bill could moderately impact the University of Illinois Urbana-Champaign (UIUC) if it has a presence in Kendall County, as the tax revenue may affect local businesses and economic development.
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to provide revenue to the Kendall County Forest Preserve District through a tax on retailers and service providers.
+  motivation: The motivation behind this bill is likely to support local forest preserve management and public finance in Kendall County.
+  original_law: The bill amends the Downstate Forest Preserve District Act and the State Finance Act.
+
+>>> SAMPLE 5 (chunk_id=1906250::0004) <<<
+Bill: HB0385
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill aims to address bullying in schools by introducing policies and procedures to prevent, report, and respond to bullying incidents.
+  legislative_goal: The primary goal of this bill is to establish a comprehensive policy to address bullying in schools, ensuring a safe and supportive environment for students.
+  policy_domain: Education Policy, Student Safety, School Discipline, Bullying Prevention.
+  key_provisions: The bill introduces key provisions, including:
+- Prohibiting reprisal or retaliation against individuals who report bullying
+- Establishing consequences and remedial actions for individuals who engage...
+  intended_beneficiaries: Students, parents, guardians, school personnel, and school administrators.
+  legislative_strategy: The bill requires schools to engage a range of stakeholders, including students and parents or guardians, in the development and implementation of the bullying policy.
+  increasing_aspects: The bill aims to increase student safety, support, and well-being by establishing a comprehensive policy to address bullying.
+  decreasing_aspects: The bill aims to decrease the frequency of victimization and the types of bullying utilized.
+  category_subcategory: Education Policy: Student Safety.
+  ideological_alignment: This bill aligns with the principles of student safety and well-being, which is a bipartisan issue.
+  potential_impact: This bill could moderately impact the University of Illinois Urbana-Champaign (UIUC) by setting a precedent for addressing bullying in educational institutions.
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to establish a comprehensive policy to address bullying in schools, ensuring a safe and supportive environment for students.
+  motivation: The motivation behind this bill is to address the growing concern of bullying in schools and provide a safe and supportive environment for students.
+  original_law: None.
+
+>>> SAMPLE 6 (chunk_id=2104628::0006) <<<
+Bill: HB4820
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill defines various terms used in the Illinois state laws, including marital status, military status, national origin, order of protection status, person, pregnancy, public contract, race, and r...
+  legislative_goal: None.
+  policy_domain: Civil Rights, Social Policy, State Government, Definitions.
+  key_provisions: The bill introduces definitions for various terms used in Illinois state laws, including marital status, military status, national origin, order of protection status, person, pregnancy, public contrac...
+  intended_beneficiaries: Citizens of Illinois, State agencies, Municipal corporations, Employers.
+  legislative_strategy: None.
+  increasing_aspects: None.
+  decreasing_aspects: None.
+  category_subcategory: Civil Rights Policy: Definitions.
+  ideological_alignment: None.
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign (UIUC) by providing definitions for terms used in state laws, which may be relevant to the university's policies and procedures.
+  impact_rating: Slightly Impactful
+  intent: The purpose of this bill is to provide clear definitions for various terms used in Illinois state laws.
+  motivation: The motivation behind this bill is to clarify and standardize the use of terms in Illinois state laws.
+  original_law: None.
+
+>>> SAMPLE 7 (chunk_id=1945656::0008) <<<
+Bill: HB1891
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill requires the State Board of Education to collect and publicly disclose data on computer science education in Illinois schools, including student demographics and course enrollment.
+  legislative_goal: The primary goal of this bill is to increase transparency and accountability in computer science education by collecting and publicly disclosing data on student enrollment and demographics.
+  policy_domain: Education Policy, Data Transparency, Computer Science Education, Student Demographics.
+  key_provisions: The bill requires the State Board of Education to collect and disaggregate data on computer science course enrollment and student demographics, and to make this data publicly available.
+  intended_beneficiaries: Students, parents, educators, and policymakers who are interested in computer science education and student demographics in Illinois schools.
+  legislative_strategy: None.
+  increasing_aspects: The bill aims to increase transparency and accountability in computer science education by collecting and publicly disclosing data on student enrollment and demographics.
+  decreasing_aspects: None.
+  category_subcategory: Education Policy: Data Transparency.
+  ideological_alignment: None.
+  potential_impact: This bill could impact the University of Illinois Urbana-Champaign (UIUC) by potentially influencing the development of computer science education policies in Illinois, which may have implications for...
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to provide more information about computer science education in Illinois schools.
+  motivation: The motivation behind this bill is to increase transparency and accountability in computer science education, which may be driven by concerns about equity and access to computer science education in I...
+  original_law: None.
+
+>>> SAMPLE 8 (chunk_id=1941220::0002) <<<
+Bill: SB0706
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill appears to be a comprehensive legislative text that defines various terms and concepts related to real estate appraisal, including appraisals, appraisers, and appraisal management companies.
+  legislative_goal: None.
+  policy_domain: Real Estate Policy, Appraisal Regulation, Licensing.
+  key_provisions: The bill introduces definitions for various terms and concepts related to real estate appraisal, including appraisals, appraisers, and appraisal management companies. It also establishes the scope of ...
+  intended_beneficiaries: Real estate appraisers, appraisal management companies, real estate brokers, and managing brokers.
+  legislative_strategy: None.
+  increasing_aspects: The bill aims to enhance the clarity and precision of real estate appraisal terminology and concepts.
+  decreasing_aspects: None.
+  category_subcategory: Real Estate Policy: Appraisal Regulation.
+  ideological_alignment: None.
+  potential_impact: This bill could have a moderate impact on the University of Illinois Urbana-Champaign (UIUC) if it affects the university's real estate appraisal programs or policies.
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill appears to be to clarify and standardize the terminology and concepts related to real estate appraisal.
+  motivation: The motivation behind this bill is unclear, but it may be driven by a desire to improve the accuracy and consistency of real estate appraisal practices.
+  original_law: None.
+
+>>> SAMPLE 9 (chunk_id=2108607::0005) <<<
+Bill: HB5112
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill aims to regulate the use of plastic bags in retail establishments and implement a carryout bag fee system, with the goal of reducing plastic bag usage and increasing the use of recyclable pa...
+  legislative_goal: The primary goal of this bill is to reduce plastic bag usage and increase the use of recyclable paper bags or reusable bags in retail establishments.
+  policy_domain: Environmental Policy, Waste Management, Consumer Protection, Local Government.
+  key_provisions: The bill introduces a carryout bag fee system, requires retail establishments to use recyclable paper bags or reusable bags for deliveries, and encourages the implementation of a system that reuses co...
+  intended_beneficiaries: Retail establishments, consumers, the environment.
+  legislative_strategy: The bill requires the Department to report to the General Assembly and post on the Department's website the total revenue generated from the carryout bag fee and the total number of carryout bags purc...
+  increasing_aspects: The use of recyclable paper bags or reusable bags, the implementation of a system that reuses containers or reusable bags.
+  decreasing_aspects: The use of plastic bags.
+  category_subcategory: Environmental Policy: Waste Management.
+  ideological_alignment: This bill aligns with environmental and conservation ideologies.
+  potential_impact: This bill could moderately impact the University of Illinois Urbana-Champaign (UIUC) by requiring the university's retail establishments to implement a carryout bag fee system and use recyclable paper...
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to reduce plastic bag usage and increase the use of recyclable paper bags or reusable bags in retail establishments.
+  motivation: The motivation behind this bill is to reduce plastic waste and promote sustainability.
+  original_law: None.
+
+>>> SAMPLE 10 (chunk_id=1941280::0004) <<<
+Bill: SB0320
+Parse status: OK
+Missing count: 0
+
+Chunk text (first 400 chars):
+  ''
+
+Extracted fields:
+  llama_summary: This bill defines various terms related to pesticides, labeling, and land use, primarily for the purpose of establishing a regulatory framework for the use and application of pesticides.
+  legislative_goal: None.
+  policy_domain: Environmental Policy, Agriculture Policy, Regulatory Policy.
+  key_provisions: The bill introduces definitions for various terms, including "Label," "Labeling," "Land," "Licensed Operator," "Nematode," "Permit," and "Person," which are essential for the regulation of pesticides ...
+  intended_beneficiaries: None.
+  legislative_strategy: None.
+  increasing_aspects: None.
+  decreasing_aspects: None.
+  category_subcategory: Environmental Policy: Pesticide Regulation.
+  ideological_alignment: None.
+  potential_impact: This bill could have a moderate impact on the University of Illinois Urbana-Champaign (UIUC) as it may require the university to comply with new regulations and definitions related to pesticide use an...
+  impact_rating: Moderately Impactful
+  intent: The purpose of this bill is to establish a clear and comprehensive regulatory framework for the use and application of pesticides.
+  motivation: The motivation behind this bill appears to be the need for a standardized and clear definition of terms related to pesticides and their use, which will help in the effective regulation and enforcement...
+  original_law: None.

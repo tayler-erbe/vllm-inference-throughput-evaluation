@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "timestamp": "2026-05-21T01:20:13",
+  "config": {
+    "source_session": 999995,
+    "n_bills": 50,
+    "profiles": [
+      "mistral_700"
+    ],
+    "concurrency": 4,
+    "repeats": 1
+  },
+  "results": [
+    {
+      "profile": "mistral_700",
+      "concurrency": 4,
+      "chunker": {
+        "status": "SUCCESS",
+        "bills_chunked": 50,
+        "chunks_written": 342,
+        "metrics": {
+          "wall_seconds": 2.17,
+          "active_seconds": 2.152,
+          "phases": {
+            "read_manifest_and_state": 0.072,
+            "read_bill_json": 1.208,
+            "tokenize_and_chunk": 0.819,
+            "write_silver": 0.053
+          },
+          "counts": {
+            "bills_chunked": 50,
+            "chunks_written": 342,
+            "tokens_processed": 201353
+          },
+          "throughput": {
+            "bills_chunked_per_second": 23.229,
+            "chunks_written_per_second": 158.886,
+            "tokens_processed_per_second": 93544.402
+          },
+          "latency": {}
+        },
+        "slos": {
+          "passed": true,
+          "n_total": 2,
+          "n_passed": 2,
+          "n_failed": 0,
+          "results": [
+            {
+              "name": "throughput_min.tokens_processed_per_second",
+              "kind": "throughput_min",
+              "target": 5000.0,
+              "actual": 93544.402,
+              "passed": true,
+              "message": "actual 93544.402 >= target 5000"
+            },
+            {
+              "name": "throughput_min.bills_chunked_per_second",
+              "kind": "throughput_min",
+              "target": 5.0,
+              "actual": 23.229,
+              "passed": true,
+              "message": "actual 23.229 >= target 5"
+            }
+          ]
+        }
+      },
+      "extractor": {
+        "status": "SUCCESS",
+        "model": "mistral-7b-awq",
+        "backend": "vllm",
+        "chunks_extracted": 342,
+        "chunks_failed": 0,
+        "metrics": {
+          "wall_seconds": 834.111,
+          "active_seconds": 834.901,
+          "phases": {
+            "read_chunks_and_state": 0.092,
+            "warmup": 0.624,
+            "write_silver": 0.884,
+            "llm_inference": 833.301
+          },
+          "counts": {
+            "concurrency": 4,
+            "chunks_extracted": 342,
+            "parse_partial": 151,
+            "parse_ok": 191
+          },
+          "throughput": {
+            "concurrency_per_second": 0.005,
+            "chunks_extracted_per_second": 0.41,
+            "parse_partial_per_second": 0.181,
+            "parse_ok_per_second": 0.229
+          },
+          "latency": {
+            "api_time": {
+              "n": 342,
+              "mean": 9.722,
+              "p50": 9.4889,
+              "p95": 12.3969,
+              "p99": 14.6362,
+              "min": 6.7411,
+              "max": 23.8997
+            }
+          }
+        },
+        "slos": {
+          "passed": false,
+          "n_total": 5,
+          "n_passed": 4,
+          "n_failed": 1,
+          "results": [
+            {
+              "name": "throughput_min.chunks_extracted_per_second",
+              "kind": "throughput_min",
+              "target": 0.1,
+              "actual": 0.41,
+              "passed": true,
+              "message": "actual 0.41 >= target 0.1"
+            },
+            {
+              "name": "latency_max.api_time.p50",
+              "kind": "latency_max",
+              "target": 30.0,
+              "actual": 9.4889,
+              "passed": true,
+              "message": "actual 9.4889s <= target 30.0s"
+            },
+            {
+              "name": "latency_max.api_time.p99",
+              "kind": "latency_max",
+              "target": 70.0,
+              "actual": 14.6362,
+              "passed": true,
+              "message": "actual 14.6362s <= target 70.0s"
+            },
+            {
+              "name": "counts_max.chunks_failed",
+              "kind": "counts_max",
+              "target": 0.0,
+              "actual": 0.0,
+              "passed": true,
+              "message": "actual 0 <= target 0"
+            },
+            {
+              "name": "ratio_max.parse_partial_per_chunks_extracted",
+              "kind": "ratio_max",
+              "target": 0.3,
+              "actual": 0.44152,
+              "passed": false,
+              "message": "parse_partial/chunks_extracted = 151.0/342.0 = 0.4415 > target 0.3"
+            }
+          ]
+        }
+      },
+      "wall_seconds": 836.2965319156647,
+      "repeat_idx": 0
+    }
+  ],
+  "parse_quality": {
+    "mistral_700": {
+      "n": 342,
+      "ok_pct": 55.85,
+      "partial_pct": 44.15,
+      "empty_pct": 0.0,
+      "mean_missing_fields": 0.76
+    }
+  }
+}

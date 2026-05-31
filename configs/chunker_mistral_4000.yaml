@@ -1,0 +1,26 @@
+# Chunker profile: mistral_4000
+# Auto-generated for vLLM re-eval (May 20, 2026)
+# Chunk size: 4000 tokens, overlap: 400
+
+profile: mistral_4000
+
+sessions:
+  - 999995
+
+mode: live
+bill_limit: null
+
+max_tokens: 4000
+overlap_tokens: 400
+
+massive_threshold_tokens: 80000
+massive_first_n: 5
+massive_last_n: 5
+massive_middle_group_size: 10
+
+hard_truncate_tokens: 50000
+
+slos:
+  throughput_min:
+    tokens_processed_per_second: 5000
+    bills_chunked_per_second: 5

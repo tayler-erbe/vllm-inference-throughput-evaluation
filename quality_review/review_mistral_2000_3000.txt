@@ -1,0 +1,3686 @@
+===============================================================================================
+  QUALITATIVE REVIEW COMPANION — SCORING DOCUMENT
+===============================================================================================
+
+  Profiles compared: mistral_2000, mistral_3000
+  Chunks included:   20 (highest model-disagreement first)
+  Session:           999996
+
+  HOW TO USE THIS DOCUMENT:
+  - For each chunk, read the source text, then read each model's answers.
+  - Score each model on the 3 rubric criteria (Accuracy, Specificity,
+    Completeness), each 0-2, in the score slots provided.
+  - Score blind to parse_status. A PARTIAL with great answers beats an
+    OK with shallow ones.
+  - Only the 6 substantive fields are shown here for scoring focus.
+  - Transfer your scores into the rubric's scoring sheet when done.
+
+  RUBRIC QUICK REFERENCE:
+  Accuracy:     0=wrong  1=partially right  2=accurate
+  Specificity:  0=generic  1=somewhat specific  2=names actual mechanism
+  Completeness: 0=surface phrase  1=partial point  2=substantive point captured
+
+===============================================================================================
+
+###############################################################################################
+# CHUNK 1/20   |   HB0385   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1906250::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  AN ACT concerning education.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The School Code is amended by changing Section
+  27-23.7 as follows:
+  
+  (105 ILCS 5/27-23.7)
+  
+  Sec. 27-23.7.
+  Bullying prevention.
+  
+  (a) The General Assembly finds that a safe and civil
+  school environment is necessary for students to learn and
+  achieve and that bullying causes physical, psychological, and
+  emotional harm to students and interferes with students'
+  ability to learn and participate in school activities. The
+  General Assembly further finds that bullying has been linked
+  to other forms of antisocial behavior, such as vandalism,
+  shoplifting, skipping and dropping out of school, fighting,
+  using drugs and alcohol, sexual harassment, and sexual
+  violence. Because of the negative outcomes associated with
+  bullying in schools, the General Assembly finds that school
+  districts, charter schools, and non-public, non-sectarian
+  elementary and secondary schools should educate students,
+  parents, and school district, charter school, or non-public,
+  non-sectarian elementary or secondary school personnel about
+  what behaviors constitute prohibited bullying.
+  
+  Bullying on the basis of actual or perceived race, color,
+  religion, sex, national origin, ancestry, physical appearance,
+  socioeconomic status, academic status, pregnancy, parenting
+  status, homelessness, age, marital status, physical or mental
+  disability, military status, sexual orientation,
+  gender-related identity or expression, unfavorable discharge
+  from military service, association with a person or group with
+  one or more of the aforementioned actual or perceived
+  characteristics, or any other distinguishing characteristic is
+  prohibited in all school districts, charter schools, and
+  non-public, non-sectarian elementary and secondary schools. No
+  student shall be subjected to bullying:
+  
+  (1) during any school-sponsored education program or
+  activity;
+  
+  (2) while in school, on school property, on school
+  buses or other school vehicles, at designated school bus
+  stops waiting for the school bus, or at school-sponsored
+  or school-sanctioned events or activities;
+  
+  (3) through the transmission of information from a
+  school computer, a school computer network, or other
+  similar electronic school equipment; or
+  
+  (4) through the transmission of information from a
+  computer that is accessed at a nonschool-related location,
+  activity, function, or program or from the use of
+  technology or an electronic device that i
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To create a safe and civil school environment by preventing bullying and
+        cyber-bullying in all schools.
+    [mistral_3000]
+        To enhance the safety and well-being of students by preventing bullying in
+        schools and promoting a positive learning environment.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Education, Student Rights, School Safety
+    [mistral_3000]
+        Education Policy, Student Welfare, School Safety
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Students, parents, school district personnel, charter schools, non-public,
+        non-sectarian elementary and secondary schools.
+    [mistral_3000]
+        - Students in school districts, charter schools, and non-public, non-sectarian
+        elementary and secondary schools. - School personnel involved in the prevention
+        and resolution of bullying incidents. - Parents or guardians of students
+        involved in bullying incidents.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Support for a safe and civil school environment, student rights, school safety.
+    [mistral_3000]
+        - Support for a safe and civil school environment. - Enhancement of student
+        learning and participation. - Promotion of restorative measures and
+        interventions.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        Bullying, cyber-bullying.
+    [mistral_3000]
+        - Reduction of bullying incidents and their negative outcomes. - Elimination of
+        bullying based on various protected characteristics.
+
+
+  ### intent
+    [mistral_2000]
+        To create a safe and civil school environment by preventing bullying and
+        cyber-bullying.
+    [mistral_3000]
+        To create a safer and more inclusive learning environment for students by
+        preventing bullying and promoting restorative measures.
+
+
+  ### motivation
+    [mistral_2000]
+        To address the negative outcomes associated with bullying in schools, such as
+        vandalism, skipping school, fighting, and sexual harassment.
+    [mistral_3000]
+        To address the negative outcomes associated with bullying in schools and promote
+        a positive learning environment for all students.
+
+
+  ### potential_impact
+    [mistral_2000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        its K-12 schools to implement stronger anti-bullying policies and procedures.
+    [mistral_3000]
+        - The bill could impact the University of Illinois Urbana-Champaign by
+        encouraging similar policies and practices to prevent bullying on college
+        campuses.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        None (neutral policy).
+    [mistral_3000]
+        - Supports a safe and inclusive learning environment for all students.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to the School Code.
+    [mistral_3000]
+        Amendment to the School Code
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill amends the School Code to define bullying and cyber-bullying, outlines
+        a policy on bullying, and establishes procedures for reporting, investigating,
+        and addressing bullying incidents.
+    [mistral_3000]
+        - Strengthening the definition of bullying to include cyber-bullying. -
+        Requiring schools to create and implement a policy on bullying prevention. -
+        Establishing procedures for reporting, investigating, and addressing bullying
+        incidents. - Prohibiting reprisal or retaliation against those who report
+        bullying.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 2/20   |   HB4261   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 2065353::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  oneys appropriated for grants
+  under this Section are not sufficient, then the State
+  Librarian shall reduce the per capita amount of the grants so
+  that the qualifying public libraries receive the same amount
+  per capita, but in no event shall the grant be less than
+  equivalent to the difference between the amount of the tax
+  revenue obtained from the current levy and an annual income of
+  $4.25 per capita. If a library receiving an equalization grant
+  reduces its tax levy below the amount levied at the time the
+  original application is approved, it shall be ineligible to
+  receive further equalization grants.
+  
+  If a library is subject to the Property Tax Extension
+  Limitation Law in the Property Tax Code and its tax levy for
+  library purposes has been lowered to a rate of less than .13%,
+  the library will qualify for this grant if the library levied a
+  tax for library purposes that met the requirements for this
+  grant in the previous year and if the tax levied for library
+  purposes in the current year produces tax revenue for the
+  library that is an increase over the previous year's extension
+  of 5% or the percentage increase in the Consumer Price Index,
+  whichever is less, and the tax revenue produced by this levy is
+  less than $17.50 per capita in property tax revenue from
+  property taxes for the Fiscal Year 2025 and thereafter. In
+  this case, the State Librarian is authorized to make an
+  equalization grant equivalent to the difference between the
+  amount of tax revenue obtained from the current levy and an
+  annual income of $17.50 per capita for grants made in Fiscal
+  Year 2025 and thereafter. If moneys appropriated for grants
+  under this Section are not sufficient, then the State
+  Librarian shall reduce the per capita amount of the grants so
+  that the qualifying public libraries receive the same amount
+  per capita, but in no event shall the grant be less than
+  equivalent to the difference between the amount of the tax
+  revenue obtained from the current levy and an annual income of
+  $4.25 per capita. If a library receiving an equalization grant
+  reduces its tax levy below the amount levied at the time the
+  original application is approved, it shall be ineligible to
+  receive further equalization grants.
+  
+  (c) Annual Library System grants shall be made, upon
+  application, to each library system approved by the State
+  Librarian on the following basis:
+  
+  (1) For library systems, the sum of
+  $1.75
+  
+  $1.46
+   per
+  capita of the population of the area served plus the sum of
+  $60.90
+  
+  $50.75
+   per square mile
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To provide annual grant funding to qualified public and school libraries in
+        Illinois.
+    [mistral_3000]
+        To fund public and school libraries in Illinois.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Education, Fiscal Policy
+    [mistral_3000]
+        Education, Finance.
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Public libraries, school districts, and their respective libraries.
+    [mistral_3000]
+        Public libraries, school districts, students, and employees of schools in
+        Illinois.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Grant funding for public libraries and school libraries.
+    [mistral_3000]
+        Funding for public and school libraries.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        None specified.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To provide annual grant funding to qualified public and school libraries in
+        Illinois.
+    [mistral_3000]
+        To provide funding for public and school libraries in Illinois.
+
+
+  ### motivation
+    [mistral_2000]
+        To support and enhance the funding for public and school libraries in Illinois.
+    [mistral_3000]
+        To support and enhance the library services provided by public and school
+        libraries in Illinois.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by providing
+        funding for its libraries if they qualify as public libraries under the bill's
+        provisions.
+    [mistral_3000]
+        This bill could impact the funding received by public and school libraries in
+        Illinois.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        None specified.
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Appropriation of funds for grants.
+    [mistral_3000]
+        Appropriation of funds by the General Assembly.
+
+
+  ### key_provisions
+    [mistral_2000]
+        Grant funding for public libraries is based on per capita population and area
+        served. For school libraries, funding is based on student enrollment. The bill
+        also includes provisions for adjusting funding based on tax levies and the
+        Consumer Price Index.
+    [mistral_3000]
+        Annual grants to public and school libraries, grant amounts based on population
+        and student count, adjustments for large populations, eligibility requirements
+        for libraries.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 3/20   |   HB4820   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 2104628::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  2 as
+  follows:
+  
+  (775 ILCS 5/1-103)
+  
+  (from Ch. 68, par. 1-103)
+  
+  Sec. 1-103.
+  General definitions.
+   When used in this Act,
+  unless the context requires otherwise, the term:
+  
+  (A) Age. "Age" means the chronological age of a person who
+  is at least 40 years old, except with regard to any practice
+  described in Section 2-102, insofar as that practice concerns
+  training or apprenticeship programs. In the case of training
+  or apprenticeship programs, for the purposes of Section 2-102,
+  "age" means the chronological age of a person who is 18 but not
+  yet 40 years old.
+  
+  (B) Aggrieved party. "Aggrieved party" means a person who
+  is alleged or proved to have been injured by a civil rights
+  violation or believes he or she will be injured by a civil
+  rights violation under Article 3 that is about to occur.
+  
+  (B-5) Arrest record. "Arrest record" means:
+  
+  (1) an arrest not leading to a conviction;
+  
+  (2) a juvenile record; or
+  
+  (3) criminal history record information ordered
+  expunged, sealed, or impounded under Section 5.2 of the
+  Criminal Identification Act.
+  
+  (C) Charge. "Charge" means an allegation filed with the
+  Department by an aggrieved party or initiated by the
+  Department under its authority.
+  
+  (D) Civil rights violation. "Civil rights violation"
+  includes and shall be limited to only those specific acts set
+  forth in Sections 2-102, 2-103, 2-105, 3-102, 3-102.1, 3-103,
+  3-102.10, 3-104.1, 3-105, 3-105.1, 4-102, 4-103, 5-102,
+  5A-102, 6-101, 6-101.5, and 6-102 of this Act.
+  
+  (E) Commission. "Commission" means the Human Rights
+  Commission created by this Act.
+  
+  (F) Complaint. "Complaint" means the formal pleading filed
+  by the Department with the Commission following an
+  investigation and finding of substantial evidence of a civil
+  rights violation.
+  
+  (G) Complainant. "Complainant" means a person including
+  the Department who files a charge of civil rights violation
+  with the Department or the Commission.
+  
+  (G-5) Conviction record. "Conviction record" means
+  information indicating that a person has been convicted of a
+  felony, misdemeanor or other criminal offense, placed on
+  probation, fined, imprisoned, or paroled pursuant to any law
+  enforcement or military authority.
+  
+  (H) Department. "Department" means the Department of Human
+  Rights created by this Act.
+  
+  (I) Disability.
+  
+  (1) "Disability" means a determinable physical or mental
+  characteristic of a person, including, but not limited to, a
+  determinable physical characteristic which necessitates the
+  person's use of a guide, hearing or support dog, the h
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To clarify and update the definitions of terms used in the Illinois Human Rights
+        Act.
+    [mistral_3000]
+        To protect veterans from discrimination in housing based on their criminal,
+        credit, or eviction history.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Civil Rights, Labor, Education
+    [mistral_3000]
+        Housing, Civil Rights, Veterans Affairs
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        The bill affects individuals, partnerships, associations or organizations, labor
+        organizations, labor unions, joint apprenticeship committees, or union labor
+        associations, corporations, the State of Illinois and its instrumentalities,
+        political subdivisions, units of local government, legal representatives,
+        trustees in bankruptcy or receivers.
+    [mistral_3000]
+        Veterans, buyers, renters.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        The bill aims to increase clarity and understanding of the terms used in the
+        Illinois Human Rights Act.
+    [mistral_3000]
+        Protections for veterans in housing.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        Discrimination against veterans in housing based on their criminal, credit, or
+        eviction history.
+
+
+  ### intent
+    [mistral_2000]
+        To revise and update the definitions of terms used in the Illinois Human Rights
+        Act.
+    [mistral_3000]
+        To protect veterans from discrimination in housing based on their criminal,
+        credit, or eviction history.
+
+
+  ### motivation
+    [mistral_2000]
+        To ensure that the definitions of terms used in the Illinois Human Rights Act
+        are clear, up-to-date, and reflect current societal norms and understandings.
+    [mistral_3000]
+        To ensure equal housing opportunities for veterans, regardless of their
+        criminal, credit, or eviction history.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the university's policies and practices related to the Illinois Human Rights
+        Act.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by extending
+        protections to veterans in housing within the university's jurisdiction.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        Protects the rights of veterans.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        The bill amends the existing Illinois Human Rights Act.
+    [mistral_3000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill redefines several terms used in the Illinois Human Rights Act, such as
+        age, arrest record, conviction record, disability, marital status, military
+        status, national origin, pregnancy, reproductive health decisions, source of
+        income, unfavorable military discharge, and unlawful discrimination.
+    [mistral_3000]
+        The bill prohibits the refusal to sell or rent to a veteran based on their
+        criminal, credit, or eviction history.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 4/20   |   SB3364   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 2107605::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  775 ILCS 5/3-101
+  
+  from Ch. 68, par. 3-101
+  775 ILCS 5/3-102
+  
+  from Ch. 68, par. 3-102
+  775 ILCS 5/4-101
+  
+  from Ch. 68, par. 4-101
+  775 ILCS 5/4-102
+  
+  from Ch. 68, par. 4-102
+  775 ILCS 5/4-103
+  
+  from Ch. 68, par. 4-103
+  775 ILCS 5/4-105 new
+  775 ILCS 5/5-101
+  
+  from Ch. 68, par. 5-101
+  775 ILCS 5/5-102
+  
+  from Ch. 68, par. 5-102
+  
+  Amends the Illinois Human Rights Act. Makes it a civil rights
+  violation under the Act to use artificial intelligence in a real estate
+  transaction without providing notice to the other person engaging in the
+  real estate transaction that the owner, real estate broker or salesman, or
+  agent of one of them is using artificial intelligence to conduct the real
+  estate transaction. Makes it a civil rights violation to fail to inform an
+  applicant for a loan or credit card if the financial institution used
+  artificial intelligence to process the application. Makes it a civil
+  rights violation to fail to inform a person seeking a place of public
+  accommodation that the place of public accommodation uses artificial
+  intelligence to determine whether the person seeking a place of public
+  accommodation is permitted to enjoy the full and equal enjoyment of its
+  facilities, goods, and services. Requires that the Department of Human
+  Rights adopt any rules necessary for the implementation and enforcement of
+  the Act.
+  
+  AN ACT concerning civil law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Human Rights Act is amended by
+  changing Sections 3-101, 3-102, 4-101, 4-102, 4-103, 5-101,
+  and 5-102 and by adding Section 4-105 as follows:
+  
+  (775 ILCS 5/3-101)
+  
+  (from Ch. 68, par. 3-101)
+  
+  Sec. 3-101.
+  Definitions.
+  The following definitions are
+  applicable strictly in the context of this Article:
+  
+  (A) Real Property. "Real property" includes buildings,
+  structures, real estate, lands, tenements, leaseholds,
+  interests in real estate cooperatives, condominiums, and
+  hereditaments, corporeal and incorporeal, or any interest
+  therein.
+  
+  (B) Real Estate Transaction. "Real estate transaction"
+  includes the sale, exchange, rental or lease of real property,
+  or any act that otherwise makes available such a transaction
+  or alters a person's rights to real property. "Real estate
+  transaction" also includes the brokering or appraising of
+  residential real property and the making or purchasing of
+  loans or providing other financial assistance:
+  
+  (1) for purchasing, constructing, improving, repairing
+  or maintaining a dwelling; or
+  
+  (2) secure
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To prevent discrimination in the use of artificial intelligence in real estate
+        transactions, loan or credit card applications, and public accommodations.
+    [mistral_3000]
+        To ensure transparency in the use of artificial intelligence in real estate
+        transactions, loan processing, and public accommodations.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Civil Rights, Technology, Housing, Finance
+    [mistral_3000]
+        Civil Rights, Technology, Housing, Finance.
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Individuals engaging in real estate transactions, loan or credit card
+        applications, and public accommodations.
+    [mistral_3000]
+        Real estate buyers, loan applicants, and patrons of public accommodations.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Transparency in the use of artificial intelligence in real estate transactions,
+        loan or credit card applications, and public accommodations.
+    [mistral_3000]
+        Transparency in the use of artificial intelligence.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        Discrimination in the use of artificial intelligence in real estate
+        transactions, loan or credit card applications, and public accommodations.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To prevent discrimination in the use of artificial intelligence in real estate
+        transactions, loan or credit card applications, and public accommodations.
+    [mistral_3000]
+        To ensure transparency in the use of artificial intelligence in real estate
+        transactions, loan processing, and public accommodations.
+
+
+  ### motivation
+    [mistral_2000]
+        To ensure fairness and equal opportunity in the use of artificial intelligence
+        in real estate transactions, loan or credit card applications, and public
+        accommodations.
+    [mistral_3000]
+        To prevent discrimination and ensure fairness in the use of artificial
+        intelligence.
+
+
+  ### potential_impact
+    [mistral_2000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        transparency in the use of artificial intelligence in campus real estate
+        transactions, loan or credit card applications, and public accommodations.
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        transparency in the use of artificial intelligence in real estate transactions,
+        loan processing, and public accommodations on campus.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        None (neutral)
+    [mistral_3000]
+        Supports transparency and fairness in technology use.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to the Illinois Human Rights Act.
+    [mistral_3000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill introduces provisions that make it a civil rights violation to use
+        artificial intelligence in real estate transactions, loan or credit card
+        applications, and public accommodations without providing notice. It also
+        requires the Department of Human Rights to adopt rules for the implementation
+        and enforcement of these provisions.
+    [mistral_3000]
+        The bill requires notice when artificial intelligence is used in real estate
+        transactions, loan processing, and public accommodations. It also empowers the
+        Department of Human Rights to adopt rules for the implementation and enforcement
+        of these provisions.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 5/20   |   SB3683   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 2109411::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  ular
+  metal case having a projectile affixed at the front
+  thereof and a cap or primer at the rear end thereof, with
+  the propellant contained in such tube between the
+  projectile and the cap; or
+  
+  (12) (Blank); or
+  
+  (13) Carries or possesses on or about his or her
+  person while in a building occupied by a unit of
+  government, a billy club, other weapon of like character,
+  or other instrument of like character intended for use as
+  a weapon. For the purposes of this Section, "billy club"
+  means a short stick or club commonly carried by police
+  officers which is either telescopic or constructed of a
+  solid piece of wood or other man-made material; or
+  
+  (14) Manufactures, possesses, sells, or offers to
+  sell, purchase, manufacture, import, transfer, or use any
+  device, part, kit, tool, accessory, or combination of
+  parts that is designed to and functions to increase the
+  rate of fire of a semiautomatic firearm above the standard
+  rate of fire for semiautomatic firearms that is not
+  equipped with that device, part, or combination of parts;
+  or
+  
+  (15) Carries or possesses any assault weapon or .50
+  caliber rifle in violation of Section 24-1.9; or
+  
+  (16) Manufactures, sells, delivers, imports, or
+  purchases any assault weapon or .50 caliber rifle in
+  violation of Section 24-1.9.
+  
+  (b) Sentence. A person convicted of a violation of
+  subsection 24-1(a)(1) through (5), subsection 24-1(a)(10),
+  subsection 24-1(a)(11), subsection 24-1(a)(13), or 24-1(a)(15)
+  commits a Class A misdemeanor. A person convicted of a
+  violation of subsection 24-1(a)(8) or 24-1(a)(9) commits a
+  Class 4 felony; a person convicted of a violation of
+  subsection 24-1(a)(6), 24-1(a)(7)(ii), 24-1(a)(7)(iii), or
+  24-1(a)(16) commits a Class 3 felony. A person convicted of a
+  violation of subsection 24-1(a)(7)(i) commits a Class 2 felony
+  and shall be sentenced to a term of imprisonment of not less
+  than 3 years and not more than 7 years, unless the weapon is
+  possessed in the passenger compartment of a motor vehicle as
+  defined in Section 1-146 of the Illinois Vehicle Code, or on
+  the person, while the weapon is loaded, in which case it shall
+  be a Class X felony. A person convicted of a second or
+  subsequent violation of subsection 24-1(a)(4), 24-1(a)(8),
+  24-1(a)(9), 24-1(a)(10), or 24-1(a)(15) commits a Class 3
+  felony. A person convicted of a violation of subsection
+  24-1(a)(2.5) or 24-1(a)(14) commits a Class 2 felony. The
+  possession of each weapon or device in violation of this
+  Section constitutes a single and separate violation.
+  
+  (c)
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To strengthen gun control laws and increase penalties for unauthorized
+        possession of weapons, particularly in sensitive locations.
+    [mistral_3000]
+        To increase the penalties for crimes committed in or near specific locations.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Criminal Justice, Gun Policy
+    [mistral_3000]
+        Criminal Justice, Public Safety
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        The general public, particularly students, residents of public housing, and
+        visitors to schools, public parks, courthouses, and public transportation
+        facilities.
+    [mistral_3000]
+        The bill affects citizens, students, schools, public transportation agencies,
+        public parks, courthouses, public housing agencies, and residents of public
+        housing.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Stricter penalties for unauthorized possession of weapons, increased enforcement
+        in sensitive locations.
+    [mistral_3000]
+        Increased penalties for certain crimes.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        Unauthorized possession of weapons, particularly in sensitive locations.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To strengthen gun control laws and increase penalties for unauthorized
+        possession of weapons, particularly in sensitive locations.
+    [mistral_3000]
+        To increase penalties for crimes committed in or near specific locations.
+
+
+  ### motivation
+    [mistral_2000]
+        To address gun violence and improve safety in sensitive locations such as
+        schools, public parks, and courthouses.
+    [mistral_3000]
+        To deter crime and protect certain locations, such as schools and public parks.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by increasing
+        penalties for unauthorized possession of weapons on campus.
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by increasing
+        penalties for crimes committed on campus or in its vicinity.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        This bill aligns with stricter gun control policies.
+    [mistral_3000]
+        Not clear.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to existing gun control laws.
+    [mistral_3000]
+        The bill amends existing law.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill expands the definition of weapons, increases penalties for unauthorized
+        possession, and introduces stricter penalties for repeat offenders.
+    [mistral_3000]
+        Increased penalties for crimes committed in or near schools, public parks,
+        courthouses, public transportation facilities, and residential properties owned,
+        operated, or managed by a public housing agency.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 6/20   |   HB0360   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1906684::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   or combination public utility
+  may seek Commission approval of one additional proposed pilot
+  thermal energy network project each year for 2 years after the
+  effective date of this amendatory Act of the 104th General
+  Assembly. Designs for the projects should coordinate and
+  maximize the value of existing State energy efficiency and
+  weatherization programs and take advantage of federal funding
+  opportunities to the extent practicable. No later than 18
+  months after the effective date of this amendatory Act of the
+  104th General Assembly, the Commission shall enter an order
+  approving, approving with modification, or rejecting each
+  proposed pilot thermal energy network project and shall direct
+  the public utility to implement the pilot thermal energy
+  network projects as approved or approved as modified. In
+  considering whether to approve or approve as modified each
+  pilot thermal energy network project, the Commission shall
+  consider whether the pilot thermal energy network project is
+  in the public interest, whether the pilot thermal energy
+  network project will develop information useful for the
+  Commission in adopting rules governing thermal energy
+  networks, whether the pilot thermal energy network project
+  furthers climate justice and emissions reduction, whether the
+  pilot thermal energy network project advances financial and
+  technical approaches to equitable and affordable building
+  electrification, and whether the pilot thermal energy network
+  project creates benefits to customers and society at large,
+  including, but not limited to, public health benefits in areas
+  with disproportionate environmental or public health burdens,
+  job retention and creation, reliability, and increased
+  affordability of renewable thermal energy options. After the
+  filing of a petition, a utility may request the Commission to
+  grant additional time for pilot development approval, which
+  shall be approved for at least 6 months upon request or up to
+  12 months upon a showing that additional time would benefit
+  pilot development. An electric public utility may also propose
+  a pilot thermal energy network project in accordance with this
+  subsection (a).
+  
+  (b) If a utility proposes 3 pilot thermal energy network
+  projects, at least one project shall be proposed in
+  economically disadvantaged communities as defined in Section
+  5-35 of the Energy Transition Act and at least one shall
+  include an industrial heat application that may additionally
+  include residential and commercial applications. Priority
+  shall be gi
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To encourage the development and implementation of pilot thermal energy network
+        projects that are in the public interest, further climate justice and emissions
+        reduction, and advance financial and technical approaches to equitable and
+        affordable building electrification.
+    [mistral_3000]
+        To establish and regulate pilot thermal energy network projects in Illinois.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Energy Policy, Climate Change Policy, Infrastructure Policy
+    [mistral_3000]
+        Energy Policy, Utilities Regulation
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Public utilities, state agencies, citizens, low and moderate income households.
+    [mistral_3000]
+        Gas public utilities, electric public utilities, combination public utilities,
+        contractors, subcontractors, and utility workers.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Pilot thermal energy network projects, financial and technical approaches to
+        equitable and affordable building electrification, public health benefits, job
+        retention and creation, reliability, increased affordability of renewable
+        thermal energy options.
+    [mistral_3000]
+        Fair market access, training and transition of utility workers, third-party
+        participation, and competition.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To encourage the development and implementation of pilot thermal energy network
+        projects that are in the public interest, further climate justice and emissions
+        reduction, and advance financial and technical approaches to equitable and
+        affordable building electrification.
+    [mistral_3000]
+        To facilitate the development and regulation of pilot thermal energy network
+        projects in Illinois.
+
+
+  ### motivation
+    [mistral_2000]
+        The motivation for this bill appears to be a desire to promote the development
+        and implementation of renewable energy solutions, reduce greenhouse gas
+        emissions, and advance financial and technical approaches to equitable and
+        affordable building electrification.
+    [mistral_3000]
+        To promote the use of thermal energy networks, encourage competition, and ensure
+        fair labor practices in the implementation of these projects.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by providing
+        opportunities for the university to collaborate with public utilities on pilot
+        thermal energy network projects, potentially leading to the development of more
+        sustainable energy solutions.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially affecting the energy sources used for heating and cooling on campus,
+        depending on the specific pilot projects approved.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        Progressive, Environmentalist
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment, committee referral
+    [mistral_3000]
+        The bill is introduced as an amendatory Act, and the ICC is tasked with adopting
+        rules and regulations to implement the bill's provisions.
+
+
+  ### key_provisions
+    [mistral_2000]
+        Public utilities can seek Commission approval for additional pilot thermal
+        energy network projects, coordination with existing state energy efficiency
+        programs, utilities must hold public meetings, utilities must report project
+        status, utilities must comply with labor peace agreements and prevailing wage
+        requirements.
+    [mistral_3000]
+        The ICC is required to post reports on pilot projects, require proposed rate
+        structures and consumer protection plans, mandate labor peace agreements,
+        prevailing wage compliance, project labor agreements, and fair market access
+        rules. The bill also sets a cost limit for the implementation and administration
+        of these projects.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 7/20   |   HB0385   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1906250::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  address bullying, which may include, but are not limited
+  to, school social work services, restorative measures,
+  social-emotional skill building, counseling, school
+  psychological services, and community-based services.
+  
+  (7) Includes a statement prohibiting reprisal or
+  retaliation against any person who reports an act of
+  bullying and the consequences and appropriate remedial
+  actions for a person who engages in reprisal or
+  retaliation.
+  
+  (8) Includes consequences and appropriate remedial
+  actions for a person found to have falsely accused another
+  of bullying as a means of retaliation or as a means of
+  bullying.
+  
+  (9) Is based on the engagement of a range of school
+  stakeholders, including students and parents or guardians.
+  
+  (10) Is posted on the school district's, charter
+  school's, or non-public, non-sectarian elementary or
+  secondary school's existing, publicly accessible Internet
+  website, is included in the student handbook, and, where
+  applicable, posted where other policies, rules, and
+  standards of conduct are currently posted in the school
+  and provided periodically throughout the school year to
+  students and faculty, and is distributed annually to
+  parents, guardians, students, and school personnel,
+  including new employees when hired.
+  
+  (11) As part of the process of reviewing and
+  re-evaluating the policy under subsection (d) of this
+  Section, contains a policy evaluation process to assess
+  the outcomes and effectiveness of the policy that
+  includes, but is not limited to, factors such as the
+  frequency of victimization; student, staff, and family
+  observations of safety at a school; identification of
+  areas of a school where bullying occurs; the types of
+  bullying utilized; and bystander intervention or
+  participation. The school district, charter school, or
+  non-public, non-sectarian elementary or secondary school
+  may use relevant data and information it already collects
+  for other purposes in the policy evaluation. The
+  information developed as a result of the policy evaluation
+  must be made available on the Internet website of the
+  school district, charter school, or non-public,
+  non-sectarian elementary or secondary school. If an
+  Internet website is not available, the information must be
+  provided to school administrators, school board members,
+  school personnel, parents, guardians, and students.
+  
+  (12) Is consistent with the policies of the school
+  board, charter school, or non-public, non-sectarian
+  elementary or secondary school.
+  
+  (13) Requires all individual instances of bu
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To establish and enforce a policy on bullying in schools, with a focus on
+        protecting victims and promoting a safe learning environment.
+    [mistral_3000]
+        To establish and enforce a statewide policy on bullying in schools.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Education Policy, Student Welfare
+    [mistral_3000]
+        Education Policy, Student Welfare.
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Students, parents or guardians, school personnel, and school districts, charter
+        schools, and non-public, non-sectarian elementary or secondary schools.
+    [mistral_3000]
+        School districts, charter schools, non-public, non-sectarian elementary or
+        secondary schools, students, parents, and legal guardians.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        The bill aims to increase student accountability, promote a positive and
+        productive learning climate, and build and restore relationships among students,
+        families, schools, and communities.
+    [mistral_3000]
+        Anti-bullying programming, policy reviews, technical support, data collection,
+        and reporting.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        The bill aims to decrease instances of bullying and retaliation.
+    [mistral_3000]
+        Non-compliance penalties (public notice on the State Board of Education's
+        website).
+
+
+  ### intent
+    [mistral_2000]
+        To establish and enforce a policy on bullying in schools to protect victims and
+        promote a safe learning environment.
+    [mistral_3000]
+        To establish a statewide policy on bullying and provide support for its
+        implementation.
+
+
+  ### motivation
+    [mistral_2000]
+        To address the issue of bullying in schools and create a safer, more positive
+        learning environment for students.
+    [mistral_3000]
+        To address bullying incidents in schools and improve student welfare.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by requiring
+        its schools to create and implement a bullying prevention policy.
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        its schools to comply with the new bullying prevention policy and data reporting
+        requirements.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        The bill is introduced as a policy change and is filed with the State Board of
+        Education.
+    [mistral_3000]
+        Amendment, funding clause (Illinois Bullying and Cyberbullying Prevention Fund).
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill requires schools to create and implement a bullying prevention policy,
+        prohibits retaliation against those who report bullying, and includes a policy
+        evaluation process.
+    [mistral_3000]
+        Creation and implementation of a bullying prevention policy, investigation
+        process, provision of services information, and school personnel availability.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 8/20   |   HB0918   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1906606::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  of equipment or service for diagnostic or therapeutic purposes
+  or for facility administration or operation, or any capital
+  expenditure made by or on behalf of a health care facility
+  which exceeds the capital expenditure minimum
+  . Any health care
+  provider that obtains a certificate of need from the State
+  Board for a project that involves a hospital, ambulatory
+  surgical treatment center, birth center, end-stage renal
+  disease facility, or long-term care facility shall be
+  considered a health care system if it owns or operates 2 or
+  more of those licensed facilities and any capital expenditure
+  at or above the capital expenditure threshold is by or on
+  behalf of that health care system and requires a determination
+  of reviewability by the State Board. However,
+  
+  ; however,
+   any
+  capital expenditure made by or on behalf of a health care
+  facility for (i) the construction or modification of a
+  facility licensed under the Assisted Living and Shared Housing
+  Act or (ii) a conversion project undertaken in accordance with
+  Section 30 of the Older Adult Services Act shall be excluded
+  from any obligations under this Act.
+  
+  "Establish" means the construction of a health care
+  facility or the replacement of an existing facility on another
+  site or the initiation of a category of service.
+  
+  "Major medical equipment" means medical equipment which is
+  used for the provision of medical and other health services
+  and which costs in excess of the capital expenditure minimum,
+  except that such term does not include medical equipment
+  acquired by or on behalf of a clinical laboratory to provide
+  clinical laboratory services if the clinical laboratory is
+  independent of a physician's office and a hospital and it has
+  been determined under Title XVIII of the Social Security Act
+  to meet the requirements of paragraphs (10) and (11) of
+  Section 1861(s) of such Act. In determining whether medical
+  equipment has a value in excess of the capital expenditure
+  minimum, the value of studies, surveys, designs, plans,
+  working drawings, specifications, and other activities
+  essential to the acquisition of such equipment shall be
+  included.
+  
+  "Capital expenditure" means an expenditure: (A) made by or
+  on behalf of a health care facility (as such a facility is
+  defined in this Act); and (B) which under generally accepted
+  accounting principles is not properly chargeable as an expense
+  of operation and maintenance, or is made to obtain by lease or
+  comparable arrangement any facility or part thereof or any
+  equipment for a faci
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To regulate and control capital expenditures in health care facilities to ensure
+        efficient use of resources and prevent unnecessary duplication.
+    [mistral_3000]
+        To clarify and standardize the definitions of various health care-related terms
+        and concepts in Illinois.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Health Policy, Health Care Regulation
+    [mistral_3000]
+        Health Policy, Regulatory Affairs
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Health care providers, health care facilities, and the Illinois Department of
+        Public Health.
+    [mistral_3000]
+        Health care facilities, health care providers, and the Illinois Department of
+        Public Health.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Efficiency in the use of resources in health care facilities.
+    [mistral_3000]
+        The bill aims to increase clarity and standardization in the definitions of
+        health care-related terms and concepts.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        Unnecessary duplication in health care facilities.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To regulate and control capital expenditures in health care facilities.
+    [mistral_3000]
+        To clarify and standardize the definitions of various health care-related terms
+        and concepts in Illinois.
+
+
+  ### motivation
+    [mistral_2000]
+        To ensure efficient use of resources and prevent unnecessary duplication in
+        health care facilities.
+    [mistral_3000]
+        To improve the regulatory environment for health care in Illinois by providing
+        clear and standardized definitions of key terms.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the capital expenditures of any health care facilities on campus.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the definitions of health care-related terms used in their health care
+        facilities and services.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        The bill uses regulatory measures to control capital expenditures in health care
+        facilities.
+    [mistral_3000]
+        The bill uses the strategy of defining and clarifying terms to improve the
+        regulatory environment for health care in Illinois.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill sets a capital expenditure minimum, defines key terms, and establishes
+        regulations for capital expenditures in health care facilities.
+    [mistral_3000]
+        The bill defines key terms such as "non-clinical service area", "areawide",
+        "local", "physician", "licensed health care professional", and others. It also
+        outlines the categories of service, charity care, and freestanding emergency
+        centers.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 9/20   |   HB1929   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1946857::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   medical or common conditions related to pregnancy or
+  childbirth.
+  
+  (M) Public contract. "Public contract" includes every
+  contract to which the State, any of its political
+  subdivisions, or any municipal corporation is a party.
+  
+  (M-5) Race. "Race" includes traits associated with race,
+  including, but not limited to, hair texture and protective
+  hairstyles such as braids, locks, and twists.
+  
+  (N) Religion. "Religion" includes all aspects of religious
+  observance and practice, as well as belief, except that with
+  respect to employers, for the purposes of Article 2,
+  "religion" has the meaning ascribed to it in paragraph (F) of
+  Section 2-101.
+  
+  (O) Sex. "Sex" means the status of being male or female.
+  
+  (O-1) Sexual orientation. "Sexual orientation" means
+  actual or perceived heterosexuality, homosexuality,
+  bisexuality, or gender-related identity, whether or not
+  traditionally associated with the person's designated sex at
+  birth. "Sexual orientation" does not include a physical or
+  sexual attraction to a minor by an adult.
+  
+  (O-2) Reproductive Health Decisions. "Reproductive Health
+  Decisions" means a person's decisions regarding the person's
+  use of: contraception; fertility or sterilization care;
+  assisted reproductive technologies; miscarriage management
+  care; healthcare related to the continuation or termination of
+  pregnancy; or prenatal, intranatal, or postnatal care.
+  
+  (O-5) Source of income. "Source of income" means the
+  lawful manner by which an individual supports himself or
+  herself and his or her dependents.
+  
+  (P) Unfavorable military discharge. "Unfavorable military
+  discharge" includes discharges from the Armed Forces of the
+  United States, their Reserve components, or any National Guard
+  or Naval Militia which are classified as RE-3 or the
+  equivalent thereof, but does not include those characterized
+  as RE-4 or "Dishonorable".
+  
+  (Q) Unlawful discrimination. "Unlawful discrimination"
+  means discrimination against a person because of his or her
+  :
+  
+  (1)
+   actual or perceived: race, color, religion,
+  national origin, ancestry, age, sex, marital status, order
+  of protection status, disability, military status, sexual
+  orientation, pregnancy, reproductive health decisions, or
+  unfavorable discharge from military service as those terms
+  are defined in this Section
+  ; or
+  
+  (2) status as a formerly convicted person if the
+  person has been granted protective class status by the
+  Department as provided in Section 7-114
+  .
+  (Source: P.A. 102-362, eff. 1-1-22; 102-419, eff. 1-1-22;
+  102-558, eff. 8-
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To protect individuals from discrimination based on various characteristics,
+        including those related to race, religion, sexual orientation, and reproductive
+        health decisions.
+    [mistral_3000]
+        To create a framework for equal employment opportunities and affirmative action,
+        and to grant protected class status to formerly convicted persons.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Civil Rights, Employment, Education, Health
+    [mistral_3000]
+        Labor & Employment, Civil Rights, Education
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Individuals in Illinois who belong to the expanded protected classes, employers,
+        educational institutions, and the Department of Human Rights.
+    [mistral_3000]
+        Employees, formerly convicted persons.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        The bill aims to support and increase protections for individuals based on
+        various characteristics, including those related to race, religion, sexual
+        orientation, and reproductive health decisions.
+    [mistral_3000]
+        Equal employment opportunities, affirmative action, education and training,
+        protected class status for formerly convicted persons.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        The bill does not aim to reduce, restrict, or eliminate anything specifically.
+    [mistral_3000]
+        [empty]
+
+
+  ### intent
+    [mistral_2000]
+        To expand protections for individuals based on various characteristics and to
+        establish a process for formerly convicted persons to petition for protected
+        class status.
+    [mistral_3000]
+        To create a framework for equal employment opportunities and affirmative action,
+        and to grant protected class status to formerly convicted persons.
+
+
+  ### motivation
+    [mistral_2000]
+        The motivation for this bill appears to be a desire to protect marginalized
+        groups from discrimination and to provide opportunities for formerly convicted
+        persons to reintegrate into society.
+    [mistral_3000]
+        To address discrimination against formerly convicted persons in the employment
+        process and to promote equal employment opportunities.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by requiring
+        the university to take steps to prevent discrimination based on the expanded
+        protected classes and to implement education and training programs for its
+        employees.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by requiring
+        the university to implement equal employment opportunities, affirmative action,
+        education and training programs, and hotlines for reporting discrimination.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        The bill aligns with progressive ideologies that prioritize protecting
+        marginalized groups from discrimination.
+    [mistral_3000]
+        Progressive
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        The bill amends the Illinois Human Rights Act to expand the protected classes
+        and establish new procedures.
+    [mistral_3000]
+        Amendment
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill expands the definition of protected classes, establishes a process for
+        formerly convicted persons to petition for protected class status, and requires
+        the Department to adopt rules and regulations, implement education and training
+        programs, and establish hotlines for reporting discrimination.
+    [mistral_3000]
+        Recruitment, research, public communication, advisory councils, coordination
+        with other agencies, grants, education and training, hotlines, protected class
+        status for formerly convicted persons.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 10/20   |   HB3560   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1962504::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   appointed by the
+  Governor.
+  
+  (6) An individual with expertise in banking or
+  consumer financial services affiliated with an academic
+  institution appointed by the Governor.
+  
+  (7) An individual with banking expertise appointed by
+  the Governor.
+  
+  (8) A public banking advocate appointed by the Senate
+  President.
+  
+  (9) A consumer representative or advocate with
+  expertise in banking access and financial empowerment,
+  including within historically unbanked and underbanked
+  communities, appointed by the Speaker of the House.
+  
+  (c) In making appointments to the Board, the appointing
+  authorities shall take into consideration the cultural,
+  ethnic, and geographic diversity of the State so that the
+  Board's composition reflects the communities of Illinois.
+  
+  (d)(1) Except as provided in paragraph (2), members of the
+  Board shall serve without compensation.
+  
+  (2) Subject to appropriation, members of the Board
+  shall be reimbursed for necessary travel expenses incurred
+  in connection with their Board duties.
+  
+  (e)(1) Except for the members described in paragraphs (3)
+  and (9) of subsection (a), a Board member, or State
+  Treasurer's staff working with the Board, while serving in
+  that capacity shall not have a direct or indirect investment
+  or ownership interest in or be employed by, a consultant to, a
+  member of the Board of directors of, affiliated with, or
+  otherwise a representative of, a private bank or financial
+  services institution unless that position is an unpaid
+  volunteer position.
+  
+  (2) The restrictions in paragraph (1) do not include
+  ownership of a share of a diversified mutual fund or
+  exchange-traded fund that holds shares of a private bank
+  or financial services institution.
+  
+  (f) To the extent the State, to successfully implement the
+  Illinois Bank Account Program, contracts with entities to
+  provide administrative and financial services, the State has a
+  proprietary interest in ensuring that the entities with which
+  it contracts have not engaged in conduct that would undermine
+  the goals, efficiency, and reputation of the Illinois Bank
+  Account Program, including, but not limited to, by violating
+  banking, consumer protection, fair lending, or fair housing
+  laws.
+  
+  Section 15.
+  The Illinois Bank Account Program.
+  The
+  Illinois Bank Account Program is hereby created to offer
+  Illinoisans access to a voluntary, zero-fee, zero-penalty,
+  federally insured transaction account and related payment
+  services at no cost to account holders, including robust and
+  geographically diverse mechanisms for acces
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To provide Illinois residents with a zero-fee bank account and related services,
+        enhancing financial access and empowerment.
+    [mistral_3000]
+        To create a transparent and accountable automated payment system, incentivizing
+        electronic fund transfers and providing consumer protection.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Financial Services, Economic Empowerment
+    [mistral_3000]
+        Financial Services, Consumer Protection
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Illinois residents, particularly those in historically unbanked and underbanked
+        communities.
+    [mistral_3000]
+        Individuals, employers, hiring entities, landlords, financial institutions.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Access to bank accounts, financial empowerment, financial transactions
+        automation.
+    [mistral_3000]
+        Transparency, accountability, consumer protection, electronic fund transfers.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        Late payment fees and penalties for registered payees.
+
+
+  ### intent
+    [mistral_2000]
+        To create the Illinois Bank Account Program and increase financial access and
+        empowerment for Illinois residents.
+    [mistral_3000]
+        To create a transparent and accountable automated payment system.
+
+
+  ### motivation
+    [mistral_2000]
+        To address financial exclusion and empower historically unbanked and underbanked
+        communities in Illinois.
+    [mistral_3000]
+        To incentivize electronic fund transfers, provide consumer protection, and
+        streamline remittance of payments and disbursements.
+
+
+  ### potential_impact
+    [mistral_2000]
+        The bill could significantly impact the University of Illinois Urbana-Champaign
+        by providing its students and staff with increased access to financial services
+        and potential financial empowerment.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by providing
+        a new option for electronic fund transfers and automatic disbursement rules for
+        students and staff.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        Progressive, pro-financial inclusion.
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        The bill is introduced as a new law.
+    [mistral_3000]
+        Amendment, funding clause (through the contract with a financial services
+        network administrator).
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill establishes the Illinois Bank Account Program, outlines its
+        administration, and sets requirements for account opening, deposits,
+        withdrawals, and automatic disbursement rules. It also specifies the composition
+        of the Board overseeing the program and their compensation.
+    [mistral_3000]
+        Establishment of a registered payee process, incentivization of pre-authorized
+        electronic fund transfers, voluntary automatic disbursement rules, duties of
+        employers, hiring entities, and landlords, contracting of a financial services
+        network administrator.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 11/20   |   SB0706   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1941220::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   by the Department
+  to a person that has fulfilled all requirements prerequisite
+  to any type of licensure under this Act.
+  
+  "Licensee" means any person licensed under this Act.
+  
+  "Multi-state licensing system" means a web-based platform
+  that allows an applicant to submit the application or license
+  renewal application to the Department online.
+  
+  "Person" means an individual, entity, sole proprietorship,
+  corporation, limited liability company, partnership, and joint
+  venture, foreign or domestic, except that when the context
+  otherwise requires, the term may refer to more than one
+  individual or other described entity.
+  
+  "Real estate" means an identified parcel or tract of land,
+  including any improvements.
+  
+  "Real estate related financial transaction" means any
+  transaction involving:
+  
+  (1) the sale, lease, purchase, investment in, or
+  exchange of real property, including interests in property
+  or the financing thereof;
+  
+  (2) the refinancing of real property or interests in
+  real property; and
+  
+  (3) the use of real property or interest in property
+  as security for a loan or investment, including mortgage
+  backed securities.
+  
+  "Real property" means the interests, benefits, and rights
+  inherent in the ownership of real estate.
+  
+  "Secretary" means the Secretary of Financial and
+  Professional Regulation or the Secretary's designee.
+  
+  "State certified general real estate appraiser" means an
+  appraiser who holds a license of this classification under
+  this Act and such classification applies to the appraisal of
+  all types of real property without restrictions as to the
+  scope of practice.
+  
+  "State certified residential real estate appraiser" means
+  an appraiser who holds a license of this classification under
+  this Act and such classification applies to the appraisal of
+  one to 4 units of residential real property without regard to
+  transaction value or complexity, but with restrictions as to
+  the scope of practice in a federally related transaction in
+  accordance with Title XI, the provisions of USPAP, criteria
+  established by the AQB, and further defined by rule.
+  
+  "Supervising appraiser" means either (i) an appraiser who
+  holds a valid license under this Act as either a State
+  certified general real estate appraiser or a State certified
+  residential real estate appraiser, who co-signs an appraisal
+  report for an associate real estate trainee appraiser or (ii)
+  a State certified general real estate appraiser who holds a
+  valid license under this Act who co-signs an appraisal report
+  for a State certified
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To regulate and license real estate appraisers in Illinois.
+    [mistral_3000]
+        To ensure that real estate appraisals in Illinois are conducted by licensed
+        professionals.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Government Regulation, Professional Licensing
+    [mistral_3000]
+        Government Regulation, Real Estate
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Real estate appraisers, appraisal management companies, and entities involved in
+        real estate-related financial transactions.
+    [mistral_3000]
+        Real estate appraisers, financial institutions, government entities.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Support for the professionalism and regulation of real estate appraisers.
+    [mistral_3000]
+        Standards for real estate appraisal profession.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        Restrictions on unlicensed individuals acting as real estate appraisers.
+    [mistral_3000]
+        Unauthorized appraisal activities.
+
+
+  ### intent
+    [mistral_2000]
+        To regulate and license real estate appraisers in Illinois.
+    [mistral_3000]
+        To regulate real estate appraisal activities in Illinois.
+
+
+  ### motivation
+    [mistral_2000]
+        To ensure the professionalism and integrity of real estate appraisals in
+        Illinois.
+    [mistral_3000]
+        To ensure the accuracy and integrity of real estate appraisals in Illinois.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        real estate appraisal practices within the university's property transactions.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        real estate appraisal practices within the university or its affiliated
+        entities.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to existing law.
+    [mistral_3000]
+        Amendment to existing laws.
+
+
+  ### key_provisions
+    [mistral_2000]
+        Establishment of licensing requirements for real estate appraisers, exemptions
+        for certain professionals, and penalties for violations.
+    [mistral_3000]
+        Requirement for a real estate appraiser license, prohibition of unauthorized use
+        of appraiser titles, exemptions for certain entities and individuals.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 12/20   |   SB1841   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1959509::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  ) Within 30 days after a Compliance Commitment
+  Agreement takes effect or is amended in accordance with
+  paragraph (7.5), the Agency shall publish a copy of the final
+  executed Compliance Commitment Agreement on the Agency's
+  website. The Agency shall maintain an Internet database of all
+  Compliance Commitment Agreements entered on or after August
+  24, 2018 (the effective date of Public Act 100-1080). At a
+  minimum, the database shall be searchable by the following
+  categories: the county in which the facility that is subject
+  to the Compliance Commitment Agreement is located; the date of
+  final execution of the Compliance Commitment Agreement; the
+  name of the respondent; and the media involved, including air,
+  water, land, or public water supply.
+  
+  (8) Nothing in this subsection (a) is intended to require
+  the Agency to enter into Compliance Commitment Agreements for
+  any alleged violation that the Agency believes cannot be
+  resolved without the involvement of the Office of the Attorney
+  General or the State's Attorney of the county in which the
+  alleged violation occurred, for, among other purposes, the
+  imposition of statutory penalties.
+  
+  (9) The Agency's failure to respond within 30 days of
+  receipt to a written response submitted pursuant to
+  subdivision (2) of this subsection (a) if a meeting is not
+  requested or pursuant to subdivision (5) of this subsection
+  (a) if a meeting is held, or within the time period otherwise
+  agreed to in writing by the Agency and the person complained
+  against, shall be deemed an acceptance by the Agency of the
+  proposed terms of the Compliance Commitment Agreement for the
+  violations alleged in the written notice issued under
+  subdivision (1) of this subsection (a) as contained within the
+  written response.
+  
+  (10) If the person complained against complies with the
+  terms of a Compliance Commitment Agreement accepted pursuant
+  to this subsection (a), the Agency shall not refer the alleged
+  violations which are the subject of the Compliance Commitment
+  Agreement to the Office of the Illinois Attorney General or
+  the State's Attorney of the county in which the alleged
+  violation occurred. However, nothing in this subsection is
+  intended to preclude the Agency from continuing negotiations
+  with the person complained against or from proceeding pursuant
+  to the provisions of subsection (b) of this Section for
+  alleged violations that remain the subject of disagreement
+  between the Agency and the person complained against following
+  fulfillment of the requirements o
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To establish a process for resolving alleged environmental violations through
+        Compliance Commitment Agreements and provide transparency by publishing these
+        agreements online.
+    [mistral_3000]
+        To establish and clarify the procedures for enforcing environmental regulations
+        in Illinois.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Environmental Policy, Administrative Procedure
+    [mistral_3000]
+        Environmental Policy, Administrative Law
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Respondents who are subject to environmental violations and the general public
+        (through increased transparency).
+    [mistral_3000]
+        Citizens, state agencies, environmental agencies, and entities that may be in
+        violation of environmental regulations.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Transparency, accountability, and resolution of environmental violations.
+    [mistral_3000]
+        The bill aims to increase compliance with environmental regulations by
+        clarifying the enforcement process.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        The bill does not aim to reduce, restrict, or eliminate anything specifically.
+
+
+  ### intent
+    [mistral_2000]
+        To establish a process for resolving alleged environmental violations through
+        Compliance Commitment Agreements and increase transparency.
+    [mistral_3000]
+        To establish and clarify the procedures for enforcing environmental regulations
+        in Illinois.
+
+
+  ### motivation
+    [mistral_2000]
+        To improve environmental protection and enforcement, and increase transparency
+        in the resolution of environmental violations.
+    [mistral_3000]
+        The motivation for this bill is likely to address concerns about compliance with
+        environmental regulations and to provide clearer guidelines for enforcement.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by requiring
+        compliance with environmental regulations and the publication of any resulting
+        Compliance Commitment Agreements.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it is
+        found to be in violation of environmental regulations.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to existing law.
+    [mistral_3000]
+        The bill uses the strategy of amending existing laws to clarify and establish
+        procedures for enforcing environmental regulations.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The Agency is required to publish Compliance Commitment Agreements online,
+        maintain a searchable database, and not refer violations that are resolved
+        through these agreements to the Office of the Illinois Attorney General or the
+        State's Attorney.
+    [mistral_3000]
+        The bill outlines the process for filing complaints, issuing notices, and
+        holding hearings for environmental violations. It also includes provisions for
+        settlements and stipulations, and exemptions for certain voluntary pollution
+        prevention activities.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 13/20   |   SB2367   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 1962956::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  ) This report shall recommend alternative sourcing, if
+  available; highlight the difficulty in identifying potential
+  alternative sourcing, if relevant; and specify the level of
+  risk to the State associated with such a disruption in
+  sourcing for each procurement that is threatened in the event
+  of a Pacific conflict.
+  
+  The Auditor General shall conduct an audit of all funds
+  managed by the State government and any political subdivision
+  of the State and produce and publish a report, which shall be
+  submitted to General Assembly and the Governor and made easily
+  accessible to the public, within 180 days after the effective
+  date of this Act.
+  
+  (d) This audit report shall identify all investments:
+  
+  (1) at risk of substantially losing value or being
+  frozen, seized, or appropriated by foreign adversaries in
+  the event of a Pacific conflict;
+  
+  (2) all investments in any arms industry of a foreign
+  adversary;
+  
+  (3) all investments in State-owned enterprises of a
+  foreign adversary;
+  
+  (4) all investments in companies domiciled within a
+  foreign adversary or owned by a company domiciled within a
+  foreign adversary.
+  
+   The audit report shall recommend strategies for the
+  immediate and complete divestment of these assets identified
+  in subsection (b).
+  
+  Section 30.
+  Creation of the Select Committee on Pacific
+  Conflict.
+  
+  (a) The Select Committee on Pacific Conflict is created.
+  
+  (b) Appointments to the Select Committee shall be
+  finalized within 60 days after the effective date of this Act.
+  
+  (c) The first meeting of the Select Committee shall be
+  within 90 days after the effective date of this Act.
+  
+  (c) The Select Committee shall meet no less than once
+  every 3 months, with additional regular meetings at the call
+  of the majority of the Select Committee and emergency meetings
+  at the call of the Chair of the Select Committee or the
+  Governor.
+  
+  (d) A report on the impact of a Pacific conflict on the
+  State, insofar as it has been completed, shall be submitted to
+  the General Assembly, the Governor, and be made easily
+  accessible to the public no later than 30 days before the
+  annual address made to the General Assembly by the Governor,
+  and an updated report made available pursuant to the same on an
+  annual basis.
+  
+  The first report shall incorporate the findings of the
+  audit of State supply chains, State vendor supply chains, and
+  State investment holdings established in Section 25, along
+  with the report on adversarial threats to state assets and
+  critical infrastructure established in Section 35 and due 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To identify and mitigate risks to the State in the event of a Pacific conflict,
+        particularly in terms of critical infrastructure, supply chains, and
+        investments.
+    [mistral_3000]
+        The primary goal of this bill is to enhance the State's preparedness for
+        potential Pacific conflicts by identifying and addressing vulnerabilities in
+        critical infrastructure, supply chains, and other key areas.
+
+
+  ### policy_domain
+    [mistral_2000]
+        National Security, Economic Development, Infrastructure
+    [mistral_3000]
+        National Security, Infrastructure, Cybersecurity, Public Health
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        State government, political subdivisions of the State, critical infrastructure
+        providers, military installations, supply chain providers, and the public.
+    [mistral_3000]
+        State agencies, nongovernmental organizations, critical infrastructure owners
+        and operators, State universities, private firms specializing in infrastructure
+        risk management, and federal agencies.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        Preparedness, risk assessment, emergency response strategies, mitigation
+        strategies.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        Identification and divestment of at-risk investments
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To prepare the State for potential conflicts in the Pacific region and mitigate
+        risks to critical infrastructure, supply chains, and investments.
+    [mistral_3000]
+        To enhance the State's preparedness for potential Pacific conflicts by
+        identifying and addressing vulnerabilities in critical infrastructure, supply
+        chains, and other key areas.
+
+
+  ### motivation
+    [mistral_2000]
+        The bill is likely motivated by concerns about potential conflicts in the
+        Pacific region and the need to protect the State's assets and critical
+        infrastructure from malicious actions by adversarial nations.
+    [mistral_3000]
+        The motivation driving this bill is likely the perceived need to address
+        potential threats posed by Pacific conflicts and to protect the State's critical
+        infrastructure, supply chains, and other key assets.
+
+
+  ### potential_impact
+    [mistral_2000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        the university to cooperate with the Select Committee on Pacific Conflict and
+        potentially affecting university investments or supply chains.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by requiring
+        cooperation and compliance in carrying out the purposes set forth.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        National security and defense-oriented
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment, committee creation, funding clause
+    [mistral_3000]
+        The bill uses committee formation, report requirements, subpoena power, and
+        funding to carry out its purposes.
+
+
+  ### key_provisions
+    [mistral_2000]
+        Creation of the Select Committee on Pacific Conflict, audit of state funds,
+        identification and divestment of at-risk investments, annual reports on threats
+        to the State, and cooperation from State agencies and nongovernmental
+        organizations.
+    [mistral_3000]
+        The bill establishes a Select Committee on Pacific Conflict, appoints a
+        Director, requires annual reports, allows for subpoenas and consultations, and
+        provides funding support.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 14/20   |   SB3889   chunk 1   |   ? tokens   |   disagreement=13.85
+# chunk_id: 2110829::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  (5) return their appraisal, in writing, to the water
+  or sewer utility and large public utility in a reasonable
+  and timely manner.
+  
+  If the appraiser cannot engage an engineer, as described
+  in paragraph (3) of this subsection (c), within 30 days after
+  the appraiser is engaged, then the Commission's Executive
+  Director or designee shall recommend the engineer the
+  appraiser should engage. The Commission's Executive Director
+  or designee shall provide his or her recommendation within 30
+  days after he or she is officially notified of the appraiser's
+  failure to engage an engineer and the appraiser shall promptly
+  work to engage the recommended engineer. If the appraiser is
+  unable to negotiate reasonable engagement terms with the
+  recommended engineer within 15 days after the recommendation
+  by the Commission's Executive Director or designee, then the
+  appraiser shall notify the Commission's Executive Director or
+  designee and the process shall be repeated until an engineer
+  is successfully engaged.
+  
+  (d) The lesser of (i) the purchase price or (ii) the fair
+  market value determined under subsection (c) of this Section
+  shall constitute the rate base associated with the water or
+  sewer utility as acquired by and incorporated into the rate
+  base of the district designated by the acquiring large public
+  utility under this Section, subject to any adjustments that
+  the Commission deems necessary to ensure such rate base
+  reflects prudent and useful investments in the provision of
+  public utility service. The reasonable transaction and closing
+  costs incurred by the large public utility shall be treated
+  consistent with the applicable accounting standards under this
+  Act. The total amount of all of the appraisers' fees to be
+  included in the transaction and closing costs shall not exceed
+  the greater of $15,000 or 5% of the appraised value of the
+  water or sewer utility being acquired. This rate base
+  treatment shall not be deemed to violate this Act, including,
+  but not limited to, any Sections in Articles VIII and IX of
+  this Act that might be affected by this Section. Any
+  acquisition of a water or sewer utility that affects the
+  cumulative base rates of the large public utility's existing
+  ratepayers in the tariff group into which the water or sewer
+  utility is to be combined by less than (1) 2.5% at the time of
+  the acquisition for any single acquisition completed under
+  this Section or (2) 5% for all acquisitions completed under
+  this Section before the Commission's final order in the next
+  rate 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=1
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To establish a framework for the acquisition of water or sewer utilities by
+        large public utilities, including the determination of rate base, public
+        notification, and ratemaking.
+    [mistral_3000]
+        To establish guidelines for the acquisition of water or sewer utilities by large
+        public utilities, including rate regulations and the treatment of
+        post-acquisition improvements.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Public Utilities, Regulatory Affairs
+    [mistral_3000]
+        Public Utilities, Regulation
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Water or sewer utilities, large public utilities, and the public.
+    [mistral_3000]
+        Customers of water or sewer utilities, large public utilities, contractors and
+        subcontractors working on water or sewer utilities.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        The bill aims to increase the efficiency of the acquisition process for water or
+        sewer utilities by large public utilities.
+    [mistral_3000]
+        The bill aims to increase the efficiency of rate-setting and the treatment of
+        post-acquisition improvements.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        The bill does not aim to reduce, restrict, or eliminate anything specifically.
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To establish a framework for the acquisition of water or sewer utilities by
+        large public utilities.
+    [mistral_3000]
+        To establish guidelines for the acquisition of water or sewer utilities by large
+        public utilities.
+
+
+  ### motivation
+    [mistral_2000]
+        To provide a clear and efficient process for the acquisition of water or sewer
+        utilities by large public utilities.
+    [mistral_3000]
+        To ensure fair rates and efficient management of acquired water or sewer
+        utilities.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the water or sewer utilities that serve the campus if a large public utility
+        were to acquire one of those utilities.
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by affecting
+        the rates charged for water or sewer services if the university's utilities are
+        acquired by a large public utility.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        The bill uses the legislative strategy of establishing a framework for the
+        acquisition of water or sewer utilities by large public utilities.
+    [mistral_3000]
+        The bill is presented as a section within a larger act, and it is subject to
+        approval by the Commission.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill outlines the appraisal process, rate base treatment, public
+        notification, and ratemaking for the acquisition of water or sewer utilities by
+        large public utilities.
+    [mistral_3000]
+        Customers of acquired water or sewer utilities pay approved rates,
+        post-acquisition improvements are not depreciated for ratemaking purposes,
+        contractors and subcontractors must be responsible bidders, and large public
+        utilities must offer employee positions to qualified employees of the acquired
+        utilities.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 15/20   |   SB4008   chunk 0   |   ? tokens   |   disagreement=13.85
+# chunk_id: 2111220::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  30 ILCS 574/40-10
+  70 ILCS 3615/2.39.5 new
+  
+  Amends the Regional Transportation Authority Act. Requires the
+  Northern Illinois Transit Authority to establish a goal to award not less
+  than 3% of the total dollar amount of all contracts with the Northern
+  Illinois Transit Authority, the Chicago Transit Authority, the Suburban
+  Bus Division, and the Commuter Rail Division to qualified service-disabled
+  veteran-owned small businesses and qualified veteran-owned small
+  businesses. Provides that, by each March 1, the Board shall report to the
+  Governor and General Assembly (1) the total number of qualified
+  veteran-owned small businesses that submitted bids for contracts with the
+  Authority and the total number of qualified service-disabled veteran-owned
+  small businesses in the immediately preceding fiscal year; (2) the total
+  number of qualified veteran-owned small businesses, and qualified
+  service-disabled veteran-owned small businesses, that entered into
+  contracts with the Authority in the immediately preceding fiscal year; (3)
+  a year-by-year comparison of awarded contracts to certified veteran-owned
+  small businesses and service-disabled veteran-owned small businesses; and
+  (4) any other information that the Board deems necessary to assist
+  veteran-owned small businesses and service-disabled veteran-owned small
+  businesses to become certified with the State. Provides that, each year,
+  the Board shall review the progress of the Authority and the Service Boards
+  in meeting the goal, with input from statewide veterans' service
+  organizations and from the business community, including businesses owned
+  by qualified veterans, and shall make recommendations to the General
+  Assembly regarding continuation, increases, or decreases of the percentage
+  goal. Provides that the Board shall suspend any person who commits a
+  violation of specified offenses under the Criminal Code of 2012 from
+  bidding on, or participating as a contractor, subcontractor, or supplier
+  in, any Authority contract or project for a period of not less than 3
+  years, and, if the person is certified as a service-disabled veteran-owned
+  small business or a veteran-owned small business, then the Commission
+  shall revoke the business's certification for a period of not less than 3
+  years. Makes conforming changes in the Commission on Equity and Inclusion
+  Act.
+  
+  AN ACT concerning local government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Commission on Equity and In
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To increase the participation of veteran-owned small businesses and
+        service-disabled veteran-owned small businesses in contracts with the Northern
+        Illinois Transit Authority.
+    [mistral_3000]
+        The primary goal of this bill is to increase the participation of veteran-owned
+        small businesses in contracts with the Northern Illinois Transit Authority.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Government Procurement, Veterans Affairs
+    [mistral_3000]
+        Local Government, Veterans Affairs, Small Business
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Veteran-owned small businesses, service-disabled veteran-owned small businesses.
+    [mistral_3000]
+        Qualified service-disabled veteran-owned small businesses, qualified
+        veteran-owned small businesses.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Participation of veteran-owned small businesses and service-disabled
+        veteran-owned small businesses in contracts.
+    [mistral_3000]
+        Participation of veteran-owned small businesses in contracts with the Northern
+        Illinois Transit Authority.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### intent
+    [mistral_2000]
+        To increase the participation of veteran-owned small businesses and
+        service-disabled veteran-owned small businesses in contracts with the Northern
+        Illinois Transit Authority.
+    [mistral_3000]
+        To increase the participation of veteran-owned small businesses in contracts
+        with the Northern Illinois Transit Authority.
+
+
+  ### motivation
+    [mistral_2000]
+        To support and encourage veteran entrepreneurship.
+    [mistral_3000]
+        To support and promote businesses owned by veterans.
+
+
+  ### potential_impact
+    [mistral_2000]
+        The bill could impact the University of Illinois Urbana-Champaign if it uses the
+        services of the Northern Illinois Transit Authority and is required to follow
+        the new contracting goals.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if the
+        university is a contractor with the Northern Illinois Transit Authority.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        Supports veteran entrepreneurship.
+    [mistral_3000]
+        Supports veteran-owned businesses
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to existing laws.
+    [mistral_3000]
+        Amendment
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill requires the Northern Illinois Transit Authority to set a goal for
+        awarding contracts to veteran-owned small businesses and service-disabled
+        veteran-owned small businesses. It also requires the Board to report on the
+        progress of meeting this goal and suspends contractors who violate certain
+        offenses.
+    [mistral_3000]
+        The bill requires the Northern Illinois Transit Authority to award a certain
+        percentage of contracts to qualified service-disabled veteran-owned small
+        businesses and qualified veteran-owned small businesses. It also requires the
+        Authority to report on the number of contracts awarded to these businesses each
+        year.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 16/20   |   HB1350   chunk 1   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1917950::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   and not more
+  than 70,000 inhabitants, the sum of $5,000 per annum;
+  
+  (6) To each assistant state's attorney in counties
+  containing not less than 70,000 inhabitants and not more
+  than 1,000,000 inhabitants, the sum of $6,000 per annum.
+  
+  (d) The population of all counties for the purpose of
+  fixing salaries as herein provided shall be based upon the
+  last Federal census immediately previous to the appointment of
+  an assistant state's attorney in each county.
+  
+  (e) At the request of the county governing authority, in
+  counties where one or more state correctional institutions, as
+  hereinafter defined, are located, one or more assistant
+  state's attorneys shall, subject to appropriation, receive for
+  their services, provided that such services are performed in
+  connection with the state correctional institution, payable
+  monthly by the Department of Revenue out of the Personal
+  Property Tax Replacement Fund or the General Revenue Fund to
+  the county in which they are appointed, the following:
+  
+  (1) $22,000 for each assistant state's attorney in
+  counties with one or more State correctional institutions
+  with a total average daily inmate population in excess of
+  2,000, on the basis of 2 assistant state's attorneys when
+  the total average daily inmate population exceeds 2,000
+  but is less than 4,000; and 3 assistant state's attorneys
+  when such population exceeds 4,000; with reimbursement to
+  be based on actual services rendered.
+  
+  (2) $15,000 per year for one assistant state's
+  attorney in counties having one or more correctional
+  institutions with a total average daily inmate population
+  of between 750 and 2,000 inmates, with reimbursement to be
+  based on actual services rendered.
+  
+  (3) A maximum of $12,000 per year for one assistant
+  state's attorney in counties having less than 750 inmates,
+  with reimbursement to be based on actual services
+  rendered.
+  
+  Upon application of the county governing authority and
+  certification of the State's Attorney, the Director of
+  Corrections may, in his discretion and subject to
+  appropriation, increase the amount of salary reimbursement
+  to a county in the event special circumstances require the
+  county to incur extraordinary salary expenditures as a
+  result of services performed in connection with State
+  correctional institutions in that county.
+  
+  In determining whether or not to increase the amount of
+  salary reimbursement, the Director shall consider, among other
+  matters:
+  
+  (1) the nature of the services rendered;
+  
+  (2) the results or dispositions obtained;
+  
+  (3)
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=2
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To establish and adjust the salaries for assistant state's attorneys and provide
+        subsidies for counties to appoint additional assistant state's attorneys for the
+        prosecution of alcohol-related traffic offenses.
+    [mistral_3000]
+        To increase the number of assistant state's attorneys in counties for the
+        prosecution of alcohol-related traffic offenses.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Government Operations, Public Safety, Education
+    [mistral_3000]
+        Criminal Justice, Education
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Assistant state's attorneys, county governing authorities, state correctional
+        institutions, state universities, and counties with state universities or state
+        correctional institutions.
+    [mistral_3000]
+        Counties, assistant state's attorneys, state universities, public community
+        colleges.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Salaries for assistant state's attorneys, subsidies for counties to appoint
+        assistant state's attorneys for the prosecution of alcohol-related traffic
+        offenses.
+    [mistral_3000]
+        Number of assistant state's attorneys, funding for salaries and benefits.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To establish and adjust the salaries for assistant state's attorneys and provide
+        subsidies for counties to appoint additional assistant state's attorneys for the
+        prosecution of alcohol-related traffic offenses.
+    [mistral_3000]
+        To increase the number of assistant state's attorneys for the prosecution of
+        alcohol-related traffic offenses.
+
+
+  ### motivation
+    [mistral_2000]
+        To ensure adequate funding for assistant state's attorneys and to address
+        alcohol-related traffic offenses.
+    [mistral_3000]
+        To address alcohol-related traffic offenses and improve the prosecution of such
+        cases.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the salaries of assistant state's attorneys in counties where the university is
+        located.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially increasing the number of assistant state's attorneys who may be
+        involved in prosecuting alcohol-related traffic offenses on or near campus.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment
+    [mistral_3000]
+        Amendment, funding clause, committee referral.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill sets salaries for assistant state's attorneys based on county
+        population, presence of state correctional institutions, and state universities.
+        It also establishes subsidies for counties to appoint assistant state's
+        attorneys for the prosecution of alcohol-related traffic offenses.
+    [mistral_3000]
+        Increase in assistant state's attorneys for alcohol-related traffic offenses,
+        funding for salaries and benefits, adjustments for inflation, definitions of
+        "State mental health institution," "State correctional institution," and "State
+        university."
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 17/20   |   HB2480   chunk 0   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1952007::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  5 ILCS 315/14
+  
+  from Ch. 48, par. 1614
+  
+  Amends the Illinois Public Labor Relations Act. Specifies that among
+  the conditions of employment that may be included in arbitration decisions
+  involving peace officers are residency requirements for municipalities
+  with a population under 1,000,000 (now, for municipalities with a
+  population under 100,000). Specifies that residency requirements for
+  municipalities with a population under 1,000,000 (now, for municipalities
+  with a population under 100,000) are not a condition of employment that may
+  be included in an arbitration decision for a peace officer. Effective
+  immediately.
+  
+  AN ACT concerning government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Public Labor Relations Act is
+  amended by changing Section 14 as follows:
+  
+  (5 ILCS 315/14)
+  
+  (from Ch. 48, par. 1614)
+  
+  Sec. 14.
+  Security employee, peace officer and fire fighter
+  disputes.
+  
+  (a) In the case of collective bargaining agreements
+  involving units of security employees of a public employer,
+  Peace Officer Units, or units of fire fighters or paramedics,
+  and in the case of disputes under Section 18, unless the
+  parties mutually agree to some other time limit, mediation
+  shall commence 30 days prior to the expiration date of such
+  agreement or at such later time as the mediation services
+  chosen under subsection (b) of Section 12 can be provided to
+  the parties. In the case of negotiations for an initial
+  collective bargaining agreement, mediation shall commence upon
+  15 days notice from either party or at such later time as the
+  mediation services chosen pursuant to subsection (b) of
+  Section 12 can be provided to the parties. In mediation under
+  this Section, if either party requests the use of mediation
+  services from the Federal Mediation and Conciliation Service,
+  the other party shall either join in such request or bear the
+  additional cost of mediation services from another source. The
+  mediator shall have a duty to keep the Board informed on the
+  progress of the mediation. If any dispute has not been
+  resolved within 15 days after the first meeting of the parties
+  and the mediator, or within such other time limit as may be
+  mutually agreed upon by the parties, either the exclusive
+  representative or employer may request of the other, in
+  writing, arbitration, and shall submit a copy of the request
+  to the Board.
+  
+  (b) Within 10 days after such a request for arbitration
+  has been made, the employer shall choose a 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=2
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        The bill aims to restrict the conditions of employment that can be included in
+        arbitration decisions for peace officers in certain municipalities.
+    [mistral_3000]
+        The bill aims to restrict the conditions of employment for peace officers in
+        arbitration decisions, specifically residency requirements in certain
+        municipalities.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Labor Relations, Government
+    [mistral_3000]
+        Labor Relations, Public Administration
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Peace officers in municipalities with a population under 1,000,000.
+    [mistral_3000]
+        Peace officers, municipalities with a population under 1,000,000.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        The conditions that can be included in arbitration decisions for peace officers
+        in certain municipalities.
+    [mistral_3000]
+        Restricts residency requirements for peace officers in arbitration decisions for
+        municipalities with a population under 1,000,000.
+
+
+  ### intent
+    [mistral_2000]
+        To restrict the conditions of employment that can be included in arbitration
+        decisions for peace officers in certain municipalities.
+    [mistral_3000]
+        To restrict residency requirements for peace officers in arbitration decisions
+        for municipalities with a population under 1,000,000.
+
+
+  ### motivation
+    [mistral_2000]
+        Unknown
+    [mistral_3000]
+        Unknown.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the ability of municipalities to set residency
+        requirements for peace officers in arbitration decisions.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it employs
+        peace officers in a municipality with a population under 1,000,000.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment
+    [mistral_3000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill specifies that residency requirements for peace officers in
+        municipalities with a population under 1,000,000 cannot be included in
+        arbitration decisions for peace officers.
+    [mistral_3000]
+        The bill amends the Illinois Public Labor Relations Act to exclude residency
+        requirements for peace officers in municipalities with a population under
+        1,000,000 from conditions of employment that may be included in arbitration
+        decisions.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 18/20   |   HB2480   chunk 1   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1952007::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   in subsection
+  (h). The findings, opinions and order as to all other issues
+  shall be based upon the applicable factors prescribed in
+  subsection (h).
+  
+  (h) Where there is no agreement between the parties, or
+  where there is an agreement but the parties have begun
+  negotiations or discussions looking to a new agreement or
+  amendment of the existing agreement, and wage rates or other
+  conditions of employment under the proposed new or amended
+  agreement are in dispute, the arbitration panel shall base its
+  findings, opinions and order upon the following factors, as
+  applicable:
+  
+  (1) The lawful authority of the employer.
+  
+  (2) Stipulations of the parties.
+  
+  (3) The interests and welfare of the public and the
+  financial ability of the unit of government to meet those
+  costs.
+  
+  (4) Comparison of the wages, hours and conditions of
+  employment of the employees involved in the arbitration
+  proceeding with the wages, hours and conditions of
+  employment of other employees performing similar services
+  and with other employees generally:
+  
+  (A) In public employment in comparable
+  communities.
+  
+  (B) In private employment in comparable
+  communities.
+  
+  (5) The average consumer prices for goods and
+  services, commonly known as the cost of living.
+  
+  (6) The overall compensation presently received by the
+  employees, including direct wage compensation, vacations,
+  holidays and other excused time, insurance and pensions,
+  medical and hospitalization benefits, the continuity and
+  stability of employment and all other benefits received.
+  
+  (7) Changes in any of the foregoing circumstances
+  during the pendency of the arbitration proceedings.
+  
+  (8) Such other factors, not confined to the foregoing,
+  which are normally or traditionally taken into
+  consideration in the determination of wages, hours and
+  conditions of employment through voluntary collective
+  bargaining, mediation, fact-finding, arbitration or
+  otherwise between the parties, in the public service or in
+  private employment.
+  
+  (i) In the case of peace officers, the arbitration
+  decision shall be limited to wages, hours, and conditions of
+  employment (which may include residency requirements in
+  municipalities with a population under
+  1,000,000
+  
+  100,000
+  , but
+  those residency requirements shall not allow residency outside
+  of Illinois) and shall not include the following: i) residency
+  requirements in municipalities with a population of at least
+  1,000,000
+  
+  100,000
+  ; ii) the type of equipment, other than
+  uniforms, issued or used; iii) manning; iv) the total number
+  of 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To establish guidelines for arbitration panels when determining wage rates and
+        other conditions of employment for public sector employees.
+    [mistral_3000]
+        To establish new rules and procedures for the arbitration process for
+        firefighters and peace officers.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Labor Relations, Public Employment, Collective Bargaining
+    [mistral_3000]
+        Labor Relations, Public Employment
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Public employers, peace officers, firefighters, fire department and fire
+        protection district paramedics, security officers.
+    [mistral_3000]
+        Firefighters, peace officers, and their exclusive representatives.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Wages, overall compensation, and other benefits received.
+    [mistral_3000]
+        Arbitration panel orders, retroactive increases in rates of compensation, and
+        the ability to amend or modify arbitration awards.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### intent
+    [mistral_2000]
+        To establish guidelines for arbitration panels when determining wage rates and
+        other conditions of employment for public sector employees.
+    [mistral_3000]
+        To establish new rules and procedures for the arbitration process for
+        firefighters and peace officers.
+
+
+  ### motivation
+    [mistral_2000]
+        To provide a fair and consistent process for resolving wage disputes between
+        public employers and employees.
+    [mistral_3000]
+        To address disputes between firefighters, peace officers, and their employers,
+        and to provide a clearer and more efficient arbitration process.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the arbitration process for wage disputes involving peace officers,
+        firefighters, and security officers employed by the university.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by altering
+        the arbitration process for firefighters and peace officers employed by the
+        university.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        Neutral.
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to existing law.
+    [mistral_3000]
+        Amendment
+
+
+  ### key_provisions
+    [mistral_2000]
+        Factors to consider during arbitration, limitations on arbitration decisions,
+        review process for decisions by the governing body, and prohibition of strikes
+        or lockouts during the arbitration process.
+    [mistral_3000]
+        Limitation of the terms of arbitration decisions, preservation of historical
+        bargaining rights, arbitration panel orders review process, and provisions for
+        unresolved disputes.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 19/20   |   HB2518   chunk 1   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1952663::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   from disclosure under
+  Section 4.2 of the Crime Victims Compensation Act.
+  
+  (nn) Information that is exempt from disclosure under
+  Section 70 of the Higher Education Student Assistance Act.
+  
+  (oo) Communications, notes, records, and reports
+  arising out of a peer support counseling session
+  prohibited from disclosure under the First Responders
+  Suicide Prevention Act.
+  
+  (pp) Names and all identifying information relating to
+  an employee of an emergency services provider or law
+  enforcement agency under the First Responders Suicide
+  Prevention Act.
+  
+  (qq) Information and records held by the Department of
+  Public Health and its authorized representatives collected
+  under the Reproductive Health Act.
+  
+  (rr) Information that is exempt from disclosure under
+  the Cannabis Regulation and Tax Act.
+  
+  (ss) Data reported by an employer to the Department of
+  Human Rights pursuant to Section 2-108 of the Illinois
+  Human Rights Act.
+  
+  (tt) Recordings made under the Children's Advocacy
+  Center Act, except to the extent authorized under that
+  Act.
+  
+  (uu) Information that is exempt from disclosure under
+  Section 50 of the Sexual Assault Evidence Submission Act.
+  
+  (vv) Information that is exempt from disclosure under
+  subsections (f) and (j) of Section 5-36 of the Illinois
+  Public Aid Code.
+  
+  (ww) Information that is exempt from disclosure under
+  Section 16.8 of the State Treasurer Act.
+  
+  (xx) Information that is exempt from disclosure or
+  information that shall not be made public under the
+  Illinois Insurance Code.
+  
+  (yy) Information prohibited from being disclosed under
+  the Illinois Educational Labor Relations Act.
+  
+  (zz) Information prohibited from being disclosed under
+  the Illinois Public Labor Relations Act.
+  
+  (aaa) Information prohibited from being disclosed
+  under Section 1-167 of the Illinois Pension Code.
+  
+  (bbb) Information that is prohibited from disclosure
+  by the Illinois Police Training Act and the Illinois State
+  Police Act.
+  
+  (ccc) Records exempt from disclosure under Section
+  2605-304 of the Illinois State Police Law of the Civil
+  Administrative Code of Illinois.
+  
+  (ddd) Information prohibited from being disclosed
+  under Section 35 of the Address Confidentiality for
+  Victims of Domestic Violence, Sexual Assault, Human
+  Trafficking, or Stalking Act.
+  
+  (eee) Information prohibited from being disclosed
+  under subsection (b) of Section 75 of the Domestic
+  Violence Fatality Review Act.
+  
+  (fff) Images from cameras under the Expressway Camera
+  Act. This subsection (fff) is inoperative on and after
+  July 1, 2025.
+  
+  
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=OK         missing=0
+    mistral_3000         status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To protect sensitive information and records from disclosure.
+    [mistral_3000]
+        To protect confidential information obtained during investigations under the
+        Consumer Fraud and Deceptive Business Practices Act.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Government Transparency, Privacy, Public Safety
+    [mistral_3000]
+        Consumer Protection, Government Transparency
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        State agencies, emergency services providers, law enforcement agencies, and
+        individuals whose sensitive information is protected by these laws.
+    [mistral_3000]
+        The Attorney General, State's Attorneys, and law enforcement officials.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        Information disclosure.
+    [mistral_3000]
+        Information disclosure under the Freedom of Information Act.
+
+
+  ### intent
+    [mistral_2000]
+        To protect sensitive information and records from disclosure.
+    [mistral_3000]
+        To protect the confidentiality of information obtained during investigations
+        under the Consumer Fraud and Deceptive Business Practices Act.
+
+
+  ### motivation
+    [mistral_2000]
+        To maintain privacy and confidentiality for individuals and organizations whose
+        sensitive information is protected by these laws.
+    [mistral_3000]
+        To ensure that investigations under the Consumer Fraud and Deceptive Business
+        Practices Act are not compromised by the disclosure of confidential information.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by expanding
+        the exemptions from disclosure for certain information related to the
+        university.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if they are
+        involved in an investigation under the Consumer Fraud and Deceptive Business
+        Practices Act and are required to provide information or documentary materials.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        None.
+    [mistral_3000]
+        [empty]
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment to existing laws.
+    [mistral_3000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill adds or modifies exemptions from disclosure under multiple Illinois
+        laws, including the Freedom of Information Act.
+    [mistral_3000]
+        Exemption of certain information and documentary materials from disclosure under
+        the Freedom of Information Act.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 20/20   |   HB2853   chunk 0   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1956812::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  70 ILCS 410/6
+  
+  from Ch. 96 1/2, par. 7106
+  70 ILCS 805/8
+  
+  from Ch. 96 1/2, par. 6315
+  70 ILCS 1205/8-1
+  
+  from Ch. 105, par. 8-1
+  
+  Amends the Park District Code. Provides that all competitive bids for
+  contracts involving an expenditure in excess of $50,000 (rather than
+  $30,000), or a lower amount if required by board policy, must be sealed by
+  the bidder and must be opened by a member or employee of the park board at
+  a public bid opening at which the contents of the bids must be announced.
+  Amends the Conservation District Act and the Downstate Forest Preserve
+  District Act. Provides that specified contracts related to supplies,
+  materials, or work involving an expenditure in excess of $50,000 (rather
+  than $30,000), or a lower amount if required by board policy, must be
+  competitively bid. Effective immediately.
+  
+  AN ACT concerning local government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Conservation District Act is amended by
+  changing Section 6 as follows:
+  
+  (70 ILCS 410/6)
+  
+  (from Ch. 96 1/2, par. 7106)
+  
+  Sec. 6.
+  Officers and employees.
+   As soon as possible after
+  the initial election or the initial appointments, as the case
+  may be, the trustees shall organize by selecting from their
+  members a president, secretary, treasurer, and other officers
+  as are deemed necessary, who shall hold office for 2 years in
+  the case of an elected board, or the fiscal year in which
+  elected in the case of an appointed board, and until their
+  successors are selected and qualify. Three trustees shall
+  constitute a quorum of the board for the transaction of
+  business if the district has 5 trustees. If the district has 7
+  trustees, 4 trustees shall constitute a quorum of the board
+  for the transaction of business. The board shall hold regular
+  monthly meetings. Special meetings may be called by the
+  president and shall be called on the request of a majority of
+  members, as may be required.
+  
+  The board shall provide for the proper and safe keeping of
+  its permanent records and for the recording of the corporate
+  action of the district. It shall keep a proper system of
+  accounts showing a true and accurate record of its receipts
+  and disbursements, and it shall cause an annual audit to be
+  made of its books, records, and accounts.
+  
+  The records of the district shall be subject to public
+  inspection at all reasonable hours and under regulations as
+  the board may prescribe.
+  
+  The district shall annually make a full and complete
+  report to the count
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_2000         status=PARTIAL    missing=2
+    mistral_3000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_2000]
+        To raise the minimum amount for competitive bidding in park, conservation, and
+        downstate forest preserve districts.
+    [mistral_3000]
+        To increase the minimum amount for competitive bidding in local government
+        contracts.
+
+
+  ### policy_domain
+    [mistral_2000]
+        Government Operations, Public Procurement
+    [mistral_3000]
+        Government Operations, Local Government, Public Procurement
+
+
+  ### intended_beneficiaries
+    [mistral_2000]
+        Park districts, conservation districts, downstate forest preserve districts, and
+        their respective boards.
+    [mistral_3000]
+        1. Park districts, conservation districts, and downstate forest preserve
+        districts. 2. Contractors bidding on contracts exceeding the new minimum amount.
+
+
+  ### increasing_aspects
+    [mistral_2000]
+        Competitive bidding threshold
+    [mistral_3000]
+        1. Competitive bidding requirements. 2. Transparency in public contracting.
+
+
+  ### decreasing_aspects
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### intent
+    [mistral_2000]
+        To raise the minimum amount for competitive bidding in park, conservation, and
+        downstate forest preserve districts.
+    [mistral_3000]
+        To increase the transparency and fairness in public contracting by raising the
+        minimum amount for competitive bidding.
+
+
+  ### motivation
+    [mistral_2000]
+        To ensure fair and competitive procurement practices in park, conservation, and
+        downstate forest preserve districts.
+    [mistral_3000]
+        To ensure that larger contracts are awarded fairly and transparently, and to
+        prevent potential corruption or favoritism in the awarding of contracts.
+
+
+  ### potential_impact
+    [mistral_2000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the procurement process for contracts with park districts, conservation
+        districts, and downstate forest preserve districts if they fall under the new
+        competitive bidding threshold.
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the procurement process for contracts with the park district, conservation
+        district, or downstate forest preserve district, if any of these entities are
+        involved in projects with the university.
+
+
+  ### ideological_alignment
+    [mistral_2000]
+        [empty]
+    [mistral_3000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_2000]
+        Amendment
+    [mistral_3000]
+        Amendment to existing laws.
+
+
+  ### key_provisions
+    [mistral_2000]
+        The bill amends the Park District Code, Conservation District Act, and Downstate
+        Forest Preserve District Act to require competitive bidding for contracts
+        exceeding $50,000 (or a lower amount if required by board policy).
+    [mistral_3000]
+        1. Increases minimum amount for competitive bidding in park districts,
+        conservation districts, and downstate forest preserve districts from $30,000 to
+        $50,000. 2. Allows for a lower amount if required by board policy.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+===============================================================================================
+  AGGREGATE — fill in after scoring all chunks
+===============================================================================================
+
+  mistral_2000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  mistral_3000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  ONE-LINE VERDICT FOR THIS CHUNK SIZE:
+  ______________________________________________________________________

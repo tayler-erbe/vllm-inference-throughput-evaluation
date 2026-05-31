@@ -1,0 +1,4014 @@
+===============================================================================================
+  QUALITATIVE REVIEW COMPANION — SCORING DOCUMENT
+===============================================================================================
+
+  Profiles compared: llama31_900, llama31_2000
+  Chunks included:   20 (highest model-disagreement first)
+  Session:           999996
+
+  HOW TO USE THIS DOCUMENT:
+  - For each chunk, read the source text, then read each model's answers.
+  - Score each model on the 3 rubric criteria (Accuracy, Specificity,
+    Completeness), each 0-2, in the score slots provided.
+  - Score blind to parse_status. A PARTIAL with great answers beats an
+    OK with shallow ones.
+  - Only the 6 substantive fields are shown here for scoring focus.
+  - Transfer your scores into the rubric's scoring sheet when done.
+
+  RUBRIC QUICK REFERENCE:
+  Accuracy:     0=wrong  1=partially right  2=accurate
+  Specificity:  0=generic  1=somewhat specific  2=names actual mechanism
+  Completeness: 0=surface phrase  1=partial point  2=substantive point captured
+
+===============================================================================================
+
+###############################################################################################
+# CHUNK 1/20   |   HB2480   chunk 0   |   ? tokens   |   disagreement=15.00
+# chunk_id: 1952007::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  5 ILCS 315/14
+  
+  from Ch. 48, par. 1614
+  
+  Amends the Illinois Public Labor Relations Act. Specifies that among
+  the conditions of employment that may be included in arbitration decisions
+  involving peace officers are residency requirements for municipalities
+  with a population under 1,000,000 (now, for municipalities with a
+  population under 100,000). Specifies that residency requirements for
+  municipalities with a population under 1,000,000 (now, for municipalities
+  with a population under 100,000) are not a condition of employment that may
+  be included in an arbitration decision for a peace officer. Effective
+  immediately.
+  
+  AN ACT concerning government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Public Labor Relations Act is
+  amended by changing Section 14 as follows:
+  
+  (5 ILCS 315/14)
+  
+  (from Ch. 48, par. 1614)
+  
+  Sec. 14.
+  Security employee, peace officer and fire fighter
+  disputes.
+  
+  (a) In the case of collective bargaining agreements
+  involving units of security employees of a public employer,
+  Peace Officer Units, or units of fire fighters or paramedics,
+  and in the case of disputes under Section 18, unless the
+  parties mutually agree to some other time limit, mediation
+  shall commence 30 days prior to the expiration date of such
+  agreement or at such later time as the mediation services
+  chosen under subsection (b) of Section 12 can be provided to
+  the parties. In the case of negotiations for an initial
+  collective bargaining agreement, mediation shall commence upon
+  15 days notice from either party or at such later time as the
+  mediation services chosen pursuant to subsection (b) of
+  Section 12 can be provided to the parties. In mediation under
+  this Section, if either party requests the use of mediation
+  services from the Federal Mediation and Conciliation Service,
+  the other party shall either join in such request or bear the
+  additional cost of mediation services from another source. The
+  mediator shall have a duty to keep the Board informed on the
+  progress of the mediation. If any dispute has not been
+  resolved within 15 days after the first meeting of the parties
+  and the mediator, or within such other time limit as may be
+  mutually agreed upon by the parties, either the exclusive
+  representative or employer may request of the other, in
+  writing, arbitration, and shall submit a copy of the request
+  to the Board.
+  
+  (b) Within 10 days after such a request for arbitration
+  has been made, the employer shall choose a 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to modify the conditions of employment for
+        peace officers in municipalities with a population under 1,000,000.
+    [llama31_2000]
+        The primary goal of this bill is to modify the conditions of employment that may
+        be included in arbitration decisions involving peace officers, specifically
+        regarding residency requirements for municipalities with a population under
+        1,000,000.
+
+
+  ### policy_domain
+    [llama31_900]
+        Labor Policy, Public Sector Labor Relations, Municipal Government, Public
+        Safety.
+    [llama31_2000]
+        Labor Relations, Public Employee Labor Relations, Collective Bargaining,
+        Arbitration, Government Policy.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        Peace officers, municipalities with a population under 1,000,000, public
+        employers.
+    [llama31_2000]
+        Peace officers, municipalities with a population under 1,000,000, public
+        employers, and employees involved in collective bargaining agreements.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill increases the flexibility for peace officers in municipalities with a
+        population under 1,000,000 regarding residency requirements.
+    [llama31_2000]
+        The bill increases the flexibility of peace officers in terms of residency
+        requirements for municipalities with a population under 1,000,000.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        The bill decreases the restrictions on peace officers in municipalities with a
+        population under 1,000,000 regarding residency requirements.
+    [llama31_2000]
+        The bill decreases the likelihood of residency requirements being included in
+        arbitration decisions for peace officers in municipalities with a population
+        under 1,000,000.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to modify the conditions of employment for peace
+        officers in municipalities with a population under 1,000,000.
+    [llama31_2000]
+        The intent of this bill is to modify the conditions of employment that may be
+        included in arbitration decisions involving peace officers, specifically
+        regarding residency requirements for municipalities with a population under
+        1,000,000.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to increase flexibility and individual
+        freedom for peace officers in municipalities with a population under 1,000,000.
+    [llama31_2000]
+        The motivation behind this bill is to provide peace officers with more
+        flexibility in terms of residency requirements for municipalities with a
+        population under 1,000,000.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially affecting the residency requirements for peace officers employed by
+        the university or its affiliated institutions.
+    [llama31_2000]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC) as it may affect the collective bargaining agreements
+        and arbitration decisions involving peace officers employed by the university.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with conservative or libertarian ideologies that prioritize
+        individual freedom and flexibility in employment conditions.
+    [llama31_2000]
+        This bill aligns with the principles of labor relations and collective
+        bargaining, which are often associated with liberal or progressive ideologies.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill amends the Illinois Public Labor Relations Act through a statutory
+        change.
+    [llama31_2000]
+        The bill amends an existing law, the Illinois Public Labor Relations Act,
+        through a straightforward legislative process.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill modifies the conditions of employment for peace officers by specifying
+        that residency requirements for municipalities with a population under 1,000,000
+        are not a condition of employment that may be included in an arbitration
+        decision.
+    [llama31_2000]
+        The bill modifies Section 14 of the Illinois Public Labor Relations Act to
+        specify that residency requirements for municipalities with a population under
+        1,000,000 are not a condition of employment that may be included in an
+        arbitration decision for a peace officer.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 2/20   |   HB3599   chunk 2   |   ? tokens   |   disagreement=15.00
+# chunk_id: 1962076::0002
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   Section shall be a final administrative
+  decision subject to review under the Administrative Review
+  Law.
+  
+  (f-5) Beginning 90 days after July 20, 2012 (the effective
+  date of Public Act 97-842), (i) no denial of a request for
+  approval for payment of non-emergency transportation by means
+  of ground ambulance service, and (ii) no approval of
+  non-emergency transportation by means of ground ambulance
+  service at a level of service that entitles the ground
+  ambulance service provider to a lower level of compensation
+  from the Department than would have been received at the level
+  of service submitted by the ground ambulance service provider,
+  may be issued by the Department or its agent unless the
+  Department has submitted the criteria for determining the
+  appropriateness of the transport for first notice publication
+  in the Illinois Register pursuant to Section 5-40 of the
+  Illinois Administrative Procedure Act.
+  
+  (f-6) Within 90 days after June 2, 2022 (the effective
+  date of Public Act 102-1037) and subject to federal approval,
+  the Department shall file rules to allow for the approval of
+  ground ambulance services when the sole purpose of the
+  transport is for the navigation of stairs or the assisting or
+  lifting of a patient at a medical facility or during a medical
+  appointment in instances where the Department or a contracted
+  Medicaid managed care organization or their transportation
+  broker is unable to secure transportation through any other
+  transportation provider.
+  
+  (f-7) For non-emergency ground ambulance claims properly
+  denied under Department policy at the time the claim is filed
+  due to failure to submit a valid Medical Certification for
+  Non-Emergency Ambulance on and after December 15, 2012 and
+  prior to January 1, 2021, the Department shall allot
+  $2,000,000 to a pool to reimburse such claims if the provider
+  proves medical necessity for the service by other means.
+  Providers must submit any such denied claims for which they
+  seek compensation to the Department no later than December 31,
+  2021 along with documentation of medical necessity. No later
+  than May 31, 2022, the Department shall determine for which
+  claims medical necessity was established. Such claims for
+  which medical necessity was established shall be paid at the
+  rate in effect at the time of the service, provided the
+  $2,000,000 is sufficient to pay at those rates. If the pool is
+  not sufficient, claims shall be paid at a uniform percentage
+  of the applicable rate such that the pool of $2,000,000 is
+  exhausted. Th
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        To regulate non-emergency ground ambulance services and ensure that patients
+        receive necessary transportation while minimizing costs.
+    [llama31_2000]
+        To clarify the circumstances under which Basic Life Support (BLS) services are
+        provided in Illinois.
+
+
+  ### policy_domain
+    [llama31_900]
+        Health Policy, Transportation Policy, Administrative Procedure, Medicaid Policy.
+    [llama31_2000]
+        Emergency Medical Services, Healthcare Policy, Public Health Policy, State
+        Government Policy.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        - Patients covered by medical assistance programs. - Ground ambulance service
+        providers. - Medicaid managed care organizations.
+    [llama31_2000]
+        None explicitly stated.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        - The reimbursement pool for denied claims. - The regulation of non-emergency
+        ground ambulance services. - The requirement for a Physician Certification
+        Statement.
+    [llama31_2000]
+        None explicitly stated.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        None explicitly stated.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to regulate non-emergency ground ambulance services
+        and ensure that patients receive necessary transportation while minimizing
+        costs.
+    [llama31_2000]
+        The intent of this bill is to clarify the definition of Basic Life Support (BLS)
+        services in Illinois.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to improve healthcare access and contain
+        costs for patients covered by medical assistance programs.
+    [llama31_2000]
+        The motivation behind this bill is to improve the accuracy and clarity of
+        emergency medical services definitions in Illinois.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially increasing the cost of non-emergency ground ambulance services for
+        patients covered by medical assistance programs.
+    [llama31_2000]
+        This bill may have a slight impact on the University of Illinois
+        Urbana-Champaign (UIUC) if it affects the training or certification of emergency
+        medical services personnel affiliated with the university.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with the principles of healthcare access and cost containment.
+    [llama31_2000]
+        None clear.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill amends the Illinois Administrative Procedure Act through Public Acts
+        97-842 and 102-1037.
+    [llama31_2000]
+        None specified.
+
+
+  ### key_provisions
+    [llama31_900]
+        - Requires a Physician Certification Statement for non-emergency patient
+        transportation. - Establishes a reimbursement pool for denied claims. -
+        Regulates the approval of non-emergency ground ambulance services. - Mandates
+        the Department to file rules for the approval of ground ambulance services for
+        specific purposes.
+    [llama31_2000]
+        The bill amends the definition of BLS services to include situations where a
+        recipient refuses transport to a hospital, and also includes scenarios where a
+        recipient is pronounced dead before being placed in a ground ambulance.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 3/20   |   HB5028   chunk 2   |   ? tokens   |   disagreement=15.00
+# chunk_id: 2107630::0002
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   the 1% rate under the Service Occupation Tax Act.
+  
+  The tax imposed under this subsection is not imposed on
+  sales of aviation fuel for so long as the revenue use
+  requirements of 49 U.S.C. 47107(b) and 49 U.S.C. 47133 are
+  binding on the board. The tax imposed under this subsection
+  and all civil penalties that may be assessed as an incident
+  thereof shall be collected and enforced by the Department of
+  Revenue. The Department of Revenue shall administer and
+  enforce this subsection; collect all taxes and penalties due
+  hereunder; dispose of taxes and penalties so collected in the
+  manner hereinafter provided; and determine all rights to
+  credit memoranda arising on account of the erroneous payment
+  of tax or penalty hereunder.
+  
+  In the administration of, and compliance with this
+  subsection, the Department of Revenue and persons who are
+  subject to this subsection shall (i) have the same rights,
+  remedies, privileges, immunities, powers, and duties; (ii) be
+  subject to the same conditions, restrictions, limitations,
+  penalties, exclusions, exemptions, and definitions of terms;
+  and (iii) employ the same modes of procedure as are prescribed
+  in Sections 2 (except that the reference to State in the
+  definition of supplier maintaining a place of business in this
+  State shall mean the county), 2a, 2b, 2c, 2d, 3 through 3-50
+  (in respect to all provisions therein other than the State
+  rate of tax), 4 (except that the reference to the State shall
+  be to the county), 5, 7, 8 (except that the jurisdiction to
+  which the tax shall be a debt to the extent indicated in that
+  Section 8 shall be the county), 9 (except as to the disposition
+  of taxes and penalties collected), 10, 11, 12 (except the
+  reference therein to Section 2b of the Retailers' Occupation
+  Tax Act), 13 (except that any reference to the State shall mean
+  the county), Sections 15, 16, 17, 18, 19 and 20 of the Service
+  Occupation Tax Act and the Uniform Penalty and Interest Act,
+  as fully as if those provisions were set forth herein.
+  
+  Persons subject to any tax imposed under this subsection
+  may reimburse themselves for their serviceman's tax liability
+  by separately stating the tax as an additional charge, which
+  charge may be stated in combination, in a single amount, with
+  State tax that servicemen are authorized to collect under the
+  Service Use Tax Act, in accordance with the bracket schedules
+  as the Department of Revenue may prescribe.
+  
+  If the Department of Revenue determines that a refund
+  should be made under this subsection to a 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        To impose a 1% sales tax on aviation fuel for forest preserve purposes, with
+        revenue requirements tied to federal law.
+    [llama31_2000]
+        The primary goal of this bill is to establish a clear and timely process for
+        implementing tax changes imposed by a board.
+
+
+  ### policy_domain
+    [llama31_900]
+        Taxation, Revenue, Forest Preserve Districts, Aviation Fuel, Sales Tax.
+    [llama31_2000]
+        Taxation, Revenue, Government Administration, Public Finance.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        Forest preserve districts, the Department of Revenue, taxpayers, and the State
+        of Illinois.
+    [llama31_2000]
+        The stakeholders affected by this bill include the board, the Department of
+        Revenue, and the district.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase revenue for forest preserve purposes through a 1%
+        sales tax on aviation fuel.
+    [llama31_2000]
+        This bill aims to increase the efficiency and clarity of the tax administration
+        process.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        This bill does not aim to decrease any specific aspects.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to impose a 1% sales tax on aviation fuel for forest
+        preserve purposes.
+    [llama31_2000]
+        The purpose of this bill is to clarify and streamline the tax administration
+        process for a specific tax imposed by a board.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to increase revenue for forest preserve
+        purposes through a tax on aviation fuel.
+    [llama31_2000]
+        The motivation behind this bill appears to be improving the efficiency and
+        clarity of the tax administration process.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially increasing the cost of aviation fuel for the university's
+        operations, if applicable.
+    [llama31_2000]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC) if it is involved in the tax administration process.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill likely aligns with the ideological principles of fiscal conservatism,
+        as it aims to increase revenue for a specific purpose through a tax.
+    [llama31_2000]
+        This bill does not appear to align with any specific ideological principles or
+        groups.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill allows the board to order the proposition for the imposition of the tax
+        to be submitted at any election.
+    [llama31_2000]
+        This bill uses a straightforward amendment strategy to clarify the tax
+        administration process.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill imposes a 1% sales tax on aviation fuel, with revenue requirements tied
+        to federal law; the tax is administered and enforced by the Department of
+        Revenue; the tax is imposed on leases of tangible personal property.
+    [llama31_2000]
+        The bill introduces the following key provisions: - The board must file
+        certified copies of ordinances with the Department of Revenue. - The Department
+        of Revenue must administer and enforce tax changes as of specific dates (July 1
+        or January 1) depending on the filing date. - The board must monitor sunset
+        dates for taxes imposed under this Section and notify the Department of Revenue.
+        - The Department of Revenue must offset misallocated disbursements to the
+        district.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 4/20   |   SB0706   chunk 1   |   ? tokens   |   disagreement=15.00
+# chunk_id: 1941220::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  dependent, impartial, and objective.
+  
+  "Appraiser panel" means a network, list, or roster of
+  licensed or certified appraisers approved by the appraisal
+  management company or by the end-user client to perform
+  appraisals as independent contractors for the appraisal
+  management company. "Appraiser panel" includes both appraisers
+  accepted by an appraisal management company for consideration
+  for future appraisal assignments and appraisers engaged by an
+  appraisal management company to perform one or more
+  appraisals. For the purposes of determining the size of an
+  appraiser panel, only independent contractors of hybrid
+  entities shall be counted towards the appraiser panel.
+  
+  "Associate real estate trainee appraiser" means an
+  entry-level appraiser who holds a license of this
+  classification under this Act with restrictions as to the
+  scope of practice in accordance with this Act.
+  
+  "Automated valuation model" means an automated system that
+  is used to derive a property value through the use of available
+  property records and various analytic methodologies such as
+  comparable sales prices, home characteristics, and price
+  changes.
+  
+  "Board" means the Real Estate Appraisal Administration and
+  Disciplinary Board.
+  
+  "Broker price opinion" means an estimate or analysis of
+  the probable selling price of a particular interest in real
+  estate, which may provide a varying level of detail about the
+  property's condition, market, and neighborhood and information
+  on comparable sales. The activities of a real estate broker or
+  managing broker engaging in the ordinary course of business as
+  a broker, as defined in this Section, shall not be considered a
+  broker price opinion if no compensation is paid to the broker
+  or managing broker, other than compensation based upon the
+  sale or rental of real estate.
+  
+  "Classroom hour" means 50 minutes of instruction out of
+  each 60-minute segment of coursework.
+  
+  "Client" means the party or parties who engage an
+  appraiser by employment or contract in a specific appraisal
+  assignment.
+  
+  "Comparative market analysis" is an analysis or opinion
+  regarding pricing, marketing, or financial aspects relating to
+  a specified interest or interests in real estate that may be
+  based upon an analysis of comparative market data, the
+  expertise of the real estate broker or managing broker, and
+  such other factors as the broker or managing broker may deem
+  appropriate in developing or preparing such analysis or
+  opinion. The activities of a real estate broker or managing
+  broker engaging 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        None.
+    [llama31_2000]
+        To establish licensing requirements and regulations for real estate appraisers
+        in Illinois, while exempting certain individuals and entities from the Act.
+
+
+  ### policy_domain
+    [llama31_900]
+        Real Estate Policy, Appraisal Regulation, Financial Regulation, Licensing and
+        Certification.
+    [llama31_2000]
+        Real Estate Policy, Licensing and Regulation, Financial Services, Professional
+        Regulation, Property Taxation.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        None.
+    [llama31_2000]
+        Real estate appraisers, licensed under the Act, citizens of Illinois, county
+        assessors, township assessors, employees of the Illinois Department of
+        Transportation, and municipalities.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill aims to increase the regulation and oversight of real estate appraisers
+        in Illinois, while also providing exemptions for certain individuals and
+        entities.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill does not explicitly aim to decrease any aspects, but rather to regulate
+        and provide exemptions.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to provide a comprehensive set of definitions for
+        various terms related to real estate appraisal and regulation.
+    [llama31_2000]
+        The purpose of the bill is to regulate real estate appraisers in Illinois and
+        provide exemptions for certain individuals and entities.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill appears to be to clarify and standardize the
+        terminology used in the real estate appraisal industry.
+    [llama31_2000]
+        The motivation behind this bill appears to be a desire to increase regulation
+        and oversight of real estate appraisers, while also providing exemptions for
+        certain individuals and entities.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill does not appear to have a direct impact on the University of Illinois
+        Urbana-Champaign (UIUC).
+    [llama31_2000]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially affecting the university's real estate appraisal programs or
+        requirements for its students.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill appears to align with a conservative or libertarian ideology, as it
+        aims to increase regulation and oversight of real estate appraisers, while also
+        providing exemptions for certain individuals and entities.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill amends the existing Real Estate License Act of 2000, which suggests a
+        strategy of building on existing legislation rather than introducing new laws.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces definitions for various terms related to real estate
+        appraisal, including appraiser panel, associate real estate trainee appraiser,
+        automated valuation model, and others. It also clarifies the scope of practice
+        for real estate brokers and managing brokers.
+    [llama31_2000]
+        The bill introduces new definitions for real estate appraisers, establishes
+        licensing requirements, and provides exemptions for certain individuals and
+        entities, including county assessors, township assessors, and employees of the
+        Illinois Department of Transportation.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 5/20   |   SB3889   chunk 1   |   ? tokens   |   disagreement=15.00
+# chunk_id: 2110829::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   least 12 months
+  before becoming engaged under this Section or receive a
+  material financial benefit from the sale of the water or
+  sewer utility other than fees for services rendered.
+  
+  "District" means a service area of a large public
+  utility whose customers are subject to the same rate
+  tariff.
+  
+  "Large public utility" means an investor-owned public
+  utility that:
+  
+  (1) is subject to regulation by the Illinois
+  Commerce Commission under this Act;
+  
+  (2) regularly provides water or sewer service to
+  more than 15,000 customer connections;
+  
+  (3) provides safe and adequate service; and
+  
+  (4) is not a water or sewer utility as defined in
+  this subsection (a).
+  
+  "Next rate case" means a large public utility's first
+  general rate case after the date the large public utility
+  acquires the water or sewer utility where the acquired
+  water or sewer utility's cost of service is considered as
+  part of determining the large public utility's resulting
+  rates.
+  
+  "Prior rate case" means a large public utility's
+  general rate case resulting in the rates in effect for the
+  large public utility at the time it acquires the water or
+  sewer utility.
+  
+  "Utility service source" means the water or sewer
+  utility or large public utility from which the customer
+  receives its utility service type.
+  
+  "Utility service type" means water utility service or
+  sewer utility service or water and sewer utility service.
+  
+  "Water or sewer utility" means any of the following:
+  
+  (1) a public utility that regularly provides water
+  or sewer service to 6,000 or fewer customer
+  connections;
+  
+  (2) a water district, including, but not limited
+  to, a public water district, water service district,
+  or surface water protection district, or a sewer
+  district of any kind established as a special district
+  under the laws of this State that regularly provides
+  water or sewer service
+  to 6,000 or fewer customer
+  connections
+  ;
+  
+  (3) a waterworks system or sewerage system
+  established under the Township Code that regularly
+  provides water or sewer service
+  to 6,000 or fewer
+  customer connections
+  ;
+  or
+  
+  (4) a water system or sewer system owned by a
+  municipality that regularly provides water or sewer
+  service
+  to 6,000 or fewer customer connections
+  ;
+  or
+  
+  and
+  
+  (5) any other entity that is not a public utility
+  that regularly provides water or sewer service
+  to
+  6,000 or fewer customer connections
+  .
+  
+  (b) Notwithstanding any other provision of this Act, a
+  large public utility that acquires a water or sewer utility
+  may request that the Commission use, and, if so requ
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to provide a fair and transparent method for
+        determining the rate base of a water or sewer utility acquired by a large public
+        utility.
+    [llama31_2000]
+        The primary goal of this bill is to establish a framework for the acquisition of
+        water or sewer utilities by large public utilities, ensuring that customers are
+        not negatively impacted and that the acquisition process is transparent and
+        fair.
+
+
+  ### policy_domain
+    [llama31_900]
+        Public Utilities, Regulation, Rate Setting, Real Estate Appraisal, State
+        Regulation.
+    [llama31_2000]
+        Public Utilities, Regulation, Rate Setting, Public Policy, Government Oversight,
+        Consumer Protection.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        Municipalities, water districts, waterworks systems, sewerage systems, and other
+        entities that provide water or sewer service to 6,000 or fewer customer
+        connections.
+    [llama31_2000]
+        The stakeholders affected by this bill include: - Customers of the water or
+        sewer utility - Large public utilities - The Commission
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase transparency and fairness in the rate-setting process
+        for water or sewer utilities acquired by large public utilities.
+    [llama31_2000]
+        The bill aims to increase transparency and fairness in the acquisition process,
+        ensure that customers are not negatively impacted, and promote the efficient
+        provision of public utility services.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill does not explicitly aim to decrease any aspects, but it may reduce the
+        complexity and uncertainty associated with the acquisition process.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to provide a fair and transparent method for
+        determining the rate base of a water or sewer utility acquired by a large public
+        utility.
+    [llama31_2000]
+        The purpose of this bill is to establish a framework for the acquisition of
+        water or sewer utilities by large public utilities, ensuring that customers are
+        not negatively impacted and that the acquisition process is transparent and
+        fair.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill appears to be a desire to increase transparency
+        and fairness in the rate-setting process for water or sewer utilities acquired
+        by large public utilities.
+    [llama31_2000]
+        The motivation behind this bill is to promote the efficient provision of public
+        utility services and protect the interests of customers.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) if it
+        owns or operates a water or sewer utility that is subject to the bill's
+        provisions.
+    [llama31_2000]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) if it acquires a water or sewer utility, as it may affect the rates
+        charged to customers or the services provided.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill appears to align with principles of transparency, fairness, and
+        accountability in government regulation.
+    [llama31_2000]
+        This bill aligns with the principles of consumer protection and government
+        oversight, which are often associated with liberal or progressive ideologies.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill requires the Illinois Commerce Commission to use specific procedures to
+        establish the rate base of a water or sewer utility acquired by a large public
+        utility.
+    [llama31_2000]
+        The bill uses a regulatory approach, establishing a framework for the
+        acquisition of water or sewer utilities and providing guidelines for the
+        Commission to follow.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces procedures for determining the fair market value of a water
+        or sewer utility, including the use of three appraisals and the engagement of
+        disinterested appraisers.
+    [llama31_2000]
+        The bill introduces several key provisions, including: - The Commission's
+        Executive Director or designee shall recommend an engineer to the appraiser if
+        they cannot engage one within 30 days. - The rate base associated with the water
+        or sewer utility shall be determined by the lesser of the purchase price or fair
+        market value. - The Commission shall issue its decision establishing the
+        ratemaking rate base, district or tariff group, and rates to be charged to
+        customers in the water or sewer utility. - The large public utility may
+        recommend a lesser rate for the water or sewer utility, subject to Commission
+        approval.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 6/20   |   HB0360   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1906684::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  AMENDMENT TO HOUSE BILL 3609
+  
+  AMENDMENT NO. ______. Amend House Bill 3609, AS AMENDED,
+  by replacing everything after the enacting clause with the
+  following:
+  
+  "Section 1.
+  Short title.
+  This Act may be referred to as the
+  Thermal Energy Network and Jobs Act.
+  
+  Section 5.
+  Legislative findings and intent.
+  
+  (a) The General Assembly finds and declares that:
+  
+  (1) This State has a strong interest in ensuring that
+  emissions of greenhouse gases from buildings are reduced
+  because buildings are one of this State's largest sources
+  of greenhouse gases due to the combustion of fossil fuels
+  for heating, domestic hot water production, cooking, and
+  other end uses.
+  
+  (2) The decarbonization of buildings must be pursued
+  in a manner that is affordable and accessible, preserves
+  and creates living-wage jobs, and retains the knowledge
+  and experience of the existing utility union workforce.
+  
+  (3) Thermal energy networks have the potential to
+  decarbonize buildings at the community and utility scale
+  and help achieve the goals of Public Act 102-662 (also
+  known as the Climate and Equitable Jobs Act).
+  
+  (4) Thermal energy networks consist of pipe loops
+  between multiple buildings and energy sources, which carry
+  water and can be connected to by building owners to
+  support heating and cooling and hot water services.
+  Building owners can connect to the loops to support water
+  heating and cooling and hot water services.
+  
+  (5) Many utilities in this State have been seeking to
+  develop thermal energy networks but have encountered legal
+  and regulatory barriers.
+  
+  (6) This State has a strong interest in ensuring an
+  adequate supply of reliable electrical power and,
+  therefore, needs to promote the development of alternative
+  power sources and take steps to assure reliable
+  deliverability. Thermal energy networks are highly
+  efficient because they use and exchange thermal energy
+  from many underground sources and buildings, including
+  recycled thermal energy, which minimizes impacts on the
+  electricity grid.
+  
+  (7) Access to thermal energy networks has the
+  potential to reduce the upfront and operating costs of
+  building electrification for customers.
+  
+  (8) Thermal loop technology provides benefits to
+  participants and non-participants alike, including
+  societal benefits to the environment and the market
+  benefits associated with the reduction of both the volume
+  and peak demand of electricity and natural gas.
+  
+  (9) A utility's access to capital, the utility's
+  experience with networked infrastructure in public
+  rights-of-way,
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to remove legal barriers to the development of
+        thermal energy networks and promote their implementation in Illinois.
+    [llama31_2000]
+        The primary goal of this bill is to remove legal barriers to the development of
+        thermal energy networks and require the Illinois Commerce Commission to
+        authorize and direct utilities to pilot thermal energy networks in each and
+        every utility territory.
+
+
+  ### policy_domain
+    [llama31_900]
+        Energy Policy, Climate Change, Labor Law, Infrastructure Development, Public
+        Utilities.
+    [llama31_2000]
+        Energy Policy, Environmental Policy, Labor Policy, Economic Development Policy,
+        Infrastructure Policy.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The bill impacts the following groups: - Building owners and occupants - Utility
+        companies - Construction industry workers - The environment
+    [llama31_2000]
+        The bill impacts the following groups: - Utility workers and the construction
+        industry - Building owners and customers - Local residents in the expanding
+        decarbonized sector - The environment (through reduced greenhouse gas emissions)
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase: - The development of thermal energy networks - The
+        creation of living-wage jobs - The use of recycled thermal energy - The
+        efficiency of energy delivery
+    [llama31_2000]
+        The bill aims to increase the development of thermal energy networks, promote
+        affordable and accessible building electrification, and create good jobs for
+        local residents in the expanding decarbonized sector.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        The bill aims to reduce: - Greenhouse gas emissions from buildings - The upfront
+        and operating costs of building electrification - The demand on the electricity
+        grid
+    [llama31_2000]
+        None.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to promote the development of thermal energy
+        networks and create jobs while reducing greenhouse gas emissions from buildings.
+    [llama31_2000]
+        The purpose of this bill is to promote the development of thermal energy
+        networks and reduce greenhouse gas emissions from buildings.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to address climate change, promote economic
+        development, and protect labor rights.
+    [llama31_2000]
+        The motivation behind this bill is to address climate change and promote
+        economic development in the decarbonized sector.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could have a moderately impactful effect on the University of Illinois
+        Urbana-Champaign (UIUC) by promoting the development of thermal energy networks
+        and reducing greenhouse gas emissions from campus buildings.
+    [llama31_2000]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by promoting the development of thermal energy networks and reducing
+        greenhouse gas emissions from campus buildings.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with the principles of environmental protection, labor rights,
+        and economic development.
+    [llama31_2000]
+        This bill aligns with progressive and environmentalist ideologies, as it aims to
+        reduce greenhouse gas emissions and promote the development of renewable energy
+        sources.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill requires the Illinois Commerce Commission to take action within 90
+        days, indicating a procedural strategy of expedited implementation.
+    [llama31_2000]
+        The bill requires the Illinois Commerce Commission to develop a regulatory
+        structure for utility thermal energy networks and to direct utilities to pilot
+        thermal energy networks.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces the following key provisions: - Requires the Illinois
+        Commerce Commission to authorize and direct utilities to pilot thermal energy
+        networks within 90 days. - Removes legal barriers to utility development of
+        thermal energy networks. - Establishes contractor qualification and performance
+        standards, including requirements for prevailing wage rates, bona fide
+        apprenticeship criteria, and project labor agreements. - Mandates the use of
+        thermal energy networks to decarbonize buildings.
+    [llama31_2000]
+        The bill introduces new definitions for thermal energy and thermal energy
+        networks, requires the Illinois Commerce Commission to develop a regulatory
+        structure for utility thermal energy networks, and promotes the use of
+        progressive State labor and employment policies to ensure public utility
+        investments create skill training and employment opportunities for residents in
+        project areas.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 7/20   |   HB0360   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1906684::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  .
+  
+  (b) It is the intent of the General Assembly that passage
+  of this Act is for the following purposes:
+  
+  (1) to remove the legal barriers to utility
+  development of thermal energy networks and require the
+  Illinois Commerce Commission, within 90 days after the
+  effective date of this amendatory Act of the 104th General
+  Assembly, to begin to authorize and direct utilities to
+  immediately commence piloting thermal energy networks in
+  each and every utility territory;
+  
+  (2) to direct and authorize the Illinois Commerce
+  Commission to develop a regulatory structure for utility
+  thermal energy networks that scales affordable and
+  accessible building electrification, protects customers,
+  and balances the role of incumbent monopoly utilities with
+  other market and public actors;
+  
+  (3) to promote the successful planning and delivery of
+  thermal energy networks and protect critical investments
+  in such projects by requiring the use of appropriate
+  quality craft labor policies that ensure the development
+  of and access to an adequate supply of well trained,
+  highly skilled craft persons needed to support timely,
+  reliable, high-quality projects;
+  
+  (4) to promote strong economic development and good
+  jobs for local residents in the expanding decarbonized
+  sector by requiring application of progressive State labor
+  and employment policies that ensure public utility
+  investments and related State subsidies create
+  unparalleled skill training and employment opportunities
+  for residents in project areas through the use of local
+  prevailing wage standards and successful, bona fide
+  apprenticeship programs or project labor agreements that
+  incorporate prevailing wage and training standards and
+  provide additional benefits for project owners and
+  workers; and
+  
+  (5) to promote the use of preapprenticeship programs
+  that will fortify and expand existing apprenticeship
+  programs through systematic outreach efforts to recruit
+  and assist persons from underrepresented and low income
+  communities by providing such persons with remedial
+  education, social services, and unique opportunities for
+  direct access into high-quality apprenticeship programs
+  and gainful employment in the growing building
+  decarbonization workforce.
+  
+  Section 10.
+  The Public Utilities Act is amended by
+  changing Section 3-101 and by adding Sections 3-128, 3-129,
+  3-130, 3-131, and 8-513 as follows:
+  
+  (220 ILCS 5/3-101)
+  
+  (from Ch. 111 2/3, par. 3-101)
+  
+  Sec. 3-101.
+  Definitions.
+  Unless otherwise specified, the
+  terms set forth in Sections 3-102 through
+  
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to remove legal barriers to the development of
+        thermal energy networks and require the Illinois Commerce Commission to
+        authorize and direct utilities to commence piloting thermal energy networks.
+    [llama31_2000]
+        The primary goal of this bill is to promote the development and implementation
+        of thermal energy networks that are in the public interest, reduce greenhouse
+        gas emissions, and provide affordable and equitable access to thermal energy
+        services.
+
+
+  ### policy_domain
+    [llama31_900]
+        Energy Policy, Environmental Policy, Labor Policy, Economic Development Policy,
+        Infrastructure Policy.
+    [llama31_2000]
+        Energy Policy, Climate Change Policy, Public Utilities Regulation, Renewable
+        Energy, Energy Efficiency, Environmental Policy.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The bill impacts utility companies, the Illinois Commerce Commission, local
+        residents, and workers in the decarbonized sector.
+    [llama31_2000]
+        The bill impacts public utilities, customers, and society at large, including: -
+        Public utilities seeking to develop and implement thermal energy networks -
+        Customers who will benefit from affordable and equitable access to thermal
+        energy services - Society at large, which will benefit from reduced greenhouse
+        gas emissions and improved public health
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase the development and implementation of thermal energy
+        networks, promote economic development, and create skill training and employment
+        opportunities for residents.
+    [llama31_2000]
+        The bill aims to increase: - The development and implementation of thermal
+        energy networks - Access to affordable and equitable thermal energy services -
+        Job creation and retention in the energy sector - The use of renewable thermal
+        energy options
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill aims to decrease: - Greenhouse gas emissions and copollutants - The
+        reliance on natural gas distribution infrastructure
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to promote the development and implementation of
+        thermal energy networks in Illinois.
+    [llama31_2000]
+        The purpose of the bill is to promote the development and implementation of
+        thermal energy networks that are efficient, equitable, and environmentally
+        friendly.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to reduce greenhouse gas emissions and
+        promote economic development in the decarbonized sector.
+    [llama31_2000]
+        The motivation behind this bill is to address climate change, reduce greenhouse
+        gas emissions, and promote energy efficiency and social equity.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could have a moderately impactful effect on the University of Illinois
+        Urbana-Champaign (UIUC) by promoting the development of thermal energy networks
+        and reducing greenhouse gas emissions in the surrounding area.
+    [llama31_2000]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by promoting the development and implementation of thermal energy
+        networks on campus, which could reduce greenhouse gas emissions and provide
+        affordable and equitable access to thermal energy services.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with progressive and environmental ideological principles.
+    [llama31_2000]
+        The bill aligns with progressive and environmentalist ideologies, which
+        prioritize climate action, energy efficiency, and social equity.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill requires the Illinois Commerce Commission to develop a regulatory
+        structure for utility thermal energy networks within 90 days after the effective
+        date of the amendatory Act.
+    [llama31_2000]
+        The bill uses a combination of regulatory and financial incentives to encourage
+        public utilities to develop and implement thermal energy networks.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces new definitions for thermal energy, thermal energy networks,
+        front-of-meter work, and behind-the-meter work, and requires the Illinois
+        Commerce Commission to develop a regulatory structure for utility thermal energy
+        networks. It also requires the use of quality craft labor policies and
+        progressive State labor and employment policies to ensure public utility
+        investments create skill training and employment opportunities for residents.
+    [llama31_2000]
+        The bill introduces several key provisions, including: - Allowing public
+        utilities to propose pilot thermal energy network projects - Requiring public
+        utilities to consider the public interest, climate justice, and emissions
+        reduction when approving pilot projects - Mandating public utilities to report
+        on the status of pilot projects and provide information on customer benefits and
+        costs - Requiring public utilities to demonstrate labor peace agreements with
+        labor organizations - Mandating responsible bidding and prevailing wage
+        requirements for contractors and subcontractors - Allowing public utilities to
+        recover costs associated with pilot projects through general rates or Multi-Year
+        Rate Plans
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 8/20   |   HB0385   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1906250::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  's or
+  students' academic performance; or
+  
+  (4) substantially interfering with the student's or
+  students' ability to participate in or benefit from the
+  services, activities, or privileges provided by a school.
+  
+  Bullying, as defined in this subsection (b), may take
+  various forms, including without limitation one or more of the
+  following: harassment, threats, intimidation, stalking,
+  physical violence, sexual harassment, sexual violence,
+  posting
+  or distributing sexually explicit images,
+   theft, public
+  humiliation, destruction of property, or retaliation for
+  asserting or alleging an act of bullying. This list is meant to
+  be illustrative and non-exhaustive.
+  
+  "Cyber-bullying" means bullying through the use of
+  technology or any electronic communication, including without
+  limitation any transfer of signs, signals, writing, images,
+  sounds, data, or intelligence of any nature transmitted in
+  whole or in part by a wire, radio, electromagnetic system,
+  photoelectronic system, or photooptical system, including
+  without limitation electronic mail, Internet communications,
+  instant messages, or facsimile communications.
+  "Cyber-bullying" includes the creation of a webpage or weblog
+  in which the creator assumes the identity of another person or
+  the knowing impersonation of another person as the author of
+  posted content or messages if the creation or impersonation
+  creates any of the effects enumerated in the definition of
+  bullying in this Section. "Cyber-bullying" also includes the
+  distribution by electronic means of a communication to more
+  than one person or the posting of material on an electronic
+  medium that may be accessed by one or more persons if the
+  distribution or posting creates any of the effects enumerated
+  in the definition of bullying in this Section.
+  Beginning with
+  the 2026-2027 school year, "cyber-bullying" also includes the
+  posting or distribution of an unauthorized digital replica by
+  electronic means if the posting or distribution creates any of
+  the effects enumerated in the definition of "bullying" in this
+  Section.
+  
+  "Digital replica" has the meaning given to that term in
+  the Digital Voice and Likeness Protection Act.
+  
+  "Policy on bullying" means a bullying prevention policy
+  that meets the following criteria:
+  
+  (1) Includes the bullying definition provided in this
+  Section.
+  
+  (2) Includes a statement that bullying is contrary to
+  State law and the policy of the school district, charter
+  school, or non-public, non-sectarian elementary or
+  secondary school and is consisten
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        To establish a comprehensive policy to prevent bullying in schools and ensure a
+        safe learning environment for students.
+    [llama31_2000]
+        The primary goal of this bill is to establish a comprehensive policy on bullying
+        in schools, ensuring a safe and supportive learning environment for students.
+
+
+  ### policy_domain
+    [llama31_900]
+        Education Policy, Student Safety, Cyberbullying Prevention, School Discipline,
+        Student Rights.
+    [llama31_2000]
+        Education Policy, School Safety, Bullying Prevention, Student Welfare, School
+        Discipline.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        Students, parents, school administrators, and staff.
+    [llama31_2000]
+        Students, parents, guardians, school personnel, and school districts.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        - Support for student safety and well-being. - Enhancement of school policies
+        and procedures to prevent bullying. - Increased awareness and education about
+        bullying prevention.
+    [llama31_2000]
+        The bill aims to increase student safety, support for victims, and
+        evidence-based professional development and youth programming on bullying
+        prevention.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill aims to decrease bullying incidents, reprisal, and retaliation.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to establish a comprehensive policy to prevent
+        bullying in schools and ensure a safe learning environment for students.
+    [llama31_2000]
+        The purpose of this bill is to establish a comprehensive policy on bullying in
+        schools, ensuring a safe and supportive learning environment for students.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to protect students from bullying and
+        harassment, and to provide a safe and supportive learning environment.
+    [llama31_2000]
+        The motivation behind this bill is to address the growing concern of bullying in
+        schools and to provide a framework for schools to prevent and respond to
+        bullying incidents.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by requiring the university to implement a bullying prevention policy and
+        procedures for reporting and addressing bullying incidents.
+    [llama31_2000]
+        This bill could have a moderately impactful effect on the University of Illinois
+        Urbana-Champaign (UIUC), as it may require the university to review and revise
+        its own policies on bullying and student safety.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with the principles of protecting student rights and promoting
+        a safe learning environment, which may be supported by liberal or progressive
+        ideologies.
+    [llama31_2000]
+        This bill aligns with the principles of student welfare and school safety, which
+        are often associated with liberal or progressive ideologies.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        This bill requires schools to implement a bullying prevention policy, which will
+        be enforced through existing education laws and regulations.
+    [llama31_2000]
+        The bill requires school districts to create and implement a policy on bullying,
+        with technical support from the State Board of Education.
+
+
+  ### key_provisions
+    [llama31_900]
+        - Defines bullying and cyber-bullying in schools. - Requires schools to
+        implement a bullying prevention policy. - Outlines procedures for reporting,
+        investigating, and addressing bullying incidents. - Mandates notification of
+        parents or guardians within 24 hours of a bullying incident.
+    [llama31_2000]
+        The bill requires school districts to create and implement a policy on bullying,
+        including consequences for perpetrators, support for victims, and a process for
+        investigating reported incidents. It also requires schools to collect and submit
+        data on bullying allegations and incidents, and to provide evidence-based
+        professional development and youth programming on bullying prevention.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 9/20   |   HB0918   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1906606::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   place, building, or room housing
+  major medical equipment used in the direct clinical
+  diagnosis or treatment of patients, and whose project cost
+  is in excess of the capital expenditure minimum.
+  
+  (9) A health care system.
+  
+  "Health care facilities" does not include the following
+  entities or facility transactions:
+  
+  (1) Federally-owned facilities.
+  
+  (2) Facilities used solely for healing by prayer or
+  spiritual means.
+  
+  (3) An existing facility located on any campus
+  facility as defined in Section 5-5.8b of the Illinois
+  Public Aid Code, provided that the campus facility
+  encompasses 30 or more contiguous acres and that the new
+  or renovated facility is intended for use by a licensed
+  residential facility.
+  
+  (4) Facilities licensed under the Supportive
+  Residences Licensing Act or the Assisted Living and Shared
+  Housing Act.
+  
+  (5) Facilities designated as supportive living
+  facilities that are in good standing with the program
+  established under Section 5-5.01a of the Illinois Public
+  Aid Code.
+  
+  (6) Facilities established and operating under the
+  Alternative Health Care Delivery Act as a children's
+  community-based health care center alternative health care
+  model demonstration program or as an Alzheimer's Disease
+  Management Center alternative health care model
+  demonstration program.
+  
+  (7) The closure of an entity or a portion of an entity
+  licensed under the Nursing Home Care Act, the Specialized
+  Mental Health Rehabilitation Act of 2013, the ID/DD
+  Community Care Act, or the MC/DD Act, with the exception
+  of facilities operated by a county or Illinois Veterans
+  Homes, that elect to convert, in whole or in part, to an
+  assisted living or shared housing establishment licensed
+  under the Assisted Living and Shared Housing Act and with
+  the exception of a facility licensed under the Specialized
+  Mental Health Rehabilitation Act of 2013 in connection
+  with a proposal to close a facility and re-establish the
+  facility in another location.
+  
+  (8) Any change of ownership of a health care facility
+  that is licensed under the Nursing Home Care Act, the
+  Specialized Mental Health Rehabilitation Act of 2013, the
+  ID/DD Community Care Act, or the MC/DD Act, with the
+  exception of facilities operated by a county or Illinois
+  Veterans Homes. Changes of ownership of facilities
+  licensed under the Nursing Home Care Act must meet the
+  requirements set forth in Sections 3-101 through 3-119 of
+  the Nursing Home Care Act.
+  
+  (9) (Blank).
+  
+  With the exception of those health care facilities
+  specifically included in this S
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        To clarify the definition of "health care facilities" in the Illinois Public Aid
+        Code.
+    [llama31_2000]
+        The primary goal of this bill is to establish a certificate of need (CON)
+        program for health care facilities in Illinois, which will require facilities to
+        obtain approval from the State Board before making significant capital
+        expenditures.
+
+
+  ### policy_domain
+    [llama31_900]
+        Health Policy, Public Health, Government Regulation, Licensing.
+    [llama31_2000]
+        Health Policy, Healthcare Regulation, Public Health, State Government.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        None specified.
+    [llama31_2000]
+        Health care facilities, patients, and the general public in Illinois.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        None specified.
+    [llama31_2000]
+        The bill aims to increase transparency and accountability in the review and
+        approval process for capital expenditures by health care facilities.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None specified.
+    [llama31_2000]
+        The bill does not explicitly aim to decrease any specific aspect, but it may
+        reduce the likelihood of unnecessary or duplicative capital expenditures by
+        health care facilities.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to clarify the definition of "health care
+        facilities" in the Illinois Public Aid Code.
+    [llama31_2000]
+        The purpose of this bill is to establish a framework for the review and approval
+        of capital expenditures by health care facilities in Illinois.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to provide clarity and consistency in the
+        regulation of health care facilities in Illinois.
+    [llama31_2000]
+        The motivation behind this bill is to ensure that health care facilities in
+        Illinois are making capital expenditures that align with the state's health care
+        needs and do not duplicate existing services.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC) as it clarifies the definition of "health care
+        facilities" which may affect the university's facilities and operations.
+    [llama31_2000]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC) as it may require the university's health care
+        facilities to obtain a certificate of need before making significant capital
+        expenditures.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        None specified.
+    [llama31_2000]
+        This bill aligns with the principles of healthcare regulation and public health.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        None specified.
+    [llama31_2000]
+        The bill requires health care facilities to obtain a certificate of need from
+        the State Board before making significant capital expenditures, which will
+        likely involve a review and approval process.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill excludes certain entities from the definition of "health care
+        facilities," including federally-owned facilities, facilities used solely for
+        healing by prayer or spiritual means, and facilities licensed under the
+        Supportive Residences Licensing Act or the Assisted Living and Shared Housing
+        Act.
+    [llama31_2000]
+        The bill establishes a CON program for health care facilities, defines key terms
+        such as "capital expenditure" and "non-clinical service area," and outlines the
+        process for reviewing and approving capital expenditures.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 10/20   |   HB1178   chunk 2   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1906244::0002
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   may be kept or detained in an authorized detention
+  facility. On or after July 1, 2027, minors age 12 years of age
+  and under 13 years of age and charged with first degree murder,
+  aggravated criminal sexual assault, aggravated battery in
+  which a firearm was used in the offense, or aggravated
+  vehicular hijacking, may be kept or detained in an authorized
+  detention facility. On and after July 1, 2026, any minor 13
+  years of age or older arrested pursuant to this Act where there
+  is probable cause to believe that the minor is a delinquent
+  minor and that secure custody is a matter of immediate and
+  urgent necessity in light of a serious threat to the physical
+  safety of a person or persons in the community, or to secure
+  the presence of the minor at the next hearing as evidenced by a
+  demonstrable record of willful failure to appear at a
+  scheduled court hearing within the past 12 months may be kept
+  or detained in an authorized detention facility.
+  
+  (a) Any minor
+  10 years of age or older arrested pursuant to this Act where
+  there is probable cause to believe that the minor is a
+  delinquent minor and that (i) secure custody is a matter of
+  immediate and urgent necessity for the protection of the minor
+  or of the person or property of another, (ii) the minor is
+  likely to flee the jurisdiction of the court, or (iii) the
+  minor was taken into custody under a warrant, may be kept or
+  detained in an authorized detention facility. A minor under 13
+  years of age shall not be admitted, kept, or detained in a
+  detention facility unless a local youth service provider,
+  including a provider through the Comprehensive Community Based
+  Youth Services network, has been contacted and has not been
+  able to accept the minor.
+   No minor under
+  13
+  
+  12
+   years of age
+  shall be detained in a county jail or a municipal lockup for
+  more than 6 hours.
+  
+  (a-2) Probation and court services shall document and
+  share on a monthly basis with the Illinois Juvenile Justice
+  Commission each instance where alternatives to detention
+  failed or were lacking, including the basis for detention, the
+  providers who were contacted, and the reason alternatives were
+  rejected, lacking or denied.
+  
+  (a-3) Instead of detention, minors under the age of 13 who
+  are in conflict with the law may be held accountable through a
+  petition under Article 3, Minors Requiring Authoritative
+  Intervention, or may be held accountable through a community
+  mediation program as set forth in Section 5-310.
+  
+  (a-5) For a minor arrested or taken into custody for
+  v
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        To reform the juvenile justice system in Illinois by providing more stringent
+        guidelines for the detention of minors and promoting the use of community-based
+        alternatives to detention.
+    [llama31_2000]
+        To improve the treatment and safety of minors in the juvenile justice system in
+        Illinois.
+
+
+  ### policy_domain
+    [llama31_900]
+        Juvenile Justice, Public Safety, Community-Based Services, Law Enforcement,
+        Probation and Court Services.
+    [llama31_2000]
+        Juvenile Justice, Public Safety, Law Enforcement, Child Welfare.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        Minors, families, local youth service providers, probation and court services,
+        and the Illinois Juvenile Justice Commission.
+    [llama31_2000]
+        Minors in the juvenile justice system, their families, and the public.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        Community-based alternatives to detention, use of petitions and mediation
+        programs for minors under 13 years old.
+    [llama31_2000]
+        - Non-secure custody for up to 40 hours pending a detention hearing. - Home
+        detention for minors not requiring secure detention.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        Detention of minors in county jails and municipal lockups, use of secured
+        custody for minors under 13 years old.
+    [llama31_2000]
+        Secure detention for minors who do not require physical restriction.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to reform the juvenile justice system in Illinois by
+        providing more stringent guidelines for the detention of minors and promoting
+        the use of community-based alternatives to detention.
+    [llama31_2000]
+        The purpose of this bill is to improve the treatment and safety of minors in the
+        juvenile justice system in Illinois.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to protect minors from unnecessary detention
+        and promote community-based services that prioritize rehabilitation and
+        reintegration.
+    [llama31_2000]
+        The motivation behind this bill is to address concerns about the safety and
+        well-being of minors in county jails and to improve the juvenile justice system.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could reduce the number of minors detained in county jails and
+        municipal lockups, and promote the use of community-based alternatives to
+        detention in the University of Illinois Urbana-Champaign (UIUC) area.
+    [llama31_2000]
+        This bill may reduce the risk of harm to minors in county jails and improve
+        their treatment and safety.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with liberal and progressive ideologies that prioritize
+        community-based services and the protection of minors from unnecessary
+        detention.
+    [llama31_2000]
+        This bill aligns with liberal and progressive ideologies that prioritize the
+        safety and well-being of minors in the juvenile justice system.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        This bill aims to reform the juvenile justice system through a combination of
+        new guidelines and community-based alternatives to detention.
+    [llama31_2000]
+        This bill amends existing law, specifically Public Act 98-61, and applies to
+        minors arrested or taken into custody on or after January 1, 2014.
+
+
+  ### key_provisions
+    [llama31_900]
+        - Minors under 13 years old can only be detained in an authorized facility if a
+        local youth service provider has been contacted and unable to accept the minor.
+        - Minors under 13 years old cannot be detained in a county jail or municipal
+        lockup for more than 6 hours. - Probation and court services must document and
+        share instances where alternatives to detention failed or were lacking. - Minors
+        under 13 years old can be held accountable through a petition or community
+        mediation program instead of detention. - A previous finding of delinquency for
+        vehicular hijacking or aggravated vehicular hijacking shall be given greater
+        weight in determining whether secured custody is necessary.
+    [llama31_2000]
+        - County jails must comply with juvenile detention standards. - Minors in
+        custody must be separated from adults in county jails. - New procedures for
+        minors in custody, including non-secure custody and home detention. - Changes to
+        the juvenile justice system apply to minors arrested or taken into custody on or
+        after January 1, 2014.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 11/20   |   HB1350   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1917950::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  , 1988.
+  
+  Subject to appropriation, said amounts furnished by the
+  State shall be payable monthly by the Department of Revenue
+  out of the Personal Property Tax Replacement Fund or the
+  General Revenue Fund to the county in which each state's
+  attorney is elected.
+  
+  Each county shall be required to furnish 33 1/3% of the
+  total annual compensation to be paid to each state's attorney
+  in Illinois based on the salary in effect on December 31, 1988.
+  
+   Within 90 days after the effective date of this
+  amendatory Act of the 96th General Assembly, the county board
+  of any county with a population between 15,000 and 50,000 by
+  resolution or ordinance may increase the amount of
+  compensation to be paid to each eligible state's attorney in
+  their county in the form of a longevity stipend which shall be
+  added to and become part of the salary of the state's attorney
+  for that year. To be eligible, the state's attorney must have
+  served in the elected position for at least 20 continuous
+  years and elect to participate in a program for an alternative
+  annuity for county officers and make the required additional
+  optional contributions as authorized by P.A. 90-32.
+  
+  (b) Effective December 1, 2000, no state's attorney may
+  engage in the private practice of law. However, until November
+  30, 2000, (i) the state's attorneys in counties containing
+  fewer than 10,000 inhabitants may engage in the practice of
+  law, and (ii) in any county between 10,000 and 30,000
+  inhabitants or in any county containing 30,000 or more
+  inhabitants which reached that population between 1970 and
+  December 31, 1981, the state's attorney may declare his or her
+  intention to engage in the private practice of law, and may do
+  so through no later than November 30, 2000, by filing a written
+  declaration of intent to engage in the private practice of law
+  with the county clerk. The declaration of intention shall be
+  irrevocable during the remainder of the term of office. The
+  declaration shall be filed with the county clerk within 30
+  days of certification of election or appointment, or within 60
+  days of March 15, 1989, whichever is later. In that event the
+  annual salary of such state's attorney shall be as follows:
+  
+  (1) In counties containing 10,000 or more inhabitants
+  but less than 20,000 inhabitants, $46,500 until December
+  31, 1988, $51,500 until June 30, 1994, and $61,500
+  thereafter or as set by the Compensation Review Board,
+  whichever is greater. The State shall furnish 100% of the
+  increases taking effect after December 31, 1988.
+  
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        To establish a new compensation structure for state's attorneys in Illinois,
+        including salary increases and a longevity stipend, while also restricting
+        private practice.
+    [llama31_2000]
+        To establish a more equitable compensation system for assistant state's
+        attorneys in Illinois counties, taking into account population, location of
+        state institutions, and participation in a subsidy program for alcohol-related
+        traffic offenses.
+
+
+  ### policy_domain
+    [llama31_900]
+        Government Policy, Public Administration, Compensation and Benefits, State and
+        Local Government.
+    [llama31_2000]
+        Government Policy, Public Finance, Law Enforcement, Education, Higher Education,
+        Public Institutions.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        - State's attorneys in Illinois. - Assistant state's attorneys in counties with
+        state mental health institutions.
+    [llama31_2000]
+        - Assistant state's attorneys in various counties. - Counties participating in
+        the subsidy program for alcohol-related traffic offenses. - State institutions,
+        including universities and correctional facilities.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        - Salary increases for state's attorneys. - Longevity stipend for state's
+        attorneys who have served for 20 continuous years. - Compensation for assistant
+        state's attorneys in counties with state mental health institutions.
+    [llama31_2000]
+        - Salaries for assistant state's attorneys. - Subsidies for counties
+        participating in the prosecution of alcohol-related traffic offenses. -
+        Appointment of additional assistant state's attorneys.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        - Restrictions on private practice for state's attorneys.
+    [llama31_2000]
+        None.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to establish a new compensation structure for
+        state's attorneys in Illinois, including salary increases and a longevity
+        stipend.
+    [llama31_2000]
+        The intent of this bill is to provide a more equitable compensation system for
+        assistant state's attorneys in Illinois counties, taking into account
+        population, location of state institutions, and participation in a subsidy
+        program for alcohol-related traffic offenses.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill appears to be a desire to improve the
+        compensation and benefits for state's attorneys in Illinois, while also
+        restricting private practice to maintain the integrity of public service.
+    [llama31_2000]
+        The motivation behind this bill appears to be a desire to improve the
+        compensation and benefits of public employees, particularly in counties with a
+        state university or correctional facility.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by potentially affecting the compensation and benefits of state's
+        attorneys who are also UIUC faculty or staff.
+    [llama31_2000]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by providing increased compensation for assistant state's attorneys in
+        counties with a state university, potentially leading to improved services and
+        support for the university.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill appears to align with a moderate to liberal ideological principle,
+        prioritizing public service and compensation for state's attorneys.
+    [llama31_2000]
+        This bill appears to align with a progressive or liberal ideology, prioritizing
+        the compensation and benefits of public employees and providing support for law
+        enforcement and public institutions.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill uses a combination of appropriation and funding clauses to implement
+        the new compensation structure.
+    [llama31_2000]
+        This bill amends existing law to provide increased compensation for assistant
+        state's attorneys and establishes a subsidy program for counties participating
+        in the prosecution of alcohol-related traffic offenses.
+
+
+  ### key_provisions
+    [llama31_900]
+        - Salary increases for state's attorneys based on population of the county. -
+        Longevity stipend for state's attorneys who have served for 20 continuous years.
+        - Restrictions on private practice for state's attorneys, with some exceptions.
+        - Compensation for assistant state's attorneys in counties with state mental
+        health institutions.
+    [llama31_2000]
+        - Increased salaries for assistant state's attorneys based on population and
+        location of state institutions. - Establishment of a subsidy program for
+        counties participating in the prosecution of alcohol-related traffic offenses. -
+        Adjustment of subsidies for inflation each July 1. - Appointment of additional
+        assistant state's attorneys in participating counties.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 12/20   |   HB1579   chunk 2   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1933923::0002
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   same manner as provided in subsection (c).
+  
+  Bids shall be accepted electronically at the time and in
+  the manner designated in the invitation for bids. During the
+  auction, a bidder's price shall be disclosed to other bidders.
+  Bidders shall have the opportunity to reduce their bid prices
+  during the auction. At the conclusion of the auction, the
+  record of the bid prices received and the name of each bidder
+  shall be open to public inspection.
+  
+  After the auction period has terminated, withdrawal of
+  bids shall be permitted as provided in subsection (f).
+  
+  The contract shall be awarded within 60 calendar days
+  after the auction by written notice to the lowest responsible
+  bidder, or all bids shall be rejected except as otherwise
+  provided in this Code. Extensions of the date for the award may
+  be made by mutual written consent of the State purchasing
+  officer and the lowest responsible bidder.
+  
+  This subsection does not apply to (i) procurements of
+  professional and artistic services, (ii) telecommunications
+  services, communication services, and information services,
+  and (iii) contracts for construction projects, including
+  design professional services.
+  (Source: P.A. 102-29, eff. 6-25-21; 103-558, eff. 1-1-24;
+  103-564, eff. 11-17-23.)
+  
+  (Text of Section from P.A. 96-159, 96-795, 97-96, 97-895,
+  98-1076, 99-906, 100-43, 101-31, 101-657, 102-29, 103-558, and
+  103-564)
+  
+  Sec. 20-10.
+  Competitive sealed bidding; reverse auction.
+  
+  (a) Conditions for use. All contracts shall be awarded by
+  competitive sealed bidding except as otherwise provided in
+  Section 20-5.
+  
+  (b) Invitation for bids. An invitation for bids shall be
+  issued and shall include a purchase description and the
+  material contractual terms and conditions applicable to the
+  procurement.
+  
+  (c) Public notice. Public notice of the invitation for
+  bids shall be published in the Illinois Procurement Bulletin
+  at least 14 calendar days before the date set in the invitation
+  for the opening of bids.
+  
+  (d) Bid opening. Bids shall be opened publicly or through
+  an electronic procurement system in the presence of one or
+  more witnesses at the time and place designated in the
+  invitation for bids. The name of each bidder, including earned
+  and applied bid credit from the Illinois Works Jobs Program
+  Act
+  and including the earned and applied bid credit from the
+  program established under Section 605-1118 of the Department
+  of Commerce and Economic Opportunity Law of the Civil
+  Administrative Code of Illinois
+  , the amount of each bid, and
+  other releva
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to establish a standardized process for state
+        procurements in Illinois, ensuring transparency, fairness, and accountability in
+        the awarding of contracts.
+    [llama31_2000]
+        The primary goal of this bill is to create a bid credit program to increase the
+        chances of small and medium-sized manufacturers being selected for State
+        projects.
+
+
+  ### policy_domain
+    [llama31_900]
+        Procurement Policy, Government Contracting, Public Administration, State and
+        Local Government.
+    [llama31_2000]
+        Economic Development, Business Regulation, State Finance.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The stakeholders affected by this bill include: - State agencies and purchasing
+        officers. - Bidders and contractors. - Taxpayers and the general public.
+    [llama31_2000]
+        Small and medium-sized manufacturers, State agencies, and the Illinois
+        Department of Commerce and Economic Opportunity.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase transparency, fairness, and accountability in state
+        procurements.
+    [llama31_2000]
+        The bill aims to increase the chances of small and medium-sized manufacturers
+        being selected for State projects.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        The bill does not explicitly aim to reduce any aspects.
+    [llama31_2000]
+        None.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to establish a standardized process for state
+        procurements in Illinois, ensuring transparency, fairness, and accountability in
+        the awarding of contracts.
+    [llama31_2000]
+        The purpose of this bill is to create a bid credit program to support small and
+        medium-sized manufacturers in Illinois.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to improve the efficiency and effectiveness
+        of state procurements, reducing the risk of corruption and ensuring that
+        contracts are awarded to the most responsible and responsive bidders.
+    [llama31_2000]
+        The motivation behind this bill is to stimulate economic growth and development
+        in Illinois by providing incentives for small and medium-sized manufacturers.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by establishing a standardized process for state procurements, which may
+        affect the university's procurement practices.
+    [llama31_2000]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by potentially increasing the chances of small and medium-sized
+        manufacturers being selected for State projects that may involve UIUC.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with the principles of transparency, accountability, and
+        fairness in government contracting.
+    [llama31_2000]
+        This bill aligns with economic development and business-friendly ideologies.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill uses a procedural strategy by establishing a standardized process for
+        state procurements, which will be implemented through rules and regulations.
+    [llama31_2000]
+        The bill is enacted through a straightforward legislative process without any
+        notable procedural strategies.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces the following key provisions: - Competitive sealed bidding
+        and reverse auctions for state procurements. - Public notice of invitations for
+        bids. - Disclosure of bid prices and bidder information during auctions. -
+        Opportunity for bidders to reduce their bid prices during auctions. - Award of
+        contracts to the lowest responsible and responsive bidder. - Correction or
+        withdrawal of bids based on mistakes.
+    [llama31_2000]
+        The bill introduces a bid credit program for small and medium-sized
+        manufacturers, allowing them to earn credits for use in future bids for State
+        projects.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 13/20   |   HB1929   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1946857::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  775 ILCS 5/1-103
+  
+  from Ch. 68, par. 1-103
+  775 ILCS 5/7-101
+  
+  from Ch. 68, par. 7-101
+  775 ILCS 5/7-114 new
+  
+  Amends the Illinois Human Rights Act. Provides that a formerly
+  convicted person may petition the Department of Human Rights for a grant of
+  protected class status. Provides that the Department may grant protected
+  class status to a formerly convicted person who meets the following
+  conditions: the person has complied with each term and condition of the
+  person's parole, mandatory supervised release, probation, or conditional
+  discharge; the person has obtained a high school diploma or received a high
+  school equivalency certificate; the person is employed or actively seeking
+  employment or is enrolled in or has successfully completed a vocational
+  training or college educational program; the person has not been convicted
+  of a felony or misdemeanor within the last 5 years; and the person has
+  completed all sanctions imposed upon the person through due process of
+  law. Provides that the Department shall adopt rules concerning what
+  constitutes an intellectual or developmental disability that prevents the
+  formerly convicted person from meeting some of the conditions and who is
+  qualified to diagnose such a person. Provides that the Department shall
+  adopt rules to carry out the provisions. Provides that protected class
+  status previously granted to a formerly convicted person shall be revoked
+  by the Department after notice and a hearing, if the formerly convicted
+  person is subsequently convicted of a felony or misdemeanor. Provides that
+  the revocation process shall be initiated by a petition that sets forth the
+  date of the subsequent offense, description of the offense, date of
+  conviction for the subsequent offense, and sentence imposed on the
+  conviction. Provides that a copy of the petition and notice of the hearing
+  date shall be served on the formerly convicted person.
+  
+  AN ACT concerning human rights.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Human Rights Act is amended by
+  changing Sections 1-103 and 7-101 and by adding Section 7-114
+  as follows:
+  
+  (775 ILCS 5/1-103)
+  
+  (from Ch. 68, par. 1-103)
+  
+  Sec. 1-103.
+  General definitions.
+   When used in this Act,
+  unless the context requires otherwise, the term:
+  
+  (A) Age. "Age" means the chronological age of a person who
+  is at least 40 years old, except with regard to any practice
+  described in Section 2-102, insofar as that practice concerns
+  training or appre
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to provide a pathway for formerly convicted
+        individuals to be granted protected class status, thereby reducing their
+        vulnerability to civil rights violations.
+    [llama31_2000]
+        To provide formerly convicted persons with protected class status under the
+        Illinois Human Rights Act, subject to certain conditions.
+
+
+  ### policy_domain
+    [llama31_900]
+        Civil Rights, Human Rights, Employment, Education, Rehabilitation, Justice
+        Reform, Public Safety.
+    [llama31_2000]
+        Civil Rights, Human Rights, Employment, Education, Rehabilitation, Public
+        Policy.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        Formerly convicted individuals, those with arrest records, and individuals with
+        intellectual or developmental disabilities.
+    [llama31_2000]
+        Formerly convicted persons, individuals with intellectual or developmental
+        disabilities, and those seeking employment or education.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase opportunities for formerly convicted individuals to
+        reintegrate into society, access education and employment, and reduce their
+        vulnerability to civil rights violations.
+    [llama31_2000]
+        The bill aims to increase opportunities for employment, education, and
+        rehabilitation for formerly convicted persons.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        The bill aims to decrease the likelihood of civil rights violations against
+        formerly convicted individuals by granting them protected class status.
+    [llama31_2000]
+        None.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to provide a pathway for formerly convicted
+        individuals to reintegrate into society and access education and employment
+        opportunities.
+    [llama31_2000]
+        The purpose of this bill is to provide formerly convicted persons with protected
+        class status under the Illinois Human Rights Act, subject to certain conditions.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to promote rehabilitation and social
+        reintegration of formerly convicted individuals, reducing recidivism and
+        promoting public safety.
+    [llama31_2000]
+        The motivation behind this bill is to promote rehabilitation and second chances
+        for formerly convicted persons, and to reduce barriers to employment and
+        education.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by potentially increasing opportunities for formerly convicted
+        individuals to access education and employment, thereby promoting diversity and
+        inclusion on campus.
+    [llama31_2000]
+        This bill could positively impact the University of Illinois Urbana-Champaign
+        (UIUC) by increasing opportunities for formerly convicted students to access
+        education and employment resources.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with progressive and rehabilitation-focused ideologies, aiming
+        to reduce recidivism and promote social reintegration.
+    [llama31_2000]
+        This bill aligns with progressive and liberal ideologies that prioritize
+        rehabilitation and second chances for formerly convicted persons.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill amends existing law through the addition of a new section, without
+        proposing any new funding or committee referrals.
+    [llama31_2000]
+        The bill amends the Illinois Human Rights Act through the addition of a new
+        section (7-114) and the modification of existing sections (1-103 and 7-101).
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces a new provision allowing formerly convicted individuals to
+        petition for protected class status, subject to certain conditions, and provides
+        for the revocation of this status in case of subsequent convictions.
+    [llama31_2000]
+        The bill provides for the grant of protected class status to formerly convicted
+        persons who meet the following conditions: compliance with parole or probation,
+        high school diploma or equivalency, employment or education, no recent
+        convictions, and completion of sanctions. The Department of Human Rights is
+        authorized to adopt rules concerning intellectual or developmental disabilities
+        that prevent a formerly convicted person from meeting some of the conditions.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 14/20   |   HB1929   chunk 2   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1946857::0002
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   his or her ancestors was born.
+  
+  (K-5) "Order of protection status" means a person's status
+  as being a person protected under an order of protection
+  issued pursuant to the Illinois Domestic Violence Act of 1986,
+  Article 112A of the Code of Criminal Procedure of 1963, the
+  Stalking No Contact Order Act, or the Civil No Contact Order
+  Act, or an order of protection issued by a court of another
+  state.
+  
+  (L) Person. "Person" includes one or more individuals,
+  partnerships, associations or organizations, labor
+  organizations, labor unions, joint apprenticeship committees,
+  or union labor associations, corporations, the State of
+  Illinois and its instrumentalities, political subdivisions,
+  units of local government, legal representatives, trustees in
+  bankruptcy or receivers.
+  
+  (L-5) Pregnancy. "Pregnancy" means pregnancy, childbirth,
+  or medical or common conditions related to pregnancy or
+  childbirth.
+  
+  (M) Public contract. "Public contract" includes every
+  contract to which the State, any of its political
+  subdivisions, or any municipal corporation is a party.
+  
+  (M-5) Race. "Race" includes traits associated with race,
+  including, but not limited to, hair texture and protective
+  hairstyles such as braids, locks, and twists.
+  
+  (N) Religion. "Religion" includes all aspects of religious
+  observance and practice, as well as belief, except that with
+  respect to employers, for the purposes of Article 2,
+  "religion" has the meaning ascribed to it in paragraph (F) of
+  Section 2-101.
+  
+  (O) Sex. "Sex" means the status of being male or female.
+  
+  (O-1) Sexual orientation. "Sexual orientation" means
+  actual or perceived heterosexuality, homosexuality,
+  bisexuality, or gender-related identity, whether or not
+  traditionally associated with the person's designated sex at
+  birth. "Sexual orientation" does not include a physical or
+  sexual attraction to a minor by an adult.
+  
+  (O-2) Reproductive Health Decisions. "Reproductive Health
+  Decisions" means a person's decisions regarding the person's
+  use of: contraception; fertility or sterilization care;
+  assisted reproductive technologies; miscarriage management
+  care; healthcare related to the continuation or termination of
+  pregnancy; or prenatal, intranatal, or postnatal care.
+  
+  (O-5) Source of income. "Source of income" means the
+  lawful manner by which an individual supports himself or
+  herself and his or her dependents.
+  
+  (P) Unfavorable military discharge. "Unfavorable military
+  discharge" includes discharges from the Armed Forces of the
+  United States, their Reserv
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to provide a comprehensive definition of
+        unlawful discrimination in the state of Illinois.
+    [llama31_2000]
+        The primary goal of this bill is to establish a process for revoking protected
+        class status for formerly convicted individuals who commit subsequent crimes.
+
+
+  ### policy_domain
+    [llama31_900]
+        Civil Rights, Employment Law, Anti-Discrimination, Human Rights.
+    [llama31_2000]
+        Public Safety, Crime Policy, Rehabilitation, Social Welfare.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The bill impacts individuals, including those who are protected under an order
+        of protection, pregnant individuals, individuals with disabilities, and
+        individuals who have been granted protective class status.
+    [llama31_2000]
+        Formerly convicted individuals, State's Attorneys, the Attorney General,
+        prosecutors, and the Department.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase protections for individuals who are protected under an
+        order of protection, pregnant individuals, individuals with disabilities, and
+        individuals who have been granted protective class status.
+    [llama31_2000]
+        None.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        Protected class status for formerly convicted individuals who commit subsequent
+        crimes.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to provide a comprehensive definition of unlawful
+        discrimination in the state of Illinois.
+    [llama31_2000]
+        The purpose of this bill is to ensure that individuals who have been granted
+        protected class status due to a conviction do not abuse this status by
+        committing subsequent crimes.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill appears to be a desire to increase protections
+        for marginalized groups and to provide a clearer understanding of what
+        constitutes unlawful discrimination.
+    [llama31_2000]
+        The motivation behind this bill is to maintain public safety and ensure that
+        individuals who have been convicted of crimes do not receive preferential
+        treatment.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could have a moderately impactful effect on the University of Illinois
+        Urbana-Champaign (UIUC) by providing a more comprehensive definition of unlawful
+        discrimination, which could lead to increased protections for students and
+        employees.
+    [llama31_2000]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially affecting the rights and privileges of formerly convicted
+        individuals who are students or employees at the university.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        The bill appears to align with progressive or liberal ideological principles, as
+        it aims to increase protections for marginalized groups.
+    [llama31_2000]
+        This bill aligns with conservative or law-and-order ideologies that prioritize
+        public safety and rehabilitation.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill appears to be a standalone amendment that does not reference any
+        specific existing law or statute.
+    [llama31_2000]
+        The bill uses a rule-making process to carry out its provisions, subject to the
+        Illinois Administrative Procedure Act.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces definitions for various terms, including "unlawful
+        discrimination," "order of protection status," "pregnancy," "religion," "sex,"
+        "sexual orientation," "reproductive health decisions," and "source of income."
+    [llama31_2000]
+        The bill introduces a process for revoking protected class status for formerly
+        convicted individuals who are subsequently convicted of a felony or misdemeanor,
+        and establishes rules for determining intellectual or developmental disabilities
+        that prevent individuals from meeting certain requirements.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 15/20   |   HB2366   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1949374::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   for the purpose of:
+  
+  (1) Inspecting and investigating to ascertain possible
+  violations of this Act, any rule or regulation adopted
+  under this Act, any permit or term or condition of a
+  permit, or any Board order; or
+  
+  (2) In accordance with the provisions of this Act,
+  taking whatever preventive or corrective action, including
+  but not limited to removal or remedial action, that is
+  necessary or appropriate whenever there is a release or a
+  substantial threat of a release of (A) a hazardous
+  substance or pesticide or (B) petroleum from an
+  underground storage tank.
+  
+  (e) The Agency shall have the duty to investigate
+  violations of this Act, any rule or regulation adopted under
+  this Act, any permit or term or condition of a permit, or any
+  Board order; to issue administrative citations as provided in
+  Section 31.1 of this Act; and to take such summary enforcement
+  action as is provided for by Section 34 of this Act.
+  
+  (f) The Agency shall appear before the Board in any
+  hearing upon a petition for variance or time-limited water
+  quality standard, the denial of a permit, or the validity or
+  effect of a rule or regulation of the Board, and shall have the
+  authority to appear before the Board in any hearing under the
+  Act.
+  
+  (g) The Agency shall have the duty to administer, in
+  accord with Title X of this Act, such permit and certification
+  systems as may be established by this Act or by regulations
+  adopted thereunder. The Agency may enter into written
+  delegation agreements with any department, agency, or unit of
+  State or local government under which all or portions of this
+  duty may be delegated for public water supply storage and
+  transport systems, sewage collection and transport systems,
+  air pollution control sources with uncontrolled emissions of
+  100 tons per year or less and application of algicides to
+  waters of the State. Such delegation agreements will require
+  that the work to be performed thereunder will be in accordance
+  with Agency criteria, subject to Agency review, and shall
+  include such financial and program auditing by the Agency as
+  may be required.
+  
+  (h) The Agency shall have authority to require the
+  submission of complete plans and specifications from any
+  applicant for a permit required by this Act or by regulations
+  thereunder, and to require the submission of such reports
+  regarding actual or potential violations of this Act, any rule
+  or regulation adopted under this Act, any permit or term or
+  condition of a permit, or any Board order, as may be necessary
+  for the purp
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to establish the Agency's authority and duties
+        in enforcing environmental regulations and laws in the state of Illinois.
+    [llama31_2000]
+        The primary goal of this bill is to authorize the Illinois Environmental
+        Protection Agency to take necessary actions to secure the benefits of federal
+        environmental laws and regulations.
+
+
+  ### policy_domain
+    [llama31_900]
+        Environmental Policy, Pollution Control, Water Quality, Air Quality, Public
+        Health, Government Administration.
+    [llama31_2000]
+        Environmental Policy, Pollution Control, Public Health, State Government,
+        Federal-State Relations, Labor Policy.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The bill impacts the following groups: - Citizens of Illinois - State and local
+        government agencies - Environmental protection organizations - Businesses and
+        industries subject to environmental regulations
+    [llama31_2000]
+        The bill impacts the following groups: - Citizens of Illinois - Units of local
+        government - State agencies - Laboratories and persons operating in the field of
+        environmental protection
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase the Agency's authority and capabilities in enforcing
+        environmental regulations and laws, as well as the state's ability to protect
+        its environment.
+    [llama31_2000]
+        The bill aims to increase the following: - Environmental protection and public
+        health in Illinois - Efficiency and effectiveness of the Illinois Environmental
+        Protection Agency - Participation of units of local government in environmental
+        protection efforts
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill aims to decrease the following: - Liability for the State, Director,
+        and State employees for actions taken under the Act - Risk of injury or damage
+        from releases or threats of releases of hazardous substances or pesticides
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to establish the Agency's authority and duties in
+        enforcing environmental regulations and laws in the state of Illinois.
+    [llama31_2000]
+        The purpose of this bill is to authorize the Illinois Environmental Protection
+        Agency to take necessary actions to secure the benefits of federal environmental
+        laws and regulations.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to protect the environment and public health
+        in the state of Illinois by increasing the Agency's authority and capabilities
+        in enforcing environmental regulations and laws.
+    [llama31_2000]
+        The motivation behind this bill is to improve environmental protection and
+        public health in Illinois by empowering the Illinois Environmental Protection
+        Agency to take necessary actions.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by increasing the state's ability to regulate and enforce environmental
+        regulations on campus.
+    [llama31_2000]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by requiring the institution to comply with new environmental regulations
+        and standards.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with liberal and progressive ideologies that prioritize
+        environmental protection and public health.
+    [llama31_2000]
+        This bill aligns with the principles of environmental protection and public
+        health, which are often associated with liberal or progressive ideologies.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill uses a regulatory approach by outlining the Agency's duties and
+        responsibilities in enforcing environmental regulations and laws.
+    [llama31_2000]
+        The bill uses a combination of authorization and delegation to empower the
+        Illinois Environmental Protection Agency to take necessary actions to secure the
+        benefits of federal environmental laws and regulations.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces key provisions for the Agency's duties, including inspecting
+        and investigating potential violations, issuing administrative citations, and
+        taking corrective action. It also outlines the Agency's authority to administer
+        permit and certification systems, enter into delegation agreements, and accept
+        grants and funds for environmental protection activities.
+    [llama31_2000]
+        The bill introduces several key provisions, including: - Authorization for the
+        Illinois Environmental Protection Agency to take actions to secure the benefits
+        of federal environmental laws and regulations. - Establishment of minimum
+        standards for laboratory operations related to air pollution, water pollution,
+        noise emissions, and contaminant discharges. - Authority for the Agency to issue
+        certificates of competency to persons and laboratories meeting minimum
+        standards. - Duty to analyze samples from public water supplies to determine
+        compliance with contaminant levels. - Authority to provide notice to persons
+        liable for releases or threats of releases of hazardous substances or
+        pesticides. - Delegation of inspecting, investigating, and enforcement functions
+        to units of local government. - Authority to distribute grants to units of local
+        government for financing and construction of wastewater facilities and public
+        water supply facilities.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 16/20   |   HB2480   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1952007::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   Conciliation Service, or who are members
+  of the National Academy of Arbitrators, as nominees for
+  impartial arbitrator of the arbitration panel. The parties may
+  select an individual on the list provided by the Board or any
+  other individual mutually agreed upon by the parties. Within 7
+  days following the receipt of the list, the parties shall
+  notify the Board of the person they have selected. Unless the
+  parties agree on an alternate selection procedure, they shall
+  alternatively strike one name from the list provided by the
+  Board until only one name remains. A coin toss shall determine
+  which party shall strike the first name. If the parties fail to
+  notify the Board in a timely manner of their selection for
+  neutral chairman, the Board shall appoint a neutral chairman
+  from the Illinois Public Employees Mediation/Arbitration
+  Roster.
+  
+  (d) The chairman shall call a hearing to begin within 15
+  days and give reasonable notice of the time and place of the
+  hearing. The hearing shall be held at the offices of the Board
+  or at such other location as the Board deems appropriate. The
+  chairman shall preside over the hearing and shall take
+  testimony. Any oral or documentary evidence and other data
+  deemed relevant by the arbitration panel may be received in
+  evidence. The proceedings shall be informal. Technical rules
+  of evidence shall not apply and the competency of the evidence
+  shall not thereby be deemed impaired. A verbatim record of the
+  proceedings shall be made and the arbitrator shall arrange for
+  the necessary recording service. Transcripts may be ordered at
+  the expense of the party ordering them, but the transcripts
+  shall not be necessary for a decision by the arbitration
+  panel. The expense of the proceedings, including a fee for the
+  chairman, shall be borne equally by each of the parties to the
+  dispute. The delegates, if public officers or employees, shall
+  continue on the payroll of the public employer without loss of
+  pay. The hearing conducted by the arbitration panel may be
+  adjourned from time to time, but unless otherwise agreed by
+  the parties, shall be concluded within 30 days of the time of
+  its commencement. Majority actions and rulings shall
+  constitute the actions and rulings of the arbitration panel.
+  Arbitration proceedings under this Section shall not be
+  interrupted or terminated by reason of any unfair labor
+  practice charge filed by either party at any time.
+  
+  (e) The arbitration panel may administer oaths, require
+  the attendance of witnesses, and the producti
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to establish a fair and efficient process for
+        resolving labor disputes through arbitration.
+    [llama31_2000]
+        The primary goal of this bill is to establish a framework for arbitration in
+        labor disputes between public employers and employees, ensuring fair and
+        efficient resolution of disputes.
+
+
+  ### policy_domain
+    [llama31_900]
+        Labor Policy, Collective Bargaining, Dispute Resolution, Public Employee
+        Relations.
+    [llama31_2000]
+        Labor Policy, Public Employment, Collective Bargaining, Arbitration, Public
+        Service.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        Public employees, public employers, labor unions, and the Illinois Public
+        Employees Mediation/Arbitration Roster.
+    [llama31_2000]
+        The stakeholders affected by this bill include: - Public employers (units of
+        government). - Employees in public service (peace officers, firefighters, and
+        other public service employees). - Exclusive bargaining representatives.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase the efficiency and fairness of the arbitration
+        process, and to support the resolution of labor disputes through collective
+        bargaining.
+    [llama31_2000]
+        The bill aims to increase: - Fairness and efficiency in the resolution of labor
+        disputes. - Transparency and accountability in the arbitration process. - The
+        use of voluntary collective bargaining and mediation.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        None.
+    [llama31_2000]
+        The bill aims to decrease: - The risk of disputes and litigation in labor
+        relations. - The burden on public employers and employees in resolving disputes.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to establish a fair and efficient process for
+        resolving labor disputes through arbitration.
+    [llama31_2000]
+        The purpose of this bill is to establish a framework for arbitration in labor
+        disputes between public employers and employees, ensuring fair and efficient
+        resolution of disputes.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to support the resolution of labor disputes
+        through collective bargaining and to promote fair labor practices.
+    [llama31_2000]
+        The motivation behind this bill is to promote fairness, efficiency, and
+        accountability in labor relations, and to reduce the risk of disputes and
+        litigation.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) by establishing a fair and efficient process for resolving labor disputes
+        involving public employees.
+    [llama31_2000]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        establishing a framework for arbitration in labor disputes between the
+        university and its employees, ensuring fair and efficient resolution of
+        disputes.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with the principles of labor rights and collective bargaining.
+    [llama31_2000]
+        This bill aligns with the principles of fairness, efficiency, and accountability
+        in labor relations, which are often associated with centrist or pragmatic
+        ideologies.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill uses a procedural strategy by establishing specific rules and
+        procedures for the arbitration process.
+    [llama31_2000]
+        The bill uses a combination of statutory authority and procedural mechanisms to
+        establish a framework for arbitration in labor disputes.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces key provisions for the arbitration process, including the
+        selection of an impartial arbitrator, the conduct of the hearing, the
+        determination of economic issues in dispute, and the extension of time
+        provisions for remanded disputes.
+    [llama31_2000]
+        The bill introduces several key provisions, including: - The factors that
+        arbitration panels must consider when making decisions. - The limitations on the
+        terms of arbitration decisions for peace officers and firefighters. - The
+        procedures for reviewing arbitration orders. - The rules for implementing
+        arbitration decisions.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 17/20   |   HB2518   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1952663::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  5 ILCS 140/7.5
+  815 ILCS 505/4
+  
+  from Ch. 121 1/2, par. 264
+  815 ILCS 505/4.1 new
+  
+  Amends the Freedom of Information Act and the Consumer Fraud and
+  Deceptive Business Practices Act. Exempts from disclosure under the
+  Freedom of Information Act information and documentary materials obtained
+  by the Office of the Attorney General or a State's Attorney under certain
+  provisions of the Consumer Fraud and Deceptive Business Practices Act.
+  Adds a power of the Attorney General with respect to the Consumer Fraud and
+  Deceptive Business Practices Act to require written answers under oath to
+  written interrogatories. Provides that certain materials are not available
+  for examination, except by authorized employees of the Attorney General
+  and authorized law enforcement, without the consent of the persons who
+  produced the materials. Provides that the Attorney General may, in the
+  Attorney General's discretion, use information and documentary materials
+  obtained in the course of an investigation under the Consumer Fraud and
+  Deceptive Business Practices Act for law enforcement purposes, including,
+  but not limited to, interviewing or questioning potential witnesses and
+  consultants, in a complaint or other pleading, and in court proceedings.
+  
+  AN ACT concerning government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Freedom of Information Act is amended by
+  changing Section 7.5 as follows:
+  
+  (5 ILCS 140/7.5)
+  
+  Sec. 7.5.
+  Statutory exemptions.
+  To the extent provided for
+  by the statutes referenced below, the following shall be
+  exempt from inspection and copying:
+  
+  (a) All information determined to be confidential
+  under Section 4002 of the Technology Advancement and
+  Development Act.
+  
+  (b) Library circulation and order records identifying
+  library users with specific materials under the Library
+  Records Confidentiality Act.
+  
+  (c) Applications, related documents, and medical
+  records received by the Experimental Organ Transplantation
+  Procedures Board and any and all documents or other
+  records prepared by the Experimental Organ Transplantation
+  Procedures Board or its staff relating to applications it
+  has received.
+  
+  (d) Information and records held by the Department of
+  Public Health and its authorized representatives relating
+  to known or suspected cases of sexually transmitted
+  infection or any information the disclosure of which is
+  restricted under the Illinois Sexually Transmitted
+  Infection Control Act.
+  
+  (e) Information the disclosure o
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to exempt certain information and materials
+        from disclosure under the Freedom of Information Act and the Consumer Fraud and
+        Deceptive Business Practices Act.
+    [llama31_2000]
+        The primary goal of this bill is to exempt specific information and materials
+        from disclosure under the Freedom of Information Act and the Consumer Fraud and
+        Deceptive Business Practices Act.
+
+
+  ### policy_domain
+    [llama31_900]
+        Government Transparency, Consumer Protection, Law Enforcement, Public Health,
+        Ethics, Emergency Response, Transportation, Residential Care.
+    [llama31_2000]
+        Government Transparency, Consumer Protection, Law Enforcement, Public Health,
+        Education, Labor, and Transportation.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The bill impacts the following groups: - Citizens seeking information under the
+        Freedom of Information Act - Law enforcement agencies and the Department of
+        Transportation - Residential health care facility residents and their families -
+        The Office of the Attorney General and State's Attorneys - The Experimental
+        Organ Transplantation Procedures Board and its staff - The Department of Public
+        Health and its authorized representatives - The Radon Industry Licensing Act and
+        its stakeholders - The Architectural, Engineering, and Land Surveying
+        Qualifications Based Selection Act and its stakeholders - The Illinois Prepaid
+        Tuition Act and its stakeholders - The State Officials and Employees Ethics Act
+        and its stakeholders - The Illinois Municipal Code and its stakeholders - The
+        Emergency Telephone System Act and its stakeholders - The Illinois Vehicle Code
+        and its stakeholders - The Abuse Prevention Review Team Act and its stakeholders
+        - The Residential Real Property Disclosure Act and its stakeholders - The
+        Capital Crimes Litigation Act and its stakeholders
+    [llama31_2000]
+        The bill impacts various stakeholders, including government agencies, law
+        enforcement, healthcare providers, educational institutions, and private
+        businesses.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill increases the power of the Attorney General to require written answers
+        under oath to written interrogatories.
+    [llama31_2000]
+        The bill increases the power of the Attorney General to require written answers
+        under oath to written interrogatories and allows for the use of information and
+        documentary materials obtained in the course of an investigation for law
+        enforcement purposes.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        The bill decreases the availability of certain information and materials for
+        public inspection and copying.
+    [llama31_2000]
+        The bill decreases transparency by exempting certain information and materials
+        from disclosure under the Freedom of Information Act and the Consumer Fraud and
+        Deceptive Business Practices Act.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to exempt certain information and materials from
+        disclosure under the Freedom of Information Act and the Consumer Fraud and
+        Deceptive Business Practices Act.
+    [llama31_2000]
+        The purpose of this bill is to balance the need for transparency with the need
+        to protect sensitive information and maintain public trust in government
+        agencies and institutions.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill is to protect sensitive information and
+        materials from public disclosure, potentially to prevent harm to individuals,
+        organizations, or the state.
+    [llama31_2000]
+        The motivation behind this bill is to address concerns about the potential
+        misuse of sensitive information and to ensure that law enforcement agencies have
+        the necessary tools to investigate and prosecute crimes effectively.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially limiting access to certain information and materials related to the
+        university's activities and operations.
+    [llama31_2000]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        exempting certain information and materials from disclosure, potentially
+        limiting public access to information about the university's activities and
+        operations.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill aligns with conservative and law enforcement ideologies, as it
+        restricts access to certain information and materials.
+    [llama31_2000]
+        This bill aligns with conservative and law-and-order ideologies, as it
+        prioritizes the protection of sensitive information and the interests of law
+        enforcement.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill amends existing laws through a statutory exemption provision.
+    [llama31_2000]
+        The bill amends existing laws through a comprehensive revision of the Freedom of
+        Information Act and the Consumer Fraud and Deceptive Business Practices Act.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces exemptions from disclosure under the Freedom of Information
+        Act for certain information and materials, including confidential information,
+        library records, medical records, and law enforcement officer identification
+        information.
+    [llama31_2000]
+        The bill introduces exemptions for various types of information and materials,
+        including confidential information, law enforcement records, and personal
+        identifiable information. It also grants the Attorney General the power to
+        require written answers under oath to written interrogatories.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 18/20   |   HB2518   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1952663::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   except to the extent
+  authorized under that Article.
+  
+  (n) Defense budgets and petitions for certification of
+  compensation and expenses for court appointed trial
+  counsel as provided under Sections 10 and 15 of the
+  Capital Crimes Litigation Act (repealed). This subsection
+  (n) shall apply until the conclusion of the trial of the
+  case, even if the prosecution chooses not to pursue the
+  death penalty prior to trial or sentencing.
+  
+  (o) Information that is prohibited from being
+  disclosed under Section 4 of the Illinois Health and
+  Hazardous Substances Registry Act.
+  
+  (p) Security portions of system safety program plans,
+  investigation reports, surveys, schedules, lists, data, or
+  information compiled, collected, or prepared by or for the
+  Department of Transportation under Sections 2705-300 and
+  2705-616 of the Department of Transportation Law of the
+  Civil Administrative Code of Illinois, the Regional
+  Transportation Authority under Section 2.11 of the
+  Regional Transportation Authority Act, or the St. Clair
+  County Transit District under the Bi-State Transit Safety
+  Act (repealed).
+  
+  (q) Information prohibited from being disclosed by the
+  Personnel Record Review Act.
+  
+  (r) Information prohibited from being disclosed by the
+  Illinois School Student Records Act.
+  
+  (s) Information the disclosure of which is restricted
+  under Section 5-108 of the Public Utilities Act.
+  
+  (t) (Blank).
+  
+  (u) Records and information provided to an independent
+  team of experts under the Developmental Disability and
+  Mental Health Safety Act (also known as Brian's Law).
+  
+  (v) Names and information of people who have applied
+  for or received Firearm Owner's Identification Cards under
+  the Firearm Owners Identification Card Act or applied for
+  or received a concealed carry license under the Firearm
+  Concealed Carry Act, unless otherwise authorized by the
+  Firearm Concealed Carry Act; and databases under the
+  Firearm Concealed Carry Act, records of the Concealed
+  Carry Licensing Review Board under the Firearm Concealed
+  Carry Act, and law enforcement agency objections under the
+  Firearm Concealed Carry Act.
+  
+  (v-5) Records of the Firearm Owner's Identification
+  Card Review Board that are exempted from disclosure under
+  Section 10 of the Firearm Owners Identification Card Act.
+  
+  (w) Personally identifiable information which is
+  exempted from disclosure under subsection (g) of Section
+  19.1 of the Toll Highway Act.
+  
+  (x) Information which is exempted from disclosure
+  under Section 5-1014.3 of the Counties Code or Section
+  8-11-21 of
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        None.
+    [llama31_2000]
+        To protect confidential information and materials obtained by the Attorney
+        General or State's Attorney during investigations under the Consumer Fraud and
+        Deceptive Business Practices Act.
+
+
+  ### policy_domain
+    [llama31_900]
+        Government Transparency, Public Records, Law Enforcement, Transportation,
+        Education, Health and Human Services, Public Utilities, Public Safety, and
+        Labor.
+    [llama31_2000]
+        Consumer Protection, Government Transparency, Law Enforcement, Freedom of
+        Information Act, Confidentiality, Investigations.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The bill impacts various stakeholders, including the public, law enforcement
+        agencies, transportation authorities, educational institutions, and healthcare
+        providers.
+    [llama31_2000]
+        The Attorney General, State's Attorneys, law enforcement officials, and
+        individuals involved in investigations under the Consumer Fraud and Deceptive
+        Business Practices Act.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill increases the protection of sensitive information and records from
+        disclosure.
+    [llama31_2000]
+        Protection of confidential information and materials obtained during
+        investigations.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        The bill decreases the transparency of government records and information.
+    [llama31_2000]
+        Reduction in transparency and disclosure of information related to
+        investigations under the Consumer Fraud and Deceptive Business Practices Act.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of the bill is to exempt various categories of information from
+        disclosure under the Freedom of Information Act.
+    [llama31_2000]
+        The intent of this bill is to protect confidential information and materials
+        obtained during investigations under the Consumer Fraud and Deceptive Business
+        Practices Act.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill appears to be the protection of sensitive
+        information and records from disclosure, potentially driven by concerns about
+        public safety, national security, or the potential for abuse of information.
+    [llama31_2000]
+        The motivation behind this bill is to ensure that sensitive information and
+        materials obtained during investigations are not disclosed, potentially
+        compromising ongoing investigations or harming individuals involved.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially exempting certain records related to law enforcement,
+        transportation, or education from disclosure.
+    [llama31_2000]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC) as it may affect the disclosure of information related
+        to investigations under the Consumer Fraud and Deceptive Business Practices Act.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        The bill appears to align with conservative or law-and-order ideologies,
+        prioritizing the protection of sensitive information and records.
+    [llama31_2000]
+        This bill aligns with conservative or law-and-order ideologies that prioritize
+        protection of confidential information and materials obtained during
+        investigations.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill appears to be a standalone amendment to the Freedom of Information Act,
+        without any specific procedural strategy.
+    [llama31_2000]
+        The bill amends an existing law (Consumer Fraud and Deceptive Business Practices
+        Act) to add a new provision exempting certain information from disclosure.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces exemptions to the Freedom of Information Act for various
+        categories of information, including defense budgets, court-appointed trial
+        counsel compensation, and records related to transportation, law enforcement,
+        education, and health services.
+    [llama31_2000]
+        The bill adds a new section (4.1) to the Consumer Fraud and Deceptive Business
+        Practices Act, exempting information and documentary materials obtained by the
+        Attorney General or State's Attorney from disclosure under the Freedom of
+        Information Act.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 19/20   |   HB3207   chunk 1   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1960383::0001
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   after being ordered by
+  the court to do so and upon demand, the refusal is deemed a
+  breach of the bond and a civil action may be maintained by
+  the claimant or person having a prior right to a
+  distribution against the distributee and the surety or
+  either of them for the amount due together with the
+  expenses of recovery, including reasonable attorneys'
+  fees. The order of the court is evidence of the amount due;
+  
+  (g) the petitioner has published a notice informing
+  all persons of the death of the decedent, of the filing of
+  the petition for distribution of the estate on summary
+  administration and of the date, time and place of the
+  hearing on the petition (the notice having been published
+  once a week for 3 successive weeks in a newspaper
+  published in the county where the petition has been filed,
+  the first publication having been made not less than 30
+  days prior to the hearing) and has filed proof of
+  publication with the clerk of the court;
+  the court may determine the rights of claimants and other
+  persons interested in the estate, direct payment of claims and
+  distribution of the estate on summary administration and
+  excuse the issuance of letters of office or revoke the letters
+  which have been issued and discharge the representative.
+  
+  Any claimant may file his claim in the proceeding at or
+  before the hearing on the petition, but failure to do so does
+  not deprive the claimant of his right to enforce his claim in
+  any other manner provided by law.
+  
+  A petition for distribution on summary administration may
+  be combined with or filed separately from a petition for
+  probate of a will or for administration of an estate.
+  (Source: P.A. 99-143, eff. 7-27-15.)
+  
+  (755 ILCS 5/25-1)
+  
+  (from Ch. 110 1/2, par. 25-1)
+  
+  Sec. 25-1.
+  Payment or delivery of small estate of decedent
+  upon affidavit.
+  
+  (a) When any person, corporation, or financial institution
+  (1) indebted to or holding personal estate of a decedent, (2)
+  controlling the right of access to decedent's safe deposit box
+  or (3) acting as registrar or transfer agent of any evidence of
+  interest, indebtedness, property or right is furnished with a
+  small estate affidavit in substantially the form hereinafter
+  set forth, that person, corporation, or financial institution
+  shall pay the indebtedness, grant access to the safe deposit
+  box, deliver the personal estate or transfer or issue the
+  evidence of interest, indebtedness, property or right to
+  persons and in the manner specified in the affidavit or to an
+  agent appointed as hereinafter set
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to provide a streamlined process for the
+        distribution of small estates of decedents, allowing for the payment or delivery
+        of such estates upon affidavit.
+    [llama31_2000]
+        To provide a streamlined process for the distribution of small estates in
+        Illinois, allowing for the efficient and cost-effective resolution of estate
+        matters.
+
+
+  ### policy_domain
+    [llama31_900]
+        Estate Planning, Probate Law, Small Estates, Civil Procedure, Jurisdiction.
+    [llama31_2000]
+        Estate Planning, Probate Law, Small Estates, Illinois State Law.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        The bill impacts individuals who are claimants or persons interested in the
+        estate of a decedent, including beneficiaries, creditors, and other parties with
+        an interest in the estate.
+    [llama31_2000]
+        The bill primarily benefits the heirs and legatees of small estates, as well as
+        creditors and financial institutions who may be affected by the distribution of
+        the estate.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        The bill aims to increase the efficiency and speed of the distribution of small
+        estates of decedents, allowing for the payment or delivery of such estates upon
+        affidavit.
+    [llama31_2000]
+        The bill aims to increase the efficiency and cost-effectiveness of the small
+        estate affidavit process, allowing for the timely distribution of small estates.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        The bill does not appear to decrease any aspects of the existing law or process.
+    [llama31_2000]
+        The bill does not directly decrease any aspects, but rather provides a new
+        framework for the distribution of small estates.
+
+
+  ### intent
+    [llama31_900]
+        The purpose of this bill is to provide a new process for the distribution of
+        small estates of decedents, allowing for the payment or delivery of such estates
+        upon affidavit.
+    [llama31_2000]
+        The primary intent of this bill is to provide a streamlined process for the
+        distribution of small estates in Illinois.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill appears to be the desire to simplify and
+        streamline the process of distributing small estates of decedents, reducing the
+        burden on the courts and the parties involved.
+    [llama31_2000]
+        The motivation behind this bill appears to be the desire to reduce the
+        complexity and cost of the small estate affidavit process, allowing for the
+        efficient distribution of small estates.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        providing a streamlined process for the distribution of small estates of
+        decedents, which may be relevant to the university's administration of estates.
+    [llama31_2000]
+        This bill could impact the University of Illinois Urbana-Champaign (UIUC) by
+        potentially affecting the distribution of small estates among its employees or
+        students.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        The bill appears to align with the principles of efficiency and simplicity in
+        the administration of estates.
+    [llama31_2000]
+        The bill appears to align with conservative or libertarian ideologies, which
+        prioritize individual freedom and limited government intervention in personal
+        matters.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill amends the Illinois Estates and Protected Interests Code, which
+        suggests that the legislative strategy is to modify existing law rather than
+        introduce new legislation.
+    [llama31_2000]
+        The bill amends the existing small estate affidavit process, providing a new
+        framework for the distribution of small estates in Illinois.
+
+
+  ### key_provisions
+    [llama31_900]
+        The bill introduces a new process for the distribution of small estates of
+        decedents, allowing for the payment or delivery of such estates upon affidavit,
+        and establishes procedures for the filing of claims and the distribution of
+        estates on summary administration.
+    [llama31_2000]
+        The bill establishes a new class system for the distribution of small estates,
+        prioritizing claims against the estate and providing for the payment of debts
+        and expenses. It also establishes a new affidavit process for small estates,
+        allowing for the distribution of property without the need for probate.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 20/20   |   HB3290   chunk 2   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1960734::0002
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+   of insufficient funds,
+  Agency review of request for deferral, notification of Agency
+  final decisions, returning deferred sites to active status,
+  and earmarking of funds for payment.
+  
+  (c) When the owner or operator requests indemnification
+  for payment of costs incurred as a result of a release of
+  petroleum from an underground storage tank, if the owner or
+  operator has satisfied the requirements of subsection (a) of
+  this Section, the Agency shall forward a copy of the request to
+  the Attorney General. The Attorney General shall review and
+  approve the request for indemnification if:
+  
+  (1) there is a legally enforceable judgment entered
+  against the owner or operator and such judgment was
+  entered due to harm caused by a release of petroleum from
+  an underground storage tank and such judgment was not
+  entered as a result of fraud; or
+  
+  (2) a settlement with a third party due to a release of
+  petroleum from an underground storage tank is reasonable.
+  
+  (d)
+  (1)
+   Notwithstanding any other provision of this Title,
+  the Agency shall not approve payment to an owner or operator
+  from the Fund for costs of corrective action or
+  indemnification incurred during a calendar year in excess of
+  the following aggregate amounts based on the number of
+  petroleum underground storage tanks owned or operated by such
+  owner or operator in Illinois.
+  
+  Amount
+  
+  Number of Tanks
+  
+  $2,000,000
+  ........................
+  fewer than 101
+  
+  $3,000,000
+  ................................
+  101 or more
+  
+  (2)
+  
+  (1)
+   Costs incurred in excess of the aggregate amounts
+  set forth in paragraph (1) of this subsection shall not be
+  eligible for payment in subsequent years.
+  
+  (3)
+  
+  (2)
+   For purposes of this subsection, requests
+  submitted by any of the agencies, departments, boards,
+  committees
+  ,
+   or commissions of the State of Illinois shall be
+  acted upon as claims from a single owner or operator.
+  
+  (4)
+  
+  (3)
+   For purposes of this subsection, owner or operator
+  includes (i) any subsidiary, parent, or joint stock company of
+  the owner or operator and (ii) any company owned by any parent,
+  subsidiary, or joint stock company of the owner or operator.
+  
+  (e) Costs of corrective action or indemnification incurred
+  by an owner or operator which have been paid to an owner or
+  operator under a policy of insurance, another written
+  agreement, or a court order are not eligible for payment under
+  this Section. An owner or operator who receives payment under
+  a policy of insurance, another written agreement, or a court
+  order shall reimburse the State to the
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    llama31_900          status=OK         missing=0
+    llama31_2000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [llama31_900]
+        The primary goal of this bill is to establish limits on the amount of funds the
+        Agency can approve for payment to owners or operators from the Fund for costs of
+        corrective action or indemnification incurred during a calendar year.
+    [llama31_2000]
+        The primary goal of this bill is to establish a deductible for costs incurred
+        after the effective date of the amendatory Act and to provide for eligibility
+        and deductibility determinations by the Office of the State Fire Marshal.
+
+
+  ### policy_domain
+    [llama31_900]
+        Environmental Policy, Energy Policy, Financial Regulation, State Budgeting
+    [llama31_2000]
+        Environmental Policy, Pollution Control, Regulatory Policy, State Government.
+
+
+  ### intended_beneficiaries
+    [llama31_900]
+        - Owners or operators of petroleum underground storage tanks in Illinois - The
+        State of Illinois (through the Agency and the Fund) - The Attorney General
+    [llama31_2000]
+        Owners or operators of underground storage tanks, the Underground Storage Tank
+        Fund, and the Office of the State Fire Marshal.
+
+
+  ### increasing_aspects
+    [llama31_900]
+        - The aggregate amounts the Agency can approve for payment to owners or
+        operators from the Fund for costs of corrective action or indemnification
+        incurred during a calendar year. - The State's ability to acquire by subrogation
+        the rights of any owner, operator, or other person to recover the costs of
+        corrective action or indemnification for which the Fund has compensated such
+        owner, operator, or person.
+    [llama31_2000]
+        The bill aims to increase the deductible for costs incurred after the effective
+        date of the amendatory Act, and to enhance the eligibility and deductibility
+        determinations process.
+
+
+  ### decreasing_aspects
+    [llama31_900]
+        - The amount of funds the Agency can approve for payment to owners or operators
+        from the Fund for costs of corrective action or indemnification incurred during
+        a calendar year. - The eligibility of costs incurred in excess of the aggregate
+        amounts set forth in paragraph (1) of subsection (d) for payment in subsequent
+        years.
+    [llama31_2000]
+        None.
+
+
+  ### intent
+    [llama31_900]
+        The intent of this bill is to establish limits on the amount of funds the Agency
+        can approve for payment to owners or operators from the Fund for costs of
+        corrective action or indemnification incurred during a calendar year.
+    [llama31_2000]
+        The purpose of this bill is to establish a deductible for costs incurred after
+        the effective date of the amendatory Act and to provide for eligibility and
+        deductibility determinations by the Office of the State Fire Marshal.
+
+
+  ### motivation
+    [llama31_900]
+        The motivation behind this bill appears to be controlling costs and ensuring the
+        efficient use of funds in the Petroleum Underground Storage Tank Fund.
+    [llama31_2000]
+        The motivation behind this bill appears to be to reduce the financial burden on
+        owners or operators of underground storage tanks and to provide a more efficient
+        process for eligibility and deductibility determinations.
+
+
+  ### potential_impact
+    [llama31_900]
+        This bill could moderately impact the University of Illinois Urbana-Champaign
+        (UIUC) if it has any petroleum underground storage tanks on campus, as the bill
+        may affect the UIUC's ability to receive payment from the Fund for costs
+        incurred due to releases of petroleum from such tanks.
+    [llama31_2000]
+        This bill may have a moderate impact on the University of Illinois
+        Urbana-Champaign (UIUC), as it may affect the university's compliance with
+        environmental regulations and its access to the Underground Storage Tank Fund.
+
+
+  ### ideological_alignment
+    [llama31_900]
+        This bill appears to align with conservative or fiscally conservative
+        ideologies, as it aims to control costs and limit the amount of funds the Agency
+        can approve for payment to owners or operators from the Fund.
+    [llama31_2000]
+        This bill appears to align with conservative or libertarian principles, as it
+        introduces a deductible for costs incurred after the effective date of the
+        amendatory Act.
+
+
+  ### legislative_strategy
+    [llama31_900]
+        The bill introduces a cap on the amount of funds the Agency can approve for
+        payment to owners or operators from the Fund, which is a regulatory strategy to
+        control costs.
+    [llama31_2000]
+        The bill amends Public Act 96-908, which was enacted on June 8, 2010.
+
+
+  ### key_provisions
+    [llama31_900]
+        - The Agency shall not approve payment to an owner or operator from the Fund for
+        costs of corrective action or indemnification incurred during a calendar year in
+        excess of the aggregate amounts based on the number of petroleum underground
+        storage tanks owned or operated by such owner or operator in Illinois. - Costs
+        incurred in excess of the aggregate amounts set forth in paragraph (1) of
+        subsection (d) shall not be eligible for payment in subsequent years. - The
+        Agency shall not approve any payment from the Fund to pay an owner or operator
+        for costs of corrective action incurred in an amount in excess of $1,500,000 per
+        occurrence and for costs of indemnification in an amount in excess of $1,500,000
+        per occurrence.
+    [llama31_2000]
+        The bill introduces a $10,000 deductible for costs incurred after the effective
+        date of the amendatory Act, and a $5,000 deductible for costs associated with
+        corrective action after the application of the $10,000 deductible. The Office of
+        the State Fire Marshal is responsible for making eligibility and deductibility
+        determinations.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    llama31_900           A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    llama31_2000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+===============================================================================================
+  AGGREGATE — fill in after scoring all chunks
+===============================================================================================
+
+  llama31_900
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  llama31_2000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  ONE-LINE VERDICT FOR THIS CHUNK SIZE:
+  ______________________________________________________________________

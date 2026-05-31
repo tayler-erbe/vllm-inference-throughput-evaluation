@@ -1,0 +1,3772 @@
+===============================================================================================
+  QUALITATIVE REVIEW COMPANION — SCORING DOCUMENT
+===============================================================================================
+
+  Profiles compared: mistral_3000, mistral_5000
+  Chunks included:   20 (highest model-disagreement first)
+  Session:           999996
+
+  HOW TO USE THIS DOCUMENT:
+  - For each chunk, read the source text, then read each model's answers.
+  - Score each model on the 3 rubric criteria (Accuracy, Specificity,
+    Completeness), each 0-2, in the score slots provided.
+  - Score blind to parse_status. A PARTIAL with great answers beats an
+    OK with shallow ones.
+  - Only the 6 substantive fields are shown here for scoring focus.
+  - Transfer your scores into the rubric's scoring sheet when done.
+
+  RUBRIC QUICK REFERENCE:
+  Accuracy:     0=wrong  1=partially right  2=accurate
+  Specificity:  0=generic  1=somewhat specific  2=names actual mechanism
+  Completeness: 0=surface phrase  1=partial point  2=substantive point captured
+
+===============================================================================================
+
+###############################################################################################
+# CHUNK 1/20   |   HB0385   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1906250::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  AN ACT concerning education.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The School Code is amended by changing Section
+  27-23.7 as follows:
+  
+  (105 ILCS 5/27-23.7)
+  
+  Sec. 27-23.7.
+  Bullying prevention.
+  
+  (a) The General Assembly finds that a safe and civil
+  school environment is necessary for students to learn and
+  achieve and that bullying causes physical, psychological, and
+  emotional harm to students and interferes with students'
+  ability to learn and participate in school activities. The
+  General Assembly further finds that bullying has been linked
+  to other forms of antisocial behavior, such as vandalism,
+  shoplifting, skipping and dropping out of school, fighting,
+  using drugs and alcohol, sexual harassment, and sexual
+  violence. Because of the negative outcomes associated with
+  bullying in schools, the General Assembly finds that school
+  districts, charter schools, and non-public, non-sectarian
+  elementary and secondary schools should educate students,
+  parents, and school district, charter school, or non-public,
+  non-sectarian elementary or secondary school personnel about
+  what behaviors constitute prohibited bullying.
+  
+  Bullying on the basis of actual or perceived race, color,
+  religion, sex, national origin, ancestry, physical appearance,
+  socioeconomic status, academic status, pregnancy, parenting
+  status, homelessness, age, marital status, physical or mental
+  disability, military status, sexual orientation,
+  gender-related identity or expression, unfavorable discharge
+  from military service, association with a person or group with
+  one or more of the aforementioned actual or perceived
+  characteristics, or any other distinguishing characteristic is
+  prohibited in all school districts, charter schools, and
+  non-public, non-sectarian elementary and secondary schools. No
+  student shall be subjected to bullying:
+  
+  (1) during any school-sponsored education program or
+  activity;
+  
+  (2) while in school, on school property, on school
+  buses or other school vehicles, at designated school bus
+  stops waiting for the school bus, or at school-sponsored
+  or school-sanctioned events or activities;
+  
+  (3) through the transmission of information from a
+  school computer, a school computer network, or other
+  similar electronic school equipment; or
+  
+  (4) through the transmission of information from a
+  computer that is accessed at a nonschool-related location,
+  activity, function, or program or from the use of
+  technology or an electronic device that i
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To enhance the safety and well-being of students by preventing bullying in
+        schools and promoting a positive learning environment.
+    [mistral_5000]
+        To enhance the safety and well-being of students in Illinois schools by
+        preventing bullying and cyberbullying.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Education Policy, Student Welfare, School Safety
+    [mistral_5000]
+        Education, Student Welfare, Civil Rights.
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        - Students in school districts, charter schools, and non-public, non-sectarian
+        elementary and secondary schools. - School personnel involved in the prevention
+        and resolution of bullying incidents. - Parents or guardians of students
+        involved in bullying incidents.
+    [mistral_5000]
+        Students, parents, school personnel, and school districts in Illinois.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        - Support for a safe and civil school environment. - Enhancement of student
+        learning and participation. - Promotion of restorative measures and
+        interventions.
+    [mistral_5000]
+        Support for a safe and civil school environment, education about bullying, and
+        the implementation of bullying prevention policies.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        - Reduction of bullying incidents and their negative outcomes. - Elimination of
+        bullying based on various protected characteristics.
+    [mistral_5000]
+        Bullying, cyberbullying, and their negative effects on students.
+
+
+  ### intent
+    [mistral_3000]
+        To create a safer and more inclusive learning environment for students by
+        preventing bullying and promoting restorative measures.
+    [mistral_5000]
+        To enhance the safety and well-being of students in Illinois schools by
+        preventing bullying and cyberbullying.
+
+
+  ### motivation
+    [mistral_3000]
+        To address the negative outcomes associated with bullying in schools and promote
+        a positive learning environment for all students.
+    [mistral_5000]
+        To address the negative outcomes associated with bullying in schools and create
+        a safe and civil learning environment for all students.
+
+
+  ### potential_impact
+    [mistral_3000]
+        - The bill could impact the University of Illinois Urbana-Champaign by
+        encouraging similar policies and practices to prevent bullying on college
+        campuses.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        its K-12 schools to create and implement bullying prevention policies.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        - Supports a safe and inclusive learning environment for all students.
+    [mistral_5000]
+        Supports a safe and inclusive learning environment for all students.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to the School Code
+    [mistral_5000]
+        Amendment to the School Code.
+
+
+  ### key_provisions
+    [mistral_3000]
+        - Strengthening the definition of bullying to include cyber-bullying. -
+        Requiring schools to create and implement a policy on bullying prevention. -
+        Establishing procedures for reporting, investigating, and addressing bullying
+        incidents. - Prohibiting reprisal or retaliation against those who report
+        bullying.
+    [mistral_5000]
+        The bill amends the School Code to require schools to create and implement a
+        policy on bullying, defines bullying and cyberbullying, outlines procedures for
+        reporting and investigating incidents, and establishes consequences for engaging
+        in bullying or retaliation.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 2/20   |   HB3560   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1962504::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  New Act
+  
+  Creates the Public Banking Option Act. Establishes the Illinois Bank
+  Account Board under the Department of Financial and Professional
+  Regulation for the purpose of protecting consumers who lack access to
+  traditional banking services from predatory, discriminatory, and costly
+  alternatives. Sets forth provisions concerning the actions required by the
+  Board to create the Illinois Bank Account Program, including establishing
+  a process by which an individual may open an Illinois Bank Account, which
+  shall be designed to maximize Program participation; the mechanisms by
+  which an account holder may deposit funds into an Illinois Bank Account for
+  no fee; a process through which an account holder may elect to have a
+  portion, up to the entirety, of the account holder's paycheck or earnings
+  due for labor or services performed directly deposited by electronic fund
+  transfer into the account holder's Illinois Bank Account; a process
+  through which employers and hiring entities shall be required to remit
+  through a payroll direct deposit arrangement each worker's elected payroll
+  contribution to the worker's Illinois Bank Account in accordance with the
+  worker's election; and mechanisms by which an account holder can withdraw
+  funds from an Illinois Bank Account using an Illinois Bank Account debit
+  card for no fee; a process, available to all account holders for no fee,
+  through which an account holder may arrange for payment to a registered
+  payee using a preauthorized electronic fund transfer from an Illinois Bank
+  Account; a process and terms and conditions for becoming a registered
+  payee; voluntary automatic disbursement rules to assist an account holder
+  in managing automated payments to registered payees based on the
+  availability of funds in the account holder's account; and other specified
+  actions. Establishes duties concerning the Program for employers with more
+  than 25 employees, hiring entities with more than 25 independent
+  contractors performing the same or similar labor or service, and landlords
+  or a landlord's agent. Grants the Department rulemaking authority to
+  implement the provisions of the Act. Effective immediately.
+  
+  AN ACT concerning regulation.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  Short title.
+  This Act may be cited as the
+  Public
+  Banking Option Act.
+  
+  Section 2.
+  Findings.
+  The General Assembly finds that:
+  
+  (1) Due to high unemployment rates, homelessness
+  rising, and an unprecedented wave o
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To provide Illinois residents, particularly the unbanked and underbanked, with a
+        zero-fee, zero-penalty, zero-minimum-balance requirement public option for basic
+        financial services.
+    [mistral_5000]
+        To provide Illinois residents, particularly the unbanked and underbanked, with a
+        stable, affordable financial platform for basic financial services.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Financial Regulation, Economic Empowerment, Consumer Protection
+    [mistral_5000]
+        Regulation, Financial Services, Economic Development
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Unbanked and underbanked Illinois residents, employers, hiring entities,
+        landlords.
+    [mistral_5000]
+        - Unbanked and underbanked Illinois residents - Employers with more than 25
+        employees - Hiring entities with more than 25 independent contractors -
+        Landlords or a landlord's agent
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Access to affordable financial services, financial stability, financial
+        empowerment.
+    [mistral_5000]
+        - Access to affordable financial services - Financial stability for Illinois
+        residents - Opportunities to build credit and save
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        Predatory banking practices, expensive overdraft fees, reliance on alternative
+        financial services.
+    [mistral_5000]
+        - Predatory banking practices - Expensive overdraft fees - Disproportionate
+        impact on low-income people and people of color
+
+
+  ### intent
+    [mistral_3000]
+        To provide Illinois residents with a stable, affordable financial platform for
+        all Illinois residents, especially the unbanked and underbanked who currently
+        rely on expensive alternatives to banking services.
+    [mistral_5000]
+        To provide Illinois residents with a stable, affordable financial platform for
+        basic financial services.
+
+
+  ### motivation
+    [mistral_3000]
+        To address the financial instability of the State's most vulnerable residents,
+        particularly during the COVID-19 pandemic, by providing access to basic
+        financial services and protecting them from predatory, discriminatory, and
+        costly alternatives.
+    [mistral_5000]
+        To address the financial instability of the state's most vulnerable residents,
+        particularly those who lack access to traditional banking services, and to
+        mitigate the demand for exploitative alternatives to banking services.
+
+
+  ### potential_impact
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by providing a
+        new, affordable financial service option for its students and staff who may be
+        unbanked or underbanked.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by providing a
+        new, affordable financial option for students and staff who may be unbanked or
+        underbanked.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Progressive, consumer protection.
+    [mistral_5000]
+        Progressive
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Act creation, rulemaking authority.
+    [mistral_5000]
+        Amendment
+
+
+  ### key_provisions
+    [mistral_3000]
+        Establishment of the Illinois Bank Account Board, creation of the Illinois Bank
+        Account Program, processes for account opening, deposits, payroll contributions,
+        withdrawals, and payments to registered payees, duties for employers, hiring
+        entities, and landlords, rulemaking authority for the Department of Financial
+        and Professional Regulation.
+    [mistral_5000]
+        - Establishing the Illinois Bank Account Program - Creating the Illinois Bank
+        Account Board - Requiring employers, hiring entities, and landlords to
+        facilitate payroll direct deposit arrangements - Allowing account holders to
+        deposit, withdraw, and manage funds using an Illinois Bank Account debit card -
+        Establishing duties for employers with more than 25 employees, hiring entities
+        with more than 25 independent contractors, and landlords or a landlord's agent -
+        Granting the Department rulemaking authority to implement the provisions of the
+        Act
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 3/20   |   HB4340   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 2068406::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  705 ILCS 505/8.2 new
+  705 ILCS 505/9
+  
+  from Ch. 37, par. 439.9
+  705 ILCS 505/10
+  
+  from Ch. 37, par. 439.10
+  705 ILCS 505/11
+  
+  from Ch. 37, par. 439.11
+  705 ILCS 505/16
+  
+  from Ch. 37, par. 439.16
+  705 ILCS 505/19
+  
+  from Ch. 37, par. 439.19
+  705 ILCS 505/21
+  
+  from Ch. 37, par. 439.21
+  705 ILCS 505/24
+  
+  from Ch. 37, par. 439.24
+  
+  Amends the Court of Claims Act. Creates an administrative process for
+  uncontested claims for vendors arising from contracts with the State.
+  Requires a State agency to confirm or reject an uncontested claim that is
+  from a lapsed appropriation and valued at less than $2,500 within 30 days
+  after being notified in writing by the Attorney General. Provides that if
+  the State agency does not confirm or reject the claim within that 30-day
+  period, then the State agency forfeits the right to reject or contest the
+  claim. Requires the Comptroller, subject to appropriation, then issue
+  payment to the vendor within 30 days of the court entering such an award.
+  Provides that if the court determines that it is unable to process such an
+  uncontested claim because the bill or invoice contains a defect, the court
+  must notify the vendor in writing of the defect no later than 30 days after
+  the bill or invoice was first submitted. Provides that if one or more items
+  on a bill or invoice are disapproved, but not the entire bill or invoice,
+  then the portion that is not disapproved must be transmitted to the
+  Comptroller for payment. Changes the filing fees required under the Act as
+  follows: a fee of $15 for a petition seeking more than $500 but less than
+  $10,000; and $35 for a petition seeking more than $10,000 or more. Requires
+  that the court must allow claimants to submit documentation to amend and
+  cure defects. Makes other changes. Authorizes the Court of Claims to adopt
+  rules to implement the Act.
+  
+  AN ACT concerning civil law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Court of Claims Act is amended by changing
+  Sections 9, 10, 11, 16, 19, 21, and 24 and by adding Section
+  8.2 as follows:
+  
+  (705 ILCS 505/8.2 new)
+  
+  Sec. 8.2.
+  Uncontested contractual claims.
+  
+  (a) A State agency must confirm or reject an uncontested
+  claim arising under subsection (b) of Section 8 of this Act
+  that is from a lapsed appropriation and valued at less than
+  $2,500 within 30 days after being notified in writing of the
+  claim by the Attorney General. If the State agency does not
+  confirm or reject the claim within that 30-day period, then
+  the 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To streamline the process for uncontested claims from vendors arising from
+        contracts with the State, reducing delays and potential disputes.
+    [mistral_5000]
+        The primary goal of this bill is to streamline the process for paying
+        uncontested claims from vendors to the State, reducing delays and potential
+        disputes.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Government Operations, Administrative Procedures
+    [mistral_5000]
+        Government Operations, Administrative Law, State Finances
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Vendors with uncontested claims arising from contracts with the State.
+    [mistral_5000]
+        - Vendors with uncontested claims arising from contracts with the State. - State
+        agencies involved in contractual relationships with vendors.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Efficiency in processing uncontested claims.
+    [mistral_5000]
+        - Streamlining the process for paying uncontested claims. - Reducing potential
+        delays and disputes.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        Delays in processing uncontested claims.
+    [mistral_5000]
+        - None specified.
+
+
+  ### intent
+    [mistral_3000]
+        To streamline the process for uncontested claims from vendors arising from
+        contracts with the State.
+    [mistral_5000]
+        To streamline the process for paying uncontested claims from vendors to the
+        State.
+
+
+  ### motivation
+    [mistral_3000]
+        To reduce delays and potential disputes in the processing of uncontested claims
+        from vendors.
+    [mistral_5000]
+        To reduce delays and potential disputes in the payment process for uncontested
+        claims from vendors.
+
+
+  ### potential_impact
+    [mistral_3000]
+        Moderately Impactful. The bill could potentially improve the efficiency of claim
+        processing for vendors at UIUC, but the specific impact would depend on the
+        frequency and value of uncontested claims related to UIUC.
+    [mistral_5000]
+        This bill could potentially impact the University of Illinois Urbana-Champaign
+        if it has contracts with the State and encounters uncontested claims.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Neutral.
+    [mistral_5000]
+        - None specified.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing law.
+    [mistral_5000]
+        Amendment to the Court of Claims Act.
+
+
+  ### key_provisions
+    [mistral_3000]
+        Creation of an administrative process for uncontested claims, 30-day timeframe
+        for State agency response, forfeiture of right to contest claims if not
+        responded within 30 days, Comptroller payment within 30 days of court award,
+        changes to filing fees, allowing claimants to amend and cure defects.
+    [mistral_5000]
+        - Establishes a 30-day timeframe for State agencies to confirm or reject
+        uncontested claims. - If the State agency does not respond within 30 days, the
+        claim is automatically approved. - Allows vendors to submit documentation to
+        amend and cure defects in their claims. - Changes filing fees for the Court of
+        Claims.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 4/20   |   SB1841   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 1959509::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  415 ILCS 5/31
+  
+  from Ch. 111 1/2, par. 1031
+  
+  Amends the Environmental Protection Act. Provides an exception for
+  alleged violations which remain the subject of disagreement between the
+  Agency and the person complained against following waiver pursuant to
+  certain provisions or fulfillment of the requirements of certain
+  provisions if the person so complained against has made a reasonable
+  effort to remedy the violation, as determined by the Agency. Provides that
+  any violation from January 1, 2023, until January 1, 2024, brought by the
+  Office of the Attorney General shall be reviewed within 30 days of the
+  effective date of the amendatory Act for compliance with the changes made
+  by the amendatory Act if the violation occurred in a municipality with a
+  population larger than 900, but smaller than 1,100. Effective immediately.
+  
+  AN ACT concerning safety.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Environmental Protection Act is amended by
+  changing Section 31 as follows:
+  
+  (415 ILCS 5/31)
+  
+  (from Ch. 111 1/2, par. 1031)
+  
+  Sec. 31.
+  Notice; complaint; hearing.
+  
+  (a)(1) Within 180 days after becoming aware of an alleged
+  violation of this Act, any rule adopted under this Act, a
+  permit granted by the Agency, or a condition of such a permit,
+  the Agency shall issue and serve, by certified mail, upon the
+  person complained against a written notice informing that
+  person that the Agency has evidence of the alleged violation.
+  At a minimum, the written notice shall contain:
+  
+  (A) a notification to the person complained against of
+  the requirement to submit a written response addressing
+  the violations alleged and the option to meet with
+  appropriate agency personnel to resolve any alleged
+  violations that could lead to the filing of a formal
+  complaint;
+  
+  (B) a detailed explanation by the Agency of the
+  violations alleged;
+  
+  (C) an explanation by the Agency of the actions that
+  the Agency believes may resolve the alleged violations,
+  including an estimate of a reasonable time period for the
+  person complained against to complete the suggested
+  resolution; and
+  
+  (D) an explanation of any alleged violation that the
+  Agency believes cannot be resolved without the involvement
+  of the Office of the Illinois Attorney General or the
+  State's Attorney of the county in which the alleged
+  violation occurred and the basis for the Agency's belief.
+  
+  (2) A written response to the violations alleged shall be
+  submitted to the Agency, by certified mail, w
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To provide a mechanism for resolving disputes over alleged environmental
+        violations and to establish a review period for certain violations.
+    [mistral_5000]
+        To provide a mechanism for resolving alleged environmental violations through a
+        waiver process and a review period for violations brought by the Office of the
+        Attorney General in certain municipalities.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Environmental Policy, Administrative Law
+    [mistral_5000]
+        Environmental Policy, Administrative Procedure
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Environmental agencies, businesses and individuals accused of environmental
+        violations.
+    [mistral_5000]
+        The intended beneficiaries of this bill are individuals and entities accused of
+        environmental violations who are able to demonstrate a reasonable effort to
+        remedy the violation.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        The bill aims to increase the opportunity for resolution of disputes over
+        alleged environmental violations.
+    [mistral_5000]
+        The bill aims to support a resolution process for alleged environmental
+        violations and increase the review period for violations brought by the Office
+        of the Attorney General in certain municipalities.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        The bill does not aim to reduce, restrict, or eliminate anything specifically.
+    [mistral_5000]
+        The bill does not aim to reduce, restrict, or eliminate any specific aspects.
+
+
+  ### intent
+    [mistral_3000]
+        To provide a mechanism for resolving disputes over alleged environmental
+        violations and to establish a review period for violations brought by the Office
+        of the Attorney General in certain municipalities.
+    [mistral_5000]
+        The intent of the bill is to provide a mechanism for resolving alleged
+        environmental violations through a waiver process and a review period for
+        violations brought by the Office of the Attorney General in certain
+        municipalities.
+
+
+  ### motivation
+    [mistral_3000]
+        To provide a more efficient and fair process for resolving disputes over alleged
+        environmental violations.
+    [mistral_5000]
+        The motivation for this bill may be to provide a more streamlined process for
+        resolving alleged environmental violations and to ensure that violations brought
+        by the Office of the Attorney General in certain municipalities are reviewed in
+        a timely manner.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it is
+        found to be in violation of environmental regulations and is located in a
+        municipality with a population larger than 900 but smaller than 1,100.
+    [mistral_5000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially affecting environmental regulations and compliance procedures.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        The bill does not align with any specific ideological principles or groups.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing law.
+    [mistral_5000]
+        The bill amends the Environmental Protection Act and specifies a review period
+        for violations brought by the Office of the Attorney General in certain
+        municipalities.
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill introduces an exception for alleged violations that remain the subject
+        of disagreement, if the person has made a reasonable effort to remedy the
+        violation. It also sets a 30-day review period for violations brought by the
+        Office of the Attorney General in certain municipalities.
+    [mistral_5000]
+        The bill amends the Environmental Protection Act to provide an exception for
+        alleged violations that remain the subject of disagreement between the Agency
+        and the person complained against, following waiver or fulfillment of certain
+        provisions, if the person has made a reasonable effort to remedy the violation.
+        The bill also specifies that any violation from January 1, 2023, until January
+        1, 2024, brought by the Office of the Attorney General in a municipality with a
+        population larger than 900 but smaller than 1,100 shall be reviewed within 30
+        days of the effective date of the amendatory Act for compliance with the changes
+        made by the amendatory Act.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 5/20   |   SB3364   chunk 0   |   ? tokens   |   disagreement=14.00
+# chunk_id: 2107605::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  775 ILCS 5/3-101
+  
+  from Ch. 68, par. 3-101
+  775 ILCS 5/3-102
+  
+  from Ch. 68, par. 3-102
+  775 ILCS 5/4-101
+  
+  from Ch. 68, par. 4-101
+  775 ILCS 5/4-102
+  
+  from Ch. 68, par. 4-102
+  775 ILCS 5/4-103
+  
+  from Ch. 68, par. 4-103
+  775 ILCS 5/4-105 new
+  775 ILCS 5/5-101
+  
+  from Ch. 68, par. 5-101
+  775 ILCS 5/5-102
+  
+  from Ch. 68, par. 5-102
+  
+  Amends the Illinois Human Rights Act. Makes it a civil rights
+  violation under the Act to use artificial intelligence in a real estate
+  transaction without providing notice to the other person engaging in the
+  real estate transaction that the owner, real estate broker or salesman, or
+  agent of one of them is using artificial intelligence to conduct the real
+  estate transaction. Makes it a civil rights violation to fail to inform an
+  applicant for a loan or credit card if the financial institution used
+  artificial intelligence to process the application. Makes it a civil
+  rights violation to fail to inform a person seeking a place of public
+  accommodation that the place of public accommodation uses artificial
+  intelligence to determine whether the person seeking a place of public
+  accommodation is permitted to enjoy the full and equal enjoyment of its
+  facilities, goods, and services. Requires that the Department of Human
+  Rights adopt any rules necessary for the implementation and enforcement of
+  the Act.
+  
+  AN ACT concerning civil law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Human Rights Act is amended by
+  changing Sections 3-101, 3-102, 4-101, 4-102, 4-103, 5-101,
+  and 5-102 and by adding Section 4-105 as follows:
+  
+  (775 ILCS 5/3-101)
+  
+  (from Ch. 68, par. 3-101)
+  
+  Sec. 3-101.
+  Definitions.
+  The following definitions are
+  applicable strictly in the context of this Article:
+  
+  (A) Real Property. "Real property" includes buildings,
+  structures, real estate, lands, tenements, leaseholds,
+  interests in real estate cooperatives, condominiums, and
+  hereditaments, corporeal and incorporeal, or any interest
+  therein.
+  
+  (B) Real Estate Transaction. "Real estate transaction"
+  includes the sale, exchange, rental or lease of real property,
+  or any act that otherwise makes available such a transaction
+  or alters a person's rights to real property. "Real estate
+  transaction" also includes the brokering or appraising of
+  residential real property and the making or purchasing of
+  loans or providing other financial assistance:
+  
+  (1) for purchasing, constructing, improving, repairing
+  or maintaining a dwelling; or
+  
+  (2) secure
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To ensure transparency in the use of artificial intelligence in real estate
+        transactions, loan processing, and public accommodations.
+    [mistral_5000]
+        The primary goal of this bill is to prevent discrimination against individuals
+        based on the use of AI in various transactions and services.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Civil Rights, Technology, Housing, Finance.
+    [mistral_5000]
+        Civil Rights, Technology, Housing, Finance, Public Accommodations
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Real estate buyers, loan applicants, and patrons of public accommodations.
+    [mistral_5000]
+        - Individuals engaging in real estate transactions, loan or credit card
+        applications, and places of public accommodation.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Transparency in the use of artificial intelligence.
+    [mistral_5000]
+        - Transparency in the use of AI in various transactions and services.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        - Discrimination against individuals based on the use of AI.
+
+
+  ### intent
+    [mistral_3000]
+        To ensure transparency in the use of artificial intelligence in real estate
+        transactions, loan processing, and public accommodations.
+    [mistral_5000]
+        To prevent discrimination against individuals based on the use of AI in various
+        transactions and services.
+
+
+  ### motivation
+    [mistral_3000]
+        To prevent discrimination and ensure fairness in the use of artificial
+        intelligence.
+    [mistral_5000]
+        To ensure fairness and non-discrimination in the use of AI, particularly in real
+        estate transactions, loan or credit card applications, and places of public
+        accommodation.
+
+
+  ### potential_impact
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        transparency in the use of artificial intelligence in real estate transactions,
+        loan processing, and public accommodations on campus.
+    [mistral_5000]
+        This bill could impact the University of Illinois Urbana-Champaign by requiring
+        AI systems used in campus housing, real estate transactions, or other services
+        to provide notice to users.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Supports transparency and fairness in technology use.
+    [mistral_5000]
+        This bill aims to promote fairness and non-discrimination in the use of AI.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing law.
+    [mistral_5000]
+        Amendment to the Illinois Human Rights Act.
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill requires notice when artificial intelligence is used in real estate
+        transactions, loan processing, and public accommodations. It also empowers the
+        Department of Human Rights to adopt rules for the implementation and enforcement
+        of these provisions.
+    [mistral_5000]
+        - Makes it a civil rights violation to use AI in real estate transactions, loan
+        or credit card applications, and places of public accommodation without
+        providing notice. - Requires the Department of Human Rights to adopt rules for
+        the implementation and enforcement of these provisions.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 6/20   |   HB4820   chunk 0   |   ? tokens   |   disagreement=13.85
+# chunk_id: 2104628::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  20 ILCS 2805/45 new
+  20 ILCS 2805/50 new
+  30 ILCS 105/5.1038 new
+  775 ILCS 5/1-103
+  
+  from Ch. 68, par. 1-103
+  775 ILCS 5/3-102.2 new
+  
+  Provides that the Act may be referred to as the Veterans Housing
+  Protection Act. Amends the Illinois Human Rights Act. Provides that it is a
+  civil rights violation to refuse to sell or rent or to otherwise make
+  unavailable or deny a dwelling to any buyer or renter who is a veteran
+  because of the results of a criminal, credit, or eviction history records
+  check. Provides that the prohibition against the use of the results of a
+  veteran's criminal history records check shall not preclude an owner or
+  any other person engaging in a real estate transaction, or a real estate
+  broker or salesman, from prohibiting the veteran, a member of the
+  veteran's household, or a guest of the veteran from engaging in unlawful
+  activity on the premises. Expands the Act's definition of "source of
+  income" to include any federal, State, or local public assistance, and
+  federal, State, or local housing subsidies, such as federal Department of
+  Housing and Urban Development Veterans Affairs Supportive Housing
+  vouchers, rental assistance under the Supportive Services for Veterans
+  Families program, and veterans' benefits. Amends the Department of
+  Veterans Affairs Act. Requires the Department of Veterans Affairs to
+  administer a statewide Landlord Rental Guarantee Program which reimburses
+  landlords up to $3,500 for damages or unpaid rent associated with veteran
+  tenants using any federal, State, or local housing assistance or veterans'
+  benefits to pay all or a portion of the rent. Provides that reimbursement
+  payments shall be paid out of the Veterans Rental Guarantee Fund, a special
+  fund created in the State treasury. Requires the Department to also
+  establish and administer a pilot program to increase affordable
+  homeownership opportunities among the veteran population. Provides that
+  under the pilot program veterans shall be able to use federal or State
+  housing vouchers to partially subsidize homeownership expenses for up to
+  10 or 15 years depending on the mortgage term.
+  
+  AN ACT concerning veterans.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  Reference to Act.
+  This Act may be referred to as
+  the Veterans Housing Protection Act.
+  
+  Section 3.
+  Purpose and findings.
+  The General Assembly
+  finds that:
+  
+  (1) Veterans experience disproportionate rates of
+  homelessness and housing instability, especially in counties
+  with 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=PARTIAL    missing=1
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To ensure equitable and unrestricted access to safe and stable housing for
+        veterans without discriminatory screening practices.
+    [mistral_5000]
+        To ensure that veterans have equitable and unrestricted access to safe and
+        stable housing without discriminatory screening practices.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Housing Policy, Veterans Affairs
+    [mistral_5000]
+        Housing, Veterans Affairs
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Veterans, landlords, and real estate brokers or salesmen.
+    [mistral_5000]
+        Veterans, landlords, real estate brokers, and salesmen.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        The bill aims to support and increase equitable access to housing for veterans,
+        the use of federal or state housing vouchers for homeownership, and the
+        administration of a Landlord Rental Guarantee Program.
+    [mistral_5000]
+        Affordable housing opportunities, access to housing for veterans.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        The bill does not aim to reduce, restrict, or eliminate anything.
+    [mistral_5000]
+        Discrimination against veterans in housing.
+
+
+  ### intent
+    [mistral_3000]
+        To ensure that veterans have equitable and unrestricted access to safe and
+        stable housing without discriminatory screening practices.
+    [mistral_5000]
+        To ensure that veterans have equal access to housing opportunities without
+        discriminatory screening practices.
+
+
+  ### motivation
+    [mistral_3000]
+        The motivation behind this bill is to address the disproportionate rates of
+        homelessness and housing instability among veterans, particularly in counties
+        with rising rents and limited transitional housing. The bill aims to prevent
+        homelessness among veterans by ensuring they have equitable access to housing.
+    [mistral_5000]
+        To address the disproportionate rates of homelessness and housing instability
+        among veterans, and to ensure that those who defended the nation do not live
+        without secure shelter.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially increasing the availability of affordable housing for veteran
+        students or faculty.
+    [mistral_5000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially increasing the availability of affordable housing options for
+        veteran students or staff.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        The bill aligns with progressive ideologies that prioritize social justice and
+        support for veterans.
+    [mistral_5000]
+        Not clearly aligned with any specific ideological principles or groups.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        The bill is introduced as an act and is referred to as the Veterans Housing
+        Protection Act.
+    [mistral_5000]
+        Amendment to existing laws, creation of new programs.
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill amends the Illinois Human Rights Act to prohibit the refusal to sell or
+        rent to veterans based on their criminal, credit, or eviction history records.
+        It also creates a Landlord Rental Guarantee Program to reimburse landlords for
+        damages or unpaid rent associated with veteran tenants using housing assistance
+        or veterans' benefits. The bill establishes a pilot program to increase
+        affordable homeownership opportunities among veterans.
+    [mistral_5000]
+        The bill amends the Illinois Human Rights Act to prohibit the denial of housing
+        to veterans based on their criminal, credit, or eviction history. It also
+        creates a Landlord Rental Guarantee Program and a pilot program to increase
+        affordable homeownership opportunities among veterans.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 7/20   |   HB2366   chunk 0   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1949374::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  415 ILCS 5/4
+  
+  from Ch. 111 1/2, par. 1004
+  
+  Amends the Environmental Protection Act. Provides that the Agency
+  shall (rather than may) adopt rules requiring the electronic submission of
+  any information required to be submitted to the Agency pursuant to any
+  State or federal law or regulation or any court or Board order. Requires
+  the rules adopted under this provision to take effect no later than January
+  1, 2030.
+  
+  AN ACT concerning safety.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Environmental Protection Act is amended by
+  changing Section 4 as follows:
+  
+  (415 ILCS 5/4)
+  
+  (from Ch. 111 1/2, par. 1004)
+  
+  Sec. 4.
+  Environmental Protection Agency; establishment;
+  duties.
+  
+  (a) There is established in the Executive Branch of the
+  State Government an agency to be known as the Environmental
+  Protection Agency. This Agency shall be under the supervision
+  and direction of a Director who shall be appointed by the
+  Governor with the advice and consent of the Senate. The term of
+  office of the Director shall expire on the third Monday of
+  January in odd numbered years, provided that he or she shall
+  hold office until a successor is appointed and has qualified.
+  For terms beginning after January 18, 2019 (the effective date
+  of Public Act 100-1179) and before January 16, 2023, the
+  Director's annual salary shall be an amount equal to 15% more
+  than the Director's annual salary as of December 31, 2018. The
+  calculation of the 2018 salary base for this adjustment shall
+  not include any cost of living adjustments, as authorized by
+  Senate Joint Resolution 192 of the 86th General Assembly, for
+  the period beginning July 1, 2009 to June 30, 2019. Beginning
+  July 1, 2019 and each July 1 thereafter, the Director shall
+  receive an increase in salary based on a cost of living
+  adjustment as authorized by Senate Joint Resolution 192 of the
+  86th General Assembly. Notwithstanding any other provision of
+  law, for terms beginning on or after January 16, 2023, the
+  Director shall receive an annual salary of $180,000 or as set
+  by the Governor, whichever is higher. On July 1, 2023, and on
+  each July 1 thereafter, the Director shall receive an increase
+  in salary based on a cost of living adjustment as authorized by
+  Senate Joint Resolution 192 of the 86th General Assembly. The
+  Director, in accord with the Personnel Code, shall employ and
+  direct such personnel, and shall provide for such laboratory
+  and other facilities, as may be necessary to carry out 
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=PARTIAL    missing=2
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        The bill aims to modernize the submission of information to the Environmental
+        Protection Agency and adjust the Director's salary structure.
+    [mistral_5000]
+        To mandate the electronic submission of environmental information.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Environmental Policy, Government Administration
+    [mistral_5000]
+        Environmental Policy, Administrative Law
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Environmental Protection Agency, entities required to submit information to the
+        Environmental Protection Agency
+    [mistral_5000]
+        Environmental Protection Agency, state and federal agencies, and entities
+        required to submit information to the Environmental Protection Agency.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Electronic submission of information, Director's salary
+    [mistral_5000]
+        Electronic submission of information.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        [empty]
+    [mistral_5000]
+        None.
+
+
+  ### intent
+    [mistral_3000]
+        To modernize the submission of information to the Environmental Protection
+        Agency and adjust the Director's salary structure.
+    [mistral_5000]
+        To mandate the electronic submission of information required by the
+        Environmental Protection Act.
+
+
+  ### motivation
+    [mistral_3000]
+        To improve the efficiency of information submission and address potential salary
+        discrepancies.
+    [mistral_5000]
+        To modernize the submission of environmental information and improve efficiency.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if they are
+        required to submit information to the Environmental Protection Agency.
+    [mistral_5000]
+        This bill could impact the University of Illinois Urbana-Champaign if they are
+        required to submit environmental information electronically.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        [empty]
+    [mistral_5000]
+        None.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing law
+    [mistral_5000]
+        Amendment to existing law.
+
+
+  ### key_provisions
+    [mistral_3000]
+        Electronic submission of information to the Environmental Protection Agency,
+        changes to the Director's salary structure
+    [mistral_5000]
+        The bill amends the Environmental Protection Act to require the electronic
+        submission of information, sets a deadline for the rules to take effect, and
+        specifies that the Agency shall adopt these rules.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 8/20   |   HB2518   chunk 0   |   ? tokens   |   disagreement=13.70
+# chunk_id: 1952663::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  5 ILCS 140/7.5
+  815 ILCS 505/4
+  
+  from Ch. 121 1/2, par. 264
+  815 ILCS 505/4.1 new
+  
+  Amends the Freedom of Information Act and the Consumer Fraud and
+  Deceptive Business Practices Act. Exempts from disclosure under the
+  Freedom of Information Act information and documentary materials obtained
+  by the Office of the Attorney General or a State's Attorney under certain
+  provisions of the Consumer Fraud and Deceptive Business Practices Act.
+  Adds a power of the Attorney General with respect to the Consumer Fraud and
+  Deceptive Business Practices Act to require written answers under oath to
+  written interrogatories. Provides that certain materials are not available
+  for examination, except by authorized employees of the Attorney General
+  and authorized law enforcement, without the consent of the persons who
+  produced the materials. Provides that the Attorney General may, in the
+  Attorney General's discretion, use information and documentary materials
+  obtained in the course of an investigation under the Consumer Fraud and
+  Deceptive Business Practices Act for law enforcement purposes, including,
+  but not limited to, interviewing or questioning potential witnesses and
+  consultants, in a complaint or other pleading, and in court proceedings.
+  
+  AN ACT concerning government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Freedom of Information Act is amended by
+  changing Section 7.5 as follows:
+  
+  (5 ILCS 140/7.5)
+  
+  Sec. 7.5.
+  Statutory exemptions.
+  To the extent provided for
+  by the statutes referenced below, the following shall be
+  exempt from inspection and copying:
+  
+  (a) All information determined to be confidential
+  under Section 4002 of the Technology Advancement and
+  Development Act.
+  
+  (b) Library circulation and order records identifying
+  library users with specific materials under the Library
+  Records Confidentiality Act.
+  
+  (c) Applications, related documents, and medical
+  records received by the Experimental Organ Transplantation
+  Procedures Board and any and all documents or other
+  records prepared by the Experimental Organ Transplantation
+  Procedures Board or its staff relating to applications it
+  has received.
+  
+  (d) Information and records held by the Department of
+  Public Health and its authorized representatives relating
+  to known or suspected cases of sexually transmitted
+  infection or any information the disclosure of which is
+  restricted under the Illinois Sexually Transmitted
+  Infection Control Act.
+  
+  (e) Information the disclosure o
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=PARTIAL    missing=2
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To exempt certain information obtained by the Office of the Attorney General or
+        a State's Attorney from disclosure under the Freedom of Information Act.
+    [mistral_5000]
+        To exempt certain information and documentary materials obtained by the Office
+        of the Attorney General or a State's Attorney under the Consumer Fraud and
+        Deceptive Business Practices Act from disclosure.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Government, Law Enforcement, Privacy
+    [mistral_5000]
+        Government, Consumer Protection
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        The Office of the Attorney General, State's Attorneys, and potentially
+        individuals or entities under investigation by the Attorney General or a State's
+        Attorney.
+    [mistral_5000]
+        The bill primarily affects the Office of the Attorney General, State's
+        Attorneys, and individuals or entities under investigation by these offices.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        [empty]
+    [mistral_5000]
+        The bill aims to increase the ability of the Attorney General and State's
+        Attorneys to protect the confidentiality of information and documentary
+        materials obtained during investigations.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        Information disclosure under the Freedom of Information Act.
+    [mistral_5000]
+        The bill aims to decrease the transparency of certain investigations conducted
+        by the Attorney General and State's Attorneys.
+
+
+  ### intent
+    [mistral_3000]
+        To exempt certain information obtained by the Office of the Attorney General or
+        a State's Attorney from disclosure under the Freedom of Information Act.
+    [mistral_5000]
+        The intent of the bill is to protect the confidentiality of information and
+        documentary materials obtained by the Office of the Attorney General or a
+        State's Attorney under the Consumer Fraud and Deceptive Business Practices Act.
+
+
+  ### motivation
+    [mistral_3000]
+        To protect the confidentiality of information obtained during investigations
+        under the Consumer Fraud and Deceptive Business Practices Act.
+    [mistral_5000]
+        The motivation for the bill may be to protect the integrity of investigations
+        and to prevent potential harm or intimidation to witnesses or individuals under
+        investigation. The bill may also be motivated by concerns about the potential
+        misuse of information obtained during investigations.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it is
+        involved in an investigation under the Consumer Fraud and Deceptive Business
+        Practices Act and information related to that investigation is sought by the
+        Office of the Attorney General or a State's Attorney.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by potentially
+        affecting the transparency of investigations conducted by the Attorney General
+        or State's Attorneys that may involve the university or its affiliates.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Not applicable
+    [mistral_5000]
+        The bill aligns with the ideology of privacy and confidentiality in
+        investigations.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing laws.
+    [mistral_5000]
+        The bill amends existing laws (Freedom of Information Act and Consumer Fraud and
+        Deceptive Business Practices Act) and adds new provisions.
+
+
+  ### key_provisions
+    [mistral_3000]
+        Exemption of certain information obtained by the Office of the Attorney General
+        or a State's Attorney from disclosure under the Freedom of Information Act,
+        power for the Attorney General to require written answers under oath to written
+        interrogatories.
+    [mistral_5000]
+        The bill amends the Freedom of Information Act to exempt information and
+        documentary materials obtained by the Office of the Attorney General or a
+        State's Attorney under the Consumer Fraud and Deceptive Business Practices Act
+        from disclosure. It also adds a power for the Attorney General to require
+        written answers under oath to written interrogatories.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 9/20   |   SB3889   chunk 0   |   ? tokens   |   disagreement=13.70
+# chunk_id: 2110829::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  65 ILCS 5/11-117-13.5 new
+  220 ILCS 5/9-210.5
+  
+  Amends the Illinois Municipal Code. Provides that, before the sale of
+  a water system or sewer system owned by a municipality to a private entity,
+  a referendum shall be submitted to the electors of the municipality.
+  Provides that a majority vote authorizing the sale of the water system or
+  sewer system shall be required from the electors of the municipality
+  before the sale or purchase can occur. Amends the Public Utilities Act. In
+  provisions concerning valuation of water and sewer utilities, provides
+  that "water or sewer utility" means any of the following: (1) a public
+  utility that regularly provides water or sewer service to 6,000 or fewer
+  customer connections; (2) a water district, including, but not limited to,
+  a public water district, water service district, or surface water
+  protection district, or a sewer district of any kind established as a
+  special district under the laws of the State that regularly provides water
+  or sewer service to 6,000 or fewer customer connections; (3) a waterworks
+  system or sewerage system established under the Township Code that
+  regularly provides water or sewer service to 6,000 or fewer customer
+  connections; (4) a water system or sewer system owned by a municipality
+  that regularly provides water or sewer service to 6,000 or fewer customer
+  connections; or (5) any other entity that is not a public utility that
+  regularly provides water or sewer service to 6,000 or fewer customer
+  connections. Provides that the provisions are repealed on June 1, 2026
+  (rather than June 1, 2028). Effective immediately.
+  
+  AN ACT concerning regulation.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Municipal Code is amended by
+  adding Section 11-117-13.5 as follows:
+  
+  (65 ILCS 5/11-117-13.5 new)
+  
+  Sec. 11-117-13.5.
+  Referendum to approve sale of municipal
+  water or sewer system.
+  Except as provided in Section
+  11-117-14, before the sale of a water system or sewer system
+  owned by a municipality to a private entity, a referendum
+  shall be submitted to the electors of the municipality. A
+  majority vote authorizing the sale of the water system or
+  sewer system shall be required from the electors of the
+  municipality before the sale or purchase can occur. This
+  Section applies to a water system or sewer system owned by a
+  municipality that provides service to more than 1,000 customer
+  connections.
+  
+  Section 10.
+  The Public Utilities Act is amended by
+  changing
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=PARTIAL    missing=2
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        The primary goal of this bill is to give the electors of a municipality the
+        power to approve or reject the sale of their water or sewer system to a private
+        entity.
+    [mistral_5000]
+        To require a referendum before the sale of a municipal water or sewer system to
+        a private entity.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Government Operations, Public Utilities
+    [mistral_5000]
+        Government Operations, Utilities
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        The electors of municipalities with water or sewer systems, and private entities
+        that may purchase these systems.
+    [mistral_5000]
+        Citizens, municipalities, private entities
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        The bill aims to increase the power of the electors of municipalities in the
+        sale of their water or sewer systems.
+    [mistral_5000]
+        The requirement for a referendum before the sale of a municipal water or sewer
+        system to a private entity.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        The bill does not aim to reduce, restrict, or eliminate anything.
+    [mistral_5000]
+        [empty]
+
+
+  ### intent
+    [mistral_3000]
+        The intent of the bill is to give the electors of municipalities the power to
+        approve or reject the sale of their water or sewer systems to private entities.
+    [mistral_5000]
+        To regulate the sale of municipal water or sewer systems to private entities.
+
+
+  ### motivation
+    [mistral_3000]
+        The motivation for this bill may be to ensure that the sale of municipal water
+        or sewer systems is done with the approval of the local community.
+    [mistral_5000]
+        To give citizens a say in the sale of their municipality's water or sewer system
+        to a private entity.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it owns a
+        water or sewer system and decides to sell it to a private entity.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign if it owns a
+        water or sewer system and decides to sell it to a private entity.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        The bill does not align with any specific ideological principles or groups.
+    [mistral_5000]
+        [empty]
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        The bill uses the strategy of amending existing laws to introduce new
+        requirements for the sale of municipal water or sewer systems.
+    [mistral_5000]
+        Amendment
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill introduces a referendum requirement for the sale of municipal water or
+        sewer systems to private entities, and changes the definition of a "water or
+        sewer utility" in the Public Utilities Act.
+    [mistral_5000]
+        The bill introduces a requirement for a referendum before the sale of a
+        municipal water or sewer system to a private entity, and changes the definition
+        of a "water or sewer utility" in the Public Utilities Act.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 10/20   |   HB2853   chunk 0   |   ? tokens   |   disagreement=13.55
+# chunk_id: 1956812::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  70 ILCS 410/6
+  
+  from Ch. 96 1/2, par. 7106
+  70 ILCS 805/8
+  
+  from Ch. 96 1/2, par. 6315
+  70 ILCS 1205/8-1
+  
+  from Ch. 105, par. 8-1
+  
+  Amends the Park District Code. Provides that all competitive bids for
+  contracts involving an expenditure in excess of $50,000 (rather than
+  $30,000), or a lower amount if required by board policy, must be sealed by
+  the bidder and must be opened by a member or employee of the park board at
+  a public bid opening at which the contents of the bids must be announced.
+  Amends the Conservation District Act and the Downstate Forest Preserve
+  District Act. Provides that specified contracts related to supplies,
+  materials, or work involving an expenditure in excess of $50,000 (rather
+  than $30,000), or a lower amount if required by board policy, must be
+  competitively bid. Effective immediately.
+  
+  AN ACT concerning local government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Conservation District Act is amended by
+  changing Section 6 as follows:
+  
+  (70 ILCS 410/6)
+  
+  (from Ch. 96 1/2, par. 7106)
+  
+  Sec. 6.
+  Officers and employees.
+   As soon as possible after
+  the initial election or the initial appointments, as the case
+  may be, the trustees shall organize by selecting from their
+  members a president, secretary, treasurer, and other officers
+  as are deemed necessary, who shall hold office for 2 years in
+  the case of an elected board, or the fiscal year in which
+  elected in the case of an appointed board, and until their
+  successors are selected and qualify. Three trustees shall
+  constitute a quorum of the board for the transaction of
+  business if the district has 5 trustees. If the district has 7
+  trustees, 4 trustees shall constitute a quorum of the board
+  for the transaction of business. The board shall hold regular
+  monthly meetings. Special meetings may be called by the
+  president and shall be called on the request of a majority of
+  members, as may be required.
+  
+  The board shall provide for the proper and safe keeping of
+  its permanent records and for the recording of the corporate
+  action of the district. It shall keep a proper system of
+  accounts showing a true and accurate record of its receipts
+  and disbursements, and it shall cause an annual audit to be
+  made of its books, records, and accounts.
+  
+  The records of the district shall be subject to public
+  inspection at all reasonable hours and under regulations as
+  the board may prescribe.
+  
+  The district shall annually make a full and complete
+  report to the count
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=PARTIAL    missing=3
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To increase the minimum amount for competitive bidding in local government
+        contracts.
+    [mistral_5000]
+        To ensure competitive bidding for contracts exceeding a certain amount in park
+        districts, conservation districts, and forest preserve districts.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Government Operations, Local Government, Public Procurement
+    [mistral_5000]
+        Local Government, Public Procurement
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        1. Park districts, conservation districts, and downstate forest preserve
+        districts. 2. Contractors bidding on contracts exceeding the new minimum amount.
+    [mistral_5000]
+        Park districts, conservation districts, and forest preserve districts.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        1. Competitive bidding requirements. 2. Transparency in public contracting.
+    [mistral_5000]
+        Competitive bidding, transparency in contracting
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        [empty]
+
+
+  ### intent
+    [mistral_3000]
+        To increase the transparency and fairness in public contracting by raising the
+        minimum amount for competitive bidding.
+    [mistral_5000]
+        To promote fair and competitive contracting in park districts, conservation
+        districts, and forest preserve districts.
+
+
+  ### motivation
+    [mistral_3000]
+        To ensure that larger contracts are awarded fairly and transparently, and to
+        prevent potential corruption or favoritism in the awarding of contracts.
+    [mistral_5000]
+        To prevent favoritism and ensure that contracts are awarded to the lowest
+        responsible bidder.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the procurement process for contracts with the park district, conservation
+        district, or downstate forest preserve district, if any of these entities are
+        involved in projects with the university.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by affecting
+        the procurement process for contracts with park districts, conservation
+        districts, and forest preserve districts within the state.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        [empty]
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing laws.
+    [mistral_5000]
+        Amendment
+
+
+  ### key_provisions
+    [mistral_3000]
+        1. Increases minimum amount for competitive bidding in park districts,
+        conservation districts, and downstate forest preserve districts from $30,000 to
+        $50,000. 2. Allows for a lower amount if required by board policy.
+    [mistral_5000]
+        Competitive bidding for contracts exceeding $50,000 (or a lower amount as
+        determined by board policy) for supplies, materials, or work in park districts,
+        conservation districts, and forest preserve districts.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 11/20   |   HB0360   chunk 0   |   ? tokens   |   disagreement=13.00
+# chunk_id: 1906684::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  AMENDMENT TO HOUSE BILL 3609
+  
+  AMENDMENT NO. ______. Amend House Bill 3609, AS AMENDED,
+  by replacing everything after the enacting clause with the
+  following:
+  
+  "Section 1.
+  Short title.
+  This Act may be referred to as the
+  Thermal Energy Network and Jobs Act.
+  
+  Section 5.
+  Legislative findings and intent.
+  
+  (a) The General Assembly finds and declares that:
+  
+  (1) This State has a strong interest in ensuring that
+  emissions of greenhouse gases from buildings are reduced
+  because buildings are one of this State's largest sources
+  of greenhouse gases due to the combustion of fossil fuels
+  for heating, domestic hot water production, cooking, and
+  other end uses.
+  
+  (2) The decarbonization of buildings must be pursued
+  in a manner that is affordable and accessible, preserves
+  and creates living-wage jobs, and retains the knowledge
+  and experience of the existing utility union workforce.
+  
+  (3) Thermal energy networks have the potential to
+  decarbonize buildings at the community and utility scale
+  and help achieve the goals of Public Act 102-662 (also
+  known as the Climate and Equitable Jobs Act).
+  
+  (4) Thermal energy networks consist of pipe loops
+  between multiple buildings and energy sources, which carry
+  water and can be connected to by building owners to
+  support heating and cooling and hot water services.
+  Building owners can connect to the loops to support water
+  heating and cooling and hot water services.
+  
+  (5) Many utilities in this State have been seeking to
+  develop thermal energy networks but have encountered legal
+  and regulatory barriers.
+  
+  (6) This State has a strong interest in ensuring an
+  adequate supply of reliable electrical power and,
+  therefore, needs to promote the development of alternative
+  power sources and take steps to assure reliable
+  deliverability. Thermal energy networks are highly
+  efficient because they use and exchange thermal energy
+  from many underground sources and buildings, including
+  recycled thermal energy, which minimizes impacts on the
+  electricity grid.
+  
+  (7) Access to thermal energy networks has the
+  potential to reduce the upfront and operating costs of
+  building electrification for customers.
+  
+  (8) Thermal loop technology provides benefits to
+  participants and non-participants alike, including
+  societal benefits to the environment and the market
+  benefits associated with the reduction of both the volume
+  and peak demand of electricity and natural gas.
+  
+  (9) A utility's access to capital, the utility's
+  experience with networked infrastructure in public
+  rights-of-way,
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To promote the development of thermal energy networks for building
+        decarbonization, protect customers, and create jobs.
+    [mistral_5000]
+        The bill's primary goal is to remove legal barriers for utility development of
+        thermal energy networks and establish a regulatory structure for these networks.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Energy Policy, Climate Change Policy, Labor Policy
+    [mistral_5000]
+        Energy Policy, Climate Change Policy, Labor Policy
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Building owners, utility corporations, and other power suppliers, utility union
+        workforce, local residents, underrepresented and low-income communities.
+    [mistral_5000]
+        Building owners, utility corporations, and other power suppliers, local
+        residents, and underrepresented and low-income communities.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Decarbonization of buildings, access to thermal energy networks, job creation,
+        skill training, apprenticeship programs.
+    [mistral_5000]
+        Access to thermal energy networks, building electrification, job creation, skill
+        training, preapprenticeship programs
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        Legal barriers to utility development of thermal energy networks
+
+
+  ### intent
+    [mistral_3000]
+        To remove legal barriers for utility development of thermal energy networks and
+        promote building electrification, protect customers, and create jobs.
+    [mistral_5000]
+        To remove legal barriers for utility development of thermal energy networks and
+        promote the successful planning and delivery of these networks.
+
+
+  ### motivation
+    [mistral_3000]
+        To address climate change, create jobs, and promote affordable and accessible
+        building electrification.
+    [mistral_5000]
+        To decarbonize buildings, create jobs, and promote the use of preapprenticeship
+        programs in the growing building decarbonization workforce.
+
+
+  ### potential_impact
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by providing
+        opportunities for thermal energy network development and building
+        decarbonization.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by providing
+        opportunities for collaboration in thermal energy network projects and promoting
+        decarbonization efforts.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Progressive, pro-labor.
+    [mistral_5000]
+        Progressive, pro-climate action, pro-labor
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to the Public Utilities Act, directing the Illinois Commerce
+        Commission to authorize and direct utilities to pilot thermal energy networks.
+    [mistral_5000]
+        Amendment to House Bill 3609
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill amends the Public Utilities Act to define thermal energy, thermal
+        energy network, front-of-meter work, and behind-the-meter work. It also requires
+        utilities to file a petition with the Illinois Commerce Commission for pilot
+        thermal energy network projects.
+    [mistral_5000]
+        The bill establishes a regulatory structure for thermal energy networks,
+        requires utilities to pilot thermal energy networks, and sets qualification and
+        performance standards for craft labor personnel employed on these projects.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 12/20   |   HB1550   chunk 0   |   ? tokens   |   disagreement=13.00
+# chunk_id: 1931542::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  720 ILCS 5/12-3.05
+  
+  was 720 ILCS 5/12-4
+  
+  Provides that the Act may be referred to as the Knight-Silas Act.
+  Amends the Criminal Code of 2012. Provides that aggravated battery, other
+  than by the discharge of a firearm, includes a battery committed by a
+  person who, at the time of the commission of the offense, is 21 years of
+  age or older and the battery was committed upon an individual whom the
+  person committing the offense knows to be a person working under the Adult
+  Protective Services Program or an Ombudsman under the State Long Term Care
+  Ombudsman Program of the Department on Aging, or a Department of Children
+  and Family Services employee: (1) performing his or her official duties;
+  (2) battered to prevent performance of his or her official duties; or (3)
+  battered in retaliation for performing his or her official duties.
+  Provides that a violation is a Class 2 felony, except if the battery causes
+  great bodily harm or permanent disability or disfigurement to an
+  individual, a violation is a Class 1 felony. Defines "Department of
+  Children and Family Services employee" and "ombudsman".
+  
+  AN ACT concerning criminal law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  This Act may be referred to as the Knight-Silas
+  Act.
+  
+  Section 5.
+  The Criminal Code of 2012 is amended by
+  changing Section 12-3.05 as follows:
+  
+  (720 ILCS 5/12-3.05)
+  
+  (was 720 ILCS 5/12-4)
+  
+  Sec. 12-3.05.
+  Aggravated battery.
+  
+  (a) Offense based on injury. A person commits aggravated
+  battery when, in committing a battery, other than by the
+  discharge of a firearm, he or she knowingly does any of the
+  following:
+  
+  (1) Causes great bodily harm or permanent disability
+  or disfigurement.
+  
+  (2) Causes severe and permanent disability, great
+  bodily harm, or disfigurement by means of a caustic or
+  flammable substance, a poisonous gas, a deadly biological
+  or chemical contaminant or agent, a radioactive substance,
+  or a bomb or explosive compound.
+  
+  (3) Causes great bodily harm or permanent disability
+  or disfigurement to an individual whom the person knows to
+  be a peace officer, community policing volunteer, fireman,
+  private security officer, correctional institution
+  employee,
+  a person performing duties related to the Adult
+  Protective Services Act or ombudsman under the State Long
+  Term Care Ombudsman Program of the Department on Aging,
+   or
+  Department of Human Services employee supervising or
+  controlling sexually dangerous persons or sexually violent
+  persons:
+  
+  (i) perf
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        The bill aims to protect certain employees from battery, particularly those
+        working in the fields of child and family services, adult protective services,
+        and long-term care ombudsman programs.
+    [mistral_5000]
+        The bill aims to increase penalties for aggravated battery against certain
+        protected individuals.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Criminal law, public safety, social services
+    [mistral_5000]
+        Criminal Justice, Elder Abuse, Child Welfare
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Department of Children and Family Services employees, employees of the Adult
+        Protective Services Program, Ombudsmen under the State Long Term Care Ombudsman
+        Program of the Department on Aging, and other specified employees.
+    [mistral_5000]
+        Department of Children and Family Services employees, Adult Protective Services
+        Program employees, Ombudsman under the State Long Term Care Ombudsman Program,
+        Department of Human Services employees supervising or controlling sexually
+        dangerous persons or sexually violent persons.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        The bill aims to increase the penalties for battery against certain employees,
+        particularly those working in the fields of child and family services, adult
+        protective services, and long-term care ombudsman programs.
+    [mistral_5000]
+        Penalties for aggravated battery against certain protected individuals.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        The bill does not aim to reduce, restrict, or eliminate any specific aspects.
+    [mistral_5000]
+        None.
+
+
+  ### intent
+    [mistral_3000]
+        The intent of the bill is to protect certain employees from battery,
+        particularly those working in the fields of child and family services, adult
+        protective services, and long-term care ombudsman programs.
+    [mistral_5000]
+        To increase penalties for aggravated battery against certain protected
+        individuals.
+
+
+  ### motivation
+    [mistral_3000]
+        The motivation for the bill is likely to protect employees from violence and
+        ensure that they can perform their duties without fear of harm.
+    [mistral_5000]
+        To protect employees of the Department of Children and Family Services, Adult
+        Protective Services Program, Ombudsman under the State Long Term Care Ombudsman
+        Program, and Department of Human Services employees supervising or controlling
+        sexually dangerous persons or sexually violent persons from violence and
+        retaliation.
+
+
+  ### potential_impact
+    [mistral_3000]
+        The bill could potentially impact the University of Illinois Urbana-Champaign by
+        increasing awareness and safety measures for employees working in similar
+        fields, such as social work or healthcare.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by increasing
+        awareness and education about elder abuse and child welfare issues.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        The bill aligns with the ideology of protecting vulnerable populations,
+        particularly employees working in the fields of child and family services, adult
+        protective services, and long-term care ombudsman programs.
+    [mistral_5000]
+        Protecting vulnerable populations.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        The bill is introduced as an amendment to the existing Criminal Code of 2012.
+    [mistral_5000]
+        Amendment to the Criminal Code of 2012.
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill amends the Criminal Code of 2012 to include aggravated battery as a
+        crime against certain employees, and defines the penalties for such offenses.
+    [mistral_5000]
+        The bill amends the Criminal Code of 2012 to include aggravated battery as a
+        Class 1 or Class 2 felony if committed against certain individuals.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 13/20   |   HB2815   chunk 0   |   ? tokens   |   disagreement=13.00
+# chunk_id: 1957092::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  720 ILCS 5/12-3.8
+  720 ILCS 5/12-3.9
+  740 ILCS 21/125
+  740 ILCS 22/219
+  
+  Amends the Stalking No Contact Order Act and the Civil No Contact
+  Order Act. Removes language providing that a knowing violation of a
+  stalking no contact order or civil no contact order is a Class A
+  misdemeanor, and a second or subsequent violation of such orders is a Class
+  4 felony. Provides instead that: (1) violation of a stalking no contact
+  order or civil no contact order is a Class A misdemeanor; (2) violation of
+  a stalking no contact order or civil no contact order is a Class 4 felony
+  if the defendant has any prior conviction of domestic battery or violation
+  of an order of protection or any prior conviction under the law of another
+  jurisdiction for an offense that could be charged in the State as domestic
+  battery or violation of an order of protection; and (3) violation of a
+  stalking no contact order or civil no contact order is a Class 4 felony if
+  the defendant has any prior conviction of attempt, first degree murder,
+  kidnapping, aggravated kidnapping, unlawful restraint, aggravated unlawful
+  restraint, criminal sexual assault, aggravated criminal sexual assault,
+  predatory criminal sexual assault of a child, aggravated criminal sexual
+  abuse, aggravated battery, aggravated domestic battery, stalking,
+  aggravated stalking, aggravated arson, aggravated discharge of a firearm,
+  or aggravated battery of an unborn child, of a violation of any former law
+  of the State that is substantially similar to any such listed offense, or
+  any prior conviction under the law of another jurisdiction for an offense
+  that could be charged in the State as one of such offenses, when any of
+  these offenses have been committed against a family or household member.
+  Provides that the court shall impose a minimum penalty of 24 hours
+  imprisonment for the respondent's second or subsequent violation of any
+  stalking no contact order or civil no contact order, unless the court
+  explicitly finds that an increased penalty or such period of imprisonment
+  would be manifestly unjust. Provides that in addition to any other
+  penalties, the court may order the respondent to pay a fine or to make
+  restitution to the victim under the Unified Code of Corrections. Makes
+  same changes to the Criminal Code of 2012.
+  
+  AN ACT concerning domestic violence.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Criminal Code of 2012 is amended by
+  changing Sections 12-3.8 and 12-3.9 as follows:
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To strengthen penalties for repeat violations of no contact orders in cases of
+        domestic violence.
+    [mistral_5000]
+        The bill aims to strengthen penalties for repeat violations of no contact orders
+        in cases involving domestic violence or other serious offenses.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Criminal Justice, Domestic Violence
+    [mistral_5000]
+        Criminal Justice, Domestic Violence
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Victims of domestic violence.
+    [mistral_5000]
+        Victims of domestic violence and other serious offenses.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Penalties for repeat violations of no contact orders.
+    [mistral_5000]
+        The bill aims to support increased penalties for repeat violations of no contact
+        orders, particularly in cases involving domestic violence or other serious
+        offenses.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        The bill aims to reduce the likelihood of repeat violations of no contact
+        orders, particularly in cases involving domestic violence or other serious
+        offenses.
+
+
+  ### intent
+    [mistral_3000]
+        To increase penalties for repeat violations of no contact orders in cases of
+        domestic violence.
+    [mistral_5000]
+        The bill aims to increase penalties for repeat violations of no contact orders,
+        particularly in cases involving domestic violence or other serious offenses.
+
+
+  ### motivation
+    [mistral_3000]
+        To provide stronger protections for victims of domestic violence and to deter
+        repeat offenders.
+    [mistral_5000]
+        The motivation behind this bill is to provide stronger penalties for repeat
+        offenders in cases of domestic violence and other serious offenses to deter
+        further violations and protect victims.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by increasing
+        the penalties for repeat offenders of no contact orders who are students or
+        employees at the university.
+    [mistral_5000]
+        The bill could potentially increase the severity of penalties for repeat
+        offenders at the University of Illinois Urbana-Champaign who violate no contact
+        orders in cases of domestic violence or other serious offenses.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Supports increased penalties for repeat offenders of domestic violence.
+    [mistral_5000]
+        The bill aligns with those who support stronger penalties for repeat offenders
+        in cases of domestic violence and other serious offenses.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment.
+    [mistral_5000]
+        The bill amends existing laws to increase penalties for repeat violations of no
+        contact orders.
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill removes language providing that a knowing violation of a no contact
+        order is a Class A misdemeanor, and a second or subsequent violation is a Class
+        4 felony. It instead provides that a violation is a Class A misdemeanor, a Class
+        4 felony if the defendant has a prior conviction of domestic battery or
+        violation of an order of protection, and a Class 4 felony if the defendant has a
+        prior conviction of certain other offenses. The court is required to impose a
+        minimum penalty of 24 hours imprisonment for the respondent's second or
+        subsequent violation of any no contact order, unless the court finds that an
+        increased penalty would be manifestly unjust.
+    [mistral_5000]
+        The bill increases penalties for repeat violations of stalking and civil no
+        contact orders, particularly when the defendant has prior convictions related to
+        domestic violence or other serious offenses.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 14/20   |   SB1981   chunk 0   |   ? tokens   |   disagreement=13.00
+# chunk_id: 1960936::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  New Act
+  
+  Creates the Property Tax Relief Act. Provides that any individual
+  whose household is liable for payment of property taxes accrued or has paid
+  rent constituting property taxes accrued and is domiciled in this State at
+  the time he or she files his or her claim is entitled to claim a grant
+  under the Act to be administered by the Department of Revenue. Provides
+  that for 2025 claim year applications submitted during calendar year 2026,
+  a household must have an annual household income of less than the State
+  median adjusted gross income. Provides that for taxable years 2025 and
+  thereafter, an eligible residence must have an assessed market value of
+  less than $350,000. Provides that except as otherwise provided under the
+  Act, the maximum grant amount which a claimant is entitled to claim not to
+  exceed $5,000. Sets forth the grant amount for eligible households that
+  receive cash assistance from the Department of Healthcare and Family
+  Services or the Department of Human Services. Contains provisions
+  concerning the effect joint ownership of a single residence or ownership
+  of multiple residences has on the calculation of the grant amount. Sets
+  forth the procedure to file a grant claim. Contains provisions concerning
+  supporting documents the Department of Revenue may require claimants to
+  submit to verify eligibility for a grant; the payment and denial of claims;
+  claimants' records; rules of confidentiality; penalties for filing a
+  fraudulent claim; and Department rules.
+  
+  AN ACT concerning property tax.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  Short title.
+  This Act may be cited as the
+  the
+  Property Tax Relief Act.
+  
+  Section 5.
+  Purpose.
+  The purpose of this Act is to relieve
+  citizens from the burdens of extraordinary property taxes
+  against their increasingly restricted earning power, and
+  thereby to reduce the requirements for public housing in this
+  State.
+  
+  Section 10.
+  Definitions.
+  As used in this Act:
+  
+  "Applicant" means an individual who has filed an
+  application under this Act.
+  
+  "Claimant" means an individual who has filed a claim for a
+  property tax relief grant under this Act.
+  
+  "Claim year" means the calendar year prior to the period
+  of time during which a claimant may file an application for
+  benefits under this Act.
+  
+  "Department" means the Department of Revenue.
+  
+  "Director" means the Director of Revenue.
+  
+  "Eligible residence" means a residence with an assessed
+  market value of less than $350,000.
+  
+  "Fede
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        Relieve citizens from burdens of extraordinary property taxes and reduce the
+        requirements for public housing.
+    [mistral_5000]
+        The primary goal of this bill is to relieve citizens from the burdens of
+        extraordinary property taxes and reduce the requirements for public housing in
+        the state.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Taxation, Housing
+    [mistral_5000]
+        Taxation, Housing
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Citizens, households, Department of Revenue, Department of Healthcare and Family
+        Services, Department of Human Services.
+    [mistral_5000]
+        Citizens, households with an assessed market value of less than $350,000, and
+        households receiving cash assistance from the Department of Healthcare and
+        Family Services or the Department of Human Services.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Property tax relief grants, potential reduction in public housing requirements.
+    [mistral_5000]
+        The bill aims to increase property tax relief for eligible citizens and reduce
+        the need for public housing.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        The bill aims to decrease the burden of property taxes for eligible citizens.
+
+
+  ### intent
+    [mistral_3000]
+        To relieve citizens from the burdens of extraordinary property taxes and thereby
+        reduce the requirements for public housing.
+    [mistral_5000]
+        The intent of the bill is to provide property tax relief to eligible citizens
+        and reduce the need for public housing.
+
+
+  ### motivation
+    [mistral_3000]
+        Addressing the financial burden of property taxes on low-income households and
+        reducing the need for public housing.
+    [mistral_5000]
+        The motivation for this bill is likely to address the burden of property taxes
+        on low-income citizens and address housing affordability issues in the state.
+
+
+  ### potential_impact
+    [mistral_3000]
+        The bill could impact the University of Illinois Urbana-Champaign by potentially
+        reducing property taxes for some of its faculty and staff who meet the
+        eligibility criteria.
+    [mistral_5000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially providing relief to some of its faculty and staff who own homes and
+        are eligible for the property tax relief grant.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Progressive (provides financial assistance to low-income households).
+    [mistral_5000]
+        The bill aligns with progressive ideologies that aim to provide relief to
+        low-income citizens and address housing affordability issues.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Establishes a new act, sets up a grant program, and outlines the application and
+        administration process.
+    [mistral_5000]
+        The bill is introduced as an act and is referred to the appropriate committee
+        for review and discussion.
+
+
+  ### key_provisions
+    [mistral_3000]
+        Establishes a Property Tax Relief Act, sets income and property value limits,
+        defines terms, outlines grant amounts, and details the application and
+        administration process.
+    [mistral_5000]
+        The bill establishes eligibility criteria for grants, sets maximum grant
+        amounts, and outlines the procedure for filing a claim. It also includes
+        provisions for supporting documents, payment and denial of claims, claimants'
+        records, rules of confidentiality, penalties for filing a fraudulent claim, and
+        Department rules.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 15/20   |   SB2367   chunk 0   |   ? tokens   |   disagreement=13.00
+# chunk_id: 1962956::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  New Act
+  
+  Creates the Pacific Conflict Stress Test Act. Provides that the
+  Governor shall produce and publish a State risk assessment no later than
+  the day before the annual address made to the General Assembly by the
+  Governor, and annually thereafter. Provides that the State risk assessment
+  shall include all substantial risks to State or national security, State
+  or national economic security, State or national public health, or any
+  combination of those matters, occurring within and threatening the State.
+  Provides that the Auditor General shall conduct an audit of all critical
+  procurements purchased or supplied through a State supply chain or State
+  vendor supply chain, and produce and publish a report, which shall be
+  submitted to the General Assembly and the Governor and made easily
+  accessible to the public, within 180 days after the effective date of the
+  Act. Creates the Select Committee on Pacific Conflict. Provides for the
+  Committee's membership and duties. Provides that the Governor, in
+  consultation with the Select Committee on Pacific Conflict, shall appoint
+  a Director, who shall lead the study on adversarial threats to State assets
+  and critical infrastructure and coordinate the research and development of
+  the report, commencing within 30 days of the effective date of the Act.
+  Contains a severability provision. Defines terms.
+  
+  AN ACT concerning safety.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  Short title.
+  This Act may be cited as the
+  Pacific Conflict Stress Test Act.
+  
+  Section 5.
+  Purpose.
+  The purpose of this Act is to prepare
+  and secure the State in order to minimize the disruptive
+  impact of a potential conflict precipitated by foreign
+  adversaries against allies, democratic countries, and the
+  United States Armed Forces in the Pacific theater.
+  
+  Section 10.
+  Definitions.
+  In this Act:
+  
+  "Critical infrastructure" means systems and assets,
+  whether physical or virtual, so vital to the State or the
+  United States of America that the incapacity or destruction of
+  such systems and assets would have a debilitating impact on
+  State or national security, State or national economic
+  security, State or national public health, or any combination
+  of those matters. A critical infrastructure may be publicly or
+  privately owned, and includes, but is not limited to:
+  
+  (1) gas and oil production, storage, or delivery systems;
+  
+  (2) water supply, refinement, storage, or delivery
+  systems;
+  
+  (3) telecommunications networks;
+  
+  
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        The primary goal of this bill is to prepare and secure the state in order to
+        minimize the disruptive impact of a potential conflict precipitated by foreign
+        adversaries against allies, democratic countries, and the United States Armed
+        Forces in the Pacific theater.
+    [mistral_5000]
+        To prepare and secure the state in order to minimize the disruptive impact of a
+        potential conflict precipitated by foreign adversaries against allies,
+        democratic countries, and the United States Armed Forces in the Pacific theater.
+
+
+  ### policy_domain
+    [mistral_3000]
+        National Security, Defense, Public Health, Economic Security
+    [mistral_5000]
+        National Security, Defense, Public Health, Economic Security, Cybersecurity
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        - State government - Critical infrastructure owners and operators - General
+        public
+    [mistral_5000]
+        State, citizens, critical infrastructure owners and operators, United States
+        Armed Forces.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        - State's defensive posture - Foresight and preparedness for potential conflicts
+    [mistral_5000]
+        Preparedness, defensive posture, security, resilience.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        - Security vulnerabilities within the state
+    [mistral_5000]
+        Security vulnerabilities, risks to state assets and critical infrastructure.
+
+
+  ### intent
+    [mistral_3000]
+        To prepare and secure the state in the event of a potential conflict in the
+        Pacific theater.
+    [mistral_5000]
+        To prepare and secure the state in the event of a potential conflict in the
+        Pacific theater.
+
+
+  ### motivation
+    [mistral_3000]
+        To protect the state's citizens and assets and contribute to the broader
+        defensive posture of the United States of America.
+    [mistral_5000]
+        To reduce security vulnerabilities within the state and contribute to the
+        broader defensive posture of the United States of America.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by requiring
+        the university to participate in the state risk assessment and potentially
+        affecting its supply chains and investments.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by requiring
+        the audit of state-managed funds, which may include university endowments,
+        trusts, or other investment structures.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Not applicable
+    [mistral_5000]
+        Not clear.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment
+    [mistral_5000]
+        Amendment, committee referral (Select Committee on Pacific Conflict).
+
+
+  ### key_provisions
+    [mistral_3000]
+        - State risk assessment - Audit of critical procurements and investments -
+        Creation of the Select Committee on Pacific Conflict
+    [mistral_5000]
+        State risk assessment, audit of critical procurements and state-managed funds,
+        creation of the Select Committee on Pacific Conflict, study on adversarial
+        threats to state assets and critical infrastructure.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 16/20   |   SB2370   chunk 0   |   ? tokens   |   disagreement=13.00
+# chunk_id: 1962869::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  New Act
+  
+  Creates the Military Installation and Critical Infrastructure
+  Protection Act. Prohibits a foreign principal from a foreign adversary
+  country from directly or indirectly owning, having an interest of greater
+  than 25% in, or acquire by purchase, grant, devise, or descent
+  agricultural land or any interest except a de minimis indirect interest.
+  Prohibits a foreign principal from a foreign adversary from leasing or
+  purchasing land within 25 miles of a military installation. Voids any
+  current contract in conflict with this Act. Prohibits a foreign principal
+  from accessing critical infrastructure of the State unless approved by the
+  Illinois Emergency Management Agency and bans certain software from being
+  used in the State infrastructure. Defines terms. Makes other changes.
+  Effective July 1, 2025.
+  
+  AN ACT concerning civil law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 1.
+  Short title; purpose.
+  
+  (a) This Act may be cited as the
+  Military Installation and
+  Critical Infrastructure Protection Act.
+  
+  (b) The purpose of this Act is to protect military
+  installations and State critical infrastructure by prohibiting
+  foreign adversaries from purchasing land near military bases
+  and from investing in and accessing State critical
+  infrastructure.
+  
+  Section 2.
+  Definitions.
+  In this Act:
+  
+  (a) "Agricultural land" means a land area that is either
+  arable, under permanent crops, or under permanent pastures.
+  Arable land includes land under temporary crops such as
+  cereals, temporary meadows for mowing or pasture, land under
+  market or kitchen gardens, and land temporarily fallow. Land
+  abandoned as a result of shifting cultivation is excluded.
+  Land under permanent crops is cultivated with crops that
+  occupy the land for long periods and need not be replanted
+  after each harvest, such as orchards or vineyards. This
+  category excludes land under trees grown for wood or timber.
+  Permanent pasture land is land used for 5 or more years for
+  forage, including natural and cultivated crops.
+  
+  (b) "Company" means a for-profit sole proprietorship,
+  organization, association, corporation, partnership, joint
+  venture, limited partnership, limited liability partnership,
+  or limited liability company, including a wholly owned
+  subsidiary, majority-owned subsidiary, parent company, or
+  affiliate of those entities or business associations that
+  exists to make a profit; or a non-profit organization.
+  
+  (c) "Critical infrastructure" means systems and assets,
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To protect military installations and critical infrastructure by prohibiting
+        foreign adversaries from investing in and accessing State critical
+        infrastructure.
+    [mistral_5000]
+        To protect military installations and critical infrastructure in Illinois by
+        prohibiting foreign adversaries from purchasing land near military bases and
+        from investing in and accessing state critical infrastructure.
+
+
+  ### policy_domain
+    [mistral_3000]
+        National Security, Infrastructure, Real Estate, Cybersecurity
+    [mistral_5000]
+        National Security, Infrastructure, Real Estate, Cybersecurity
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        The State of Illinois, military installations, and critical infrastructure.
+    [mistral_5000]
+        Military installations, critical infrastructure in Illinois, and the state of
+        Illinois as a whole.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Protections for military installations and critical infrastructure.
+    [mistral_5000]
+        Protects military installations and critical infrastructure in Illinois.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        Foreign adversaries' ability to invest in and access State critical
+        infrastructure.
+    [mistral_5000]
+        Restricts foreign adversaries from owning, leasing, or purchasing land near
+        military installations, investing in or accessing critical infrastructure, and
+        using certain software in the state's infrastructure.
+
+
+  ### intent
+    [mistral_3000]
+        To protect military installations and critical infrastructure from foreign
+        adversaries.
+    [mistral_5000]
+        To protect military installations and critical infrastructure in Illinois by
+        prohibiting foreign adversaries from purchasing land near military bases and
+        from investing in and accessing state critical infrastructure.
+
+
+  ### motivation
+    [mistral_3000]
+        To safeguard national security and critical infrastructure from potential
+        threats posed by foreign adversaries.
+    [mistral_5000]
+        The motivation for this bill is likely to protect national security and critical
+        infrastructure from potential threats posed by foreign adversaries.
+
+
+  ### potential_impact
+    [mistral_3000]
+        The bill could impact foreign entities, particularly those from specified
+        countries, by restricting their activities in Illinois.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by potentially
+        affecting the university's access to critical infrastructure or its ability to
+        use certain software in its infrastructure.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        National security and anti-foreign interference.
+    [mistral_5000]
+        The bill aligns with those who prioritize national security and protecting
+        critical infrastructure.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Direct legislation, with provisions for voiding current contracts in conflict
+        with the Act.
+    [mistral_5000]
+        The bill is introduced as an act and is referred to the appropriate committees
+        for review and discussion.
+
+
+  ### key_provisions
+    [mistral_3000]
+        Prohibits foreign adversaries from owning, leasing, or purchasing agricultural
+        land or property near military installations, accessing critical infrastructure,
+        and using certain software in State infrastructure.
+    [mistral_5000]
+        Prohibits foreign adversaries from owning, leasing, or purchasing land near
+        military installations, investing in or accessing critical infrastructure, and
+        using certain software in the state's infrastructure.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 17/20   |   HB3307   chunk 0   |   ? tokens   |   disagreement=12.85
+# chunk_id: 1960645::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  735 ILCS 5/15-1704
+  
+  from Ch. 110, par. 15-1704
+  
+  Amends the Mortgage Foreclosure Law of the Code of Civil Procedure.
+  Requires receivers of mortgaged real estate to use reasonable efforts to
+  make repairs and improvements as necessary to comply with building,
+  housing, or other similar codes that necessary for the safety,
+  accessibility, and habitability of residential real estate. Creates the
+  Residential Real Estate Ombudsperson Program of which the purpose is to
+  ensure that tenants of residential real estate in receivership continue to
+  have safe, habitable, and accessible homes throughout the receivership
+  process and to facilitate communication between tenants, the receiver, and
+  the court. Requires that in courts in counties of 50,000 or more residents
+  must establish such a program, and in courts in counties of less than
+  50,000 residents may establish such a program. Provides for the powers of
+  the Ombudsperson to include, but not be limited to, (i) taking,
+  investigating, and making recommendations and reports of complaints of
+  inadequate performance receivership duties relating to matters that may
+  adversely affect the health, safety, welfare, or rights of tenants; (ii)
+  entering the property under receivership at a reasonable time and with
+  reasonable notice to the receiver or receiver's manager; (iii)
+  communicating privately with tenants who consent to that communication;
+  (iv) encouraging the facilitation of communication between receivers,
+  tenants, and the court; (v) making recommendations to receivers regarding
+  building conditions and court practices; (vi) submitting reports to the
+  court regarding the status of the residential real estate, the
+  receivership relationship, the use of the Ombudsperson services; and (vii)
+  making recommendations to the court to improve the receivership
+  relationship. Requires the Ombudsperson within 60 days of appointment to
+  send a notice of contact information of the Ombudsperson to all known
+  dwelling occupants of residential real estate through by posting a written
+  notice on unit doors and in common areas. Effective January 1, 2026.
+  
+  AN ACT concerning civil law.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Code of Civil Procedure is amended by
+  changing Section 15-1704 as follows:
+  
+  (735 ILCS 5/15-1704)
+  
+  (from Ch. 110, par. 15-1704)
+  
+  Sec. 15-1704.
+  Receivers.
+  
+  (a) Receiver. Notwithstanding the provisions of
+  subsections (b), (c) and (d) of Section 15-1701, and except as
+  pr
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=PARTIAL    missing=1
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To protect tenants of residential real estate in receivership by ensuring their
+        homes remain safe, habitable, and accessible, and by facilitating communication
+        between tenants, the receiver, and the court.
+    [mistral_5000]
+        To protect tenants' rights to safe, habitable, and accessible living during the
+        receivership process of residential real estate.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Housing, Civil Law
+    [mistral_5000]
+        Housing, Civil Law
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Tenants of residential real estate in receivership, receivers of mortgaged real
+        estate, courts in counties with 50,000 or more residents, and courts in counties
+        with less than 50,000 residents may establish such a program.
+    [mistral_5000]
+        Tenants of residential real estate in receivership, receivers, courts.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Building conditions and court practices, communication between tenants,
+        receivers, and the court, safety, accessibility, and habitability of residential
+        real estate.
+    [mistral_5000]
+        Safe, habitable, and accessible homes for tenants, communication between
+        tenants, receivers, and the court, and improvements to the receivership
+        relationship.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        [empty]
+    [mistral_5000]
+        None.
+
+
+  ### intent
+    [mistral_3000]
+        To protect tenants of residential real estate in receivership by ensuring their
+        homes remain safe, habitable, and accessible, and by facilitating communication
+        between tenants, the receiver, and the court.
+    [mistral_5000]
+        To protect tenants' rights to safe, habitable, and accessible living during the
+        receivership process of residential real estate.
+
+
+  ### motivation
+    [mistral_3000]
+        To address concerns about the safety, habitability, and accessibility of
+        residential real estate in receivership, and to facilitate communication between
+        tenants, receivers, and the court.
+    [mistral_5000]
+        To address concerns about the safety, habitability, and accessibility of
+        residential real estate in receivership and to facilitate communication between
+        tenants, receivers, and the court.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially affecting tenants of residential real estate in receivership within
+        the university's jurisdiction.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by affecting
+        tenants who live in residential real estate under receivership within the
+        university's vicinity.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Progressive
+    [mistral_5000]
+        Progressive (protection of tenant rights).
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment
+    [mistral_5000]
+        Amendment to existing law (Mortgage Foreclosure Law).
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill requires receivers of mortgaged real estate to make repairs and
+        improvements as necessary to comply with building, housing, or other similar
+        codes. It creates the Residential Real Estate Ombudsperson Program, which
+        includes the Ombudsperson's powers to investigate complaints, enter properties,
+        communicate privately with tenants, make recommendations to receivers and the
+        court, and submit reports to the court.
+    [mistral_5000]
+        Establishment of the Residential Real Estate Ombudsperson Program, powers and
+        duties of the Ombudsperson, requirements for courts to establish the program,
+        and notice requirements for receivers and Ombudspersons.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 18/20   |   HB5000   chunk 0   |   ? tokens   |   disagreement=12.85
+# chunk_id: 2107666::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  20 ILCS 3960/8.5
+  740 ILCS 10/7.2a
+  
+  Amends the Illinois Health Care Facilities Planning Act. Repeals the
+  January 1, 2027 inoperative date affecting a change of ownership among
+  related persons. Amends the Illinois Antitrust Act. Repeals the January 1,
+  2027 inoperative date affecting notice provisions to the Attorney General
+  before a health care merger or affiliation. Amends provisions requiring
+  health care entities to notify the Attorney General within 30 days before a
+  merger or affiliation to include a "covered transaction" even if the
+  parties to the transaction are not themselves a health care facility or
+  provider organization but own or control, directly or indirectly, one or
+  more of the 2 or more health care facilities or provider organizations that
+  will be under common ownership or contracting affiliation if the
+  transaction is consummated, including if parties to the covered
+  transaction are private equity companies. Defines "private equity company"
+  to mean any company or partnership that collects capital investments from
+  individuals or entities and purchases, as a parent company, at any level of
+  corporate ownership, or through another entity or entities so that the
+  company completely or partially owns or controls, a direct or indirect
+  ownership share of an Illinois health care entity or an out-of-state
+  health care entity that generates $10,000,000 or more in annual revenue
+  from patients residing in this State. Changes notice provisions. Defines
+  terms.
+  
+  AN ACT concerning State government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Illinois Health Facilities Planning Act is
+  amended by changing Section 8.5 as follows:
+  
+  (20 ILCS 3960/8.5)
+  
+  (Section scheduled to be repealed on December 31, 2029)
+  
+  Sec. 8.5.
+  Certificate of exemption for change of ownership
+  of a health care facility; discontinuation of a category of
+  service; public notice and public hearing.
+  
+  (a) Upon a finding that an application for a change of
+  ownership is complete, the State Board shall publish a legal
+  notice on 3 consecutive days in a newspaper of general
+  circulation in the area or community to be affected and afford
+  the public an opportunity to request a hearing. If the
+  application is for a facility located in a Metropolitan
+  Statistical Area, an additional legal notice shall be
+  published in a newspaper of limited circulation, if one
+  exists, in the area in which the facility is located. If the
+  newspaper of limited circulation
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=PARTIAL    missing=1
+    mistral_5000         status=OK         missing=0
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        The primary goal of this bill is to remove the inoperative dates and expand the
+        notice provisions in the Illinois Health Care Facilities Planning Act and the
+        Illinois Antitrust Act regarding changes of ownership and mergers or
+        affiliations among health care entities.
+    [mistral_5000]
+        The primary goal of this bill is to extend the notice requirements for mergers,
+        acquisitions, or affiliations involving private equity companies in the
+        healthcare sector.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Health Policy, Antitrust Law, State Government
+    [mistral_5000]
+        Health Policy, Antitrust Law, State Government
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        - Health care facilities and provider organizations in Illinois - Private equity
+        companies investing in Illinois health care entities
+    [mistral_5000]
+        - Healthcare facilities and provider organizations. - Private equity companies.
+        - State Attorney General.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        - Expansion of notice provisions for health care transactions - Inclusion of
+        private equity companies in the definition of health care entities
+    [mistral_5000]
+        - Transparency in healthcare mergers and acquisitions. - Regulatory oversight of
+        private equity companies in the healthcare sector.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        - None
+    [mistral_5000]
+        - None.
+
+
+  ### intent
+    [mistral_3000]
+        To remove the inoperative dates and expand the notice provisions in the Illinois
+        Health Care Facilities Planning Act and the Illinois Antitrust Act regarding
+        changes of ownership and mergers or affiliations among health care entities.
+    [mistral_5000]
+        To extend the notice requirements for private equity companies in healthcare
+        mergers and acquisitions.
+
+
+  ### motivation
+    [mistral_3000]
+        To ensure transparency and regulation in the health care industry, particularly
+        in relation to changes of ownership and mergers or affiliations among health
+        care entities.
+    [mistral_5000]
+        To increase transparency and regulatory oversight in the healthcare sector,
+        particularly in relation to private equity companies.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially affecting the university's health care facilities and partnerships
+        with health care entities.
+    [mistral_5000]
+        This bill could impact the University of Illinois Urbana-Champaign by
+        potentially affecting the university's healthcare facilities or provider
+        organizations if they are involved in mergers, acquisitions, or affiliations
+        with private equity companies.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        - None
+    [mistral_5000]
+        - None.
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing laws
+    [mistral_5000]
+        Amendment to existing laws.
+
+
+  ### key_provisions
+    [mistral_3000]
+        - Removes the inoperative dates affecting changes of ownership among related
+        persons in health care facilities and health care mergers or affiliations. -
+        Expands the notice provisions to include "covered transactions" even if the
+        parties are not health care facilities or provider organizations but own or
+        control health care facilities or provider organizations. - Defines "private
+        equity company" and specifies the conditions for such companies to be considered
+        as owning or controlling an Illinois health care entity or an out-of-state
+        health care entity.
+    [mistral_5000]
+        - Removal of inoperative dates affecting changes of ownership and mergers or
+        affiliations among related persons. - Extension of notice provisions to private
+        equity companies. - Definition of "private equity company". - Modification of
+        notice requirements.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 19/20   |   HB5073   chunk 0   |   ? tokens   |   disagreement=12.85
+# chunk_id: 2107885::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  220 ILCS 5/9-210.5
+  220 ILCS 5/9-220.2
+  
+   Amends the Public Utilities Act. Provides that 20% of the lesser of
+  (rather than the lesser of): (i) the purchase price or (ii) the fair market
+  value shall constitute the rate base associated with the water or sewer
+  utility as acquired by and incorporated into the rate base of the district
+  designated by the acquiring large public utility, subject to any
+  adjustments that the Illinois Commerce Commission deems necessary to
+  ensure such rate base reflects prudent and useful investments in the
+  provision of public utility service. Provides that the difference between
+  the rate base and the purchase price or fair market value shall be borne by
+  the shareholders of the acquiring large public utility. In provisions
+  concerning the acquisition of a water or sewer utility, provides that, at
+  the next election following the public meeting and notice requirements, a
+  referendum shall be placed on the ballot for all electors within the area
+  the water or sewer utility operates. Provides that, if a majority of the
+  electors voting on the referendum within the service area of the water or
+  sewer utility vote in favor of the referendum, then the acquisition may
+  continue. Provides that, if less than a majority of the electors voting on
+  the referendum within the service area of the water or sewer utility vote
+  in favor of the referendum, the Commission shall not approve the large
+  public utility's acquisition of the water or sewer utility. Removes a
+  provision that provides that the Commission may authorize a water or sewer
+  utility to file a surcharge which adjusts rates and charges to provide for
+  recovery of costs associated with an investment in qualifying
+  infrastructure plant, independent of any other matters related to the
+  utility's revenue requirement. Makes other changes.
+  
+  AN ACT concerning regulation.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Public Utilities Act is amended by changing
+  Sections 9-210.5 and 9-220.2 as follows:
+  
+  (220 ILCS 5/9-210.5)
+  
+  (Section scheduled to be repealed on June 1, 2028)
+  
+  Sec. 9-210.5.
+  Valuation of water and sewer utilities.
+  
+  (a) In this Section:
+  
+  "Disinterested" means that the person directly
+  involved (1) is not a director, officer, or an employee of
+  the large public utility or the water or sewer utility or
+  its direct affiliates or subsidiaries for at least 12
+  months before becoming engaged under this Section; (2)
+  shall not derive a material fina
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=OK         missing=0
+    mistral_5000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        To establish a process for determining the rate base of a water or sewer utility
+        acquired by a large public utility and to allow for a referendum by electors
+        within the service area of the utility.
+    [mistral_5000]
+        To establish a new method for calculating the rate base of a water or sewer
+        utility when acquired by a large public utility, and to remove a provision for a
+        surcharge related to infrastructure investments.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Regulation, Utilities
+    [mistral_5000]
+        Regulation, Utilities
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Large public utilities, water or sewer utilities, electors within the service
+        area of the water or sewer utility.
+    [mistral_5000]
+        Large public utilities, water or sewer utilities, Illinois Commerce Commission.
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        The rate base associated with the water or sewer utility as acquired by a large
+        public utility.
+    [mistral_5000]
+        The bill does not aim to increase anything specifically.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        The bill removes a provision for a surcharge related to infrastructure
+        investments.
+
+
+  ### intent
+    [mistral_3000]
+        To establish a process for determining the rate base of a water or sewer utility
+        acquired by a large public utility and to allow for a referendum by electors
+        within the service area of the utility.
+    [mistral_5000]
+        To change the method for calculating the rate base of a water or sewer utility
+        when acquired by a large public utility, and to remove a provision for a
+        surcharge related to infrastructure investments.
+
+
+  ### motivation
+    [mistral_3000]
+        To ensure that the rate base of a water or sewer utility acquired by a large
+        public utility reflects prudent and useful investments in the provision of
+        public utility service, and to give electors within the service area of the
+        utility a voice in the acquisition process.
+    [mistral_5000]
+        Unclear, but possibly to simplify the process for calculating the rate base of a
+        water or sewer utility when acquired by a large public utility, and to eliminate
+        a provision for a surcharge that may have been considered unnecessary or
+        burdensome.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if it is
+        located within the service area of a water or sewer utility that is acquired by
+        a large public utility.
+    [mistral_5000]
+        This bill could impact the University of Illinois Urbana-Champaign by affecting
+        the rates charged for water and sewer services if a large public utility serving
+        the university acquires a water or sewer utility.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        None.
+    [mistral_5000]
+        [empty]
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment to existing law, referendum process.
+    [mistral_5000]
+        Amendment to the Public Utilities Act.
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill amends the Public Utilities Act to change the rate base associated with
+        the water or sewer utility as acquired by a large public utility. It also
+        introduces a referendum process for electors within the service area of the
+        water or sewer utility.
+    [mistral_5000]
+        The bill changes the calculation of the rate base for a water or sewer utility
+        acquired by a large public utility, and removes a provision for a surcharge
+        related to infrastructure investments.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+###############################################################################################
+# CHUNK 20/20   |   SB4008   chunk 0   |   ? tokens   |   disagreement=12.70
+# chunk_id: 2111220::0000
+###############################################################################################
+
+-----------------------------------------------------------------------------------------------
+  SOURCE TEXT
+-----------------------------------------------------------------------------------------------
+  30 ILCS 574/40-10
+  70 ILCS 3615/2.39.5 new
+  
+  Amends the Regional Transportation Authority Act. Requires the
+  Northern Illinois Transit Authority to establish a goal to award not less
+  than 3% of the total dollar amount of all contracts with the Northern
+  Illinois Transit Authority, the Chicago Transit Authority, the Suburban
+  Bus Division, and the Commuter Rail Division to qualified service-disabled
+  veteran-owned small businesses and qualified veteran-owned small
+  businesses. Provides that, by each March 1, the Board shall report to the
+  Governor and General Assembly (1) the total number of qualified
+  veteran-owned small businesses that submitted bids for contracts with the
+  Authority and the total number of qualified service-disabled veteran-owned
+  small businesses in the immediately preceding fiscal year; (2) the total
+  number of qualified veteran-owned small businesses, and qualified
+  service-disabled veteran-owned small businesses, that entered into
+  contracts with the Authority in the immediately preceding fiscal year; (3)
+  a year-by-year comparison of awarded contracts to certified veteran-owned
+  small businesses and service-disabled veteran-owned small businesses; and
+  (4) any other information that the Board deems necessary to assist
+  veteran-owned small businesses and service-disabled veteran-owned small
+  businesses to become certified with the State. Provides that, each year,
+  the Board shall review the progress of the Authority and the Service Boards
+  in meeting the goal, with input from statewide veterans' service
+  organizations and from the business community, including businesses owned
+  by qualified veterans, and shall make recommendations to the General
+  Assembly regarding continuation, increases, or decreases of the percentage
+  goal. Provides that the Board shall suspend any person who commits a
+  violation of specified offenses under the Criminal Code of 2012 from
+  bidding on, or participating as a contractor, subcontractor, or supplier
+  in, any Authority contract or project for a period of not less than 3
+  years, and, if the person is certified as a service-disabled veteran-owned
+  small business or a veteran-owned small business, then the Commission
+  shall revoke the business's certification for a period of not less than 3
+  years. Makes conforming changes in the Commission on Equity and Inclusion
+  Act.
+  
+  AN ACT concerning local government.
+  
+  Be it enacted by the People of the State of Illinois,
+  represented in the General Assembly:
+  
+  Section 5.
+  The Commission on Equity and In
+    [... truncated ...]
+
+  PARSE STATUS (for reference only — score blind to this):
+    mistral_3000         status=PARTIAL    missing=1
+    mistral_5000         status=PARTIAL    missing=1
+
+-----------------------------------------------------------------------------------------------
+  MODEL ANSWERS (substantive fields)
+-----------------------------------------------------------------------------------------------
+
+  ### legislative_goal
+    [mistral_3000]
+        The primary goal of this bill is to increase the participation of veteran-owned
+        small businesses in contracts with the Northern Illinois Transit Authority.
+    [mistral_5000]
+        The primary goal of this bill is to increase the participation of veteran-owned
+        small businesses and service-disabled veteran-owned small businesses in
+        contracts with the Regional Transportation Authority.
+
+
+  ### policy_domain
+    [mistral_3000]
+        Local Government, Veterans Affairs, Small Business
+    [mistral_5000]
+        Local Government, Veterans Affairs, Procurement
+
+
+  ### intended_beneficiaries
+    [mistral_3000]
+        Qualified service-disabled veteran-owned small businesses, qualified
+        veteran-owned small businesses.
+    [mistral_5000]
+        Veteran-owned small businesses, service-disabled veteran-owned small businesses
+
+
+  ### increasing_aspects
+    [mistral_3000]
+        Participation of veteran-owned small businesses in contracts with the Northern
+        Illinois Transit Authority.
+    [mistral_5000]
+        - Increasing participation of veteran-owned small businesses and
+        service-disabled veteran-owned small businesses in contracts. - Increasing
+        transparency and reporting on these contracts.
+
+
+  ### decreasing_aspects
+    [mistral_3000]
+        [empty]
+    [mistral_5000]
+        - Penalties for businesses that violate certain offenses under the Criminal Code
+        of 2012.
+
+
+  ### intent
+    [mistral_3000]
+        To increase the participation of veteran-owned small businesses in contracts
+        with the Northern Illinois Transit Authority.
+    [mistral_5000]
+        To increase the participation of veteran-owned small businesses and
+        service-disabled veteran-owned small businesses in contracts with the Regional
+        Transportation Authority.
+
+
+  ### motivation
+    [mistral_3000]
+        To support and promote businesses owned by veterans.
+    [mistral_5000]
+        To support and promote businesses owned by veterans and service-disabled
+        veterans.
+
+
+  ### potential_impact
+    [mistral_3000]
+        This bill could impact the University of Illinois Urbana-Champaign if the
+        university is a contractor with the Northern Illinois Transit Authority.
+    [mistral_5000]
+        The bill could impact the University of Illinois Urbana-Champaign by potentially
+        increasing the number of contracts awarded to veteran-owned small businesses and
+        service-disabled veteran-owned small businesses in the region.
+
+
+  ### ideological_alignment
+    [mistral_3000]
+        Supports veteran-owned businesses
+    [mistral_5000]
+        Supports veterans and small businesses
+
+
+  ### legislative_strategy
+    [mistral_3000]
+        Amendment
+    [mistral_5000]
+        Amendment
+
+
+  ### key_provisions
+    [mistral_3000]
+        The bill requires the Northern Illinois Transit Authority to award a certain
+        percentage of contracts to qualified service-disabled veteran-owned small
+        businesses and qualified veteran-owned small businesses. It also requires the
+        Authority to report on the number of contracts awarded to these businesses each
+        year.
+    [mistral_5000]
+        - Requires the Northern Illinois Transit Authority to award not less than 3% of
+        contracts to veteran-owned small businesses and service-disabled veteran-owned
+        small businesses. - Establishes a reporting system for the number of contracts
+        awarded to these businesses and the progress towards the goal. - Provides for
+        the suspension and revocation of certification for businesses that violate
+        certain offenses under the Criminal Code of 2012.
+
+-----------------------------------------------------------------------------------------------
+  SCORING  (Accuracy / Specificity / Completeness, each 0-2)
+-----------------------------------------------------------------------------------------------
+    mistral_3000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+    mistral_5000          A:[ ]   S:[ ]   C:[ ]   avg:[    ]
+
+    Notes: ________________________________________________________________
+    ______________________________________________________________________
+
+
+===============================================================================================
+  AGGREGATE — fill in after scoring all chunks
+===============================================================================================
+
+  mistral_3000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  mistral_5000
+    mean accuracy:      [        ]
+    mean specificity:   [        ]
+    mean completeness:  [        ]
+    overall mean:       [        ]
+    chunks reviewed:    [        ]
+
+  ONE-LINE VERDICT FOR THIS CHUNK SIZE:
+  ______________________________________________________________________

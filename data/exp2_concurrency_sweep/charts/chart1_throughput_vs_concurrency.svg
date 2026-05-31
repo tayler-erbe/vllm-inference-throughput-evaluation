@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 580" font-family="DM Sans, Inter, system-ui, sans-serif">
+  <rect width="920" height="580" fill="#ffffff"/>
+  <text x="460.0" y="32" font-size="20" font-weight="700" text-anchor="middle" fill="#222222">Throughput vs Concurrency — Production SLO View</text>
+  <text x="460.0" y="56" font-size="13" font-weight="400" text-anchor="middle" fill="#666">Measured chunks/sec by model × concurrency, with per-profile SLO threshold lines (based on real production chunks-per-bill).</text>
+  <line x1="90" y1="490" x2="90" y2="90" stroke="#444444" stroke-width="1.5"/>
+  <line x1="90" y1="490" x2="680" y2="490" stroke="#444444" stroke-width="1.5"/>
+  <text x="385.0" y="540" font-size="13" font-weight="500" text-anchor="middle" fill="#222222">Concurrency</text>
+  <text x="40" y="290.0" font-size="13" font-weight="500" text-anchor="middle" fill="#222222" transform="rotate(-90 40 290.0)">Chunks / second</text>
+  <line x1="90.0" y1="490" x2="90.0" y2="495" stroke="#444444" stroke-width="1"/>
+  <text x="90.0" y="512" font-size="11" text-anchor="middle" fill="#444444">1</text>
+  <line x1="166.95652173913044" y1="490" x2="166.95652173913044" y2="495" stroke="#444444" stroke-width="1"/>
+  <text x="166.95652173913044" y="512" font-size="11" text-anchor="middle" fill="#444444">4</text>
+  <line x1="269.5652173913044" y1="490" x2="269.5652173913044" y2="495" stroke="#444444" stroke-width="1"/>
+  <text x="269.5652173913044" y="512" font-size="11" text-anchor="middle" fill="#444444">8</text>
+  <line x1="372.17391304347825" y1="490" x2="372.17391304347825" y2="495" stroke="#444444" stroke-width="1"/>
+  <text x="372.17391304347825" y="512" font-size="11" text-anchor="middle" fill="#444444">12</text>
+  <line x1="474.7826086956522" y1="490" x2="474.7826086956522" y2="495" stroke="#444444" stroke-width="1"/>
+  <text x="474.7826086956522" y="512" font-size="11" text-anchor="middle" fill="#444444">16</text>
+  <line x1="680.0" y1="490" x2="680.0" y2="495" stroke="#444444" stroke-width="1"/>
+  <text x="680.0" y="512" font-size="11" text-anchor="middle" fill="#444444">24</text>
+  <line x1="85" y1="490.0" x2="90" y2="490.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="494.0" font-size="11" text-anchor="end" fill="#444444">0.00</text>
+  <line x1="90" y1="490.0" x2="680" y2="490.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="423.33333333333337" x2="90" y2="423.33333333333337" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="427.33333333333337" font-size="11" text-anchor="end" fill="#444444">2.15</text>
+  <line x1="90" y1="423.33333333333337" x2="680" y2="423.33333333333337" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="356.6666666666667" x2="90" y2="356.6666666666667" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="360.6666666666667" font-size="11" text-anchor="end" fill="#444444">4.31</text>
+  <line x1="90" y1="356.6666666666667" x2="680" y2="356.6666666666667" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="290.0" x2="90" y2="290.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="294.0" font-size="11" text-anchor="end" fill="#444444">6.46</text>
+  <line x1="90" y1="290.0" x2="680" y2="290.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="223.33333333333337" x2="90" y2="223.33333333333337" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="227.33333333333337" font-size="11" text-anchor="end" fill="#444444">8.62</text>
+  <line x1="90" y1="223.33333333333337" x2="680" y2="223.33333333333337" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="156.66666666666669" x2="90" y2="156.66666666666669" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="160.66666666666669" font-size="11" text-anchor="end" fill="#444444">10.77</text>
+  <line x1="90" y1="156.66666666666669" x2="680" y2="156.66666666666669" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="90.0" x2="90" y2="90.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="94.0" font-size="11" text-anchor="end" fill="#444444">12.92</text>
+  <line x1="90" y1="90.0" x2="680" y2="90.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="90" y1="439.1287401123467" x2="680" y2="439.1287401123467" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="688" y="443.1287401123467" font-size="11" font-weight="600" fill="#e67e22" opacity="0.9">SLO mistral_3000: 1.64</text>
+  <line x1="90" y1="315.1748251748252" x2="680" y2="315.1748251748252" stroke="#3498db" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="688" y="319.1748251748252" font-size="11" font-weight="600" fill="#3498db" opacity="0.9">SLO qwen_500: 5.65</text>
+  <line x1="90" y1="404.02040582368454" x2="680" y2="404.02040582368454" stroke="#2ecc71" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="688" y="408.02040582368454" font-size="11" font-weight="600" fill="#2ecc71" opacity="0.9">SLO llama31_1200: 2.78</text>
+  <polyline points="90.0,486.9 167.0,481.6 269.6,478.5 372.2,476.9 474.8,475.7 680.0,474.6" fill="none" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="90.0" cy="486.87378195574917" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2"/>
+  <text x="90.0" y="474.87378195574917" font-size="10" font-weight="500" text-anchor="middle" fill="#e67e22">0.101</text>
+  <circle cx="166.95652173913044" cy="481.6118307921587" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2"/>
+  <text x="166.95652173913044" y="469.6118307921587" font-size="10" font-weight="500" text-anchor="middle" fill="#e67e22">0.271</text>
+  <circle cx="269.5652173913044" cy="478.5165654018113" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2"/>
+  <text x="269.5652173913044" y="466.5165654018113" font-size="10" font-weight="500" text-anchor="middle" fill="#e67e22">0.371</text>
+  <circle cx="372.17391304347825" cy="476.9482976040353" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2"/>
+  <text x="372.17391304347825" y="464.9482976040353" font-size="10" font-weight="500" text-anchor="middle" fill="#e67e22">0.422</text>
+  <circle cx="474.7826086956522" cy="475.66892124269174" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2"/>
+  <text x="474.7826086956522" y="463.66892124269174" font-size="10" font-weight="500" text-anchor="middle" fill="#e67e22">0.463</text>
+  <circle cx="680.0" cy="474.575260804769" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2"/>
+  <text x="680.0" y="462.575260804769" font-size="10" font-weight="500" text-anchor="middle" fill="#e67e22">0.498</text>
+  <line x1="688" y1="248" x2="710" y2="248" stroke="#e67e22" stroke-width="3"/>
+  <text x="716" y="252" font-size="12" font-weight="600" fill="#e67e22">mistral</text>
+  <polyline points="90.0,484.6 167.0,470.5 269.6,456.0 372.2,445.0 474.8,436.5 680.0,426.1" fill="none" stroke="#3498db" stroke-width="2.5"/>
+  <circle cx="90.0" cy="484.5626504642898" r="5" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <text x="90.0" y="472.5626504642898" font-size="10" font-weight="500" text-anchor="middle" fill="#3498db">0.176</text>
+  <circle cx="166.95652173913044" cy="470.47919293820934" r="5" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <text x="166.95652173913044" y="458.47919293820934" font-size="10" font-weight="500" text-anchor="middle" fill="#3498db">0.631</text>
+  <circle cx="269.5652173913044" cy="455.9727158087814" r="5" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <text x="269.5652173913044" y="443.9727158087814" font-size="10" font-weight="500" text-anchor="middle" fill="#3498db">1.099</text>
+  <circle cx="372.17391304347825" cy="445.04642898085524" r="5" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <text x="372.17391304347825" y="433.04642898085524" font-size="10" font-weight="500" text-anchor="middle" fill="#3498db">1.452</text>
+  <circle cx="474.7826086956522" cy="436.4828614008942" r="5" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <text x="474.7826086956522" y="424.4828614008942" font-size="10" font-weight="500" text-anchor="middle" fill="#3498db">1.729</text>
+  <circle cx="680.0" cy="426.08276968932705" r="5" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <text x="680.0" y="414.08276968932705" font-size="10" font-weight="500" text-anchor="middle" fill="#3498db">2.065</text>
+  <line x1="688" y1="270" x2="710" y2="270" stroke="#3498db" stroke-width="3"/>
+  <text x="716" y="274" font-size="12" font-weight="600" fill="#3498db">qwen</text>
+  <polyline points="90.0,486.8 167.0,479.5 269.6,473.3 372.2,469.3 474.8,466.3 680.0,462.8" fill="none" stroke="#2ecc71" stroke-width="2.5"/>
+  <circle cx="90.0" cy="486.7912415453399" r="5" fill="#ffffff" stroke="#2ecc71" stroke-width="2"/>
+  <text x="90.0" y="474.7912415453399" font-size="10" font-weight="500" text-anchor="middle" fill="#2ecc71">0.104</text>
+  <circle cx="166.95652173913044" cy="479.5276854293248" r="5" fill="#ffffff" stroke="#2ecc71" stroke-width="2"/>
+  <text x="166.95652173913044" y="467.5276854293248" font-size="10" font-weight="500" text-anchor="middle" fill="#2ecc71">0.338</text>
+  <circle cx="269.5652173913044" cy="473.26493178952194" r="5" fill="#ffffff" stroke="#2ecc71" stroke-width="2"/>
+  <text x="269.5652173913044" y="461.26493178952194" font-size="10" font-weight="500" text-anchor="middle" fill="#2ecc71">0.541</text>
+  <circle cx="372.17391304347825" cy="469.282356987275" r="5" fill="#ffffff" stroke="#2ecc71" stroke-width="2"/>
+  <text x="372.17391304347825" y="457.282356987275" font-size="10" font-weight="500" text-anchor="middle" fill="#2ecc71">0.669</text>
+  <circle cx="474.7826086956522" cy="466.26963200733695" r="5" fill="#ffffff" stroke="#2ecc71" stroke-width="2"/>
+  <text x="474.7826086956522" y="454.26963200733695" font-size="10" font-weight="500" text-anchor="middle" fill="#2ecc71">0.767</text>
+  <circle cx="680.0" cy="462.76166456494326" r="5" fill="#ffffff" stroke="#2ecc71" stroke-width="2"/>
+  <text x="680.0" y="450.76166456494326" font-size="10" font-weight="500" text-anchor="middle" fill="#2ecc71">0.880</text>
+  <line x1="688" y1="292" x2="710" y2="292" stroke="#2ecc71" stroke-width="3"/>
+  <text x="716" y="296" font-size="12" font-weight="600" fill="#2ecc71">llama31</text>
+  <text x="460.0" y="562" font-size="11" text-anchor="middle" fill="#888">Per-profile SLO lines reflect real production chunks-per-bill (mistral 1.42, qwen 4.88, llama31 2.40).</text>
+</svg>

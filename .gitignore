@@ -1,0 +1,26 @@
+# Large model weight files
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Logs
+*.log
+logs/
+
+# Azure credentials
+.azure/
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large parquet files (stored in Azure, not git)
+*.parquet

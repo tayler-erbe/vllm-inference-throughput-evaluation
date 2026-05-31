@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 580" font-family="DM Sans, Inter, system-ui, sans-serif">
+  <rect width="920" height="580" fill="#ffffff"/>
+  <text x="460.0" y="32" font-size="20" font-weight="700" text-anchor="middle" fill="#222222">Pareto Frontier: Throughput vs Quality</text>
+  <text x="460.0" y="56" font-size="13" font-weight="400" text-anchor="middle" fill="#666">Each model × concurrency combination. Upper-right = wins on both axes.</text>
+  <line x1="90" y1="500" x2="90" y2="90" stroke="#444444" stroke-width="1.5"/>
+  <line x1="90" y1="500" x2="680" y2="500" stroke="#444444" stroke-width="1.5"/>
+  <text x="385.0" y="550" font-size="13" font-weight="500" text-anchor="middle" fill="#222222">Chunks / second (measured)</text>
+  <text x="40" y="295.0" font-size="13" font-weight="500" text-anchor="middle" fill="#222222" transform="rotate(-90 40 295.0)">Parse ok %</text>
+  <line x1="90.0" y1="500" x2="90.0" y2="505" stroke="#444444" stroke-width="1"/>
+  <text x="90.0" y="522" font-size="11" text-anchor="middle" fill="#444444">0.09</text>
+  <line x1="188.33333333333337" y1="500" x2="188.33333333333337" y2="505" stroke="#444444" stroke-width="1"/>
+  <text x="188.33333333333337" y="522" font-size="11" text-anchor="middle" fill="#444444">0.43</text>
+  <line x1="286.6666666666667" y1="500" x2="286.6666666666667" y2="505" stroke="#444444" stroke-width="1"/>
+  <text x="286.6666666666667" y="522" font-size="11" text-anchor="middle" fill="#444444">0.78</text>
+  <line x1="385.0" y1="500" x2="385.0" y2="505" stroke="#444444" stroke-width="1"/>
+  <text x="385.0" y="522" font-size="11" text-anchor="middle" fill="#444444">1.13</text>
+  <line x1="483.33333333333337" y1="500" x2="483.33333333333337" y2="505" stroke="#444444" stroke-width="1"/>
+  <text x="483.33333333333337" y="522" font-size="11" text-anchor="middle" fill="#444444">1.48</text>
+  <line x1="581.6666666666666" y1="500" x2="581.6666666666666" y2="505" stroke="#444444" stroke-width="1"/>
+  <text x="581.6666666666666" y="522" font-size="11" text-anchor="middle" fill="#444444">1.82</text>
+  <line x1="680.0" y1="500" x2="680.0" y2="505" stroke="#444444" stroke-width="1"/>
+  <text x="680.0" y="522" font-size="11" text-anchor="middle" fill="#444444">2.17</text>
+  <line x1="85" y1="500.0" x2="90" y2="500.0" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="504.0" font-size="11" text-anchor="end" fill="#444444">55%</text>
+  <line x1="90" y1="500.0" x2="680" y2="500.0" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="408.8888888888889" x2="90" y2="408.8888888888889" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="412.8888888888889" font-size="11" text-anchor="end" fill="#444444">65%</text>
+  <line x1="90" y1="408.8888888888889" x2="680" y2="408.8888888888889" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="317.7777777777778" x2="90" y2="317.7777777777778" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="321.7777777777778" font-size="11" text-anchor="end" fill="#444444">75%</text>
+  <line x1="90" y1="317.7777777777778" x2="680" y2="317.7777777777778" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="226.66666666666669" x2="90" y2="226.66666666666669" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="230.66666666666669" font-size="11" text-anchor="end" fill="#444444">85%</text>
+  <line x1="90" y1="226.66666666666669" x2="680" y2="226.66666666666669" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="85" y1="135.5555555555556" x2="90" y2="135.5555555555556" stroke="#444444" stroke-width="1"/>
+  <text x="80" y="139.5555555555556" font-size="11" text-anchor="end" fill="#444444">95%</text>
+  <line x1="90" y1="135.5555555555556" x2="680" y2="135.5555555555556" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="530.6628591622958" y1="500" x2="530.6628591622958" y2="90" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5"/>
+  <text x="535.6628591622958" y="105" font-size="10" font-weight="600" fill="#e67e22" opacity="0.8">mistral_3000 SLO</text>
+  <circle cx="94.28591978135265" cy="345.1111111111111" r="7" fill="#e67e22" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="94.28591978135265" y="333.1111111111111" font-size="9" text-anchor="middle" fill="#e67e22">c1</text>
+  <circle cx="142.37874901105224" cy="345.1111111111111" r="7" fill="#e67e22" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="142.37874901105224" y="333.1111111111111" font-size="9" text-anchor="middle" fill="#e67e22">c4</text>
+  <circle cx="170.66864855793438" cy="326.8888888888889" r="7" fill="#e67e22" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="170.66864855793438" y="314.8888888888889" font-size="9" text-anchor="middle" fill="#e67e22">c8</text>
+  <circle cx="185.00219766168794" cy="345.1111111111111" r="7" fill="#e67e22" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="185.00219766168794" y="333.1111111111111" font-size="9" text-anchor="middle" fill="#e67e22">c12</text>
+  <circle cx="196.6953561410659" cy="345.1111111111111" r="7" fill="#e67e22" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="196.6953561410659" y="333.1111111111111" font-size="9" text-anchor="middle" fill="#e67e22">c16</text>
+  <circle cx="206.69112064763092" cy="345.1111111111111" r="7" fill="#e67e22" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="206.69112064763092" y="333.1111111111111" font-size="9" text-anchor="middle" fill="#e67e22">c24</text>
+  <circle cx="698" cy="101" r="6" fill="#e67e22" stroke="white" stroke-width="2"/>
+  <text x="710" y="105" font-size="12" font-weight="600" fill="#e67e22">mistral</text>
+  <circle cx="115.40904477635794" cy="425.56222222222226" r="7" fill="#3498db" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="115.40904477635794" y="413.56222222222226" font-size="9" text-anchor="middle" fill="#3498db">c1</text>
+  <circle cx="244.12808771467158" cy="431.3933333333333" r="7" fill="#3498db" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="244.12808771467158" y="419.3933333333333" font-size="9" text-anchor="middle" fill="#3498db">c4</text>
+  <circle cx="376.7134169243924" cy="430.75555555555553" r="7" fill="#3498db" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="376.7134169243924" y="418.75555555555553" font-size="9" text-anchor="middle" fill="#3498db">c8</text>
+  <circle cx="476.5767623248864" cy="433.3977777777777" r="7" fill="#3498db" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="476.5767623248864" y="421.3977777777777" font-size="9" text-anchor="middle" fill="#3498db">c12</text>
+  <circle cx="554.8454844045935" cy="433.3674074074074" r="7" fill="#3498db" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="554.8454844045935" y="421.3674074074074" font-size="9" text-anchor="middle" fill="#3498db">c16</text>
+  <circle cx="649.8995468821174" cy="430.7859259259259" r="7" fill="#3498db" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="649.8995468821174" y="418.7859259259259" font-size="9" text-anchor="middle" fill="#3498db">c24</text>
+  <circle cx="698" cy="125" r="6" fill="#3498db" stroke="white" stroke-width="2"/>
+  <text x="710" y="129" font-size="12" font-weight="600" fill="#3498db">qwen</text>
+  <circle cx="95.04031710260283" cy="167.44444444444446" r="7" fill="#2ecc71" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="95.04031710260283" y="155.44444444444446" font-size="9" text-anchor="middle" fill="#2ecc71">c1</text>
+  <circle cx="161.42728137261955" cy="172.0" r="7" fill="#2ecc71" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="161.42728137261955" y="160.0" font-size="9" text-anchor="middle" fill="#2ecc71">c4</text>
+  <circle cx="218.6671781224777" cy="170.4814814814814" r="7" fill="#2ecc71" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="218.6671781224777" y="158.4814814814814" font-size="9" text-anchor="middle" fill="#2ecc71">c8</text>
+  <circle cx="255.06684887279934" cy="158.33333333333331" r="7" fill="#2ecc71" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="255.06684887279934" y="146.33333333333331" font-size="9" text-anchor="middle" fill="#2ecc71">c12</text>
+  <circle cx="282.60235109843126" cy="159.8518518518519" r="7" fill="#2ecc71" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="282.60235109843126" y="147.8518518518519" font-size="9" text-anchor="middle" fill="#2ecc71">c16</text>
+  <circle cx="314.6642372515644" cy="170.4814814814814" r="7" fill="#2ecc71" stroke="white" stroke-width="2" opacity="0.85"/>
+  <text x="314.6642372515644" y="158.4814814814814" font-size="9" text-anchor="middle" fill="#2ecc71">c24</text>
+  <circle cx="698" cy="149" r="6" fill="#2ecc71" stroke="white" stroke-width="2"/>
+  <text x="710" y="153" font-size="12" font-weight="600" fill="#2ecc71">llama31</text>
+</svg>
