@@ -29,7 +29,7 @@ Backend:      vLLM 0.6.6, AWQ-Marlin quantization
 | Component | Value |
 |-----------|-------|
 | GPU | NVIDIA L4, 22.5 GB VRAM, 72W TDP |
-| Server | urbadvanalytics1.admin.uillinois.edu |
+| Server | Single-GPU Linux host |
 | OS | Ubuntu 24.04 |
 | vLLM | 0.6.6 |
 | Quantization | AWQ-Marlin |
@@ -266,7 +266,7 @@ mkdir -p $TIKTOKEN_CACHE_DIR
 
 # Verify environments
 /bin/python3 --version          # system python (has pandas, azure-storage-blob)
-/var/advanalytics/anaconda3/envs/vllm/bin/python --version  # vLLM env
+$VLLM_PYTHON --version                # vLLM env (set VLLM_PYTHON to its python)
 nvidia-smi                       # confirm GPU available
 ```
 

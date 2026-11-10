@@ -2,12 +2,12 @@
 # Experiment 4 — Qwen 2.5 14B AWQ · chunk_size=5000 · concurrency=4
 set -u
 
-PIPELINE_DIR="/var/advanalytics/datashare/Admin-pipeline/pipelines/Legislation_Pipeline"
+PIPELINE_DIR="${PIPELINE_DIR:-/path/to/Legislation_Pipeline}"
 cd "$PIPELINE_DIR" || exit 1
 
 export TIKTOKEN_CACHE_DIR=$HOME/tiktoken-cache
-VLLM_PYTHON="/var/advanalytics/anaconda3/envs/vllm/bin/python"
-HF_MODELS_DIR="/var/advanalytics/datashare/hf_models"
+VLLM_PYTHON="${VLLM_PYTHON:-/path/to/envs/vllm/bin/python}"
+HF_MODELS_DIR="${HF_MODELS_DIR:-/path/to/hf_models}"
 SOURCE_SESSION=999995
 N_BILLS=50
 PROFILE="qwen14b_5000"

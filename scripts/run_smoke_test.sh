@@ -35,14 +35,14 @@
 
 set -u  # error on unset vars (but NOT -e — we want to keep going on cell failures)
 
-PIPELINE_DIR="/var/advanalytics/datashare/Admin-pipeline/pipelines/Legislation_Pipeline"
+PIPELINE_DIR="${PIPELINE_DIR:-/path/to/Legislation_Pipeline}"
 cd "$PIPELINE_DIR" || exit 1
 
 # Environment
-VLLM_PYTHON="/var/advanalytics/anaconda3/envs/vllm/bin/python"
+VLLM_PYTHON="${VLLM_PYTHON:-/path/to/envs/vllm/bin/python}"
 SYSTEM_PYTHON="/bin/python3"  # System Python has the full pipeline deps (pandas, azure-storage-blob, etc.)
 SYSTEM_PYTHON="/bin/python3"  # System Python has the full pipeline deps (pandas, azure-storage-blob, etc.)
-HF_MODELS_DIR="/var/advanalytics/datashare/hf_models"
+HF_MODELS_DIR="${HF_MODELS_DIR:-/path/to/hf_models}"
 
 # Source session for bills (bronze 999995, 50 controlled-length bills)
 SOURCE_SESSION=999995

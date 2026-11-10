@@ -41,15 +41,15 @@
 
 set -u
 
-PIPELINE_DIR="/var/advanalytics/datashare/Admin-pipeline/pipelines/Legislation_Pipeline"
+PIPELINE_DIR="${PIPELINE_DIR:-/path/to/Legislation_Pipeline}"
 cd "$PIPELINE_DIR" || exit 1
 
 export TIKTOKEN_CACHE_DIR="$HOME/tiktoken-cache"
 
 # Environment
-VLLM_PYTHON="/var/advanalytics/anaconda3/envs/vllm/bin/python"
+VLLM_PYTHON="${VLLM_PYTHON:-/path/to/envs/vllm/bin/python}"
 SYSTEM_PYTHON="/bin/python3"
-HF_MODELS_DIR="/var/advanalytics/datashare/hf_models"
+HF_MODELS_DIR="${HF_MODELS_DIR:-/path/to/hf_models}"
 
 # Source session
 SOURCE_SESSION=999995
