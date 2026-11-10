@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142b36">
+<meta name="description" content="Choosing a local LLM for structured extraction from legislation: four models, chunk sizes and concurrency on vLLM and one NVIDIA L4, and how far one GPU goes. A model selection brief by Tayler Erbe, Document Intelligence Lab.">
+<title>Choosing an LLM for Legislation Extraction · Document Intelligence Lab · Tayler Erbe</title>
+<meta property="og:type" content="website"><meta property="og:title" content="The smallest context that works beat the biggest model."><meta property="og:description" content="Four local models, 141 benchmark runs on vLLM and one NVIDIA L4: which model extracts structured facts from bills, and what it takes to scale. By Tayler Erbe."><meta property="og:url" content="https://tayler-erbe.github.io/vllm-inference-throughput-evaluation/brief/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="site.css"><link rel="stylesheet" href="study.css"></head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="site-header">
+<a href="https://tayler-erbe.github.io/document-intelligence-lab/" class="brand" aria-label="Document Intelligence Lab home"><span class="brand-mark">DI<span>↗</span></span><span>Document<br><strong>Intelligence Lab</strong></span></a>
+<nav aria-label="Main navigation"><a href="#question">Question</a><a href="#results">Results</a><a href="#load">Under load</a><a href="#proxy">The proxy</a><a href="#scale">Scale</a><a href="#limits">Limits</a></nav>
+<a class="repo-link" href="https://taylererbe.com/vllm-inference-throughput-evaluation.html">Full case study <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+
+<section class="hero">
+<div class="hero-copy">
+<p class="eyebrow">TAYLER ERBE / MODEL SELECTION · STRUCTURED EXTRACTION</p>
+<h1>The smallest context that works <em>beat the biggest model.</em></h1>
+<p class="hero-deck">A legislation pipeline needed one local model to pull fifteen structured fields out of every bill, and to keep doing it as the workload grew from one state to fifty. I tested four models across chunk sizes and concurrency on vLLM and a single NVIDIA L4, to make that choice once.</p>
+<p class="answer-line"><b>Short version:</b> Llama 3.1 8B at 1,200-token chunks completed the schema most often at every chunk size tested, and held steady under load. A 14B model given whole bills did worst. One L4 covers one state's weekly volume; fifty states needs about three.</p>
+<div class="hero-actions">
+<a href="#results" class="button primary">See the results <span aria-hidden="true">↓</span></a>
+<a href="#limits" class="text-link">What it does not show ↓</a>
+<a href="https://taylererbe.com/vllm-qualitative-review.html" class="text-link">Quality review ↗</a>
+</div>
+<p class="author-line"><span><b>Tayler Erbe</b> · Data and AI engineer · model evaluation and inference performance. <a href="#about">About</a></span></p>
+</div>
+<div class="hero-figure">
+<div class="figure-top"><span>THE RECOMMENDATION</span></div>
+<div class="hero-panel">
+<h2>Llama 3.1 8B,<br>1,200-token chunks.</h2>
+<ul>
+<li><span>Schema completed (parse-OK)</span><b>92.5%</b></li>
+<li><span>Next best model, best setting</span><b>72.0%</b></li>
+<li><span>Concurrency to run at</span><b>12 to 24</b></li>
+<li><span>Serving</span><b>vLLM 0.6.6, AWQ</b></li>
+</ul>
+<p>Quantized to about 4.5 GB, so the model fits on one L4 with room for many requests at once.</p>
+<a class="figure-source" href="#results">How it was chosen <span>↓</span></a>
+</div>
+</div>
+</section>
+
+<section class="stat-strip" aria-label="Key facts">
+<div><strong>4</strong><span>open-weight models, 7B to 14B parameters</span></div>
+<div><strong>141</strong><span>benchmark runs across chunk size and concurrency</span></div>
+<div><strong>15</strong><span>structured fields extracted from every bill chunk</span></div>
+<div><strong>1</strong><span>NVIDIA L4 GPU, 22.5 GB, 72 W</span></div>
+</section>
+
+<section class="section wrap" id="question">
+<div class="section-head">
+<p class="eyebrow">00 / THE QUESTION</p>
+<h2>Choose once,<br>for fifty states.</h2>
+<p>The pipeline reads every bill and fills a fixed schema: its goal, key provisions, who it affects, its likely impact, its dates and penalties. Changing models later means reprocessing everything, so the choice had to hold at fifty times today's volume.</p>
+</div>
+<div class="results-band">
+<article><p class="route-id">THE TASK</p><h3>Fifteen fields per chunk</h3><p>Eleven descriptive fields and four short answers, returned as JSON. A chunk counts as complete (parse-OK) only when every field is filled.</p></article>
+<article><p class="route-id">THE SETTINGS</p><h3>Chunk size and load</h3><p>Bills are split into chunks before extraction. Chunk size and the number of requests in flight both change speed, and possibly quality.</p></article>
+<article><p class="route-id">THE TARGET</p><h3>75,000 bills a week</h3><p>The fifty-state goal, processed in an 18-hour window. Today's single-state load is about 11,000 bills a week.</p></article>
+</div>
+</section>
+
+<section class="section wrap" id="results">
+<div class="section-head">
+<p class="eyebrow">01 / RESULTS</p>
+<h2>One model led<br>at every chunk size.</h2>
+<p>Each model was run at six chunk sizes, three times each, on a controlled sample of 50 bills. Below is each model's best result, and the full Llama sweep.</p>
+</div>
+<div class="bars" role="figure" aria-label="Best parse-OK rate per model">
+<h3>Best schema completion per model</h3>
+<p class="bars-note">Share of chunks with all fields filled, at each model's best chunk size.</p>
+<div class="bar"><span class="bar-name">Llama 3.1 8B<small>1,200-token chunks</small></span><span class="bar-track"><span class="bar-fill win" style="width:92.5%"></span></span><span class="bar-val">92.5%</span></div>
+<div class="bar"><span class="bar-name">Mistral 7B v0.3<small>3,000 and 5,000-token chunks</small></span><span class="bar-track"><span class="bar-fill" style="width:72%"></span></span><span class="bar-val">72.0%</span></div>
+<div class="bar"><span class="bar-name">Qwen 2.5 7B<small>3,000-token chunks</small></span><span class="bar-track"><span class="bar-fill" style="width:67.7%"></span></span><span class="bar-val">67.7%</span></div>
+<div class="bar"><span class="bar-name">Qwen 2.5 14B<small>whole bill, 5,000 tokens</small></span><span class="bar-track"><span class="bar-fill warn" style="width:45%"></span></span><span class="bar-val">45.0%</span></div>
+</div>
+<div class="table-wrap">
+<table class="data-table">
+<caption class="sr-only">Parse-OK rate by chunk size and model, concurrency 4, three repeats</caption>
+<thead><tr><th>Chunk size (tokens)</th><th class="n">Llama 3.1 8B</th><th class="n">Qwen 2.5 7B</th><th class="n">Mistral 7B</th></tr></thead>
+<tbody>
+<tr><td>500</td><td class="n">89.5%</td><td class="n">62.5%</td><td class="n">56.8%</td></tr>
+<tr><td>700</td><td class="n">87.9%</td><td class="n">60.5%</td><td class="n">55.9%</td></tr>
+<tr><td>900</td><td class="n">89.4%</td><td class="n">62.7%</td><td class="n">60.1%</td></tr>
+<tr class="hl"><td>1,200</td><td class="n">92.5%</td><td class="n">57.1%</td><td class="n">65.0%</td></tr>
+<tr><td>2,000</td><td class="n">88.4%</td><td class="n">63.3%</td><td class="n">63.0%</td></tr>
+<tr><td>3,000</td><td class="n">85.0%</td><td class="n">67.7%</td><td class="n">72.0%</td></tr>
+</tbody></table>
+</div>
+<div class="finding-grid">
+<article><span>FINDING 01</span><h3>Bigger was worse</h3><p>Qwen 2.5 14B, given each whole bill at once, completed the schema 45.0% of the time, below every 7B and 8B setting. With 5,000 tokens of input, it ran short of room to finish all fields. It was also the slowest model tested.</p></article>
+<article><span>FINDING 02</span><h3>Tight context won</h3><p>Llama stayed on its own section of the bill at 1,200 tokens and completed the schema. Larger chunks pulled answers toward neighbouring sections.</p></article>
+<article><span>FINDING 03</span><h3>The stack changed the answer</h3><p>An earlier evaluation on Ollama picked Mistral. Moving to vLLM, and testing Llama at a comparable size (8B instead of 3B), reversed it. The serving stack is part of the model choice.</p></article>
+</div>
+</section>
+
+<section class="use-section" id="load">
+<div class="wrap">
+<div class="use-layout">
+<h2>Under load.</h2>
+<div><p class="large-copy">Raising concurrency from 1 to 24 changed quality by less than 0.6 points for every model, so tuning load is a hardware decision, not a quality one. What separated the models was the slowest response.</p></div>
+</div>
+<div class="table-wrap">
+<table class="data-table">
+<caption class="sr-only">Throughput and 99th-percentile latency at concurrency 1 and 24</caption>
+<thead><tr><th>Profile</th><th class="n">Chunks per second, 1 → 24</th><th class="n">Slowest 1% of requests, 1 → 24</th></tr></thead>
+<tbody>
+<tr class="hl"><td>Llama 3.1 8B · 1,200</td><td class="n">0.094 → 0.880</td><td class="n">14.1 s → 39.2 s</td></tr>
+<tr><td>Qwen 2.5 7B · 500</td><td class="n">0.175 → 2.060</td><td class="n">9.5 s → 18.8 s</td></tr>
+<tr><td>Mistral 7B · 3,000</td><td class="n">0.058 → 0.535</td><td class="n">15.2 s → 74.1 s</td></tr>
+</tbody></table>
+</div>
+<div class="next-footer"><p><strong>Why Mistral was ruled out.</strong> Its slowest requests grew almost fivefold under load, as long 3,000-token prompts queued behind each other for GPU memory. Qwen was fastest, but at its own best quality setting it completed the schema about 68 to 71% of the time against Llama's 92.5%, so its speed did not translate into more complete records.</p></div>
+</div>
+</section>
+
+<section class="section wrap" id="proxy">
+<div class="section-head">
+<p class="eyebrow">02 / THE PROXY</p>
+<h2>Complete is not<br>the same as correct.</h2>
+<p>Parse-OK checks that every field is filled, not that the answer is right. So I tested whether it ranks settings the same way a quality review does.</p>
+</div>
+<div class="results-band">
+<article><p class="route-id">ACROSS MODELS</p><h3>It agreed</h3><p>On 20 bills scored for accuracy, specificity and completeness, the quality review ranked the three models in the same order as parse-OK.</p></article>
+<article><p class="route-id">WITHIN A MODEL</p><h3>It misled</h3><p>Comparing two chunk sizes of the same model, parse-OK picked the wrong winner in 3 of the 4 pairs that had a clear winner.</p></article>
+<article><p class="route-id">WHY</p><h3>Valid, but drifting</h3><p>Larger chunks produced complete, well-formed JSON about the wrong section of the bill, or fields filled with "None". The format check passes; the content does not.</p></article>
+</div>
+<p class="status-note"><strong>How quality was scored.</strong> The quality review used an AI reviewer (Claude Opus) with a fixed 0 to 2 rubric, run in two independent passes. Newer Lab studies do not let one model grade another, so treat these scores as screening evidence, not measured accuracy. <a href="https://taylererbe.com/vllm-qualitative-review.html">Review details ↗</a></p>
+</section>
+
+<section class="use-section" id="scale">
+<div class="wrap">
+<div class="use-layout">
+<h2>How far one GPU goes.</h2>
+<div><p class="large-copy">The capacity gap is now a measured number instead of a guess, which turns hardware planning into arithmetic.</p></div>
+</div>
+<div class="table-wrap">
+<table class="data-table">
+<caption class="sr-only">Required against measured throughput for one L4</caption>
+<thead><tr><th>Workload</th><th class="n">Needed</th><th class="n">One L4 measured</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>One state · about 11,000 bills a week</td><td class="n">0.179 bills/s</td><td class="n">0.367 bills/s</td><td>Fits, with 2.05× headroom (about 8.4 hours)</td></tr>
+<tr><td>Fifty states · 75,000 bills a week</td><td class="n">1.157 bills/s</td><td class="n">0.367 bills/s</td><td>3.16× short (about 57 hours)</td></tr>
+</tbody></table>
+</div>
+<div class="next-footer"><p><strong>To close the gap:</strong> about three L4s in parallel for steady load, about seven for peak bursts, or one larger data-centre GPU.</p></div>
+</div>
+</section>
+
+<section class="section wrap" id="limits">
+<div class="section-head">
+<p class="eyebrow">03 / LIMITS</p>
+<h2>What this does<br>not show.</h2>
+<p>These results choose a model and a configuration for one task. They are not a general ranking of the models.</p>
+</div>
+<ul class="limit-list">
+<li>The sweep used a controlled sample of 50 bills between 4,500 and 4,972 tokens long. The production mix of bill lengths has not been run yet, and the best chunk size depends on it.</li>
+<li>Parse-OK measures whether the schema was completed, not whether the facts are correct. Quality scores came from an AI reviewer, not from labelled answers.</li>
+<li>The 14B model's quality review was not completed; its result here is schema completion only.</li>
+<li>Failed launches sometimes exited normally and wrote plausible files. They were caught by checking file sizes and run times, and every run was verified before counting.</li>
+<li>Results are for vLLM 0.6.6 with AWQ quantization on an L4. Another serving stack or GPU can change the ranking, as the earlier Ollama evaluation showed.</li>
+</ul>
+<p class="status-note"><strong>Planned next:</strong> a run on the production corpus, adaptive chunk sizes, and a test on new hardware.</p>
+</section>
+
+<section class="resources wrap" id="resources">
+<div>
+<p class="eyebrow">04 / RELATED WORK</p>
+<h2>The detail<br>behind this page.</h2>
+<p class="hero-deck">This page summarizes the evaluation. The bill text and model outputs stay private; the measurements and method are public.</p>
+</div>
+<div class="resource-links">
+<a href="https://taylererbe.com/vllm-inference-throughput-evaluation.html"><span>vLLM model evaluation · full case study</span><b>↗</b></a>
+<a href="https://taylererbe.com/vllm-qualitative-review.html"><span>Quality review · experiments 3 and 3.5</span><b>↗</b></a>
+<a href="https://taylererbe.com/legislative-pipeline.html"><span>Legislative pipeline · technical documentation</span><b>↗</b></a>
+<a href="https://github.com/tayler-erbe/vllm-inference-throughput-evaluation"><span>This study on GitHub</span><b>↗</b></a>
+<a href="https://tayler-erbe.github.io/document-intelligence-lab/"><span>All Document Intelligence Lab studies</span><b>↗</b></a>
+</div>
+</section>
+
+<section class="section wrap" id="about" style="padding-top:20px">
+<div class="use-layout">
+<div><p class="eyebrow">ABOUT THIS WORK</p><h2 style="font-size:clamp(30px,3vw,42px)">Tayler Erbe</h2></div>
+<div>
+<p class="large-copy" style="font-size:20px">I'm a data and AI engineer. I choose models from measurements taken at the load they will actually run at, and I size hardware from the same numbers.</p>
+<p>This evaluation was run in May 2026 for a production legislation pipeline. More studies are in the <a href="https://tayler-erbe.github.io/document-intelligence-lab/">Document Intelligence Lab</a>; my background is on <a href="https://taylererbe.com/">taylererbe.com</a>.</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="wrap">
+<div><strong>Document Intelligence Lab</strong><p>Tayler Erbe · Last updated 10 November 2026 · Evaluation run May 2026 on one NVIDIA L4.</p></div>
+<a href="https://tayler-erbe.github.io/document-intelligence-lab/">All Lab studies ↗</a>
+</footer>
+</body></html>
