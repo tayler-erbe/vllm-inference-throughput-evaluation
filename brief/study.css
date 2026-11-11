@@ -1,4 +1,4 @@
-/* Additions for Lab study briefs. Built on styles.css and site.css from the Document Intelligence Lab; same tokens, fonts and spacing. */
+/* Additions for Lab study briefs. Built on styles.css and site.css from the Applied AI Lab; same tokens, fonts and spacing. */
 .site-header{top:env(safe-area-inset-top,0px)}
 .hero-panel h2{margin-bottom:18px}
 .hero-panel ul{list-style:none;padding:0;margin:0 0 18px;border-top:1px solid rgba(255,255,255,.18)}
